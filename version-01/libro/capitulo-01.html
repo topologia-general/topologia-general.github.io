@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Topología General">
+  <meta name="keywords" content="Topología General">
+  <meta name="authors" content="Miguel Angel Maldonado Aguilar, Juan Carlos Ponce Campuzano">
+
+  <link rel="icon" type="image/png" href="imgs/infinity32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="imgs/infinity16.png" sizes="16x16">
+
+  <link rel="stylesheet" href="stylesheets/html.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Martel+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+
+  <!--MathJax starts-->
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+                       TeX: { equationNumbers: { autoNumber: "AMS" } }
+                       });
+    </script>
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+  <!---<script type="text/x-mathjax-config">//left-side eq
+ MathJax.Hub.Config({
+ displayAlign: "left",
+ displayIndent: "5em"
+ });
+ </script>--->
+  <script type="text/javascript" async
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_CHTML">
+  </script>
+  <!--MathJax Ends-->
+
+  <title>Topología General</title>
+  <script src="assets/scripts.js"></script>
+
+  <link rel="stylesheet" href="stylesheets/html.css">
+
+</head>
+
+<body data-type="book" class="w3-content" style="max-width:1600px">
+
+  <!-- Sidebar/menu -->
+  <nav class="w3-sidebar w3-collapse w3-light-grey w3-animate-left" style="z-index:3;width:240px;" id="mySidebar"><br>
+    <div class="w3-container">
+      <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-xxlarge w3-padding w3-hover-grey"
+        title="close menu">
+        <i class="fas fa-times"></i>
+      </a>
+      <a href="../" class="w3-circle w3-button w3-hover-light-grey w3-xlarge"> <i class="fa fa-home"></i></a>
+
+      <p class="w3-text-black"><b>CONTENIDO</b></p>
+    </div>
+    <div class="w3-bar-block">
+      <dl>
+        <dt><a href="presentacion.html" onclick="w3_close()"
+            class="w3-bar-item w3-button w3-padding"><strong>Presentación</strong></a></dt>
+        <dd>- Subsección</dd>
+        <dt><a href="libro/capitulo-01.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><strong>Espacios
+              topológicos</strong></a></dt>
+        <dd>- Subsección</dd>
+        <dt><a href="#" onclick="w3_close()"
+            class="w3-bar-item w3-button w3-padding"><strong>Conexidad</strong></a></dt>
+        <dd>- Subsección</dd>
+      </dl>
+    </div>
+
+  </nav>
+
+  <!-- Overlay effect when opening sidebar on small screens -->
+  <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer"
+    title="close side menu" id="myOverlay">
+  </div>
+
+  <!-- !PAGE CONTENT! -->
+  <div class="w3-main w3-large" style="margin-left:290px; margin-right:60px">
+
+    <!-- Header -->
+    <header class="w3-container w3-top w3-white">
+      <a href="#" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"> <i class="fas fa-chevron-up"></i>
+      </a>
+      <span class="w3-button w3-hide-large w3-xlarge w3-hover-text-grey" onclick="w3_open()"><i
+          class="fa fa-bars"></i></span>
+    </header>
+
+    <div class="w3-container">
+     <div class="container">
+       <section data-type="chapter" id="capitulo-01">
+
+  <h1>Espacios topol&#xF3;gicos y continuidad</h1>
+
+
+  <p>El &#xE1;rea de la Topolog&#xED;a surge con la intenci&#xF3;n de generalizar el concepto
+    de distancia en &#xE1;mbitos m&#xE1;s generales a espacios m&#xE9;tricos. As&#xED;, el concepto
+    general de un espacio topol&#xF3;gico surge a principios del s. XIX por el trabajo
+    de F. Hausdorff (1868-1942).</p>
+
+  <p>El astr&#xF3;nomo alem&#xE1;n J.B. Listing publica en 1847 <strong>Vorstudien zur Topologie</strong>,
+    considerada la primera obra que usa el t&#xE9;rmino topolog&#xED;a.</p>
+
+  <div class="w3-section w3-bottombar">
+    <p></p>
+  </div>
+
+  <section data-type="sect1" id="capitulo01_section1">
+
+    
+
+    <div class="w3-container w3-section">
+      <h2>Topolog&#xED;as y bases</h2>
+
+
+      <blockquote data-type="epigraph" class="w3-panel w3-rightbar">
+        <p class="w3-serif"><i>&#x201C;Understanding &quot;invisible&quot; mathematical spaces is nothing but deep
+          understanding of mathematics that we believe to know well.&#x201D;</i></p>
+    
+        <p data-type="attribution">&#x2014; Dorde Baralic</p>
+      </blockquote>
+
+      <hr>
+
+      <p>
+        Una topolog&#xED;a en un conjunto $X$ es una familia $\tau\subset P(X)$, cuyos elementos son
+        llamados abiertos, tal que cumple lo siguiente:
+        </p><ul>
+          <li>\(\emptyset, X\in \tau\)</li>
+          <li>La uni&#xF3;n de una cantidad arbitraria de abiertos es abierto.</li>
+          <li>La intersecci&#xF3;n de dos abiertos es abierto.</li>
+        </ul>
+      <p></p>
+      
+      <p>De la &#xFA;ltima condici&#xF3;n y aplicando un argumento de inducci&#xF3;n, se sigue que
+        la intersecci&#xF3;n suele economizarse la notaci&#xF3;n y decir simplemente que $X$ es 
+        espacio topol&#xF3;gico.
+      </p>
+
+      <h3>Ejemplos</h3>
+
+      <p>Notese la similitud con la definici&#xF3;n de topolog&#xED;a dada antes.
+        Adem&#xE1;s, al igual que en dicha definici&#xF3;n la segunda condici&#xF3;n es
+        es v&#xE1;lida para una cantidad finita de cerrados.
+        Con lo anterior recordemos la siguiente frase: un conjunto no es
+        una puerta por lo que puede ser cerrado y abierto &#xF3; ninguna de las
+        dos opciones, como se ver&#xE1; m&#xE1;s adelante en el texto. Por la dualidad
+        cerrado-abierto es posible definir una topologia determinando
+        qu&#xE9; conjuntos son cerrados.</p>
+
+      <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive" style="padding:8px 16px 8px 16px;">
+        <p><strong>Teorema:</strong> Si $X$ es un espacio topol&#xF3;gico localmente compacto y Hausdorff y, $\infty$ es
+          un punto tal que $\infty\notin X$, entonces:
+          </p><ol>
+            <li>
+              La pareja $(\hat{X}, \tau_{\infty})$ es un espacio topol&#xF3;gico compacto y
+              Hausdorff, donde $\hat{X}:=X\cup\{\infty\}$ y $\tau_{\infty}$ es la familia
+              definida mediante
+              \[
+              \tau_{\infty}:=\{U: U \text{ abierto en } X\}\cup\{V\subset \hat{X}: X-V
+              \text{ es compacto}\}.
+              \]
+            </li>
+            <li>
+              La topolog&#xED;a inducida en $X$ por $\hat{X}$ es la de partida de $X$.
+            </li>
+          </ol>
+        <p></p>
+      </div>
+
+
+
+      
+    </div>
+  </section>
+
+
+
+
+</section>
+     </div>
+    </div>
+    <!--Footer-->
+
+    <div class="w3-container w3-dark-grey w3-center">
+      <p><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License"
+            style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a></p>
+    </div>
+
+    <!--Footer-->
+
+    <script>
+      // Script to open and close sidebar
+      function w3_open() {
+        document.getElementById("mySidebar").style.display = "block";
+        document.getElementById("myOverlay").style.display = "block";
+      }
+
+      function w3_close() {
+        document.getElementById("mySidebar").style.display = "none";
+        document.getElementById("myOverlay").style.display = "none";
+      }
+    </script>
+  </div>
+
+
+</body>
+
+</html>
