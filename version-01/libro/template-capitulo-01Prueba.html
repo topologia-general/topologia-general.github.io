@@ -24,7 +24,36 @@
                        TeX: { 
                          equationNumbers: { autoNumber: "AMS" },
                          extensions: ["AMSmath.js", "AMSsymbols.js"],
-                         mhchem: { mcal: true }
+                         Macros: {
+                          //br: "{\\mathbb{R}}",
+                          bh: "{\\mathbb{H}}",
+                          bt: "{$\\blacktriangleleft$}",
+                          btt: "{$\\blacktriangleright$}",
+                          acc: "{\\curvearrowright}",
+                          rp: "{\\mathbb{RP}^{#1}}",
+                          cp: "{\\mathbb{CP}^{#1}}",
+                          ida: "{\\boxed{\\Rightarrow}}",
+                          vuelta: "{\\boxed{\\Leftarrow}}",
+                          simi: "{\\!\sim}",
+                          dem: "{\\underline{Demostraci\'on.}}",
+                          findem: "{$\\;\blacksquare$}",
+                          bk: "{\\mathbb{K}}",
+                          ff: "{\\mathbb{F}}",
+                          br: "{\\mathbb{R}}",
+                          bn: "{\\mathbb{N}}",
+                          bz: "{\\mathbb{Z}}",
+                          bc: "{\\mathbb{C}}",
+                          bq: "{\\mathbb{Q}}",
+                          ra: "{\\rightarrow}",
+                          lra: "{\\longrightarrow}",
+                          sss: "{\\Longleftrightarrow}",
+                          barra: "{\\;|\\;}",
+                          topp: "{\\rm Top}",
+                          baca: "{\\backslash}",
+                          map: "{\\mbox{Map}}",
+                          rel: "{\\: \\mbox{rel}}",
+                          mcal: ["{\\mathcal #1}",1]
+                        }
                          }
                        });
     </script>
@@ -75,8 +104,8 @@
         <dt><a href="capitulo-01.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><strong>Espacios
               topológicos</strong></a></dt>
         <dd>- Subsección</dd>
-        <dt><a href="#" onclick="w3_close()"
-            class="w3-bar-item w3-button w3-padding"><strong>Conexidad</strong></a></dt>
+        <dt><a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><strong>Conexidad</strong></a>
+        </dt>
         <dd>- Subsección</dd>
       </dl>
     </div>
@@ -100,8 +129,8 @@
     </header>
 
     <div class="w3-container">
-     <div class="container">
-       <section data-type="chapter" id="capitulo-01">
+      <div class="container">
+        <section data-type="chapter" id="capitulo-01">
 
   <div class="w3-container">
     <br>
@@ -423,7 +452,7 @@
 
 
 </section>
-     </div>
+      </div>
     </div>
     <!--Footer-->
 
