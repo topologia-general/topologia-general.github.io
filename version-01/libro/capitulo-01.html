@@ -979,8 +979,22 @@ p_Y:X\times Y\ra Y,&amp;(x,y)\mapsto y
             para hacerlo: con la <strong> topolog&#xED;a de caja (box topology)</strong> y la <strong>topolog&#xED;a producto</strong>. Existen algunas sutiles diferencias en ambas definiciones 
             pero al final, debido a algunos ejemplos sencillos, se prefiere la topolog&#xED;a producto sobre la topolog&#xED;a de caja.  </p>
 
+           
+              <p>En el siguiente applet se observa la esfera unitaria encima del plano complejo 
+                con el polo sur de la esfera localizado en el origen del plano $z$.
+                Mueve el punto definido en el plano complejo, o los delizadores, 
+                para explorar el comportamiento del punto $P(z)$  en la esfera.</p>
+                  <!-- ctl=play button; sfsb=fullscreen button-->
+              
+              <div class="w3-center">
+                <div style="display:block;" id="ggb-element"></div>
+              </div>
+            
+            
 
     </div>
+
+    
   </section>
 
 
@@ -1077,6 +1091,25 @@ p_Y:X\times Y\ra Y,&amp;(x,y)\mapsto y
     </div>
   </section>
 
+  <!--GeoGebra embeding-->
+<script src="https://cdn.geogebra.org/apps/deployggb.js"></script>
+
+<script>
+	var params = { 
+				"width": 800, 
+				"height": 435,
+				"material_id": "h74hvbtm",
+                "borderColor": "888888",
+                "playButton": false,
+                "showFullscreenButton": true,
+                "enableShiftDragZoom": true,
+                "showResetIcon": true };
+    var ggbApplet = new GGBApplet(params, true);
+    window.addEventListener("load", function() { 
+        ggbApplet.inject('ggb-element');
+    });
+</script>
+<!--GeoGebra embeding ends-->
 
 </section>
       </div>
