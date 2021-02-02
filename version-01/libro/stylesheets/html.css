@@ -1322,3 +1322,6 @@ p {
 
 dl {
   font-family: "Raleway", sans-serif; }
+
+dd {
+  margin-left: 8px; }
