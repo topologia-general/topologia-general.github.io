@@ -21,11 +21,53 @@
   <!--MathJax starts-->
   <script type="text/x-mathjax-config">
     MathJax.Hub.Config({
-                       TeX: { equationNumbers: { autoNumber: "AMS" } }
+                       TeX: { 
+                         equationNumbers: { autoNumber: "AMS" },
+                         extensions: ["AMSmath.js", "AMSsymbols.js"],
+                         Macros: {
+                          bh: "{\\mathbb{H}}",
+                          bt: "{$\\blacktriangleleft$}",
+                          btt: "{$\\blacktriangleright$}",
+                          acc: "{\\curvearrowright}",
+                          rp: ["{\\mathbb{RP}^{#1}}",1],
+                          cp: ["{\\mathbb{CP}^{#1}}",1],
+                          ida: "{\\boxed{\\Rightarrow}}",
+                          vuelta: "{\\boxed{\\Leftarrow}}",
+                          simi: "{\\!\sim}",
+                          dem: "{\\underline{Demostraci\'on.}}",
+                          findem: "{$\\;\\blacksquare$}",
+                          bk: "{\\mathbb{K}}",
+                          ff: "{\\mathbb{F}}",
+                          br: "{\\mathbb{R}}",
+                          bn: "{\\mathbb{N}}",
+                          bz: "{\\mathbb{Z}}",
+                          bc: "{\\mathbb{C}}",
+                          bq: "{\\mathbb{Q}}",
+                          ra: "{\\rightarrow}",
+                          lra: "{\\longrightarrow}",
+                          sss: "{\\Longleftrightarrow}",
+                          stac: ["{\\stackrel{#1}{\\longrightarrow}}",1],
+                          Ra: "{\\Rightarrow}",
+                          res: ["}",1],
+                          barra: "{\\;|\\;}",
+                          topp: "{\\rm Top}",
+                          baca: "{\\backslash}",
+                          til: ["{\\tilde{#1}}",1],
+                          mcal: ["{\\mathcal #1}",1],
+                          ol: ["{\\overline{#1}}",1],
+                          map: "{\\mbox{Map}}",
+                          rel: "{\\: \\mbox{rel}}"
+                        }
+                         }
                        });
     </script>
   <script type="text/x-mathjax-config">
-    MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [['$','$'], ['\\(','\\)']],
+          processEscapes: true
+        }
+      });
     </script>
   <!---<script type="text/x-mathjax-config">//left-side eq
  MathJax.Hub.Config({
@@ -45,7 +87,7 @@
 
 </head>
 
-<body data-type="book" class="w3-content" style="max-width:1600px">
+<body data-type="book" class="w3-content" style="max-width:100%">
 
   <!-- Sidebar/menu -->
   <nav class="w3-sidebar w3-collapse w3-light-grey w3-animate-left" style="z-index:3;width:240px;" id="mySidebar"><br>
@@ -66,8 +108,8 @@
         <dt><a href="capitulo-01.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><strong>Espacios
               topológicos</strong></a></dt>
         <dd>- Subsección</dd>
-        <dt><a href="#" onclick="w3_close()"
-            class="w3-bar-item w3-button w3-padding"><strong>Conexidad</strong></a></dt>
+        <dt><a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><strong>Conexidad</strong></a>
+        </dt>
         <dd>- Subsección</dd>
       </dl>
     </div>
@@ -91,8 +133,8 @@
     </header>
 
     <div class="w3-container">
-     <div class="container">
-       <section data-type="chapter" id="add-space-top-OwW4Svp">
+      <div class="container">
+        <section data-type="chapter" id="add-space-top-OwW4Svp">
 
   <div class="w3-container">
     <br>
@@ -137,7 +179,7 @@
 
 
 </section>
-     </div>
+      </div>
     </div>
     <!--Footer-->
 
