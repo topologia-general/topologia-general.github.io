@@ -81,6 +81,32 @@
   </script>
   <!--MathJax Ends-->
 
+  <style>
+    .accordion {
+      background-color: #eee;
+      color: #444;
+      cursor: pointer;
+      padding: 18px;
+      width: 100%;
+      border: none;
+      text-align: left;
+      outline: none;
+      font-size: 15px;
+      transition: 0.4s;
+    }
+    
+    .active, .accordion:hover {
+      background-color: #ccc; 
+    }
+    
+    .panel {
+      padding: 0 18px;
+      display: none;
+      background-color: white;
+      overflow: hidden;
+    }
+    </style>
+
   <title>Topología General</title>
   <script src="assets/scripts.js"></script>
 
@@ -88,10 +114,11 @@
 
 </head>
 
-<body data-type="book" class="w3-content" style="max-width:1700px">
+<body data-type="book" class="w3-content" style="max-width:1600px;">
 
   <!-- Sidebar/menu -->
-  <nav class="w3-sidebar w3-collapse w3-light-grey w3-animate-left" style="z-index:3;width:240px;" id="mySidebar"><br>
+  <nav class="w3-sidebar w3-collapse w3-light-grey  w3-border-left w3-border-right"
+    style="z-index:3;width:240px;" id="mySidebar"><br>
     <div class="w3-container">
       <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-xxlarge w3-padding w3-hover-grey"
         title="close menu">
@@ -101,20 +128,24 @@
 
       <p class="w3-text-black"><b>CONTENIDO</b></p>
     </div>
+  
     <div class="w3-bar-block">
       <dl>
-        <dt><a href="presentacion.html" onclick="w3_close()"
+        <dt><a href="presentacion.html" 
             class="w3-bar-item w3-button w3-padding"><strong>Presentación</strong></a></dt>
         <dd>- Subsección</dd>
+        
         <dt><a href="capitulo-01.html" onclick="w3_close()" class="w3-bar-item w3-button"><strong>Espacios
               topológicos</strong></a></dt>
         <dd><a href="capitulo-01.html#capitulo01_section1" class="w3-bar-item w3-button">Topologías y bases</a></dd>
-        <dd><a href="capitulo-01.html#capitulo01_section2" class="w3-bar-item w3-button">Cerradura, interior y conceptos relacionados</a></dd>
+        <dd><a href="capitulo-01.html#capitulo01_section2" class="w3-bar-item w3-button">Cerradura, interior y conceptos
+            relacionados</a></dd>
         <dd><a href="capitulo-01.html#capitulo01_section3" class="w3-bar-item w3-button">Continuidad</a></dd>
         <dd><a href="capitulo-01.html#capitulo01_section4" class="w3-bar-item w3-button">Espacios métricos</a></dd>
-        <dd><a href="capitulo-01.html#capitulo01_section5" class="w3-bar-item w3-button">Subespacios y productos</a></dd>
+        <dd><a href="capitulo-01.html#capitulo01_section5" class="w3-bar-item w3-button">Subespacios y productos</a>
+        </dd>
         <dd><a href="capitulo-01.html#capitulo01_section6" class="w3-bar-item w3-button">Espacios de Hausdorff</a></dd>
-        
+
         <dt><a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><strong>Conexidad</strong></a>
         </dt>
         <dd>- Subsección</dd>
@@ -1135,6 +1166,8 @@ p_Y:X\times Y\ra Y,&amp;(x,y)\mapsto y
         document.getElementById("myOverlay").style.display = "none";
       }
     </script>
+
+    
   </div>
 
 

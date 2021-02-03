@@ -1324,4 +1324,5 @@ dl {
   font-family: "Raleway", sans-serif; }
 
 dd {
-  margin-left: 8px; }
+  margin-left: 8px;
+  line-height: 1; }
