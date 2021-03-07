@@ -1307,7 +1307,8 @@ a {
   border-color: #e7ffff !important; }
 
 body {
-  font-family: Georgia, Times, "Times New Roman", serif; }
+  font-family: Georgia, Times, "Times New Roman", serif;
+  background-color: #e6e6e6; }
 
 h1,
 h2,
