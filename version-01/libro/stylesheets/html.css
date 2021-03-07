@@ -1327,3 +1327,13 @@ dl {
 dd {
   margin-left: 8px;
   line-height: 1; }
+
+#page-content {
+  background-color: #ffffff;
+  margin-left: 260px;
+  margin-right: 0px; }
+
+#mySidebar {
+  z-index: 3;
+  width: 260px;
+  background: #e6e6e6; }
