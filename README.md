@@ -11,3 +11,10 @@ Some important folders:
 2. layouts/
 3. puglins/
 4. node/modules
+
+# Useful commands in Terminal
+1. cd -> go home
+2. cd.. -> go up
+3. cd- -> previous
+4. cd/ -> root directory
+5. ls - list content
