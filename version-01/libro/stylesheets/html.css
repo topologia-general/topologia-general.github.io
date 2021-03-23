@@ -1329,6 +1329,11 @@ dd {
   margin-left: 15px;
   line-height: 1; }
 
+/* Large rounded green border */
+hr.new {
+  border: 2px solid white;
+  border-radius: 1px; }
+
 #page-content {
   background-color: #ffffff;
   margin-left: 260px;
