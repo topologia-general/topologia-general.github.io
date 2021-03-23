@@ -1323,17 +1323,20 @@ p {
   color: #333333; }
 
 dl {
-  font-family: "Raleway", sans-serif; }
+  font-family: Georgia, Times, "Times New Roman", serif; }
 
 dd {
-  margin-left: 8px;
+  margin-left: 15px;
   line-height: 1; }
 
 #page-content {
   background-color: #ffffff;
   margin-left: 260px;
   margin-right: 0px;
-  padding: 90px; }
+  padding-top: 30px;
+  padding-right: 90px;
+  padding-bottom: 30px;
+  padding-left: 90px; }
 
 #mySidebar {
   z-index: 3;
