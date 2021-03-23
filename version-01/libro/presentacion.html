@@ -81,6 +81,7 @@
   </script>
   <!--MathJax Ends-->
 
+  <!--Accordeon option, maybe not needed :)
   <style>
     .accordion {
       background-color: #eee;
@@ -106,6 +107,7 @@
       overflow: hidden;
     }
     </style>
+    -->
 
   <title>Topología General</title>
   <script src="assets/scripts.js"></script>
@@ -114,11 +116,11 @@
 
 </head>
 
-<body data-type="book" class="w3-content" style="max-width:1600px;">
+<body data-type="book" class="w3-content" style="max-width:1400px;">
 
   <!-- Sidebar/menu -->
-  <nav class="w3-sidebar w3-collapse w3-light-grey  w3-border-left w3-border-right"
-    style="z-index:3;width:240px;" id="mySidebar"><br>
+  <nav class="w3-sidebar w3-collapse  w3-border-right"
+    id="mySidebar"><br>
     <div class="w3-container">
       <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-xxlarge w3-padding w3-hover-grey"
         title="close menu">
@@ -128,6 +130,8 @@
 
       <p class="w3-text-black"><b>CONTENIDO</b></p>
     </div>
+
+    <hr>
   
     <div class="w3-bar-block">
       <dl>
@@ -160,7 +164,7 @@
   </div>
 
   <!-- !PAGE CONTENT! -->
-  <div class="w3-main w3-large" style="margin-left:290px; margin-right:60px">
+  <div class="w3-main w3-large" id="page-content">
 
     <!-- Header -->
     <header class="w3-container w3-top w3-white">
@@ -171,7 +175,7 @@
     </header>
 
     <div class="w3-container">
-      <div class="container">
+      <div class="container" >
         <section data-type="chapter" id="add-space-top-OwW4Svp">
 
   <div class="w3-container">
@@ -228,18 +232,8 @@
 
     <!--Footer-->
 
-    <script>
-      // Script to open and close sidebar
-      function w3_open() {
-        document.getElementById("mySidebar").style.display = "block";
-        document.getElementById("myOverlay").style.display = "block";
-      }
-
-      function w3_close() {
-        document.getElementById("mySidebar").style.display = "none";
-        document.getElementById("myOverlay").style.display = "none";
-      }
-    </script>
+    <!--Script to open and close sidebar-->
+    <script src="assets/scripts.js"></script>
 
     
   </div>
