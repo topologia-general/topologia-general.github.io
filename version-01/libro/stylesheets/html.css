@@ -1338,12 +1338,23 @@ hr.new {
   background-color: #ffffff;
   margin-left: 260px;
   margin-right: 0px;
-  padding-top: 30px;
-  padding-right: 90px;
-  padding-bottom: 30px;
-  padding-left: 90px; }
+  padding-top: 10px;
+  padding-right: 0px;
+  padding-bottom: 5px;
+  padding-left: 0px; }
 
 #mySidebar {
   z-index: 3;
   width: 260px;
   background: #e6e6e6; }
+
+/* SMALL SCREENS */
+@media only screen and (min-width: 820px) {
+  #page-content {
+    background-color: #ffffff;
+    margin-left: 260px;
+    margin-right: 0px;
+    padding-top: 30px;
+    padding-right: 90px;
+    padding-bottom: 30px;
+    padding-left: 90px; } }
