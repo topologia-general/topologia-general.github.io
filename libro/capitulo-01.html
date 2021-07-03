@@ -1,159 +1,19 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-  <meta charset="utf-8">
-
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Topología General">
-  <meta name="keywords" content="Topología General">
-  <meta name="authors" content="Miguel Angel Maldonado Aguilar, Juan Carlos Ponce Campuzano">
-
-  <link rel="icon" type="image/png" href="imgs/infinity32.png" sizes="32x32">
-  <link rel="icon" type="image/png" href="imgs/infinity16.png" sizes="16x16">
-
-  <link href="https://fonts.googleapis.com/css?family=Martel+Sans" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
-
-  <script src="https://cdn.geogebra.org/apps/deployggb.js"></script>
-
-  <!--MathJax starts-->
-  <script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-      tex2jax: {
-        inlineMath: [['$','$'], ['\\(','\\)']],
-        processEscapes: true
-      },
-                       TeX: { 
-                         equationNumbers: { autoNumber: "AMS" },
-                         extensions: ["AMSmath.js", "AMSsymbols.js"],
-                         Macros: {
-                          bh: "{\\mathbb{H}}",
-                          bt: "{$\\blacktriangleleft$}",
-                          btt: "{$\\blacktriangleright$}",
-                          acc: "{\\curvearrowright}",
-                          rp: ["{\\mathbb{RP}^{#1}}",1],
-                          cp: ["{\\mathbb{CP}^{#1}}",1],
-                          ida: "{\\boxed{\\Rightarrow}}",
-                          vuelta: "{\\boxed{\\Leftarrow}}",
-                          simi: "{\\!\sim}",
-                          dem: "{\\underline{Demostraci\'on.}}",
-                          findem: "{$\\;\\blacksquare$}",
-                          bk: "{\\mathbb{K}}",
-                          ff: "{\\mathbb{F}}",
-                          br: "{\\mathbb{R}}",
-                          bn: "{\\mathbb{N}}",
-                          bz: "{\\mathbb{Z}}",
-                          bc: "{\\mathbb{C}}",
-                          bq: "{\\mathbb{Q}}",
-                          ra: "{\\rightarrow}",
-                          lra: "{\\longrightarrow}",
-                          sss: "{\\Longleftrightarrow}",
-                          stac: ["{\\stackrel{#1}{\\longrightarrow}}",1],
-                          Ra: "{\\Rightarrow}",
-                          res: ["}",1],
-                          barra: "{\\;|\\;}",
-                          topp: "{\\rm Top}",
-                          baca: "{\\backslash}",
-                          til: ["{\\tilde{#1}}",1],
-                          mcal: ["{\\mathcal #1}",1],
-                          ol: ["{\\overline{#1}}",1],
-                          map: "{\\mbox{Map}}",
-                          rel: "{\\: \\mbox{rel}}"
-                        }
-                         }
-                       });
-    </script>
-
-  <!---<script type="text/x-mathjax-config">//left-side eq
- MathJax.Hub.Config({
- displayAlign: "left",
- displayIndent: "5em"
- });
- </script>--->
-  <script type="text/javascript" async
-    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_CHTML">
-  </script>
-  <!--MathJax Ends-->
-
-  <title>Topología General</title>
-  <script src="assets/mathjax-setup.js"></script>
-<script src="assets/scripts.js"></script>
-
-  <link rel="stylesheet" href="stylesheets/html.css">
-
-</head>
-
-<body data-type="book" class="w3-content" style="max-width:1400px;">
-
-  <!-- Sidebar/menu -->
-  <nav class="w3-sidebar w3-collapse  w3-border-right" id="mySidebar"><br>
-    <div class="w3-container">
-      <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-xxlarge w3-padding w3-hover-grey"
-        title="close menu">
-        <i class="fas fa-times"></i>
-      </a>
-      <a href="../" class="w3-circle w3-button w3-hover-light-grey w3-xlarge"> <i class="fa fa-home"></i></a>
-
-      <br/>
-      <p class="w3-text-black"><b>CONTENIDO</b></p>
-    </div>
-
-    <hr class="new">
-
-    <div class="w3-bar-block">
-      <dl>
-        <dt><a href="../#intro-presentacion" class="w3-bar-item w3-button w3-padding"><strong>Presentación</strong></a></dt>
-
-        <dt><a href="capitulo-01.html" onclick="w3_close()" class="w3-bar-item w3-button"><strong>Espacios
-              topológicos</strong></a></dt>
-        <dd><a href="capitulo-01.html#capitulo01_seccion1" class="w3-bar-item w3-button">Topologías y bases</a></dd>
-        <dd><a href="capitulo-01.html#capitulo01_seccion2" class="w3-bar-item w3-button">Cerradura, interior y conceptos
-            relacionados</a></dd>
-        <dd><a href="capitulo-01.html#capitulo01_seccion3" class="w3-bar-item w3-button">Continuidad</a></dd>
-        <dd><a href="capitulo-01.html#capitulo01_seccion4" class="w3-bar-item w3-button">Espacios métricos</a></dd>
-        <dd><a href="capitulo-01.html#capitulo01_seccion5" class="w3-bar-item w3-button">Subespacios y productos</a>
-        </dd>
-        <dd><a href="capitulo-01.html#capitulo01_seccion6" class="w3-bar-item w3-button">Espacios de Hausdorff</a></dd>
-      </dl>
-    </div>
-
-  </nav>
-
-  <!-- Overlay effect when opening sidebar on small screens -->
-  <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer"
-    title="close side menu" id="myOverlay">
-  </div>
-
-  <!-- !PAGE CONTENT! -->
-  <div class="w3-main w3-large" id="page-content">
-
-    <!-- Header -->
-    <header class="w3-container w3-top w3-white">
-      <a href="#" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"> <i class="fas fa-chevron-up"></i>
-      </a>
-      <span class="w3-button w3-hide-large w3-xlarge w3-hover-text-grey" onclick="w3_open()"><i
-          class="fa fa-bars"></i></span>
-    </header>
-
-    <div class="w3-container">
-      <div class="container">
-        <section data-type="chapter" id="capitulo-01">
+<section data-type="chapter" id="capitulo-01">
 
   <div class="w3-container">
     <br>
-    <h1 class="w3-text-white w3-hide-large w3-xxlarge"><b>Add-space-top-Don&apos;t-change-this</b></h1>
+    <h1 class="w3-text-white w3-hide-large w3-xxlarge"><b>Add-space-top-Don't-change-this</b></h1>
 
-    <h1>1. Espacios topol&#xF3;gicos y continuidad</h1>
+    <h1>1. Espacios topológicos y continuidad</h1>
 
 
-    <p>El &#xE1;rea de <strong> Topolog&#xED;a </strong> surge con la intenci&#xF3;n de generalizar el concepto
-      de distancia en &#xE1;mbitos m&#xE1;s generales a espacios m&#xE9;tricos. Con esta idea en mente, el concepto
-      general de un espacio topol&#xF3;gico surge a principios del s. XIX por el trabajo
+    <p>El área de <strong> Topología </strong> surge con la intención de generalizar el concepto
+      de distancia en ámbitos más generales a espacios métricos. Con esta idea en mente, el concepto
+      general de un espacio topológico surge a principios del s. XIX por el trabajo
       de F. Hausdorff (1868-1942).</p>
 
-    <p> En esta primera parte de las notas introduciremos los principales conceptos de la Topolog&#xED;a como espacio
-      topol&#xF3;gico, base, funci&#xF3;n continua, as&#xED; como dos maneras de construir espacios topol&#xF3;gicos a partir de unos
+    <p> En esta primera parte de las notas introduciremos los principales conceptos de la Topología como espacio
+      topológico, base, función continua, así como dos maneras de construir espacios topológicos a partir de unos
       espacios dados.</p>
 
     <div class="w3-section w3-bottombar">
@@ -164,96 +24,97 @@
   <section data-type="sect1" id="capitulo01_seccion1">
 
     <div class="w3-container w3-section">
-      <h2>1.1 Topolog&#xED;as y bases</h2>
+      <h2>1.1 Topologías y bases</h2>
 
 
       <blockquote data-type="epigraph" class="w3-panel w3-rightbar">
-        <p class="w3-serif"><i>&#x201C;Understanding &quot;invisible&quot; mathematical spaces is nothing but deep
-            understanding of mathematics that we believe to know well.&#x201D;</i></p>
+        <p class="w3-serif"><i>“Understanding "invisible" mathematical spaces is nothing but deep
+            understanding of mathematics that we believe to know well.”</i></p>
 
-        <p data-type="attribution">&#x2014; Dorde Baralic</p>
+        <p data-type="attribution">— Dorde Baralic</p>
       </blockquote>
 
       <hr>
 
       <p>
-        Una <strong> topolog&#xED;a </strong> en un conjunto $X$ es una familia $\tau$ de subconjuntos de $X$ cuyos
+        Una <strong> topología </strong> en un conjunto $X$ es una familia $\tau$ de subconjuntos de $X$ cuyos
         elementos,
         llamados <strong>abiertos </strong>, satisfacen lo siguiente:
-        </p><ul>
+        <ul>
           <li>\(\emptyset, X\) son abiertos</li>
-          <li>La uni&#xF3;n de una cantidad arbitraria de abiertos es abierto.</li>
-          <li>La intersecci&#xF3;n de dos abiertos es abierto.</li>
+          <li>La unión de una cantidad arbitraria de abiertos es abierto.</li>
+          <li>La intersección de dos abiertos es abierto.</li>
         </ul>
-      <p></p>
+      </p>
 
-      <p>De la &#xFA;ltima condici&#xF3;n y aplicando un argumento de inducci&#xF3;n, se sigue que
-        la intersecci&#xF3;n de una cantidad finita de abiertos es abierto.</p><p>
+      <p>De la última condición y aplicando un argumento de inducción, se sigue que
+        la intersección de una cantidad finita de abiertos es abierto.<p>
 
 
-          </p><p> Un <strong>espacio topol&#xF3;gico</strong> es una pareja $(X,\tau)$, donde $\tau$ es una topolog&#xED;a
-            para $X$. Cuando la topolog&#xED;a se sobreentiende o no es del todo relevante se suele
-            economizar la notaci&#xF3;n diciendo que $X$ es un
-            espacio topol&#xF3;gico.
+          <p> Un <strong>espacio topológico</strong> es una pareja $(X,\tau)$, donde $\tau$ es una topología
+            para $X$. Cuando la topología se sobreentiende o no es del todo relevante se suele
+            economizar la notación diciendo que $X$ es un
+            espacio topológico.
           </p>
 
           <h3>Ejemplos:</h3>
           <ul>
-            <li> Cualquier conjunto no vac&#xED;o $X$ tiene al menos dos topolog&#xED;as: la <strong>topolog&#xED;a discreta</strong>,
+            <li> Cualquier conjunto no vacío $X$ tiene al menos dos topologías: la <strong>topología discreta</strong>,
               definida
-              como $\tau=\mcal{P}(X)$, el conjunto potencia; y la <strong> topolog&#xED;a indiscreta </strong> o <strong>
+              como $\tau=\mcal{P}(X)$, el conjunto potencia; y la <strong> topología indiscreta </strong> o <strong>
                 trivial </strong>
-              est&#xE1; dada por $\tau=\{\emptyset,X\}$.
+              está dada por $\tau=\{\emptyset,X\}$.
             </li>
-            <li> Para el conjunto $X=\{a\}$ existe una &#xFA;nica topolog&#xED;a; de hecho en este caso las topolog&#xED;as discreta y
+            <li> Para el conjunto $X=\{a\}$ existe una única topología; de hecho en este caso las topologías discreta y
               trivial coinciden.
-            </li><li> El conjunto $X=\{a,b\}$ admite cuatro topolog&#xED;as (&#xBF;puede el lector determinar cu&#xE1;les son?). Cuando se
+            <li> El conjunto $X=\{a,b\}$ admite cuatro topologías (¿puede el lector determinar cuáles son?). Cuando se
               considera $\tau_s=\{\emptyset, \{a\},X\}$ se
               dice que $(X,\tau_s)$ es el
               <strong>espacio de Sierpinski </strong>. En general, dado un conjunto de
-              $n$ elementos es posible determinar cu&#xE1;ntas topolog&#xED;as se pueden definir en &#xE9;l... aunque en realidad es un
-              problema dif&#xED;cil
-              si no se pone alguna restricci&#xF3;n en el <i> tipo</i> de topolog&#xED;as que se quieren considerar.</li>
-            
-            <li> Dado un conjunto $X$ decimos que $U\subset X$ es <strong> abierto</strong> si $U=\emptyset$ &#xF3; su
+              $n$ elementos es posible determinar cuántas topologías se pueden definir en él... aunque en realidad es un
+              problema difícil
+              si no se pone alguna restricción en el <i> tipo</i> de topologías que se quieren considerar.</li>
+            </li>
+            <li> Dado un conjunto $X$ decimos que $U\subset X$ es <strong> abierto</strong> si $U=\emptyset$ ó su
               complemento $X\backslash U$ es finito.
-              La colecci&#xF3;n de abiertos de $X$ forma una topolog&#xED;a y es llamada <strong>topolog&#xED;a cofinita</strong> o del
+              La colección de abiertos de $X$ forma una topología y es llamada <strong>topología cofinita</strong> o del
               complemento finito.
-              Cambiando la condici&#xF3;n de ser finito por la de ser numerable se obtiene la
-              <strong> topolog&#xED;a conumerable</strong> o del complemento numerable.</li>
-            <li> Sea $X$ conjunto no vac&#xED;o y fijemos $x_0\in X$. La colecci&#xF3;n
+              Cambiando la condición de ser finito por la de ser numerable se obtiene la
+              <strong> topología conumerable</strong> o del complemento numerable.</li>
+            <li> Sea $X$ conjunto no vacío y fijemos $x_0\in X$. La colección
               $$
               \tau=\{U\subset
               X \barra x_0\in U \} \cup \{\emptyset\}
               $$
-              es una topolog&#xED;a para $X$ llamada la <strong> topolog&#xED;a de la inclusi&#xF3;n de punto</strong>. De manera
-              an&#xE1;loga, considerando subconjuntos
+              es una topología para $X$ llamada la <strong> topología de la inclusión de punto</strong>. De manera
+              análoga, considerando subconjuntos
               que no contienen a $x_0$, se define
-              la <strong>topolog&#xED;a de la exclusi&#xF3;n del punto</strong>.
+              la <strong>topología de la exclusión del punto</strong>.
             </li>
-            <li> Sea $\{X_i\}_{i\in I}$ colecci&#xF3;n de espacios topol&#xF3;gicos y tomemos su
+            <li> Sea $\{X_i\}_{i\in I}$ colección de espacios topológicos y tomemos su
               union $X=\cup_i X_i$. Dotamos a $X$ de la topologia mas gruesa $\tau$ de
-              las que contienen a cada una de las topolog&#xED;as de los espacios $X_i$.
+              las que contienen a cada una de las topologías de los espacios $X_i$.
               En estas condiciones $U\subset X$ es abierto si, y solo si $U\cap X_i$ es abierto
-              para cada $i$. El espacio topol&#xF3;gico obtenido es llamado la <strong> uni&#xF3;n
-                disjunta</strong> de la colecci&#xF3;n $\{X_i\}$.</li>
-            <li> Sea $X$ conjunto infinito y $x_0\in X$. La colecci&#xF3;n
+              para cada $i$. El espacio topológico obtenido es llamado la <strong> unión
+                disjunta</strong> de la colección $\{X_i\}$.</li>
+            <li> Sea $X$ conjunto infinito y $x_0\in X$. La colección
               $$
-              \tau=\{U\subset X\barra x_0\notin U, \;\mbox{&#xF3;}\;\; X\backslash U\;\;\mbox{finito}\}
+              \tau=\{U\subset X\barra x_0\notin U, \;\mbox{ó}\;\; X\backslash U\;\;\mbox{finito}\}
               $$
-              define una topolog&#xED;a en $X$, llamada la <strong> Topolog&#xED;a de Fort </strong>.$\blacktriangleleft$
+              define una topología en $X$, llamada la <strong> Topología de Fort </strong>.$\blacktriangleleft$
             </li>
+          </ul>
 
-            <br>
-            <p>En los ejemplos anteriores las topolog&#xED;as fueron definidas de manera expl&#xED;cita; en lo que sigue daremos
-              una noci&#xF3;n dual
-              para definir una topolog&#xED;a. Para un espacio topol&#xF3;gico $X$ decimos que $C\subset X$ es <strong> cerrado
+            <br />
+            <p>En los ejemplos anteriores las topologías fueron definidas de manera explícita; en lo que sigue daremos
+              una noción dual
+              para definir una topología. Para un espacio topológico $X$ decimos que $C\subset X$ es <strong> cerrado
               </strong>
               si $X\backslash C$ es abierto. </p>
 
 
 
-            <p>A trav&#xE9;s de las Leyes de De Morgan
+            <p>A través de las Leyes de De Morgan
               $$
               X\backslash (A\cup B)=(X\backslash A) \cap (X\backslash B),
               $$
@@ -261,43 +122,42 @@
               X\backslash (A\cap B)=(X\backslash A) \cup (X\backslash B)
               $$
               se obtiene que
-              </p><ol>
+              <ol>
                 <li> $\emptyset, X$ son cerrados. </li>
-                <li> La uni&#xF3;n de dos cerrados es cerrado. </li>
-                <li> La intersecci&#xF3;n arbitraria de cerrados es cerrado.</li>
+                <li> La unión de dos cerrados es cerrado. </li>
+                <li> La intersección arbitraria de cerrados es cerrado.</li>
               </ol>
-            <p></p>
-            <p> Notese la similitud de la definici&#xF3;n de cerrado con la definici&#xF3;n de topolog&#xED;a dada antes. Adem&#xE1;s, al
-              igual que en dicha definici&#xF3;n la segunda condici&#xF3;n es v&#xE1;lida para una cantidad finita de cerrados. Por la
+            </p>
+            <p> Notese la similitud de la definición de cerrado con la definición de topología dada antes. Además, al
+              igual que en dicha definición la segunda condición es válida para una cantidad finita de cerrados. Por la
               <em>dualidad</em> cerrado-abierto
-              es posible definir los abiertos de una topolog&#xED;a como aquellos que son complementos de cerrados.</p>
+              es posible definir los abiertos de una topología como aquellos que son complementos de cerrados.</p>
 
-            <p> Para $X$ conjunto infinito definimos a $U\subseteq X$ como cerrado si $U=X$ &#xF3; si
+            <p> Para $X$ conjunto infinito definimos a $U\subseteq X$ como cerrado si $U=X$ ó si
               $U$ finito. Observemos que al definir a los abiertos como complementos de cerrados se obtiene la
-              topolog&#xED;a cofinita definida antes.</p>
-            <br>
+              topología cofinita definida antes.</p>
+            <br />
 
             <h3>Bases</h3>
 
-            <p>Dada una topolog&#xED;a $\tau$ para $X$ decimos que $\mcal{B}\subset \tau$ es una <strong> base </strong> para
+            <p>Dada una topología $\tau$ para $X$ decimos que $\mcal{B}\subset \tau$ es una <strong> base </strong> para
               $\tau$ si todo abierto
-              $A\in \tau$ puede expresarse como uni&#xF3;n de elementos de $\mcal{B}$. La intenci&#xF3;n de definir una base para
-              una topolog&#xED;a
-              es el de hacer posible una descripci&#xF3;n de la topolog&#xED;a sin dar de manera expl&#xED;cita todos los abiertos que
+              $A\in \tau$ puede expresarse como unión de elementos de $\mcal{B}$. La intención de definir una base para
+              una topología
+              es el de hacer posible una descripción de la topología sin dar de manera explícita todos los abiertos que
               la comprenden.</p>
 
             <p> Observemos que $\mcal{B}=\{ X \}$ es una base para
-              la topolog&#xED;a trivial. Por otro lado, la colecci&#xF3;n
-              $\mcal{B}=\{\{x\}|\; x\in X\}$ es base para la topolog&#xED;a discreta.</p>
+              la topología trivial. Por otro lado, la colección
+              $\mcal{B}=\{\{x\}|\; x\in X\}$ es base para la topología discreta.</p>
 
-          </ul>
+          <br />
 
-          <br>
-
-          <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive" style="padding:8px 16px 8px 16px;">
+          <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive"
+            style="padding:8px 16px 8px 16px;">
             <p><strong>Teorema:</strong> Sean $X$ conjunto y $\mcal{B}\subset \mcal{P}(X)$. Existe una
-              topolog&#xED;a $\tau_{\mcal{B}}$ para la cual $\mcal{B}$ es base s&#xED;, y s&#xF3;lo se cumple:
-              </p><ol>
+              topología $\tau_{\mcal{B}}$ para la cual $\mcal{B}$ es base sí, y sólo se cumple:
+              <ol>
                 <li>
                   $X=\cup \{B\barra B\in \mcal{B}\}$
                 </li>
@@ -305,36 +165,36 @@
                   Dados $A,B\in \mcal{B}$ y $x\in A\cap B$ existe $C\in \mcal{B}$ tal que $x\in C\subset A\cap B$.
                 </li>
               </ol>
-            <p></p>
+            </p>
           </div>
 
-          <p> La topolog&#xED;a $\tau_{\mcal{B}}$ de este resultado es llamada la <strong> topolog&#xED;a generada por la base
+          <p> La topología $\tau_{\mcal{B}}$ de este resultado es llamada la <strong> topología generada por la base
               $\mcal{B}$</strong>. </p>
 
 
           <h3>Ejemplos:</h3>
           <ul>
-            <li> Sean $X$ conjunto y $\mcal{B}=\{X_i\}$ colecci&#xF3;n de subconjuntos de $X$, disjuntos a pares tales que
-              $X=\cup_i X_i$. La colecci&#xF3;n $\mcal{B}$ es una base para una topolog&#xED;a
-              llamada la <strong> topolog&#xED;a de la partici&#xF3;n</strong>. Tomando $X=N$, el conjunto de los n&#xFA;meros naturales
-              y la colecci&#xF3;n $\{2k,2k+1\}_{k\in
-              \bn}$ se obtiene la topolog&#xED;a llamada
-              la <strong>topolog&#xED;a par-impar</strong>.</li>
+            <li> Sean $X$ conjunto y $\mcal{B}=\{X_i\}$ colección de subconjuntos de $X$, disjuntos a pares tales que
+              $X=\cup_i X_i$. La colección $\mcal{B}$ es una base para una topología
+              llamada la <strong> topología de la partición</strong>. Tomando $X=N$, el conjunto de los números naturales
+              y la colección $\{2k,2k+1\}_{k\in
+              \bn}$ se obtiene la topología llamada
+              la <strong>topología par-impar</strong>.</li>
   
-            <li> La topolog&#xED;a <strong> semi-abierta</strong> o del <strong>l&#xED;mite inferior </strong> en $\mathbb{R}$ es
-              la topolog&#xED;a que tiene como base $\mcal{B}=\{[a,b)\;|\; a &lt; b\}$.
-              La recta $\mathbb{R}$ con la topolog&#xED;a semi-abierta es llamada la
-              <strong>l&#xED;nea de Sorgenfrey</strong>.</li>
-            <li> La colecci&#xF3;n de intervalos abiertos $\mcal{B}=\{(a,b)|\; a &lt; b\}$ satisface las condiciones del
+            <li> La topología <strong> semi-abierta</strong> o del <strong>límite inferior </strong> en $\mathbb{R}$ es
+              la topología que tiene como base $\mcal{B}=\{[a,b)\;|\; a &lt; b\}$.
+              La recta $\mathbb{R}$ con la topología semi-abierta es llamada la
+              <strong>línea de Sorgenfrey</strong>.</li>
+            <li> La colección de intervalos abiertos $\mcal{B}=\{(a,b)|\; a &lt; b\}$ satisface las condiciones del
               resultado
-              anterior; la topolog&#xED;a generada es llamada la <strong>topolog&#xED;a usual o euclidiana</strong> en la recta real
+              anterior; la topología generada es llamada la <strong>topología usual o euclidiana</strong> en la recta real
               $\mathbb{R}$.
-              Esta base no es &#xFA;nica: $$ \mcal{B}_r=\{ (a,b)|\; a &lt; b\; a,b\in \mathbb{Q} \} $$ es
-              tambi&#xE9;n base y, dado que $$ (r,s)=\bigcup (a,b),\;\; r&lt;a&lt;b&lt;s,\; a,b\in \mathbb{Q} $$ se tiene que
-              $\mcal{B}_r$ es m&#xE1;s peque&#xF1;a que $\mcal{B}$.</li>
+              Esta base no es única: $$ \mcal{B}_r=\{ (a,b)|\; a &lt; b\; a,b\in \mathbb{Q} \} $$ es
+              también base y, dado que $$ (r,s)=\bigcup (a,b),\;\; r&lt;a&lt;b&lt;s,\; a,b\in \mathbb{Q} $$ se tiene que
+              $\mcal{B}_r$ es más pequeña que $\mcal{B}$.</li>
             <li> Para cada entero $n$ consideramos los conjuntos
               $$
-              B(n)=\begin{cases}\{n\},&amp;n\;\;\mbox{impar}\\\{n-1,n,n+1\},&amp;n\;\;\mbox{par} \end{cases}
+              B(n)=\begin{cases}\{n\},&n\;\;\mbox{impar}\\\{n-1,n,n+1\},&n\;\;\mbox{par} \end{cases}
               $$
               La coleccion $\mcal{B}=\{B(n)\barra n\in \bz\}$ es una base para una topologia en $\mathbb{Z}$, llamada la
               <strong> topologia de la linea digital</strong>. Esta topologia tiene aplicaciones en el procesamiento de
@@ -343,46 +203,47 @@
           </ul>
 
 
-          <p> Sean $\tau_1,\tau_2$ dos topolog&#xED;as para $X$. Decimos que $\tau_2$ es mas <strong>fina </strong> o
-            <strong> m&#xE1;s grande </strong> que $\tau_1$ si $\tau_1\subset \tau_2$. Equivalentemente decimos que
+          <p> Sean $\tau_1,\tau_2$ dos topologías para $X$. Decimos que $\tau_2$ es mas <strong>fina </strong> o
+            <strong> más grande </strong> que $\tau_1$ si $\tau_1\subset \tau_2$. Equivalentemente decimos que
             $\tau_1$ es
-            mas <strong> m&#xE1;s gruesa </strong> o <strong> m&#xE1;s peque&#xF1;a </strong> que $\tau_2$. Observemos que bajo
+            mas <strong> más gruesa </strong> o <strong> más pequeña </strong> que $\tau_2$. Observemos que bajo
             estas condiciones
             se tiene que todo abierto de $\tau_1$ es abierto de $\tau_2$.</p>
 
 
-          <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive" style="padding:8px 16px 8px 16px;">
-            <p> <strong> Lemma </strong> Sean $\mcal{B},\mcal{B}&apos;$ bases para topolog&#xED;as $\tau,\tau&apos;$, topolog&#xED;as en
+          <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive"
+            style="padding:8px 16px 8px 16px;">
+            <p> <strong> Lemma </strong> Sean $\mcal{B},\mcal{B}'$ bases para topologías $\tau,\tau'$, topologías en
               $X$. Entonces las
               siguientes afirmaciones son equivalentes:
-              </p><ol>
-                <li> $\tau&apos;$ es mas fina que $\tau$ </li>
-                <li> Para todo $x\in X$ y todo $B\in \mcal{B}$ que contiene a $x$, existe $B&apos;\in \mcal{B}&apos;$ tal que
-                  $x\in B\subseteq B&apos;$. </li>
+              <ol>
+                <li> $\tau'$ es mas fina que $\tau$ </li>
+                <li> Para todo $x\in X$ y todo $B\in \mcal{B}$ que contiene a $x$, existe $B'\in \mcal{B}'$ tal que
+                  $x\in B\subseteq B'$. </li>
               </ol>
-            <p></p>
+            </p>
           </div>
 
           <p>Dado que
             $$
             (a,b)=\bigcup_{n=k}^\infty [a+\frac{1}{n},b), \;\; \mbox{para}\; a+\frac{1}{k}&lt;b
             $$
-            se tiene que la topolog&#xED;a semi-abierta es m&#xE1;s fina que la topolog&#xED;a euclidiana.</p><p>
+            se tiene que la topología semi-abierta es más fina que la topología euclidiana.<p>
 
 
-          </p><p>En lo descrito arriba vimos que si $\mathcal{B}$ es
+          <p>En lo descrito arriba vimos que si $\mathcal{B}$ es
             una base para un espacio topologico, entonces todo abierto puede
             obtenerse al tomar uniones arbitrarias de elementos de
-            $\mathcal{B}$. Pregunta: &#xBF;ser&#xE1; posible &quot;descomponer&quot; los
+            $\mathcal{B}$. Pregunta: ¿será posible "descomponer" los
             elementos de la base en subconjuntos mas simples? La respuesta nos
             lleva al siguiente concepto.</p>
 
-          <p> Una <strong>subbase</strong> para $X$ es una colecci&#xF3;n $\mathcal{P}$ de subconjuntos de $X$ cuya union
+          <p> Una <strong>subbase</strong> para $X$ es una colección $\mathcal{P}$ de subconjuntos de $X$ cuya union
             es $X$. La <strong>topologia $\tau$ generada por una subbase</strong> se define como la coleccion $\tau$
             de todas las uniones de intersecciones finitas de elementos de $\mathcal{P}$.</p>
 
 
-          <p> Una subbase para la topolog&#xED;a usual de $\mathbb{R}$ es la colecci&#xF3;n
+          <p> Una subbase para la topología usual de $\mathbb{R}$ es la colección
             $$
             \{ (-\infty,a),\;(b,\infty)\;|\; a,b\in \mathbb{R}\}
             $$
@@ -400,24 +261,24 @@
 
       <hr>
 
-      <p> Muchos temas que se trabajan dentro de la Topolog&#xED;a est&#xE1;n motivados por conceptos del C&#xE1;lculo (Diferencial).
-        En el caso de la cerradura y el interior de un conjunto, los conceptos del C&#xE1;lculo que los motivan son puntos
-        de adherencia (o puntos l&#xED;mite) y, por tanto, la convergencia de sucesiones. </p>
+      <p> Muchos temas que se trabajan dentro de la Topología están motivados por conceptos del Cálculo (Diferencial).
+        En el caso de la cerradura y el interior de un conjunto, los conceptos del Cálculo que los motivan son puntos
+        de adherencia (o puntos límite) y, por tanto, la convergencia de sucesiones. </p>
 
 
       <p> Sean $X$ espacio topologico y $B\subset X$. Definimos la
-        <strong> cerradura </strong> $\overline{B}$ como la intersecci&#xF3;n de todos los cerrados que contienen a $B$; esto
+        <strong> cerradura </strong> $\overline{B}$ como la intersección de todos los cerrados que contienen a $B$; esto
         es:
         $$
         \overline{B}=\bigcap \{C\;|\; B\subset C,\;\;C\;\mbox{cerrado} \}
         $$
-        As&#xED;, $\overline{B}$ es el cerrado mas peque&#xF1;o
+        Así, $\overline{B}$ es el cerrado mas pequeño
         que contiene a $B$; los puntos de $\overline{B}$
         son llamados <strong> puntos adherentes </strong> de $B$. Notemos que $B$ es cerrado
         si y solo si $ B=\ol{B}$.</p>
 
-      <p>Sea $\mathbb{R}$ con la topolog&#xED;a cofinita y tomemos $A\subset =\mathbb{Z}\subset \mathbb{R}$.
-        Tomemos $r\in \mathbb{R}$ cualquiera y $r\in U$, abierto. Por definici&#xF3;n
+      <p>Sea $\mathbb{R}$ con la topología cofinita y tomemos $A\subset =\mathbb{Z}\subset \mathbb{R}$.
+        Tomemos $r\in \mathbb{R}$ cualquiera y $r\in U$, abierto. Por definición
         $$
         U=\mathbb{R}\backslash \{r_1,r_2,\ldots,r_k\}
         $$
@@ -427,7 +288,7 @@
         $\bz$.</p>
 
 
-      <p>La relaci&#xF3;n entre el concepto de cerradura y ciertas operaciones entre conjuntos est&#xE1; expresada en la siguiente
+      <p>La relación entre el concepto de cerradura y ciertas operaciones entre conjuntos está expresada en la siguiente
         lista:
       </p>
 
@@ -441,11 +302,11 @@
           $$
           \cup_i\ol{A}_i\subset \ol{\cup_i A_i}
           $$
-          En general no se da una igualdad entre la cerradura de una uni&#xF3;n y la uni&#xF3;n de las cerraduras, &#xE9;sto s&#xF3;lo
-          ocurre en ciertos casos particulares, por ejemplo cuando la familia de subconjuntos satisface alguna condi&#xF3;n
+          En general no se da una igualdad entre la cerradura de una unión y la unión de las cerraduras, ésto sólo
+          ocurre en ciertos casos particulares, por ejemplo cuando la familia de subconjuntos satisface alguna condión
           particular.</li>
 
-        <li> En cuanto a la intersecci&#xF3;n se tiene:
+        <li> En cuanto a la intersección se tiene:
 
           $$\ol{A\cap B}\subset \ol{A}\cap \ol{B},\qquad
           \ol{\cap_i A_i}\subset \cap \ol{A_i},
@@ -467,50 +328,50 @@
 
       <h3>Ejemplos:</h3>
       <ul>
-        <li> En cualquier espacio dotado de la topolog&#xED;a trivial, cualquier subconjunto no vac&#xED;o es denso. Por el
-          contrario, en cualquier espacio dotado de la topolog&#xED;a discreta ning&#xFA;n subconjunto propio es denso.</li>
+        <li> En cualquier espacio dotado de la topología trivial, cualquier subconjunto no vacío es denso. Por el
+          contrario, en cualquier espacio dotado de la topología discreta ningún subconjunto propio es denso.</li>
 
-        <li> Tomemos $X$ con la topolog&#xED;a del complemento finito y $W\subseteq X$ infinito. Recordemos que $U\subset X$
+        <li> Tomemos $X$ con la topología del complemento finito y $W\subseteq X$ infinito. Recordemos que $U\subset X$
           es
-          cerrado si y solo si $C=X$ &#xF3; $C$ es finito. As&#xED;, cualquier cerrado que contenga a $W$ debe ser todo $X$. Por
+          cerrado si y solo si $C=X$ ó $C$ es finito. Así, cualquier cerrado que contenga a $W$ debe ser todo $X$. Por
           tanto todo cerrado que contenga un subconjunto infinito es denso. </li>
 
-        <li> Sean $\mathbb{R}$ con la topolog&#xED;a usual y $K\subset \mathbb{R}$ cerrado tal que $\mathbb{Q}\subset K$.
+        <li> Sean $\mathbb{R}$ con la topología usual y $K\subset \mathbb{R}$ cerrado tal que $\mathbb{Q}\subset K$.
           Entonces $\mathbb{R}\backslash K$ es abierto y no contiene racionales. Como todo intervalo no vacio de reales
-          contiene un n&#xFA;mero racional, entonces $\mathbb{R}\backslash K$ no contiene ning&#xFA;n intervalo; luego,
+          contiene un número racional, entonces $\mathbb{R}\backslash K$ no contiene ningún intervalo; luego,
           $\mathbb{R}\backslash K=\emptyset$ y por lo tanto $\overline{\mathbb{Q}}=\mathbb{R}$.$\blacktriangleleft$</li>
       </ul>
 
 
-      <p> El <strong> interior </strong> de $B\subset X$ se define como la uni&#xF3;n de todos los abiertos contenidos en
+      <p> El <strong> interior </strong> de $B\subset X$ se define como la unión de todos los abiertos contenidos en
         $B$; es decir:
         $$
         B^\circ =\bigcup \{ A \;|\; A\subset B,\; \mbox{abierto}\}
         $$
-        Observemos que de la definici&#xF3;n se obtiene que $B^\circ$ es el abierto mas grande contenido en $B$; los
+        Observemos que de la definición se obtiene que $B^\circ$ es el abierto mas grande contenido en $B$; los
         elementos de $B^\circ$
         son llamados <strong>puntos interiores
         </strong> de $B$. Notemos que $B$ es abierto si y solamente si $B=B^\circ$. </p>
 
       <p>
-        </p><h3>Ejemplos:</h3>
+        <h3>Ejemplos:</h3>
         <ul>
-          <li> Aunque no es evidente de la definici&#xF3;n, tampoco es muy complicado probar las siguientes relaciones
+          <li> Aunque no es evidente de la definición, tampoco es muy complicado probar las siguientes relaciones
             entre la cerradura y el interior de un subconjunto con las respectivas nociones de su complemento: para
             $A,B\subset X$ se cumple
             $$
             X\backslash B^\circ=\overline{X\backslash B},\qquad (X\backslash A)^\circ=X\backslash \overline{A}
             $$ </li>
-          <li>Para $\mathbb{R}$ con la topolog&#xED;a usual consideramos los racionales $\mathbb{Q}\subset \mathbb{R}$ y
+          <li>Para $\mathbb{R}$ con la topología usual consideramos los racionales $\mathbb{Q}\subset \mathbb{R}$ y
             $U\subset
             \mathbb{R}$ abierto. Para el intervalo $(a,b)\subset U$ se sabe que $(a,b)$ contiene un numero irracional;
             es decir, se tiene que
-            $(a,b)\cap (\mathbb{R} \backslash \mathbb{Q})\neq \emptyset$ y por tanto $U\not\subset \mathbb{Q}$. De aqu&#xED;
+            $(a,b)\cap (\mathbb{R} \backslash \mathbb{Q})\neq \emptyset$ y por tanto $U\not\subset \mathbb{Q}$. De aquí
             que $\mathbb{Q}$ no contiene
-            a ning&#xFA;n abierto y por tanto $\mathbb{Q}^\circ=\emptyset$.</li>
-          <li>En general, decir que $E$ tiene interior vac&#xED;o significa que el &#xFA;nico abierto contenido en &#xE9;l es el
+            a ningún abierto y por tanto $\mathbb{Q}^\circ=\emptyset$.</li>
+          <li>En general, decir que $E$ tiene interior vacío significa que el único abierto contenido en él es el
             conjunto
-            vacio. De manera equivalente, usando la relaci&#xF3;n de arriba, se sigue que $E^\circ=\emptyset$ si y solamente
+            vacio. De manera equivalente, usando la relación de arriba, se sigue que $E^\circ=\emptyset$ si y solamente
             $X\backslash E$ es denso en $X$.</li>
           <li> Para cualesquiera $a\leq b$ numeros reales, se tiene
             $$
@@ -521,7 +382,7 @@
             $$A^\circ \cup B^\circ \subset (A\cup B)^\circ,\qquad A^\circ \cap B^\circ = (A\cap B)^\circ$$
           </li>
         </ul>
-      <p></p>
+      </p>
 
       <p> La <strong> frontera</strong> de $B$ es el conjunto cerrado definido como
         $$
@@ -529,8 +390,9 @@
         B^\circ)
         $$
         Es decir, los puntos de la frontera $\partial B$ son puntos de adherencia tanto para $B$ como para $X\backslash
-        B$. Con lo que se defini&#xF3; previamente
-        se sigue para $\mathbb{R}$ con la topolog&#xED;a usual, y para cualesquiera $a<b$ se tiene que $\partial[a,b]="\partial" (a,b)="\{a,b\}$," como era de esperarse.< p> </b$></p><p> Sean $X$ espacio topologico y $x\in X$.
+        B$. Con lo que se definió previamente
+        se sigue para $\mathbb{R}$ con la topología usual, y para cualesquiera $a<b$ se tiene que
+          $\partial[a,b]=\partial (a,b)=\{a,b\}$, como era de esperarse.</p> <p> Sean $X$ espacio topologico y $x\in X$.
           Decimos
           que $U\subset X$ es una <strong> vecindad de $x$ </strong> si existe abierto $V$ tal que $x\in V\subset U$. En
           otras palabras,
@@ -539,14 +401,14 @@
           $$
           A^\circ =\{x\in A \;|\; A\in \mathcal{I}(x) \}
           $$
-          En estos t&#xE9;rminos se puede ver que $A$ es abierto si, y solo si es vecindad de cada uno de sus puntos. Notemos
+          En estos términos se puede ver que $A$ es abierto si, y solo si es vecindad de cada uno de sus puntos. Notemos
           que la familia $\mathcal{I}(x)$ satisface:
 
-          </p><ul>
+          <ul>
             <li>$U\in \mathcal{I}(x), U\subset V \Rightarrow V\in \mathcal{I}(x)$</li>
             <li>$U,V\in \mathcal{I}(x)\Rightarrow U\cap V\in \mathcal{I}(x)$</li>
           </ul>
-      <p></p>
+      </p>
 
       <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive" style="padding:8px 16px 8px 16px;">
         <p><strong>Lema:</strong> Sea $B\subset X$, con $X$ espacio topologico. Un punto $x$ pertenece a $\overline{B}$
@@ -569,14 +431,14 @@
         </p>
       </div>
 
-      <p> De esto se desprende que las familias de vecindades determinan una topolog&#xED;a y viceversa.</p>
+      <p> De esto se desprende que las familias de vecindades determinan una topología y viceversa.</p>
 
 
 
       <p> Con lo expuesto anteriormente, podemos definir uno de los primeros <strong> axiomas de separacion </strong>
-        para espacios topol&#xF3;gicos, introducidos por H. Tietze bajo el nombre de <em>Trennbarkeitaxiome</em>: decimos que
+        para espacios topológicos, introducidos por H. Tietze bajo el nombre de <em>Trennbarkeitaxiome</em>: decimos que
         un
-        espacio es <strong> $T_1$ </strong> o <strong>de Fr&#xE9;chet</strong> si todo subconjunto finito es cerrado.</p>
+        espacio es <strong> $T_1$ </strong> o <strong>de Fréchet</strong> si todo subconjunto finito es cerrado.</p>
 
 
       <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive" style="padding:8px 16px 8px 16px;">
@@ -586,11 +448,11 @@
       </div>
 
 
-      <p> Notemos que todo espacio topol&#xF3;gico dotado de la topolog&#xED;a trivial y con al menos dos elementos no puede ser
-        $T_1$. Otras propiedades de espacios $T_1$ ser&#xE1;n dadas m&#xE1;s adelante.</p>
+      <p> Notemos que todo espacio topológico dotado de la topología trivial y con al menos dos elementos no puede ser
+        $T_1$. Otras propiedades de espacios $T_1$ serán dadas más adelante.</p>
 
 
-  </div></section>
+  </section>
 
 
   <section data-type="sect3" id="capitulo01_seccion3">
@@ -603,68 +465,71 @@
       <p>
         Sean $(X,\tau_1), (Y,\tau_2)$ espacios topologicos. Una funcion $f:X\to Y$ es <strong>continua </strong> si para
         cualquier abierto $A\in \tau_2$ la pre-imagen $f^{-1}(A)\in \tau_1$. Como veremos en lo que sigue, esta simple
-        definicion generaliza el concepto de continuidad para funciones entre espacios m&#xE9;tricos.</p>
+        definicion generaliza el concepto de continuidad para funciones entre espacios métricos.</p>
 
-      <p>Recordemos que dada una funci&#xF3;n $f:X\to Y$ entre conjuntos se cumple
+      <p>Recordemos que dada una función $f:X\to Y$ entre conjuntos se cumple
         $$
         f^{-1}(Y\backslash A)=X\backslash f^{-1}(A),\;\;f^{-1}(\bigcup A_i)=\bigcup f^{-1}(A_i)
         $$
-        De aqu&#xED; se obtiene que una funci&#xF3;n $f:X\to Y$ es continua si, y solo si, para todo cerrado $C\subset Y$ la
+        De aquí se obtiene que una función $f:X\to Y$ es continua si, y solo si, para todo cerrado $C\subset Y$ la
         preimagen $f^{-1}(C)$ es
-        tambien un cerrado. Adem&#xE1;s, dada $\mathcal{B}$ base para $\tau_2$, la funci&#xF3;n $f$ es continua si. y solo si para
+        tambien un cerrado. Además, dada $\mathcal{B}$ base para $\tau_2$, la función $f$ es continua si. y solo si para
         cualquier $B\in \mathcal{B},\;f^{-1}(B)\in \tau$.
       </p>
 
       <h3>Ejemplo:</h3>
           <p>
-            </p><ul>
-              <li> La funci&#xF3;n identidad $id:(X,\tau)\to (X,\tau)$ es siempre continua. Sin embargo,
+            <ul>
+              <li> La función identidad $id:(X,\tau)\to (X,\tau)$ es siempre continua. Sin embargo,
                 si se cambia la topologia esto ya no es cierto: tomemos $X=\mathbb{R},\tau_1$ topologia usual y $\tau_2$
-                topologia semi-abierta. Notemos que $id^{-1}[0,1)=[0,1)$, el cual no es un abierto en la topolog&#xED;a
+                topologia semi-abierta. Notemos que $id^{-1}[0,1)=[0,1)$, el cual no es un abierto en la topología
                 usual.
               </li>
             </ul>
-          <p></p>
+          </p>
 
           <p>
             En general, la continuidad de la funcion identidad de un espacio depende de las topologias involucradas:
           </p>
 
-          <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive" style="padding:8px 16px 8px 16px;">
-            <p><strong>Lema:</strong> Sean $\tau_1,\tau_2$ topolog&#xED;as en $X$. La funci&#xF3;n identidad $id:(X,\tau_1)\to
-              (X,\tau_2)$ es continua si, y solo si $\tau_1$ es m&#xE1;s fina que $\tau_2$.
+          <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive"
+            style="padding:8px 16px 8px 16px;">
+            <p><strong>Lema:</strong> Sean $\tau_1,\tau_2$ topologías en $X$. La función identidad $id:(X,\tau_1)\to
+              (X,\tau_2)$ es continua si, y solo si $\tau_1$ es más fina que $\tau_2$.
             </p>
           </div>
 
-          <p> Una consecuencia inmediata de este resultado es que toda funci&#xF3;n $X\to Y$, donde $X$ tiene la topolog&#xED;a
+          <p> Una consecuencia inmediata de este resultado es que toda función $X\to Y$, donde $X$ tiene la topología
             discreta,
-            es siempre continua; de igual forma, toda funci&#xF3;n $X\to Y$, donde $Y$ tiene la topolog&#xED;a trivial, es tambi&#xE9;n
-            continua. Finalmente, observemos que cualquier funci&#xF3;n constante es continua, no importando las topolog&#xED;as
+            es siempre continua; de igual forma, toda función $X\to Y$, donde $Y$ tiene la topología trivial, es también
+            continua. Finalmente, observemos que cualquier función constante es continua, no importando las topologías
             involucradas.
 
           </p>
 
 
-          <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive" style="padding:8px 16px 8px 16px;">
-            <p><strong>Teorema:</strong> Sea $f:X\to Y$ funci&#xF3;n entre espacios topol&#xF3;gicos. Entonces $f$ es continua si,
+          <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive"
+            style="padding:8px 16px 8px 16px;">
+            <p><strong>Teorema:</strong> Sea $f:X\to Y$ función entre espacios topológicos. Entonces $f$ es continua si,
               y
               solamente si $f(\overline{A})\subset \overline{f(A)}$, para cualquier $A\subset X$.
             </p>
           </div>
 
-          <p> Notemos que el resultado anterior define la continuidad de una funci&#xF3;n en t&#xE9;rminos de puntos de
+          <p> Notemos que el resultado anterior define la continuidad de una función en términos de puntos de
             adherencia, que a su vez
-            est&#xE1; relacionada con la
-            cercania entre puntos y subconjuntos. As&#xED;, este resultado muestra que nuestra definici&#xF3;n de continuidad est&#xE1;
+            está relacionada con la
+            cercania entre puntos y subconjuntos. Así, este resultado muestra que nuestra definición de continuidad está
             muy relacionada
-            con la noci&#xF3;n usual de continuidad en espacios m&#xE9;tricos como los
-            espacios euclidianos $\mathbb{R}^n$. Otra manera de determinar la continuidad de una funci&#xF3;n lo expresa el
+            con la noción usual de continuidad en espacios métricos como los
+            espacios euclidianos $\mathbb{R}^n$. Otra manera de determinar la continuidad de una función lo expresa el
             siguiente resultado
           </p>
 
 
-          <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive" style="padding:8px 16px 8px 16px;">
-            <p><strong>Teorema:</strong> Sean $X,Y$ espacios topol&#xF3;gicos y $\mathcal{P}$ subbase para $Y$. Entonces
+          <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive"
+            style="padding:8px 16px 8px 16px;">
+            <p><strong>Teorema:</strong> Sean $X,Y$ espacios topológicos y $\mathcal{P}$ subbase para $Y$. Entonces
               $f:X\to
               Y$ es continua si y solamente si $f^{-1}(U)$ es abierto, para todo $U\in \mathcal{P}$.
             </p>
@@ -672,54 +537,56 @@
 
           <p> Observando que para funciones $f:X\to Y,\;g:Y\to Z$ se tiene que $f^{-1}(g^{-1}(A))=(g\circ f)^{-1}(A)$,
             se
-            obtiene que composici&#xF3;n de funciones continuas es continua.</p>
+            obtiene que composición de funciones continuas es continua.</p>
 
           <p>
-            Decimos que $f:X\to Y$ entre espacios topol&#xF3;gicos es <strong> continua en $x\in X$ </strong> si para
+            Decimos que $f:X\to Y$ entre espacios topológicos es <strong> continua en $x\in X$ </strong> si para
             cualquier
             $U\in \mathcal{I}(f(x))$ existe $V\in \mathcal{I}(x)$ tal que $f(V)\subset U$.</p>
 
 
-          <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive" style="padding:8px 16px 8px 16px;">
-            <p><strong>Lema:</strong> Una funci&#xF3;n $f:X\to Y$ es continua si, y solamente si es continua en todo $x\in
+          <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive"
+            style="padding:8px 16px 8px 16px;">
+            <p><strong>Lema:</strong> Una función $f:X\to Y$ es continua si, y solamente si es continua en todo $x\in
               X$.
             </p>
           </div>
 
 
-          <p>Un <strong> homeomorfismo </strong> es una funci&#xF3;n biyectiva continua $f:X\to Y$ con inversa continua
+          <p>Un <strong> homeomorfismo </strong> es una función biyectiva continua $f:X\to Y$ con inversa continua
             $g:Y\to
             X$. Dos espacios $X,Y$ se dicen <strong> homeomorfos</strong>
-            si existe un homeomorfismo entre ellos; la notaci&#xF3;n que se usar&#xE1; en estos casos es $X\cong Y$.</p>
+            si existe un homeomorfismo entre ellos; la notación que se usará en estos casos es $X\cong Y$.</p>
 
-          <p> Es inmediato observar que la relaci&#xF3;n de homeomorfismo $\cong$ es una relaci&#xF3;n de equivalencia pues
+          <p> Es inmediato observar que la relación de homeomorfismo $\cong$ es una relación de equivalencia pues
             $X\cong X$
-            debido a que la funci&#xF3;n identidad
+            debido a que la función identidad
             es siempre continua. Por otro lado, si $X\cong Y$ entonces $Y\cong X$ pues si $f:X\to Y$ es homeomorfismo,
-            su inversa $f^{-1}:Y\to X$ tambi&#xE9;n lo es. Finalmente, si $X\cong Y,\;Y\cong Z$ entonces $X\cong Z$ pues la
-            composici&#xF3;n de homeomorfismos es un homeomorfismo. De esto
-            se desprende que para un espacio $X$ la operaci&#xF3;n de composici&#xF3;n define el <strong> grupo de
+            su inversa $f^{-1}:Y\to X$ también lo es. Finalmente, si $X\cong Y,\;Y\cong Z$ entonces $X\cong Z$ pues la
+            composición de homeomorfismos es un homeomorfismo. De esto
+            se desprende que para un espacio $X$ la operación de composición define el <strong> grupo de
               homeomorfismos</strong>
-            ${\rm Top}(X)$ de $X$. Este grupo es de gran relevancia dentro de la Topolog&#xED;a de Bajas Dimensiones por lo
+            ${\rm Top}(X)$ de $X$. Este grupo es de gran relevancia dentro de la Topología de Bajas Dimensiones por lo
             que
-            aparecer&#xE1; en distintas ocasiones a lo largo
+            aparecerá en distintas ocasiones a lo largo
             del presente texto.</p>
 
 
-          <p> Debido a la importancia que tiene el concepto de homeomorfismo dentro de la Topolog&#xED;a daremos una
-            caracterizaci&#xF3;n de tales funciones.
-            Una funci&#xF3;n es <strong> abierta</strong> si $f(A)$ es abierto para todo $A\subset X$ abierto. Es <strong>
+          <p> Debido a la importancia que tiene el concepto de homeomorfismo dentro de la Topología daremos una
+            caracterización de tales funciones.
+            Una función es <strong> abierta</strong> si $f(A)$ es abierto para todo $A\subset X$ abierto. Es <strong>
               cerrada </strong> si $f(C)$ es cerrado para todo $C\subset X$ cerrado. </p>
 
 
-          <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive" style="padding:8px 16px 8px 16px;">
-            <p><strong>Lema:</strong> Para $f:X\to Y$ funci&#xF3;n continua las siguientes condiciones son equivalentes:
-              </p><ul>
+          <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive"
+            style="padding:8px 16px 8px 16px;">
+            <p><strong>Lema:</strong> Para $f:X\to Y$ función continua las siguientes condiciones son equivalentes:
+              <ul>
                 <li> $f$ es homeomorfismo </li>
                 <li> $f$ es cerrada y biyectiva </li>
                 <li> $f$ es abierta y biyectiva </li>
               </ul>
-            <p></p>
+            </p>
           </div>
 
 
@@ -729,46 +596,46 @@
 
 
 
-          <p> Llamamos <strong>propiedad topol&#xF3;gica</strong> de un espacio $X$ a aquella que se preserva bajo
+          <p> Llamamos <strong>propiedad topológica</strong> de un espacio $X$ a aquella que se preserva bajo
             homeomorfismos; es decir, aquella propiedad del espacio $X$ tal que cualquier otro espacio $Y\cong X$
-            tambi&#xE9;n la
-            tiene. Notemos que la cardinalidad de un espacio es una propiedad topol&#xF3;gica pues todo homeomorfismo es una
-            funci&#xF3;n biyectiva.
+            también la
+            tiene. Notemos que la cardinalidad de un espacio es una propiedad topológica pues todo homeomorfismo es una
+            función biyectiva.
           </p>
 
           <h3>Ejemplos:</h3>
           <ul>
-            <li> La funci&#xF3;n $\arctan:\mathbb{R}\to (-\pi/2,\pi/2)$ es claramente un
+            <li> La función $\arctan:\mathbb{R}\to (-\pi/2,\pi/2)$ es claramente un
               homeomorfismo
-              pues es continua y su inversa, la funci&#xF3;n tangente, es tambi&#xE9;n continua. En particular se obtiene que la
+              pues es continua y su inversa, la función tangente, es también continua. En particular se obtiene que la
               recta
               real es homeomorfa
-              al intervalo $(-\pi/2,\pi/2)$. De aqu&#xED; se obtiene que la propiedad de tener <strong> longitud infinita
+              al intervalo $(-\pi/2,\pi/2)$. De aquí se obtiene que la propiedad de tener <strong> longitud infinita
               </strong> no es una propiedad
-              topol&#xF3;gica.</li>
+              topológica.</li>
             <li> Para $D^n$ el disco unitario en $\mathbb{R}^n$ definamos $F:D^n\to \mathbb{R}^n$ como
               $F(x)=\frac{x}{1-|x|^2}$ y notemos que $|F(x)|\to \infty$
-              cuando $|x|\to 1$. La funci&#xF3;n $F$ es un homeomorfismo con inversa dada por
+              cuando $|x|\to 1$. La función $F$ es un homeomorfismo con inversa dada por
               $$
               y\longmapsto \frac{2y}{1+\sqrt{1+4|y|^2}}
               $$
-              As&#xED;, $D^n\cong \mathbb{R}^n$ mostrando que la propiedad de ser acotado no es una propiedad topol&#xF3;gica.
+              Así, $D^n\cong \mathbb{R}^n$ mostrando que la propiedad de ser acotado no es una propiedad topológica.
             </li>
             <li>Sea $S^n$ la esfera unitaria en $\mathbb{R}^n$ y consideremos
               $$
               C=\{(x,y,z)\in \mathbb{R}^3\barra \max(|x|,|y|,|z|)=1\}
               $$
-              el cubo centrado en el origen de lado de longitud $2$. Consideremos la funci&#xF3;n $\gamma:C\to S^2$ que
+              el cubo centrado en el origen de lado de longitud $2$. Consideremos la función $\gamma:C\to S^2$ que
               proyecta
-              cada punto de $C$ radialmente hacia la esfera; en f&#xF3;rmulas:
+              cada punto de $C$ radialmente hacia la esfera; en fórmulas:
               $$
               \gamma(x,y,z)=\frac{(x,y,z)}{\sqrt{x^2+y^2+z^2}}
               $$
-              La funci&#xF3;n $\gamma$ es un homeomorfismo con inversa:
+              La función $\gamma$ es un homeomorfismo con inversa:
               $$
               \gamma^{-1}(x,y,z)=\frac{(x,y,z)}{\max(|x|,|y|,|z|)}
               $$
-              Este ejemplo muestra que la propiedad de tener esquinas no es una propiedad topol&#xF3;gica. </li>
+              Este ejemplo muestra que la propiedad de tener esquinas no es una propiedad topológica. </li>
           </ul>
 
     </div>
@@ -778,29 +645,29 @@
   <section data-type="sect4" id="capitulo01_seccion4">
 
     <div class="w3-container w3-section">
-      <h2>1.4 Espacios m&#xE9;tricos</h2>
+      <h2>1.4 Espacios métricos</h2>
 
       <hr>
 
       <p>
-        Un <strong> espacio m&#xE9;trico </strong> es un conjunto $X$ dotado de una
-        funci&#xF3;n distancia $d:X\times X\to \mathbb{R}$ que satisface:
-        </p><ul>
-          <li>$d(x,y)\geq 0$ y $d(x,y)=0$ si y s&#xF3;lo si $x=y$.</li>
+        Un <strong> espacio métrico </strong> es un conjunto $X$ dotado de una
+        función distancia $d:X\times X\to \mathbb{R}$ que satisface:
+        <ul>
+          <li>$d(x,y)\geq 0$ y $d(x,y)=0$ si y sólo si $x=y$.</li>
           <li>$d(x,y)=d(y,x)$</li>
-          <li> <strong>Desigualdad del Tri&#xE1;ngulo</strong>: $d(x,y)\leq d(x,z)+d(z,y)$, para todo $x,y,z\in X$</li>
+          <li> <strong>Desigualdad del Triángulo</strong>: $d(x,y)\leq d(x,z)+d(z,y)$, para todo $x,y,z\in X$</li>
         </ul>
-      <p></p>
+      </p>
 
       <p>
-        </p><h3>Ejemplos:</h3>
+        <h3>Ejemplos:</h3>
         <ul>
-          <li>Para cualquier conjunto $X$ la funci&#xF3;n
+          <li>Para cualquier conjunto $X$ la función
             $$
-            d(x,y)=\begin{cases}0,&amp;x=y\\1,&amp;x\neq y \end{cases}
+            d(x,y)=\begin{cases}0,&x=y\\1,&x\neq y \end{cases}
             $$
-            define una funci&#xF3;n distancia en $X$.</li>
-          <li> La recta $\mathbb{R}$ es un espacio m&#xE9;trico con funci&#xF3;n distancia dada por $d(x,y)=|x-y|$. Para
+            define una función distancia en $X$.</li>
+          <li> La recta $\mathbb{R}$ es un espacio métrico con función distancia dada por $d(x,y)=|x-y|$. Para
             $\mathbb{R}^n$ se define:
             $$
             d(x,y)=\sqrt{(x_1-y_1)^2+(x_2-y_2)^2+\cdots +(x_n-y_n)^2}
@@ -810,79 +677,79 @@
             d(x,y)=\sqrt{|x_1-y_1|^2+|x_2-y_2|^2+\cdots +|x_n-y_n|^2},
             $$
             para $x,y\in \mathbb{C}^n$. </li>
-          <li> Sea $(X,d)$ espacio m&#xE9;trico y definamos
+          <li> Sea $(X,d)$ espacio métrico y definamos
             $$
             \overline{d}:X\times X \to \mathbb{R},\qquad \overline{d}(x,y)=min (1,d(x,y))
             $$
-            Esta funci&#xF3;n define una m&#xE9;trica en $X$ llamada
-            la <strong>m&#xE9;trica acotada</strong>; el t&#xE9;rmino <em>acotado</em> se debe a que $\overline{d}\leq 1$. </li>
-          <li> El espacio euclidiano tiene otras m&#xE9;tricas que resultan de utilidad en el An&#xE1;lisis
+            Esta función define una métrica en $X$ llamada
+            la <strong>métrica acotada</strong>; el término <em>acotado</em> se debe a que $\overline{d}\leq 1$. </li>
+          <li> El espacio euclidiano tiene otras métricas que resultan de utilidad en el Análisis
             $$
             d_1(x,y)=\sum_{i=1}^n |x_i-y_i|,\qquad d_\infty(x,y)=\max_{i} \{\:|x_i-y_i|\:\}
             $$
-            Estas m&#xE9;tricas se relacionan entre s&#xED; mediante:
+            Estas métricas se relacionan entre sí mediante:
             $$
             d_\infty(x,y)\leq d(x,y)\leq d_1(x,y)\leq n\; d_\infty(x,y).
             $$ </li>
         </ul>
-      <p></p>
+      </p>
 
-      <p> Dado un espacio m&#xE9;trico $X$ el conjunto
-        $$B_r(x)=\{y\in X \;|\; d(x,y)\lt r \}$$ es llamada la <strong> bola abierta </strong> de radio $r&gt;0$ con centro
+      <p> Dado un espacio métrico $X$ el conjunto
+        $$B_r(x)=\{y\in X \;|\; d(x,y)\lt r \}$$ es llamada la <strong> bola abierta </strong> de radio $r>0$ con centro
         en
-        $x$. El t&#xE9;rmino <em>bola</em> no es siempre
-        el m&#xE1;s adecuado debido a que $B_r(x)$ puede no ser algo esf&#xE9;rico, y su forma depender&#xE1; de la funci&#xF3;n
-        distancia que se est&#xE9; considerando.</p>
+        $x$. El término <em>bola</em> no es siempre
+        el más adecuado debido a que $B_r(x)$ puede no ser algo esférico, y su forma dependerá de la función
+        distancia que se esté considerando.</p>
 
 
 
-      <p> Con la noci&#xF3;n de bola abierta en un espacio m&#xE9;trico $X$ podemos defnir una topolog&#xED;a: decimos que $U\subset X$
+      <p> Con la noción de bola abierta en un espacio métrico $X$ podemos defnir una topología: decimos que $U\subset X$
         es abierto si
-        para todo $x\in U$ existe $r&gt;0$ tal que $B_r(x)\subseteq U$. Es inmediato de la definici&#xF3;n que la colecci&#xF3;n
+        para todo $x\in U$ existe $r>0$ tal que $B_r(x)\subseteq U$. Es inmediato de la definición que la colección
         $\tau=\{U\subset X \;|\; U\;\mbox{abierto}\}$
-        define una topolog&#xED;a en $X$, llamada la <strong> topolog&#xED;a m&#xE9;trica</strong> en $X$. Algunas cosas que podemos
-        decir usando esta definici&#xF3;n son:
+        define una topología en $X$, llamada la <strong> topología métrica</strong> en $X$. Algunas cosas que podemos
+        decir usando esta definición son:
       </p>
 
       <p>
-        </p><ul>
+        <ul>
           <li> Cualquier bola abierta es un subconjunto abierto.</li>
-          <li> Un subconjunto es abierto si, y solamente si, es uni&#xF3;n de bolas abiertas. As&#xED;, la colecci&#xF3;n de bolas
-            abiertas forma una base para la topolog&#xED;a m&#xE9;trica.</li>
+          <li> Un subconjunto es abierto si, y solamente si, es unión de bolas abiertas. Así, la colección de bolas
+            abiertas forma una base para la topología métrica.</li>
           <li> Un subconjunto $U$ es una vecindad de $x$ si y solo si contiene una bola abierta centrada en $x$.</li>
         </ul>
-      <p></p>
+      </p>
 
-      <p> La definici&#xF3;n cl&#xE1;sica de continuidad es compatible con la dada anteriormente en el contexto de la topolog&#xED;a
-        m&#xE9;trica:
-        la funci&#xF3;n $f:(X,d)\to (Y,h)$ entre espacios m&#xE9;tricos y $x\in X$ es continua
-        en $x$ si y solo si $\forall\epsilon 0\; \exists\delta&gt;0$ tal que $d(x,y)&lt;\delta$ implica que $h(f(x),f(y)) \lt
-          \epsilon$. </p> <p> Como mencionamos antes, es posible dar diferentes m&#xE9;tricas en un mismo conjunto. Con la
-          noci&#xF3;n de topolog&#xED;a inducida
-          por una m&#xE9;trica surge una pregunta natural: &#xBF;c&#xF3;mo se comparan las topolog&#xED;as inducidas por dos m&#xE9;tricas? El
+      <p> La definición clásica de continuidad es compatible con la dada anteriormente en el contexto de la topología
+        métrica:
+        la función $f:(X,d)\to (Y,h)$ entre espacios métricos y $x\in X$ es continua
+        en $x$ si y solo si $\forall\epsilon 0\; \exists\delta>0$ tal que $d(x,y)<\delta$ implica que $h(f(x),f(y)) \lt
+          \epsilon$. </p> <p> Como mencionamos antes, es posible dar diferentes métricas en un mismo conjunto. Con la
+          noción de topología inducida
+          por una métrica surge una pregunta natural: ¿cómo se comparan las topologías inducidas por dos métricas? El
           siguiente
-          resultado indica c&#xF3;mo hacerlo en t&#xE9;rminos de los valores que toman las m&#xE9;tricas.
+          resultado indica cómo hacerlo en términos de los valores que toman las métricas.
       </p>
 
       <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive" style="padding:8px 16px 8px 16px;">
-        <p><strong>Lema:</strong> Para $d,h$ m&#xE9;tricas en $X$, la topolog&#xED;a inducida por $d$ es m&#xE1;s fina que la
+        <p><strong>Lema:</strong> Para $d,h$ métricas en $X$, la topología inducida por $d$ es más fina que la
           inducida
-          por $h$ s&#xED;, y solo s&#xED;, para todo $x\in X\;\forall\epsilon&gt;0$ existe $\delta$ tal que $d(x,y)\lt \delta$ implica
+          por $h$ sí, y solo sí, para todo $x\in X\;\forall\epsilon>0$ existe $\delta$ tal que $d(x,y)\lt \delta$ implica
             que $h(x,y)\lt\epsilon$.</p> 
       </div> 
       
       <p> 
-        Dos m&#xE9;tricas en un conjunto $X$ son llamadas <strong>equivalentes</strong> si ambas inducen la misma
-        topolog&#xED;a m&#xE9;trica en $X.$ Por ejemplo, las topolog&#xED;as inducidas por $d,\overline{d}$ son las mismas por lo
-        que son m&#xE9;tricas equivalentes.</p>
+        Dos métricas en un conjunto $X$ son llamadas <strong>equivalentes</strong> si ambas inducen la misma
+        topología métrica en $X.$ Por ejemplo, las topologías inducidas por $d,\overline{d}$ son las mismas por lo
+        que son métricas equivalentes.</p>
 
-        <p> Un espacio topol&#xF3;gico $X$ es llamado <strong> metrizable</strong> si su topolog&#xED;a est&#xE1; inducida por cierta
-          m&#xE9;trica en $X$. Ser metrizable es una propiedad deseable en un espacio debido a que la presencia de una
-          m&#xE9;trica hace al
-          espacio m&#xE1;s manejable; as&#xED;, se buscar&#xE1; hallar condiciones bajo las cuales un espacio es metrizable como el
+        <p> Un espacio topológico $X$ es llamado <strong> metrizable</strong> si su topología está inducida por cierta
+          métrica en $X$. Ser metrizable es una propiedad deseable en un espacio debido a que la presencia de una
+          métrica hace al
+          espacio más manejable; así, se buscará hallar condiciones bajo las cuales un espacio es metrizable como el
           <strong> Lema de Urysohn</strong>: todo espacio normal y 2do numerable es metrizable. </p>
       
-  </div></section>
+  </section>
 
   <section data-type="sect5" id="capitulo01_seccion5">
 
@@ -891,147 +758,147 @@
 
       <hr>
 
-      <p>Debido a que muchos objetos de inter&#xE9;s dentro de la Topolog&#xED;a
-        son subconjuntos de alg&#xFA;n espacio euclidiano $\mathbb{R}^n$ es
-        preciso definir cuando una topolog&#xED;a es heredada a un subconjunto, lo cual haremos a continuaci&#xF3;n.</p>
+      <p>Debido a que muchos objetos de interés dentro de la Topología
+        son subconjuntos de algún espacio euclidiano $\mathbb{R}^n$ es
+        preciso definir cuando una topología es heredada a un subconjunto, lo cual haremos a continuación.</p>
 
-      <p> Para $X$ espacios topol&#xF3;gico y $Y\subset X$ subconjunto decimos que $U\subset Y$ es
+      <p> Para $X$ espacios topológico y $Y\subset X$ subconjunto decimos que $U\subset Y$ es
         <strong>abierto en $Y$</strong> si existe $V\subset X$ abierto tal que $U=Y\cap V$. Es inmediato observar que
-        la colecci&#xF3;n de abiertos en $Y$ es una topolog&#xED;a, la cual denotaremos por $\tau_Y$ y la llamaremos
-        <strong>topolog&#xED;a relativa</strong> o
-        la <strong>topolog&#xED;a del subespacio $Y$</strong>.</p>
+        la colección de abiertos en $Y$ es una topología, la cual denotaremos por $\tau_Y$ y la llamaremos
+        <strong>topología relativa</strong> o
+        la <strong>topología del subespacio $Y$</strong>.</p>
 
-      <p> Al igual que antes, la topolog&#xED;a relativa tambi&#xE9;n puede describirse en t&#xE9;rminos de cerrados: $C\subset Y$ es
+      <p> Al igual que antes, la topología relativa también puede describirse en términos de cerrados: $C\subset Y$ es
         <strong>cerrado en $Y$</strong>
-        si existe $V\subset X$ cerrado tal que $C=Y\cap V$. Directo de la definici&#xF3;n se tienen las siguientes
+        si existe $V\subset X$ cerrado tal que $C=Y\cap V$. Directo de la definición se tienen las siguientes
         propiedades: 
 
-        </p><ul>
+        <ul>
           <li>Si $\mathcal{B}$ es una base para $X$, entonces $\mathcal{B}_Y=\{B\cap Y\;|\; B\in \mathcal{B}\}$ es una
             base para $\tau_Y$.</li>
-          <li>La topolog&#xED;a relativa es la m&#xE1;s peque&#xF1;a (m&#xE1;s gruesa) que hace a la funci&#xF3;n inclusi&#xF3;n $i:Y\to X$ continua
+          <li>La topología relativa es la más pequeña (más gruesa) que hace a la función inclusión $i:Y\to X$ continua
             pues para cada
             abierto $A$ de $X$ se tiene que $i^{-1}(A)=Y\cap A$.$\blacktriangleleft$</li>
         </ul>
-      <p></p>
+      </p>
 
       <h3>Ejemplos:</h3>
       <p>
         
-            </p><ul>
+            <ul>
               <li>Sea $n\geq 1$ y consideremos el subsespacio $S^{n-1}\subset \mathbb{R}^n$ dado por los vectores de
                 norma
                 $1$. Observemos
                 que $S^0=\{+1,-1\}\subset \mathbb{R}$. Al considerar bolas abiertas en $\mathbb{R}^2$ y tomando la
-                intersecci&#xF3;n
+                intersección
                 con $S^1$ se obtiene que los abiertos para $S^1$ son segmentos curvos abiertos. </li>
               <li> Tomemos el cilindro $C=S^1\times [0,1]\subset \mathbb{R}^3$ y observemos que sus abiertos son discos
                 ligeramente curveados obtenidos al intersectar bolas abiertas de $\mathbb{R}^3$ con $C$. </li>
-              <li>Si $(X,d)$ es espacio m&#xE9;trico y $Y\subset X$, entonces la restricci&#xF3;n $d_Y$ induce una estructura de
-                espacio m&#xE9;trico en $Y$. Adem&#xE1;s, la topolog&#xED;a m&#xE9;trica inducida por $d_Y$ en $Y$ coincide con la topolog&#xED;a
+              <li>Si $(X,d)$ es espacio métrico y $Y\subset X$, entonces la restricción $d_Y$ induce una estructura de
+                espacio métrico en $Y$. Además, la topología métrica inducida por $d_Y$ en $Y$ coincide con la topología
                 de
                 $Y$
-                como subespacio, la raz&#xF3;n: toda bola abierta en $Y$ es la intesecci&#xF3;n de una bola abierta de $X$
+                como subespacio, la razón: toda bola abierta en $Y$ es la intesección de una bola abierta de $X$
                 intersectada con $Y$.</li>
             </ul>
-      <p></p>
+      </p>
 
-      <p> Decimos que un subespacio $Y$ de $X$ es <strong>discreto</strong> si su topolog&#xED;a relativa es la discreta. En
+      <p> Decimos que un subespacio $Y$ de $X$ es <strong>discreto</strong> si su topología relativa es la discreta. En
         otros
-        t&#xE9;rminos: $Y\subset X$ es discreto si y s&#xF3;lo si para $y\in Y$ existe abierto $U\subset X$ tal que $U\cap
+        términos: $Y\subset X$ es discreto si y sólo si para $y\in Y$ existe abierto $U\subset X$ tal que $U\cap
         Y=\{y\}$. </p>
 
       <h3>Ejemplos:</h3>
       <p>
         
-        </p><ul>
-          <li>Los n&#xFA;meros enteros $\mathbb{Z}$ son un subespacio discreto de $\mathbb{R}$.
+        <ul>
+          <li>Los números enteros $\mathbb{Z}$ son un subespacio discreto de $\mathbb{R}$.
             Los racionales $\mathbb{Q}$ no lo son debido a que son densos en $\mathbb{R}$.</li>
           <li>Tomemos el subconjunto discreto $C=\{1/n\;|\; n\in N \}\subset \mathbb{R}$ y notemos
-            que $\overline{C}=C\cup \{0\}$, que no es discreto. As&#xED;, la cerradura de un discreto no necesariamente es
+            que $\overline{C}=C\cup \{0\}$, que no es discreto. Así, la cerradura de un discreto no necesariamente es
             discreto.$\blacktriangleleft$</li>
         </ul>
-      <p></p>
+      </p>
 
-      <p> Consideremos $X,Y$ espacios topol&#xF3;gicos y $Z$ subconjuntos tales que $Z\subset Y\subset X$. Observemos que:
-        </p><ul>
-          <li>Si $Y$ es abierto, entonces $Z$ abierto en $Y$ s&#xED; y s&#xF3;lo si $Z$ abierto en $X$.</li>
-          <li>Si $Y$ es cerrado, entonces $Z$ cerrado en $Y$ s&#xED; y s&#xF3;lo si $Z$ cerrado en $X$.</li>
+      <p> Consideremos $X,Y$ espacios topológicos y $Z$ subconjuntos tales que $Z\subset Y\subset X$. Observemos que:
+        <ul>
+          <li>Si $Y$ es abierto, entonces $Z$ abierto en $Y$ sí y sólo si $Z$ abierto en $X$.</li>
+          <li>Si $Y$ es cerrado, entonces $Z$ cerrado en $Y$ sí y sólo si $Z$ cerrado en $X$.</li>
         </ul>
-      <p></p>
+      </p>
 
-      <p>El siguiente resultado es de gran importancia cuando se estudian invariantes topol&#xF3;gicos de espacios,
-        pues si dos espacios son homeomorfos, tambi&#xE9;n lo ser&#xE1;n los espacios que resultan al eliminar un punto de cada
+      <p>El siguiente resultado es de gran importancia cuando se estudian invariantes topológicos de espacios,
+        pues si dos espacios son homeomorfos, también lo serán los espacios que resultan al eliminar un punto de cada
         uno de ellos.</p>
 
       <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive" style="padding:8px 16px 8px 16px;">
-        <p><strong>Proposici&#xF3;n:</strong> Si $f:X\to Y$ es homeomorfismo, entonces $f$ induce un homeomorfismo de la
+        <p><strong>Proposición:</strong> Si $f:X\to Y$ es homeomorfismo, entonces $f$ induce un homeomorfismo de la
           forma $X\backslash\{x\}\cong Y\backslash \{f(x)\}$.</p>
       </div>
 
 
-      <p> Supongamos que $f:X\to Y$ es funci&#xF3;n continua e inyectiva y tomemos $Z=f(X)$,
-        la imagen de $f$; notemos que la funci&#xF3;n inducida $f&apos;:X\to Z$ es claramente biyectiva. Si $f&apos;$ resulta un
+      <p> Supongamos que $f:X\to Y$ es función continua e inyectiva y tomemos $Z=f(X)$,
+        la imagen de $f$; notemos que la función inducida $f':X\to Z$ es claramente biyectiva. Si $f'$ resulta un
         homeomorfismo, entonces
-        $f$ se llama una <strong> inmersi&#xF3;n</strong>. Equivalentemente, $f$ es una inmersi&#xF3;n si todo abierto $U\subseteq
+        $f$ se llama una <strong> inmersión</strong>. Equivalentemente, $f$ es una inmersión si todo abierto $U\subseteq
         X$ tiene
-        la forma $f^{-1}(A)$, para alg&#xFA;n abierto $A\subseteq Y$. En general no toda funci&#xF3;n inyectiva y continua es una
-        inmersi&#xF3;n: tomemos
-        la funci&#xF3;n identidad $id:(\mathbb{R},\tau)\to (\mathbb{R}, \tau_{\text{trivial}})$ y observemos que es continua,
-        inyectiva pero no inmersi&#xF3;n
-        debido a los abiertos de las topolog&#xED;as propuestas.</p>
+        la forma $f^{-1}(A)$, para algún abierto $A\subseteq Y$. En general no toda función inyectiva y continua es una
+        inmersión: tomemos
+        la función identidad $id:(\mathbb{R},\tau)\to (\mathbb{R}, \tau_{\text{trivial}})$ y observemos que es continua,
+        inyectiva pero no inmersión
+        debido a los abiertos de las topologías propuestas.</p>
 
       <!-- ctl=play button; sfsb=fullscreen button-->
       <div style="display:block;display:block;margin-left:auto;margin-right:auto" id="ggb-element-Klein"></div>
 
-      <p> A continuaci&#xF3;n presentamos un resultado que permite obtener una funci&#xF3;n continua apartir de dos funciones
+      <p> A continuación presentamos un resultado que permite obtener una función continua apartir de dos funciones
         continuas dadas:</p>
 
       <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive" style="padding:8px 16px 8px 16px;">
-        <p><strong>Lema (del Pegado):</strong> Sean $F,F&apos;\subset X$ cerrados y $f:F\to Y,\;f&apos;:F&apos;\to Y$ funciones
+        <p><strong>Lema (del Pegado):</strong> Sean $F,F'\subset X$ cerrados y $f:F\to Y,\;f':F'\to Y$ funciones
           continuas
-          cuyas restricciones a $F\cap F&apos;$ coinciden. Entonces la funci&#xF3;n $h:F\cup F&apos;\to Y$ dada por.
+          cuyas restricciones a $F\cap F'$ coinciden. Entonces la función $h:F\cup F'\to Y$ dada por.
           $$
-          h(x)=\begin{cases} f(x),&amp;x\in F\\f&apos;(x),&amp;x\in F&apos; \end{cases}
+          h(x)=\begin{cases} f(x),&x\in F\\f'(x),&x\in F' \end{cases}
           $$
           es continua.</p>
       </div>
 
-      <p>Cabe destacar que en el resultado anterior es posible sustituir la propiedad de los subespacios $F,F&apos;$ de ser
-        cerrados por la de ser abiertos, de hecho esta es la forma mas com&#xFA;n de presentar este resultado. </p>
+      <p>Cabe destacar que en el resultado anterior es posible sustituir la propiedad de los subespacios $F,F'$ de ser
+        cerrados por la de ser abiertos, de hecho esta es la forma mas común de presentar este resultado. </p>
 
-      <p>Una <strong> inmersi&#xF3;n cerrada</strong> es una inmersi&#xF3;n que tambi&#xE9;n es una funci&#xF3;n cerrada.
-        De manera an&#xE1;loga se define una <strong> inmersi&#xF3;n abierta</strong>.</p>
+      <p>Una <strong> inmersión cerrada</strong> es una inmersión que también es una función cerrada.
+        De manera análoga se define una <strong> inmersión abierta</strong>.</p>
 
       <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive" style="padding:8px 16px 8px 16px;">
-        <p><strong>Lema:</strong> Sea $f:X\to Y$ continua. Si $f$ es cerrada y biyectiva entonces $f$ es inmersi&#xF3;n
+        <p><strong>Lema:</strong> Sea $f:X\to Y$ continua. Si $f$ es cerrada y biyectiva entonces $f$ es inmersión
           cerrada.</p>
       </div>
 
-      <p>Al igual que antes, el resultado anterior tambi&#xE9;n es v&#xE1;lido sustituyendo la propiedad de ser una funci&#xF3;n
-        cerrada por la de ser abierta. Existen inmersiones que no son funciones cerradas, ni abiertas. M&#xE1;s a&#xFA;n, una
-        inmersi&#xF3;n $f:X\to Y$ es cerrada (abierta) s&#xED; y s&#xF3;lo si
+      <p>Al igual que antes, el resultado anterior también es válido sustituyendo la propiedad de ser una función
+        cerrada por la de ser abierta. Existen inmersiones que no son funciones cerradas, ni abiertas. Más aún, una
+        inmersión $f:X\to Y$ es cerrada (abierta) sí y sólo si
         $f(X)$ es cerrado (abierto) en $Y$.</p>
 
 
-      <p> Concluimos esta secci&#xF3;n definiendo una topolog&#xED;a en el producto cartesiano $X\times Y$ de dos espacios
-        topol&#xF3;gicos;
-        la definici&#xF3;n ser&#xE1; tal que las
+      <p> Concluimos esta sección definiendo una topología en el producto cartesiano $X\times Y$ de dos espacios
+        topológicos;
+        la definición será tal que las
         proyecciones
         $$\begin{cases}
-        p_X:X\times Y\ra X,&amp;(x,y)\mapsto x\\
-        p_Y:X\times Y\ra Y,&amp;(x,y)\mapsto y
+        p_X:X\times Y\ra X,&(x,y)\mapsto x\\
+        p_Y:X\times Y\ra Y,&(x,y)\mapsto y
         \end{cases}$$
-        ser&#xE1;n funciones continuas.</p>
+        serán funciones continuas.</p>
 
-      <p> Definimos la <strong> topolog&#xED;a producto</strong> en $X\times Y$ como la topolog&#xED;a que tiene por base
+      <p> Definimos la <strong> topología producto</strong> en $X\times Y$ como la topología que tiene por base
         $$\mathcal{B}=\{U\times V\;|\; U\subset X,\;V\subset Y\;\mbox{abiertos} \}$$
-        Esta colecci&#xF3;n es llamada la <strong>base can&#xF3;nica </strong> de la
-        topolog&#xED;a producto. </p>
+        Esta colección es llamada la <strong>base canónica </strong> de la
+        topología producto. </p>
 
 
       <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive" style="padding:8px 16px 8px 16px;">
-        <p><strong>Lema:</strong> Las proyecciones $p_X,p_Y$ son funciones abiertas. Adem&#xE1;s, para cada $(x,y)\in X\times
+        <p><strong>Lema:</strong> Las proyecciones $p_X,p_Y$ son funciones abiertas. Además, para cada $(x,y)\in X\times
           Y$ las restricciones
           $$
           p_y:X\times \{y\}\to X,\qquad p_x:\{x\}\times Y\to Y,
@@ -1039,36 +906,36 @@
           son homeomorfismos.</p>
       </div>
 
-      <br>
-      <br>
+      <br />
+      <br />
 
       <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive" style="padding:8px 16px 8px 16px;">
-        <p><strong>Lema:</strong> Una funci&#xF3;n $f:Z\to X\times Y$ es continua s&#xED; solo si sus componentes
+        <p><strong>Lema:</strong> Una función $f:Z\to X\times Y$ es continua sí solo si sus componentes
           $$
           f_1=p_X\circ f:Z\to X,\;\;\; f_2=p_Y\circ f:Z\to Y,
           $$
           son continuas.</p>
       </div>
 
-      <p> Mediante inducci&#xF3;n es posible dotar al producto cartesiano finito $X_1\times \cdots \times X_n$ de la
-        topolog&#xED;a producto,
-        definida como aquella que tiene por base a la colecci&#xF3;n $\mathcal{B}=\{U_1\times \cdots \times U_n \;|\;
+      <p> Mediante inducción es posible dotar al producto cartesiano finito $X_1\times \cdots \times X_n$ de la
+        topología producto,
+        definida como aquella que tiene por base a la colección $\mathcal{B}=\{U_1\times \cdots \times U_n \;|\;
         U_i\subset X_i,\; \mbox{abierto}\}$.
-        Al igual que antes, una funci&#xF3;n $f:Z\to X_1\times \cdots \times X_n$ es continua s&#xED; y s&#xF3;lo si cada componente
+        Al igual que antes, una función $f:Z\to X_1\times \cdots \times X_n$ es continua sí y sólo si cada componente
         $f_i=p_{X_i}\circ f$ es continua. </p>
 
 
-      <p> Observemos que con la definici&#xF3;n anterior, la topolog&#xED;a euclidiana en $\mathbb{R}^n$ coincide con la topolog&#xED;a
+      <p> Observemos que con la definición anterior, la topología euclidiana en $\mathbb{R}^n$ coincide con la topología
         producto para
         $\mathbb{R}\times\cdots \times \mathbb{R}$ (n veces).
-        As&#xED;, como se ve en cursos de c&#xE1;lculo, una funci&#xF3;n $f:Z\to \mathbb{R}^n$ es continua si y s&#xF3;lo si cada una de sus
+        Así, como se ve en cursos de cálculo, una función $f:Z\to \mathbb{R}^n$ es continua si y sólo si cada una de sus
         funciones componentes es continua.</p>
 
-      <p> Es posible extender la noci&#xF3;n de topolog&#xED;a producto a una cantidad infinita de espacios generalizando el caso
+      <p> Es posible extender la noción de topología producto a una cantidad infinita de espacios generalizando el caso
         anterior. De manera natural surgen dos opciones
-        para hacerlo: con la <strong> topolog&#xED;a de caja (box topology)</strong> y la <strong>topolog&#xED;a
+        para hacerlo: con la <strong> topología de caja (box topology)</strong> y la <strong>topología
           producto</strong>. Existen algunas sutiles diferencias en ambas definiciones
-        pero al final, debido a algunos ejemplos sencillos, se prefiere la topolog&#xED;a producto sobre la topolog&#xED;a de
+        pero al final, debido a algunos ejemplos sencillos, se prefiere la topología producto sobre la topología de
         caja. </p>
 
 
@@ -1087,44 +954,44 @@
 
       <p>Observemos que para cualesquiera dos
         puntos distintos de $\mathbb{R}^n$ siempre es
-        posible hallar vecindades para cada uno de ellos que sean disjuntas. Esta propiedad est&#xE1; relacionada con la
+        posible hallar vecindades para cada uno de ellos que sean disjuntas. Esta propiedad está relacionada con la
         cantidad de abiertos
-        que tiene $\mathbb{R}^n$ y tiene como consecuencia, entre otras tantas, como que el l&#xED;mite de una sucesi&#xF3;n es
-        &#xFA;nico; por esta raz&#xF3;n se busca determinar
+        que tiene $\mathbb{R}^n$ y tiene como consecuencia, entre otras tantas, como que el límite de una sucesión es
+        único; por esta razón se busca determinar
         si un espacio tiene esta propiedad o no. Sin embargo, no es un propiedad que tengan todos los espacios:</p>
 
         
       <h4>Ejemplo</h4>
           <ul>
-            <li> Tomemos el conjunto $X=\{1,2,3\}$ con topolog&#xED;a $\tau=\{\emptyset, \{1\},
+            <li> Tomemos el conjunto $X=\{1,2,3\}$ con topología $\tau=\{\emptyset, \{1\},
               \{2,3\},X\}$. Observemos que los puntos $2,3$ no tienen vecindades ajenas; de hecho,
-              todo abierto que contiene a uno contiene al otro tambi&#xE9;n. M&#xE1;s aun, el elemento $\{2\}$ no es cerrado, a
-              diferencia de lo que ocurre en la topolog&#xED;a euclidiana. </li>
+              todo abierto que contiene a uno contiene al otro también. Más aun, el elemento $\{2\}$ no es cerrado, a
+              diferencia de lo que ocurre en la topología euclidiana. </li>
           </ul>
 
           <p>Un espacio $X$ es
-            <strong>de Hausdorff</strong> &#xF3; <strong>$T_2$ </strong> si para cualesquiera $x\neq y\in X$ existen
+            <strong>de Hausdorff</strong> ó <strong>$T_2$ </strong> si para cualesquiera $x\neq y\in X$ existen
             vecindades $U\in \mathcal{I}(x), V\in \mathcal{I}(y)$ tales que $U\cap V=\emptyset$.</p>
 
           <h4>Ejemplos:</h4>
           <ul>
-            <li> Un conjunto con al menos dos elementos y dotado de la topolog&#xED;a trivial no es Hausdorff. Cualquier
-              espacio m&#xE9;trico es Hausdorff: $\forall x,y\in X$ tomamos $r$ con $0\lt r \lt d(x,y)/2$ y notamos que
+            <li> Un conjunto con al menos dos elementos y dotado de la topología trivial no es Hausdorff. Cualquier
+              espacio métrico es Hausdorff: $\forall x,y\in X$ tomamos $r$ con $0\lt r \lt d(x,y)/2$ y notamos que
               $B_r(x)\cap
               B_r(y)=\emptyset$.</li>
-            <li> La recta real $\mathbb{R}$ con la topolog&#xED;a cofinita no es un espacio
+            <li> La recta real $\mathbb{R}$ con la topología cofinita no es un espacio
               Hausdorff.</li>
-            <li> Recordemos que para $x_0\in X$ la colecci&#xF3;n
+            <li> Recordemos que para $x_0\in X$ la colección
               $$
-              \tau=\{A\subset X \;|\; x_0\notin A\;\mbox{&#xF3;}\: X\backslash A\:\mbox{finito}\;\}
+              \tau=\{A\subset X \;|\; x_0\notin A\;\mbox{ó}\: X\backslash A\:\mbox{finito}\;\}
               $$
-              forma la Topolog&#xED;a de Fort para $X$; con esta topolog&#xED;a $X$ es Hausdorff.$\blacktriangleleft$</li>
+              forma la Topología de Fort para $X$; con esta topología $X$ es Hausdorff.$\blacktriangleleft$</li>
           </ul>
           
           <p> Consideremos $X$ espacio Hausdorff y $x\in X$. Para $y\in X\backslash\{x\}$ consideremos vecindades $U\in
-            \mathcal{I}(x), V\in \mathcal{I}(y)$ tales que $U\cap V=\emptyset$. De aqu&#xED; se
+            \mathcal{I}(x), V\in \mathcal{I}(y)$ tales que $U\cap V=\emptyset$. De aquí se
             sigue que $V\subset X\backslash \{x\}$ y por lo tanto $X\backslash \{x\}$ es abierto y por tanto $\{x\}$ es
-            cerrado; m&#xE1;s aun, todo subconjunto finito de $X$ es cerrado.</p>
+            cerrado; más aun, todo subconjunto finito de $X$ es cerrado.</p>
 
           <p> Sean $X,Y$ espacios Hausdorff y $W\subset X$. Tomemos $x,y\in W$ y como $X$ es Hausdorff existen abiertos
             $U,V$ tales que
@@ -1133,14 +1000,15 @@
             $$
             Observemos que $U\cap W, V\cap W$ son abiertos en $W$ que muestran que $W$ es Hausdorff. Por otro lado
             tomemos
-            $(x,y),(z,w)\in X\times Y$ con $z\neq x$. Por hip&#xF3;tesis existen abiertos
-            $U,V$ tales que $x\in U,z\in V$. De aqu&#xED; que $(x,y)\in U\times Y, (z,w)\in V\times Y$, donde se tiene
+            $(x,y),(z,w)\in X\times Y$ con $z\neq x$. Por hipótesis existen abiertos
+            $U,V$ tales que $x\in U,z\in V$. De aquí que $(x,y)\in U\times Y, (z,w)\in V\times Y$, donde se tiene
             $$
             (U\times Y)\cap(V\times Y) =(U\cap V)\times Y=\emptyset
             $$
-            que muestra que $X\times Y$ es tambi&#xE9;n un espacio Hausdorff.</p>
+            que muestra que $X\times Y$ es también un espacio Hausdorff.</p>
 
-          <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive" style="padding:8px 16px 8px 16px;">
+          <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive"
+            style="padding:8px 16px 8px 16px;">
             <p><strong>Lema:</strong> Sean $X$ Hausdorff y $x_1,x_2,\ldots, x_n$ puntos distintos de $X$. Entonces
               existe
               una cantidad finita de abiertos $U_1,U_2,\ldots, U_n$ tales que
@@ -1149,16 +1017,17 @@
               $$</p>
           </div>
 
-          <p> Para $X$ espacio topol&#xF3;gico definimos su subespacio <strong>diagonal</strong> como
+          <p> Para $X$ espacio topológico definimos su subespacio <strong>diagonal</strong> como
             $$
             \triangle_X=\{(x,x)\in X\times X\;|\; x\in X\}
             $$
-            Como veremos a continuaci&#xF3;n el subespacio $\triangle_X$ es de gran importancia para la propiedad de ser
+            Como veremos a continuación el subespacio $\triangle_X$ es de gran importancia para la propiedad de ser
             Hausdorff. </p>
 
 
-          <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive" style="padding:8px 16px 8px 16px;">
-            <p><strong>Lema:</strong> Un espacio $X$ es Hausdorff s&#xED; y s&#xF3;lo si $\triangle_X\subset X\times X$ es
+          <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive"
+            style="padding:8px 16px 8px 16px;">
+            <p><strong>Lema:</strong> Un espacio $X$ es Hausdorff sí y sólo si $\triangle_X\subset X\times X$ es
               cerrado.
             </p>
           </div>
@@ -1168,36 +1037,37 @@
             $$
             F(X,2):=(X\times X)\baca \triangle_X
             $$
-            es abierto si $X$ es Hausdorff. Dicho espacio parametriza a dos puntos movi&#xE9;ndose en $X$ sin colisionar. De
+            es abierto si $X$ es Hausdorff. Dicho espacio parametriza a dos puntos moviéndose en $X$ sin colisionar. De
             manera similar puede definirse el
-            espacio $F(X,k)$, llamado el <strong>$k$-&#xE9;simo espacio de configuraci&#xF3;n</strong> de $X$; el espacio $F(X,k)$
+            espacio $F(X,k)$, llamado el <strong>$k$-ésimo espacio de configuración</strong> de $X$; el espacio $F(X,k)$
             es
             un punto de encuentro
-            entre diversas &#xE1;reas de trabajo de las matem&#xE1;ticas modernas: grupos de trenzas, geometr&#xED;a combinatoria,
+            entre diversas áreas de trabajo de las matemáticas modernas: grupos de trenzas, geometría combinatoria,
             espacios
-            de funciones y topolog&#xED;a rob&#xF3;tica, por citar algunas.$\blacktriangleleft$</p>
+            de funciones y topología robótica, por citar algunas.$\blacktriangleleft$</p>
 
 
-          <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive" style="padding:8px 16px 8px 16px;">
+          <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive"
+            style="padding:8px 16px 8px 16px;">
             <p><strong>Lema:</strong> Si $f,g:X\to Y$ son funciones continuas, con $Y$ Hausdorff, entonces el conjunto
               $$C=\{x\in X \;|\; f(x)=g(x)\}$$ es cerrado de $X$.</p>
           </div>
 
-          <p> Sea $f:X\to X$ funci&#xF3;n continua. Decimos que $x_0\in X$ es un <strong>punto fijo de $f$</strong> si
+          <p> Sea $f:X\to X$ función continua. Decimos que $x_0\in X$ es un <strong>punto fijo de $f$</strong> si
             $f(x_0)=x_0$. Por el resultado anterior,
-            si $X$ es Hausdorff, el conjunto de puntos fijos de una funci&#xF3;n continua $f:X\to X$ es cerrado al tomar
+            si $X$ es Hausdorff, el conjunto de puntos fijos de una función continua $f:X\to X$ es cerrado al tomar
             $g=id,\;Y=X$.</p>
 
 
-          <p>Decimos que un espacio topol&#xF3;gico $X$ tiene la <strong>propiedad del punto fijo</strong> si toda funci&#xF3;n
+          <p>Decimos que un espacio topológico $X$ tiene la <strong>propiedad del punto fijo</strong> si toda función
             continua $f:X\to X$ tiene al menos un punto fijo. Esta propiedad es importante
-            pues si cierto espacio la tiene, entonces cualquier otro espacio homeomorfo a &#xE9;l tambi&#xE9;n la tiene; es decir,
+            pues si cierto espacio la tiene, entonces cualquier otro espacio homeomorfo a él también la tiene; es decir,
             es
-            una propiedad topol&#xF3;gica.</p>
+            una propiedad topológica.</p>
 
-          <p>La <strong>Teor&#xED;a del Punto Fijo</strong> es una rama de la Topolog&#xED;a dedicada a determinar las condiciones
-            bajo las cuales un espacio tiene la propiedad del punto fijo, as&#xED; como las impliaciones
-            de tal propiedad. Esta rama tiene aplicaciones en Econom&#xED;a y Teor&#xED;a de Juegos, por citar algunos ejemplos.
+          <p>La <strong>Teoría del Punto Fijo</strong> es una rama de la Topología dedicada a determinar las condiciones
+            bajo las cuales un espacio tiene la propiedad del punto fijo, así como las impliaciones
+            de tal propiedad. Esta rama tiene aplicaciones en Economía y Teoría de Juegos, por citar algunos ejemplos.
           </p>
 
 
@@ -1225,24 +1095,3 @@
   });
 </script>
 <!--GeoGebra embeding ends-->
-      </div>
-    </div>
-    <!--Footer-->
-
-    <div class="w3-container w3-dark-grey w3-center">
-      <p><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License"
-            style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a></p>
-    </div>
-
-    <!--Footer-->
-
-    <!--Script to open and close sidebar-->
-
-
-
-  </div>
-
-
-</body>
-
-</html>
