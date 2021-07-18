@@ -115,6 +115,9 @@
         <dd><a href="capitulo-01.html#capitulo01_seccion5" class="w3-bar-item w3-button">Subespacios y productos</a>
         </dd>
         <dd><a href="capitulo-01.html#capitulo01_seccion6" class="w3-bar-item w3-button">Espacios de Hausdorff</a></dd>
+      
+        <dt><a href="capitulo-02.html" onclick="w3_close()" class="w3-bar-item w3-button"><strong>Conexidad y compacidad</strong></a></dt>
+      
       </dl>
     </div>
 
@@ -372,7 +375,7 @@
         [0,1]=(\alpha^{-1}(A))\bigcup (\alpha^{-1}(B))
         $$
         Dado que $[0,1]$ que es conexo existe $t\in [0,1]$ con
-        $t\in \alpha^{-1}(A)\cap \alpha^{-1}(B)$; de aqu\&apos;{i} que
+        $t\in \alpha^{-1}(A)\cap \alpha^{-1}(B)$; de aqu&#xED; que
         $\alpha(t)\in A\cap B$ por lo que no existe separaci&#xF3;n para $X$.$\findem$
       </p>
 
@@ -700,35 +703,35 @@
         H:X\times I\lra Y
         $$
         tal que $H(x,0)=f(x),\;H(x,1)=g(x),\forall x\in X$.
-        La funci&#xF3;n $H$ es llamada una \res{homotop\&apos;{i}a}
+        La funci&#xF3;n $H$ es llamada una \res{homotop&#xED;a}
         entre $f$ y $g$ y se usa la notaci&#xF3;n $f\simeq_{H} g$.
-        Notemos que para cada $t\in I$, la homotop\&apos;{i}a $H$ determina
+        Notemos que para cada $t\in I$, la homotop&#xED;a $H$ determina
         una funci&#xF3;n continua $H_t:X\ra Y$, donde $H_t(x)=H(x,t)$.
-        De aqu\&apos;{i} se obtiene que la relaci&#xF3;n de homotop\&apos;{i}a $\simeq$ corresponde
+        De aqu&#xED; se obtiene que la relaci&#xF3;n de homotop&#xED;a $\simeq$ corresponde
         a la idea de una deformaci&#xF3;n continua de la funci&#xF3;n $f$ en
         la funci&#xF3;n $g$ a trav&#xE9;s de la familia de funciones $\{H_t(x)\}_{t\in I}$.
 
       </p>
 
-      <h3>Ejemplo: Homotop\&apos;{i}as como caminos continuos</h3>
+      <h3>Ejemplo: Homotop&#xED;as como caminos continuos</h3>
 
       <p>
         Sean $X=\{*\},\;f,g:X\ra Y$ continuas. Dado que
-        las im&#xE1;genes de $f,g$ son puntos $x,y\in Y$, una homotop\&apos;{i}a
+        las im&#xE1;genes de $f,g$ son puntos $x,y\in Y$, una homotop&#xED;a
         $H$ entre tales funciones tiene la forma
         $$
         H:X\times I\lra Y,\;\;\; H(*,0)=x,\;\; H(*,1)=y
         $$
-        Dado que $X\times I\cong I$ la homotop\&apos;{i}a es
+        Dado que $X\times I\cong I$ la homotop&#xED;a es
         una funci&#xF3;n continua $H:I\ra Y$ con $H(0)=x,\; H(1)=y$; es
-        decir, la homotop\&apos;{i}a $H$ es basicamente un
+        decir, la homotop&#xED;a $H$ es basicamente un
         \res{camino continuo} entre $x,y$. $\bt$
       </p>
 
 
       <p>
         El ejemplo anterior puede ser generalizado mostrando
-        la relaci&#xF3;n que existe entre una homotop\&apos;{i}a y
+        la relaci&#xF3;n que existe entre una homotop&#xED;a y
         conexidad
         por caminos: dos funciones constantes
         $f,g:X\ra Y,\;f(x)=y_1,g(x)=y_2$ son homot&#xF3;picas $\sss$ $y_1,y_2$
@@ -741,7 +744,7 @@
         subconjuntos conexos por caminos disjuntos entonces
         no pueden ser homot&#xF3;picas. Estos resultados muestran que la
         propiedad de ser conexo por caminos puede ponerse en
-        t&#xE9;rminos homot&#xF3;picos. As\&apos;{i}, dos funciones
+        t&#xE9;rminos homot&#xF3;picos. As&#xED;, dos funciones
         $f,g:\br \ra \br\baca \{0\}$ constantes
         $$
         f(x)=1,\;g(x)=-1
@@ -952,7 +955,7 @@
         subcolección finita de ella lo puede cubrir.$\bt$ \end{ejem} \ \begin{ejem}\label{fifinito} Tomemos
         $S=\{x_1,\ldots,x_s\}\subset \br$ subconjunto finito y sea $\mcal{A}$ cubierta abierta para $S$. Por
         definición de cubierta, para cada $i$ podemos tomar $A_i\in \mcal{A}$ tal que $x_i\in A_i$. De esto se tiene
-        que $$ S=\{x_1,\ldots,x_s\}\subset \bigcup_{i=1}^s A_i $$ por lo que en este caso la cubierta $\mcal{A}$ s\'{i}
+        que $$ S=\{x_1,\ldots,x_s\}\subset \bigcup_{i=1}^s A_i $$ por lo que en este caso la cubierta $\mcal{A}$ sí
         existe subcubierta finita. $\bt$ \end{ejem} \ Como se muestra en los ejemplos anteriores no siempre es posible
         encontrar una subcubierta finita para una cubierta dada; cuando esto ocurre se usa un término específico: un
         espacio $X$ es \res{compacto} si toda cubierta abierta para él admite una subcubierta finita. En general,
@@ -1102,7 +1105,7 @@
           \begin{tcolorbox}
           \begin{theorem}[del Valor Extremo]\index{teorema!del valor extremo}
           Si $X$ es espacio topológico compacto, entonces cualquier función continua $X\ra \br$ tiene (al menos) un
-          máximo y un m\'{i}nimo
+          máximo y un mínimo
           \end{theorem}
           \end{tcolorbox}
 
@@ -1167,7 +1170,7 @@
           para obtener que la colección $\mcal{A}$ es una cubierta para $X$ $\sss$ la intersección $\cap A'$ de
           todos los elementos de $\mcal{A}'$ es vacia. En particular, la subcolección finita
           $\{A_1,\ldots,A_n\}\subset \mcal{A}$ es una cubierta para $X$ $\sss$ la intersección $\bigcap_{i=1}^n A_i'$
-          es vac\'{i}a.\\
+          es vacía.\\
 
           \noindent
           \underline{Demostración del Teorema \ref{interf}}
@@ -1362,7 +1365,7 @@
           \
 
           El caso del producto de una cantidad infinita de compactos es conocido como el \res{Teorema de Tychonoff}
-          (\cite{Munkres00}). Lo establecemos a continuación pero dejaremos su demostración para el Cap\'{i}tulo
+          (\cite{Munkres00}). Lo establecemos a continuación pero dejaremos su demostración para el Capítulo
           \ref{cap:6}.
 
           \
