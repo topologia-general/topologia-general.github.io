@@ -93,7 +93,7 @@
         title="close menu">
         <i class="fas fa-times"></i>
       </a>
-      <a href="../" class="w3-circle w3-button w3-hover-light-grey w3-xlarge"> <i class="fa fa-home"></i></a>
+      <a href="../" class="w3-circle w3-btn w3-hover-light-grey w3-xlarge"> <i class="fa fa-infinity fa-2x"></i></a>
 
       <br/>
       <p class="w3-text-black"><b>CONTENIDO</b></p>
@@ -373,8 +373,10 @@
 
       <p><strong>Demostraci&#xF3;n:</strong>
         Sea $X$ conexo por caminos y tomemos $A,B\subseteq X$ abiertos,
-        no vac&#xED;os tales que $X=A\cup B$; probaremos que $A\cap B\neq \emptyset$.\\
-        Tomemos $x\in A, y\in B$ y $\alpha$ arco que una a $x$ con $y$.
+        no vac&#xED;os tales que $X=A\cup B$; probaremos que $A\cap B\neq \emptyset$.</p>
+
+      <p>
+          Tomemos $x\in A, y\in B$ y $\alpha$ arco que una a $x$ con $y$.
         Como $\alpha$ es continua los conjuntos $\alpha^{-1}(A),
         \alpha^{-1}(B)$ son abiertos, no vac&#xED;os y adem&#xE1;s
         $$
@@ -476,11 +478,13 @@
         b\approx x \;\sss\; \exists\: \varphi:[0,1]\ra X,\;\mbox{continua}, \;\varphi(0)=b,\:\varphi(0)=x
         $$
         es decir, $b\approx x$ si se pueden unir por un arco. Hagamos $T=\{x\in X \barra x\approx b\}$ y probaremos que
-        $T=X$.\\
+        $T=X$.
+        <br>
         Notemos que $b\approx b$, por lo que $b\in T\neq \emptyset$. Sean $x\in T$, $\epsilon&gt;0$ y consideremos
         $B_\epsilon(x)\subseteq X$, que existe pues $X$ es abierto. Como $B_\epsilon(x)$ es convexo (Ejemplo
         \ref{bolacon}) para $y\in B_\epsilon(x)$ se tiene $y\approx x$. Finalmente, como $x\in T$ se tiene que $x\approx
-        b\Rightarrow y\approx b$; as&#xED; $B_\epsilon \subseteq T$ y $T$ es abierto.\\
+        b\Rightarrow y\approx b$; as&#xED; $B_\epsilon \subseteq T$ y $T$ es abierto.
+        <br>
         Por otro lado, tomemos $y\in \ol{T}$ y $\epsilon&gt;0$. As&#xED; $B_\epsilon (y)\cap T\neq \emptyset$, por lo que
         existe
         $x\in B_\epsilon (y)\cap T$, de donde $x\approx y$ y como $x\approx b \Rightarrow y\approx b$; es decir, $y\in
@@ -505,7 +509,8 @@
       </div>
 
       <p><strong>Demostraci&#xF3;n:</strong>
-        Consideremos $x\in A,y\in B$ y probaremos que existe camino que los une.\\
+        Consideremos $x\in A,y\in B$ y probaremos que existe camino que los une.
+        <br>
         Por hip&#xF3;tesis podemos tomar $z\in A\cap B$ y caminos
         $$
         \beta:[0,1]\lra A,\;\gamma:[0,1]\lra B,\;\;\begin{cases}\beta(0)=x&amp;\beta(1)=z\\\gamma(0)=z&amp;\gamma(1)=y
@@ -865,7 +870,9 @@
       <p><strong>Demostraci&#xF3;n:</strong>
         Consideremos $C(x)\subseteq X$ componente conexa de $x$
         y $h:X\ra Y$ homeomorfismo. Mostraremos que $h(C(x))$
-        es componente conexa en $Y$.\\ Dado que $h(C(x))$ es conexo
+        es componente conexa en $Y$.
+        <br>
+         Dado que $h(C(x))$ es conexo
         y contiene a $h(x)$, se sigue que $h(C(x))\subseteq
         C(h(x))$. Por otro lado, $h^{-1}(C(h(x)))\subseteq C(x)$
         de donde $C(h(x))\subseteq h(C(x))$. Por lo tanto
@@ -1240,10 +1247,12 @@
       </div>
 
       <p>
-       $\dem$ \vuelta Para $A\subseteq \br$ cerrado y acotado existe $a&gt;0$ tal que $A\subset [-a,a]$. Dado que
+       $\dem$ $\vuelta$ Para $A\subseteq \br$ cerrado y acotado existe $a&gt;0$ tal que $A\subset [-a,a]$. Dado que
         $[-a,a]\cong
-        [0,1]$ se sigue que $[-a,a]$ es compacto y por el resultado anterior se sigue que $A$ es compacto.\\
-        \ida Sea $A\subseteq \br$ compacto. Como la colecci&#xF3;n $\{(-n,n) \barra n\in N \}$ cubre a $A$ existen
+        [0,1]$ se sigue que $[-a,a]$ es compacto y por el resultado anterior se sigue que $A$ es compacto.</p>
+
+
+        <p>$\ida$ Sea $A\subseteq \br$ compacto. Como la colecci&#xF3;n $\{(-n,n) \barra n\in N \}$ cubre a $A$ existen
         $n_1,n_2,\ldots, n_s$ tales que
         $$
         A\subseteq (-n_1,n_1)\cup (-n_2,n_2)\cup \cdots \cup (-n_s,n_s)
@@ -1371,9 +1380,8 @@
 
 
       <strong>Demostraci&#xF3;n del Teorema \ref{interf}</strong>
-      <p>El m&#xE9;todo de demostraci&#xF3;n ser&#xE1; usando un argumento {\bf contrapositivo}: $(P\Rightarrow Q) \cong
-        (-Q\Rightarrow -P)$.\\
-        \noindent
+      <p>El m&#xE9;todo de demostraci&#xF3;n ser&#xE1; usando un argumento <strong>contrapositivo</strong>: $(P\Rightarrow Q) \cong
+        (-Q\Rightarrow -P)$.
         Notemos que el resultado es cierto al notar que
         $X$ es compacto $\sss$ dada una colecci&#xF3;n $\mcal{A}$ de abiertos de $X$,
         si $\mcal{A}$ cubre a $X$ entonces
@@ -1505,7 +1513,8 @@
       </div>
 
       
-      <p>$\dem$ Sean $K\subset X$, con $X$ Hausdorff y $K$ compacto. Probaremos que $X\baca K$ es abierto.\\
+      <p>$\dem$ Sean $K\subset X$, con $X$ Hausdorff y $K$ compacto. Probaremos que $X\baca K$ es abierto.
+        <br>
         Para $x\in X\baca K$ el producto $\{x\}\times K$ no intersecta a la diagonal $\triangle\subset X\times X$.
         Como $X$ es Hausdorff, $\triangle$ es cerrado y $\{x\}\times K$ est&#xE1; contenido en el abierto $W=(X\times
         X)\baca \triangle$. Por el teorema anterior, existen abiertos $U,V\subset X$ tales que
@@ -1608,8 +1617,11 @@
       <p>
         $\dem$ $\ida$ Sea $A\subset \br^n$ compacto y consideremos $A\ra \br, x\mapsto |x|$. Dado que la funci&#xF3;n es
         continua y $A$ es compacto la funci&#xF3;n alcanza un m&#xE1;ximo, lo que implica que $A$ es acotado. Por otro lado,
-        como $\br^n$ es Hausdorff, por el Corolario \ref{kk}, se sigue que $A$ es cerrado.\\
-        \vuelta Sea $A$ cerrado y acotado, entonces existe $a&gt;0$ tal que $A\subset [-a,a]^n$. Como la compacidad es
+        como $\br^n$ es Hausdorff, por el Corolario \ref{kk}, se sigue que $A$ es cerrado.
+        </p>
+
+       <p>
+         $\vuelta$ Sea $A$ cerrado y acotado, entonces existe $a&gt;0$ tal que $A\subset [-a,a]^n$. Como la compacidad es
         una propiedad topol&#xF3;gica y $[-a,a]\cong [0,1]$ se sigue que $[-a,a]$ es compacto; m&#xE1;s a&#xFA;n, por el Lema
         de arriba se tiene que $[-a,a]^n$ es compacto. Finalmente, usando el Teorema \ref{closs} se tiene que $A$ es
         compacto.$\findem$
