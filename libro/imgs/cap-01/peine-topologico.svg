@@ -1,0 +1,3630 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+
+<svg 
+     version="1.1"
+     baseProfile="full"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:ev="http://www.w3.org/2001/xml-events"
+     width="21.641280205819477cm"
+     height="17.396259857754885cm"
+     viewBox="0 0 519 417"
+     >
+<title>
+
+</title>
+<g stroke-linejoin="miter" stroke-dashoffset="0.0000" stroke-dasharray="none" stroke-width="1.0000" stroke-miterlimit="10.000" stroke-linecap="square">
+<clipPath id="clip6acc41e2-2c69-42d4-abeb-2b04fd08fc95">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip1)">
+<g fill-opacity="1.0000" fill-rule="nonzero" stroke="none" fill="#ffffff">
+  <path d="M 0.0000 0.0000 L 520.00 0.0000 L 520.00 418.00 L 0.0000 418.00 L 0.0000 0.0000 z"/>
+</g> <!-- drawing style -->
+</g> <!-- clip1 -->
+<clipPath id="clipc8bbcc1a-d056-418c-9c38-9ec0669bfb2a">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip2)">
+<g stroke-linecap="butt" fill="none" stroke-opacity="1.0000" stroke="#404040">
+  <path d="M 44.764 2.0000 L 44.764 378.00"/>
+</g> <!-- drawing style -->
+</g> <!-- clip2 -->
+<clipPath id="clip1ae0fafa-78aa-4d51-b56c-d1f72fb1ef7f">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip3)">
+<g stroke-linecap="butt" fill="none" stroke-opacity="1.0000" stroke="#404040">
+  <path d="M 44.764 1.0000 L 40.764 5.0000"/>
+</g> <!-- drawing style -->
+</g> <!-- clip3 -->
+<clipPath id="clip24842c11-3c5a-4ab8-b2ae-d48b8c52dac7">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip4)">
+<g stroke-linecap="butt" fill="none" stroke-opacity="1.0000" stroke="#404040">
+  <path d="M 44.764 1.0000 L 48.764 5.0000"/>
+</g> <!-- drawing style -->
+</g> <!-- clip4 -->
+<clipPath id="clipfddba950-d7f0-48c6-854c-590fdbfca346">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip5)">
+<g stroke-linecap="butt" fill="none" stroke-opacity="1.0000" stroke="#404040">
+  <path d="M 44.000 378.04 L 518.00 378.04"/>
+</g> <!-- drawing style -->
+</g> <!-- clip5 -->
+<clipPath id="clip1a411d61-f4ff-48d1-8f6e-cdd4926ebcb5">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip6)">
+<g stroke-linecap="butt" fill="none" stroke-opacity="1.0000" stroke="#404040">
+  <path d="M 519.00 378.04 L 515.00 374.04"/>
+</g> <!-- drawing style -->
+</g> <!-- clip6 -->
+<clipPath id="clip7e1ffc73-e44c-4f9a-b283-1e838a0eb76a">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip7)">
+<g stroke-linecap="butt" fill="none" stroke-opacity="1.0000" stroke="#404040">
+  <path d="M 519.00 378.04 L 515.00 382.04"/>
+</g> <!-- drawing style -->
+</g> <!-- clip7 -->
+<clipPath id="clipb2f1044c-69e6-4f1d-9c2c-02ad47ba1453">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip8)">
+<g stroke-linecap="butt" fill="none" stroke-opacity="1.0000" stroke="#404040">
+  <path d="M 44.764 378.04 L 44.764 381.04"/>
+</g> <!-- drawing style -->
+</g> <!-- clip8 -->
+<clipPath id="clipec208e15-3aef-46a7-8ac6-bdb4a546c5c3">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip9)">
+<g fill-opacity="1.0000" fill-rule="nonzero" stroke="none" fill="#404040">
+  <path d="M 111.76 394.22 Q 110.42 394.22 109.59 392.95 Q 108.76 391.69 108.76 389.66 Q 108.76 387.61 109.60 386.36 Q 110.43 385.11 111.80 385.11 Q 113.16 385.11 114.00 386.36 Q 114.83 387.61 114.83 389.64 Q 114.83 391.73 114.00 392.97 Q 113.16 394.22 111.76 394.22 z M 111.77 393.35 Q 113.61 393.35 113.61 389.62 Q 113.61 385.98 111.80 385.98 Q 109.99 385.98 109.99 389.66 Q 109.99 393.35 111.77 393.35 z M 116.76 394.00 L 116.76 392.55 L 118.21 392.55 L 118.21 394.00 z M 120.38 394.00 L 120.38 392.99 Q 120.88 391.81 122.42 390.42 L 123.08 389.83 Q 124.36 388.67 124.36 387.54 Q 124.36 386.81 123.92 386.39 Q 123.49 385.98 122.72 385.98 Q 121.82 385.98 120.60 386.68 L 120.60 385.66 Q 121.75 385.11 122.89 385.11 Q 124.11 385.11 124.85 385.77 Q 125.58 386.42 125.58 387.51 Q 125.58 388.29 125.21 388.89 Q 124.84 389.49 123.83 390.36 L 123.38 390.74 Q 121.99 391.91 121.78 392.99 L 125.54 392.99 L 125.54 394.00 z"/>
+</g> <!-- drawing style -->
+</g> <!-- clip9 -->
+<clipPath id="clip1f814688-861c-4737-995a-39df28e97274">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip10)">
+<g stroke-linecap="butt" fill="none" stroke-opacity="1.0000" stroke="#404040">
+  <path d="M 116.85 378.04 L 116.85 381.04"/>
+</g> <!-- drawing style -->
+</g> <!-- clip10 -->
+<clipPath id="clipaeb76f35-77c4-4ecb-bbc7-a57aa3bdb691">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip11)">
+<g fill-opacity="1.0000" fill-rule="nonzero" stroke="none" fill="#404040">
+  <path d="M 183.76 394.22 Q 182.42 394.22 181.59 392.95 Q 180.76 391.69 180.76 389.66 Q 180.76 387.61 181.60 386.36 Q 182.43 385.11 183.80 385.11 Q 185.16 385.11 186.00 386.36 Q 186.83 387.61 186.83 389.64 Q 186.83 391.73 186.00 392.97 Q 185.16 394.22 183.76 394.22 z M 183.77 393.35 Q 185.61 393.35 185.61 389.62 Q 185.61 385.98 183.80 385.98 Q 181.99 385.98 181.99 389.66 Q 181.99 393.35 183.77 393.35 z M 188.76 394.00 L 188.76 392.55 L 190.21 392.55 L 190.21 394.00 z M 195.90 394.00 L 195.90 391.54 L 192.00 391.54 L 192.00 390.67 L 195.90 385.33 L 196.99 385.33 L 196.99 390.60 L 198.15 390.60 L 198.15 391.54 L 196.99 391.54 L 196.99 394.00 z M 193.13 390.60 L 195.98 390.60 L 195.98 386.75 z"/>
+</g> <!-- drawing style -->
+</g> <!-- clip11 -->
+<clipPath id="clipf4a0c9db-9f4a-4faa-b325-2a0b51be73e8">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip12)">
+<g stroke-linecap="butt" fill="none" stroke-opacity="1.0000" stroke="#404040">
+  <path d="M 188.93 378.04 L 188.93 381.04"/>
+</g> <!-- drawing style -->
+</g> <!-- clip12 -->
+<clipPath id="clipb7c29c10-b6ab-4e19-a09d-291666e96240">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip13)">
+<g fill-opacity="1.0000" fill-rule="nonzero" stroke="none" fill="#404040">
+  <path d="M 256.76 394.22 Q 255.42 394.22 254.59 392.95 Q 253.76 391.69 253.76 389.66 Q 253.76 387.61 254.60 386.36 Q 255.43 385.11 256.80 385.11 Q 258.16 385.11 259.00 386.36 Q 259.83 387.61 259.83 389.64 Q 259.83 391.73 259.00 392.97 Q 258.16 394.22 256.76 394.22 z M 256.77 393.35 Q 258.61 393.35 258.61 389.62 Q 258.61 385.98 256.80 385.98 Q 254.99 385.98 254.99 389.66 Q 254.99 393.35 256.77 393.35 z M 261.76 394.00 L 261.76 392.55 L 263.21 392.55 L 263.21 394.00 z M 266.45 389.51 Q 267.27 388.43 268.53 388.43 Q 269.66 388.43 270.39 389.19 Q 271.11 389.94 271.11 391.12 Q 271.11 392.47 270.30 393.34 Q 269.49 394.22 268.24 394.22 Q 266.80 394.22 266.00 393.06 Q 265.19 391.91 265.19 389.86 Q 265.19 387.60 266.12 386.35 Q 267.04 385.11 268.73 385.11 Q 269.51 385.11 270.67 385.43 L 270.67 386.44 Q 269.44 385.97 268.66 385.97 Q 266.45 385.97 266.45 389.51 z M 269.95 391.38 Q 269.95 390.39 269.51 389.83 Q 269.07 389.27 268.28 389.27 Q 267.55 389.27 267.02 389.76 Q 266.49 390.25 266.49 390.94 Q 266.49 392.03 267.00 392.69 Q 267.50 393.35 268.32 393.35 Q 269.07 393.35 269.51 392.81 Q 269.95 392.28 269.95 391.38 z"/>
+</g> <!-- drawing style -->
+</g> <!-- clip13 -->
+<clipPath id="clipcf3843fc-0552-4a3b-86bb-448f74985871">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip14)">
+<g stroke-linecap="butt" fill="none" stroke-opacity="1.0000" stroke="#404040">
+  <path d="M 261.02 378.04 L 261.02 381.04"/>
+</g> <!-- drawing style -->
+</g> <!-- clip14 -->
+<clipPath id="clip9ff615b0-935b-496f-b9a4-c1c8130092b2">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip15)">
+<g fill-opacity="1.0000" fill-rule="nonzero" stroke="none" fill="#404040">
+  <path d="M 328.76 394.22 Q 327.42 394.22 326.59 392.95 Q 325.76 391.69 325.76 389.66 Q 325.76 387.61 326.60 386.36 Q 327.43 385.11 328.80 385.11 Q 330.16 385.11 331.00 386.36 Q 331.83 387.61 331.83 389.64 Q 331.83 391.73 331.00 392.97 Q 330.16 394.22 328.76 394.22 z M 328.77 393.35 Q 330.61 393.35 330.61 389.62 Q 330.61 385.98 328.80 385.98 Q 326.99 385.98 326.99 389.66 Q 326.99 393.35 328.77 393.35 z M 333.76 394.00 L 333.76 392.55 L 335.21 392.55 L 335.21 394.00 z M 339.14 389.28 Q 337.87 388.39 337.87 387.32 Q 337.87 386.34 338.59 385.72 Q 339.31 385.11 340.47 385.11 Q 341.55 385.11 342.21 385.63 Q 342.88 386.15 342.88 386.98 Q 342.88 388.24 341.26 389.28 Q 343.22 390.24 343.22 391.76 Q 343.22 392.85 342.40 393.53 Q 341.58 394.22 340.28 394.22 Q 339.00 394.22 338.21 393.57 Q 337.42 392.92 337.42 391.87 Q 337.42 390.31 339.14 389.28 z M 340.62 388.91 Q 341.83 388.12 341.83 387.14 Q 341.83 386.62 341.42 386.30 Q 341.02 385.98 340.36 385.98 Q 339.72 385.98 339.32 386.29 Q 338.92 386.61 338.92 387.10 Q 338.92 387.59 339.28 387.97 Q 339.64 388.36 340.62 388.91 z M 339.77 389.75 Q 339.07 390.29 338.83 390.69 Q 338.58 391.09 338.58 391.69 Q 338.58 392.43 339.06 392.89 Q 339.54 393.35 340.32 393.35 Q 341.08 393.35 341.56 392.96 Q 342.03 392.56 342.03 391.94 Q 342.03 391.43 341.74 391.08 Q 341.44 390.74 340.59 390.23 z"/>
+</g> <!-- drawing style -->
+</g> <!-- clip15 -->
+<clipPath id="clipfde1e23c-c41e-4076-b8c3-ed97f39de7fe">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip16)">
+<g stroke-linecap="butt" fill="none" stroke-opacity="1.0000" stroke="#404040">
+  <path d="M 333.10 378.04 L 333.10 381.04"/>
+</g> <!-- drawing style -->
+</g> <!-- clip16 -->
+<clipPath id="clip5e6cdddc-5365-471f-ad8a-0daf789d1b23">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip17)">
+<g fill-opacity="1.0000" fill-rule="nonzero" stroke="none" fill="#404040">
+  <path d="M 404.80 394.00 L 404.80 393.13 L 406.54 393.13 L 406.54 386.29 L 404.80 386.72 L 404.80 385.83 L 407.70 385.11 L 407.70 393.13 L 409.43 393.13 L 409.43 394.00 z"/>
+</g> <!-- drawing style -->
+</g> <!-- clip17 -->
+<clipPath id="clipecc10cfa-6c29-4ebb-b246-2667524408be">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip18)">
+<g stroke-linecap="butt" fill="none" stroke-opacity="1.0000" stroke="#404040">
+  <path d="M 405.19 378.04 L 405.19 381.04"/>
+</g> <!-- drawing style -->
+</g> <!-- clip18 -->
+<clipPath id="clipdd54a279-39f2-4985-ba47-e0eefd9d925a">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip19)">
+<g fill-opacity="1.0000" fill-rule="nonzero" stroke="none" fill="#404040">
+  <path d="M 470.80 394.00 L 470.80 393.13 L 472.54 393.13 L 472.54 386.29 L 470.80 386.72 L 470.80 385.83 L 473.70 385.11 L 473.70 393.13 L 475.43 393.13 L 475.43 394.00 z M 477.76 394.00 L 477.76 392.55 L 479.21 392.55 L 479.21 394.00 z M 481.38 394.00 L 481.38 392.99 Q 481.88 391.81 483.42 390.42 L 484.08 389.83 Q 485.36 388.67 485.36 387.54 Q 485.36 386.81 484.92 386.39 Q 484.49 385.98 483.72 385.98 Q 482.82 385.98 481.60 386.68 L 481.60 385.66 Q 482.75 385.11 483.89 385.11 Q 485.11 385.11 485.85 385.77 Q 486.58 386.42 486.58 387.51 Q 486.58 388.29 486.21 388.89 Q 485.84 389.49 484.83 390.36 L 484.38 390.74 Q 482.99 391.91 482.78 392.99 L 486.54 392.99 L 486.54 394.00 z"/>
+</g> <!-- drawing style -->
+</g> <!-- clip19 -->
+<clipPath id="clip6f182b1f-74ae-44af-9d17-23e14bfe527e">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip20)">
+<g stroke-linecap="butt" fill="none" stroke-opacity="1.0000" stroke="#404040">
+  <path d="M 477.27 378.04 L 477.27 381.04"/>
+</g> <!-- drawing style -->
+</g> <!-- clip20 -->
+<clipPath id="clipc192f1d8-d9ea-48b6-972a-9ce3d20b530a">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip21)">
+<g stroke-linecap="butt" fill="none" stroke-opacity="1.0000" stroke="#404040">
+  <path d="M 41.764 317.76 L 44.764 317.76"/>
+</g> <!-- drawing style -->
+</g> <!-- clip21 -->
+<clipPath id="clip7a9dd606-b6ce-4858-8193-73a794831a53">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip22)">
+<g stroke-linecap="butt" fill="none" stroke-opacity="1.0000" stroke="#404040">
+  <path d="M 41.764 257.47 L 44.764 257.47"/>
+</g> <!-- drawing style -->
+</g> <!-- clip22 -->
+<clipPath id="clip4f80f03c-fd1e-443b-bf6a-0c6688add091">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip23)">
+<g stroke-linecap="butt" fill="none" stroke-opacity="1.0000" stroke="#404040">
+  <path d="M 41.764 197.19 L 44.764 197.19"/>
+</g> <!-- drawing style -->
+</g> <!-- clip23 -->
+<clipPath id="clipf8562826-65ef-4cda-841a-a92442b4c523">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip24)">
+<g stroke-linecap="butt" fill="none" stroke-opacity="1.0000" stroke="#404040">
+  <path d="M 41.764 136.90 L 44.764 136.90"/>
+</g> <!-- drawing style -->
+</g> <!-- clip24 -->
+<clipPath id="clip14c5cee7-03ad-49e1-b6f8-1baa37685015">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip25)">
+<g stroke-linecap="butt" fill="none" stroke-opacity="1.0000" stroke="#404040">
+  <path d="M 41.764 76.613 L 44.764 76.613"/>
+</g> <!-- drawing style -->
+</g> <!-- clip25 -->
+<clipPath id="clipf9553346-8367-4213-a20c-89ca20c8f393">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip26)">
+<g stroke-linecap="butt" fill="none" stroke-opacity="1.0000" stroke="#404040">
+  <path d="M 41.764 16.327 L 44.764 16.327"/>
+</g> <!-- drawing style -->
+</g> <!-- clip26 -->
+<clipPath id="clip5a7059a7-8087-4eac-b399-7a73d1c664e4">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip27)">
+<g fill-opacity="1.0000" fill-rule="nonzero" stroke="none" fill="#404040">
+  <path d="M 21.762 322.22 Q 20.420 322.22 19.591 320.95 Q 18.762 319.69 18.762 317.66 Q 18.762 315.61 19.597 314.36 Q 20.432 313.11 21.797 313.11 Q 23.162 313.11 23.997 314.36 Q 24.832 315.61 24.832 317.64 Q 24.832 319.73 23.997 320.97 Q 23.162 322.22 21.762 322.22 z M 21.773 321.35 Q 23.607 321.35 23.607 317.62 Q 23.607 313.98 21.797 313.98 Q 19.992 313.98 19.992 317.66 Q 19.992 321.35 21.773 321.35 z M 26.760 322.00 L 26.760 320.55 L 28.207 320.55 L 28.207 322.00 z M 30.381 322.00 L 30.381 320.99 Q 30.885 319.81 32.420 318.42 L 33.082 317.83 Q 34.359 316.67 34.359 315.54 Q 34.359 314.81 33.923 314.39 Q 33.486 313.98 32.725 313.98 Q 31.822 313.98 30.598 314.68 L 30.598 313.66 Q 31.752 313.11 32.889 313.11 Q 34.107 313.11 34.846 313.77 Q 35.584 314.42 35.584 315.51 Q 35.584 316.29 35.212 316.89 Q 34.840 317.49 33.826 318.36 L 33.381 318.74 Q 31.992 319.91 31.775 320.99 L 35.543 320.99 L 35.543 322.00 z"/>
+</g> <!-- drawing style -->
+</g> <!-- clip27 -->
+<clipPath id="clipf9e89ff8-c5d4-4d5c-8930-036d8a71dac5">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip28)">
+<g fill-opacity="1.0000" fill-rule="nonzero" stroke="none" fill="#404040">
+  <path d="M 21.762 262.22 Q 20.420 262.22 19.591 260.95 Q 18.762 259.69 18.762 257.66 Q 18.762 255.61 19.597 254.36 Q 20.432 253.11 21.797 253.11 Q 23.162 253.11 23.997 254.36 Q 24.832 255.61 24.832 257.64 Q 24.832 259.73 23.997 260.97 Q 23.162 262.22 21.762 262.22 z M 21.773 261.35 Q 23.607 261.35 23.607 257.62 Q 23.607 253.98 21.797 253.98 Q 19.992 253.98 19.992 257.66 Q 19.992 261.35 21.773 261.35 z M 26.760 262.00 L 26.760 260.55 L 28.207 260.55 L 28.207 262.00 z M 33.902 262.00 L 33.902 259.54 L 30.000 259.54 L 30.000 258.67 L 33.902 253.33 L 34.986 253.33 L 34.986 258.60 L 36.146 258.60 L 36.146 259.54 L 34.986 259.54 L 34.986 262.00 z M 31.131 258.60 L 33.979 258.60 L 33.979 254.75 z"/>
+</g> <!-- drawing style -->
+</g> <!-- clip28 -->
+<clipPath id="clipeb7a8aaf-a773-40ab-9a29-733e6d8921e5">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip29)">
+<g fill-opacity="1.0000" fill-rule="nonzero" stroke="none" fill="#404040">
+  <path d="M 21.762 202.22 Q 20.420 202.22 19.591 200.95 Q 18.762 199.69 18.762 197.66 Q 18.762 195.61 19.597 194.36 Q 20.432 193.11 21.797 193.11 Q 23.162 193.11 23.997 194.36 Q 24.832 195.61 24.832 197.64 Q 24.832 199.73 23.997 200.97 Q 23.162 202.22 21.762 202.22 z M 21.773 201.35 Q 23.607 201.35 23.607 197.62 Q 23.607 193.98 21.797 193.98 Q 19.992 193.98 19.992 197.66 Q 19.992 201.35 21.773 201.35 z M 26.760 202.00 L 26.760 200.55 L 28.207 200.55 L 28.207 202.00 z M 31.447 197.51 Q 32.273 196.43 33.527 196.43 Q 34.664 196.43 35.388 197.19 Q 36.111 197.94 36.111 199.12 Q 36.111 200.47 35.300 201.34 Q 34.488 202.22 33.240 202.22 Q 31.805 202.22 30.996 201.06 Q 30.188 199.91 30.188 197.86 Q 30.188 195.60 31.116 194.35 Q 32.045 193.11 33.732 193.11 Q 34.506 193.11 35.666 193.43 L 35.666 194.44 Q 34.441 193.97 33.662 193.97 Q 31.447 193.97 31.447 197.51 z M 34.951 199.38 Q 34.951 198.39 34.509 197.83 Q 34.066 197.27 33.281 197.27 Q 32.549 197.27 32.021 197.76 Q 31.494 198.25 31.494 198.94 Q 31.494 200.03 31.995 200.69 Q 32.496 201.35 33.322 201.35 Q 34.066 201.35 34.509 200.81 Q 34.951 200.28 34.951 199.38 z"/>
+</g> <!-- drawing style -->
+</g> <!-- clip29 -->
+<clipPath id="clip99ffb38b-8049-488b-b387-42f8242ed4a4">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip30)">
+<g fill-opacity="1.0000" fill-rule="nonzero" stroke="none" fill="#404040">
+  <path d="M 21.762 141.22 Q 20.420 141.22 19.591 139.95 Q 18.762 138.69 18.762 136.66 Q 18.762 134.61 19.597 133.36 Q 20.432 132.11 21.797 132.11 Q 23.162 132.11 23.997 133.36 Q 24.832 134.61 24.832 136.64 Q 24.832 138.73 23.997 139.97 Q 23.162 141.22 21.762 141.22 z M 21.773 140.35 Q 23.607 140.35 23.607 136.62 Q 23.607 132.98 21.797 132.98 Q 19.992 132.98 19.992 136.66 Q 19.992 140.35 21.773 140.35 z M 26.760 141.00 L 26.760 139.55 L 28.207 139.55 L 28.207 141.00 z M 32.145 136.28 Q 30.873 135.39 30.873 134.32 Q 30.873 133.34 31.594 132.72 Q 32.314 132.11 33.475 132.11 Q 34.547 132.11 35.212 132.63 Q 35.877 133.15 35.877 133.98 Q 35.877 135.24 34.260 136.28 Q 36.223 137.24 36.223 138.76 Q 36.223 139.85 35.399 140.53 Q 34.576 141.22 33.275 141.22 Q 31.998 141.22 31.210 140.57 Q 30.422 139.92 30.422 138.87 Q 30.422 137.31 32.145 136.28 z M 33.615 135.91 Q 34.828 135.12 34.828 134.14 Q 34.828 133.62 34.424 133.30 Q 34.020 132.98 33.357 132.98 Q 32.719 132.98 32.320 133.29 Q 31.922 133.61 31.922 134.10 Q 31.922 134.59 32.282 134.97 Q 32.643 135.36 33.615 135.91 z M 32.771 136.75 Q 32.074 137.29 31.825 137.69 Q 31.576 138.09 31.576 138.69 Q 31.576 139.43 32.057 139.89 Q 32.537 140.35 33.322 140.35 Q 34.078 140.35 34.556 139.96 Q 35.033 139.56 35.033 138.94 Q 35.033 138.43 34.737 138.08 Q 34.441 137.74 33.592 137.23 z"/>
+</g> <!-- drawing style -->
+</g> <!-- clip30 -->
+<clipPath id="clip278ed889-a17c-420b-adca-599e8a904bab">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip31)">
+<g fill-opacity="1.0000" fill-rule="nonzero" stroke="none" fill="#404040">
+  <path d="M 31.805 81.000 L 31.805 80.133 L 33.539 80.133 L 33.539 73.289 L 31.805 73.723 L 31.805 72.832 L 34.699 72.111 L 34.699 80.133 L 36.434 80.133 L 36.434 81.000 z"/>
+</g> <!-- drawing style -->
+</g> <!-- clip31 -->
+<clipPath id="clipe7fb681b-79ca-4b6f-af60-69f519339373">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip32)">
+<g fill-opacity="1.0000" fill-rule="nonzero" stroke="none" fill="#404040">
+  <path d="M 19.805 21.000 L 19.805 20.133 L 21.539 20.133 L 21.539 13.289 L 19.805 13.723 L 19.805 12.832 L 22.699 12.111 L 22.699 20.133 L 24.434 20.133 L 24.434 21.000 z M 26.760 21.000 L 26.760 19.553 L 28.207 19.553 L 28.207 21.000 z M 30.381 21.000 L 30.381 19.986 Q 30.885 18.809 32.420 17.420 L 33.082 16.828 Q 34.359 15.674 34.359 14.537 Q 34.359 13.811 33.923 13.395 Q 33.486 12.979 32.725 12.979 Q 31.822 12.979 30.598 13.676 L 30.598 12.656 Q 31.752 12.111 32.889 12.111 Q 34.107 12.111 34.846 12.768 Q 35.584 13.424 35.584 14.508 Q 35.584 15.287 35.212 15.891 Q 34.840 16.494 33.826 17.355 L 33.381 17.736 Q 31.992 18.914 31.775 19.986 L 35.543 19.986 L 35.543 21.000 z"/>
+</g> <!-- drawing style -->
+</g> <!-- clip32 -->
+<clipPath id="clip6526db3f-abac-4b15-af1e-51014e01a75a">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip33)">
+<g fill-opacity="1.0000" fill-rule="nonzero" stroke="none" fill="#404040">
+  <path d="M 33.762 394.22 Q 32.420 394.22 31.591 392.95 Q 30.762 391.69 30.762 389.66 Q 30.762 387.61 31.597 386.36 Q 32.432 385.11 33.797 385.11 Q 35.162 385.11 35.997 386.36 Q 36.832 387.61 36.832 389.64 Q 36.832 391.73 35.997 392.97 Q 35.162 394.22 33.762 394.22 z M 33.773 393.35 Q 35.607 393.35 35.607 389.62 Q 35.607 385.98 33.797 385.98 Q 31.992 385.98 31.992 389.66 Q 31.992 393.35 33.773 393.35 z"/>
+</g> <!-- drawing style -->
+</g> <!-- clip33 -->
+<g id="misc">
+</g><!-- misc -->
+<g id="layer0">
+<clipPath id="clipe44b07c6-1f06-44d2-9b6b-ae391fa8d5e0">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip34)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 405.19 378.04 L 405.19 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip34 -->
+<clipPath id="clip0af8c878-6820-4a45-94b2-fd12d51eacea">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip35)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 224.98 378.04 L 224.98 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip35 -->
+<clipPath id="clipef521747-2183-41a4-a7b4-775cbe04d90e">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip36)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 164.90 378.04 L 164.90 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip36 -->
+<clipPath id="clip2dafc318-c08a-46d8-ae01-14e8fedff1a3">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip37)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 134.87 378.04 L 134.87 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip37 -->
+<clipPath id="clip03448675-616d-4bcc-a056-45062bb81fc3">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip38)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 116.85 378.04 L 116.85 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip38 -->
+<clipPath id="clipa73ccdf1-8945-4981-b7e3-5a3f474cef68">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip39)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 104.83 378.04 L 104.83 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip39 -->
+<clipPath id="clipf48c8c6f-f038-4dd2-8ccb-41122c9429b0">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip40)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 96.253 378.04 L 96.253 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip40 -->
+<clipPath id="clip341e184b-5a78-4a1b-b5f1-881ad807c7f1">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip41)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 89.817 378.04 L 89.817 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip41 -->
+<clipPath id="clipb4866b29-1bc1-43fb-ba9b-6bb82b2e5a9f">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip42)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 84.811 378.04 L 84.811 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip42 -->
+<clipPath id="clip0f9b951e-1f79-478e-bbda-1f0102f36b84">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip43)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 80.806 378.04 L 80.806 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip43 -->
+<clipPath id="clipe846efdf-8dbd-4421-bd0c-27634ebcdead">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip44)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 77.530 378.04 L 77.530 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip44 -->
+<clipPath id="clip475168a7-25f3-48b6-81da-16be179ee26d">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip45)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 74.799 378.04 L 74.799 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip45 -->
+<clipPath id="clipbf153813-35bb-448e-ab13-34c82c1bc962">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip46)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 72.489 378.04 L 72.489 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip46 -->
+<clipPath id="clip56a452c4-4a25-42bb-ad0c-fe944dcb58c2">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip47)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 70.508 378.04 L 70.508 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip47 -->
+<clipPath id="clip886ab276-50bf-45ff-84f9-f56effa963c3">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip48)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 68.792 378.04 L 68.792 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip48 -->
+<clipPath id="clip08d810da-43e0-4534-9560-b96ea7bc090d">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip49)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 67.290 378.04 L 67.290 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip49 -->
+<clipPath id="clip921fa1c1-478a-4358-8469-b3eded793109">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip50)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 65.965 378.04 L 65.965 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip50 -->
+<clipPath id="clip312e5db1-30af-4113-83b9-61636a9f16f1">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip51)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 64.787 378.04 L 64.787 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip51 -->
+<clipPath id="clip5f6c16dc-13b6-4de5-99e5-61400ce523c0">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip52)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 63.734 378.04 L 63.734 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip52 -->
+<clipPath id="clip255078a5-2e27-4e77-b35d-5aad48a81e62">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip53)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 62.785 378.04 L 62.785 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip53 -->
+<clipPath id="clipda43f086-e443-4f9e-9aea-e04cb43b0e27">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip54)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 61.927 378.04 L 61.927 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip54 -->
+<clipPath id="clipb91c824f-12b8-40b3-94fa-d400e60a702c">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip55)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 61.147 378.04 L 61.147 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip55 -->
+<clipPath id="clip78029687-be0c-4c3f-b150-5ab9ed46db6e">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip56)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 60.434 378.04 L 60.434 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip56 -->
+<clipPath id="clipba192d6f-7764-4700-9b02-5033b9db7e55">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip57)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 59.782 378.04 L 59.782 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip57 -->
+<clipPath id="clip9e757de9-62ab-4412-9930-d890db243a39">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip58)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 59.181 378.04 L 59.181 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip58 -->
+<clipPath id="clipae88d37e-2866-421f-a687-976160b53859">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip59)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 58.626 378.04 L 58.626 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip59 -->
+<clipPath id="clipb6500e44-1b09-4e0a-8bfb-64b26c44ea81">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip60)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 58.113 378.04 L 58.113 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip60 -->
+<clipPath id="clip414e834a-a776-4394-9ec4-a05454143598">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip61)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 57.636 378.04 L 57.636 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip61 -->
+<clipPath id="clip416e6f79-d446-4568-afc2-e42a8502c1bb">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip62)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 57.192 378.04 L 57.192 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip62 -->
+<clipPath id="clip198e949b-5105-4a0f-91c8-b9f1d3f48d10">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip63)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 56.778 378.04 L 56.778 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip63 -->
+<clipPath id="clipe6c1c6a3-247c-4af1-bff6-9235103e7438">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip64)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 56.390 378.04 L 56.390 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip64 -->
+<clipPath id="clip53520812-b70d-43a3-8b3c-0d751aecf076">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip65)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 56.027 378.04 L 56.027 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip65 -->
+<clipPath id="clipc81d62bf-9b48-41d2-93fa-2712ef58ecba">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip66)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 55.686 378.04 L 55.686 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip66 -->
+<clipPath id="clip277f8c16-bf7b-4499-98f6-cd1816bd18a8">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip67)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 55.365 378.04 L 55.365 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip67 -->
+<clipPath id="clipc395377f-ff70-4126-b5ca-5afeed2fcd58">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip68)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 55.062 378.04 L 55.062 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip68 -->
+<clipPath id="clipa4ab9c5f-7aa7-4115-98a2-3615cef16bc5">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip69)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 54.776 378.04 L 54.776 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip69 -->
+<clipPath id="clipba95fc2c-5fdb-487d-8f6e-d6727f02419a">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip70)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 54.505 378.04 L 54.505 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip70 -->
+<clipPath id="clip204d0697-ae69-4f60-9ff2-b298c0d2d0e2">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip71)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 54.249 378.04 L 54.249 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip71 -->
+<clipPath id="clip9304d1df-61bb-40fb-839d-7b757487d49e">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip72)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 54.006 378.04 L 54.006 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip72 -->
+<clipPath id="clip34465b2a-b6db-4c30-b496-eb5519ae6db0">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip73)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 53.774 378.04 L 53.774 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip73 -->
+<clipPath id="clip5341721e-5092-4d81-8482-d0a967a15843">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip74)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 53.555 378.04 L 53.555 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip74 -->
+<clipPath id="clip3f134f95-ae11-4226-8bac-724c0db1347a">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip75)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 53.345 378.04 L 53.345 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip75 -->
+<clipPath id="clipe7753518-3698-4a93-a811-1a06bbecaf91">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip76)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 53.146 378.04 L 53.146 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip76 -->
+<clipPath id="clip88b95630-5f31-4280-8b52-de76985d2d09">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip77)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 52.955 378.04 L 52.955 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip77 -->
+<clipPath id="clipb453cfde-1c13-4a35-9087-9428dda6ceb9">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip78)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 52.773 378.04 L 52.773 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip78 -->
+<clipPath id="clipec0cfe80-1a5e-44f0-bb4e-db3e703796e0">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip79)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 52.599 378.04 L 52.599 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip79 -->
+<clipPath id="clipdde29da8-b25e-404f-a755-8564d4c16093">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip80)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 52.432 378.04 L 52.432 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip80 -->
+<clipPath id="clipcba5c386-9a6e-44bb-aa7f-ee277e4eb03b">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip81)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 52.273 378.04 L 52.273 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip81 -->
+<clipPath id="clipa4653b84-83ea-4f70-85c1-2645dd27b440">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip82)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 52.119 378.04 L 52.119 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip82 -->
+<clipPath id="clipd631f4fa-f912-49bc-bc4f-4398a4cdcd20">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip83)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 51.972 378.04 L 51.972 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip83 -->
+<clipPath id="clip34093e1e-ac5a-43dc-a7a6-44425e6b9ef6">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip84)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 51.831 378.04 L 51.831 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip84 -->
+<clipPath id="clip57bd5e08-f5a1-4f72-b60b-a7a580e9720d">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip85)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 51.695 378.04 L 51.695 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip85 -->
+<clipPath id="clip35f6e572-41fd-41be-a7e5-25077be77cdc">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip86)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 51.564 378.04 L 51.564 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip86 -->
+<clipPath id="clip2ce11034-0a37-44b2-93fd-a8431edb3df6">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip87)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 51.438 378.04 L 51.438 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip87 -->
+<clipPath id="clip73f8b27a-8439-47e9-ac53-72afb63c3bfe">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip88)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 51.317 378.04 L 51.317 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip88 -->
+<clipPath id="clip9f5ce43f-74db-4fd9-8234-679ae765edf5">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip89)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 51.200 378.04 L 51.200 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip89 -->
+<clipPath id="clip4d38d8e3-ca50-4887-826d-c9f747f99386">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip90)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 51.087 378.04 L 51.087 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip90 -->
+<clipPath id="clip89e56dbb-73eb-4608-bfa6-f6d01dbbf2dd">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip91)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 50.978 378.04 L 50.978 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip91 -->
+<clipPath id="clip92a693d2-445a-464a-b51a-26e04a1ea814">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip92)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 50.873 378.04 L 50.873 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip92 -->
+<clipPath id="clip69d99912-6287-4483-bece-570ef762417d">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip93)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 50.771 378.04 L 50.771 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip93 -->
+<clipPath id="clip5df412d9-4de6-46a2-b2a0-f6a335ca0ff2">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip94)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 50.672 378.04 L 50.672 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip94 -->
+<clipPath id="clipaa95d68d-299a-4592-a61d-6b4c4fb08dd6">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip95)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 50.577 378.04 L 50.577 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip95 -->
+<clipPath id="clip9080ef0b-4377-4e77-954e-fd6e00918a23">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip96)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 50.485 378.04 L 50.485 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip96 -->
+<clipPath id="clip3d6c2aa6-db1c-426d-baae-fe21b37c3400">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip97)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 50.396 378.04 L 50.396 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip97 -->
+<clipPath id="clip30ce3c90-6f96-45f5-9cac-bf48d455efce">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip98)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 50.309 378.04 L 50.309 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip98 -->
+<clipPath id="clip2ba280d8-1438-469c-b9b0-c33947c701ff">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip99)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 50.225 378.04 L 50.225 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip99 -->
+<clipPath id="clip192daf2c-1b39-48c0-bd2e-6110a8530aac">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip100)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 50.143 378.04 L 50.143 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip100 -->
+<clipPath id="clip51d9a88b-f125-478d-8f59-f7aee26daa20">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip101)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 50.064 378.04 L 50.064 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip101 -->
+<clipPath id="clipa794d132-eed5-4e88-8978-7fdbd27d44ad">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip102)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 49.987 378.04 L 49.987 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip102 -->
+<clipPath id="clip56b9f675-a261-4200-9f6c-fd17de686717">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip103)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 49.913 378.04 L 49.913 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip103 -->
+<clipPath id="clip19ecc0d7-dab3-4670-89a8-fdc4520c6076">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip104)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 49.840 378.04 L 49.840 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip104 -->
+<clipPath id="clip3dcca7a1-e18e-4f31-92a1-2f32f28229e2">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip105)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 49.770 378.04 L 49.770 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip105 -->
+<clipPath id="clipeb73d421-4735-41ea-af3f-f7303a428d75">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip106)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 49.701 378.04 L 49.701 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip106 -->
+<clipPath id="clip36a90c2e-418b-4b64-9493-4404377b9b32">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip107)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 49.634 378.04 L 49.634 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip107 -->
+<clipPath id="clipfc876450-649f-41da-8455-ab0c2818ded2">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip108)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 49.570 378.04 L 49.570 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip108 -->
+<clipPath id="clip76cb832d-da11-4313-b22a-68fe9420c0f4">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip109)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 49.506 378.04 L 49.506 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip109 -->
+<clipPath id="clipa98c9e5f-3071-4eba-94ed-aacf2fc56686">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip110)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 49.445 378.04 L 49.445 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip110 -->
+<clipPath id="clip8b16797f-9d29-4323-9071-79be3be5609e">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip111)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 49.385 378.04 L 49.385 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip111 -->
+<clipPath id="clip25e2a794-022e-4439-8ddd-0619c50e92c0">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip112)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 49.326 378.04 L 49.326 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip112 -->
+<clipPath id="clip79a5d46b-a242-4280-bf6c-b08748dab347">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip113)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 49.269 378.04 L 49.269 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip113 -->
+<clipPath id="clipa6fd9a1e-6333-4118-a0fd-9250708ef50e">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip114)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 49.214 378.04 L 49.214 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip114 -->
+<clipPath id="clip9b19b672-bb0e-4fb1-bd44-2de89cfd8943">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip115)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 49.159 378.04 L 49.159 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip115 -->
+<clipPath id="clipbfa65e8e-e4cb-4592-99ca-65b5ef671985">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip116)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 49.106 378.04 L 49.106 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip116 -->
+<clipPath id="clip766c275e-e126-46b8-b603-29c4a1ca0a90">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip117)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 49.055 378.04 L 49.055 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip117 -->
+<clipPath id="clip102a8fba-3ac8-40cf-bfe3-257605fdd32d">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip118)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 49.004 378.04 L 49.004 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip118 -->
+<clipPath id="clipc72dcce3-2c83-4073-a449-f269563ca824">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip119)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 48.955 378.04 L 48.955 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip119 -->
+<clipPath id="clipcab7a502-b2e2-42a4-94a4-d1c9ff26dda0">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip120)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 48.907 378.04 L 48.907 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip120 -->
+<clipPath id="clip9215be6c-de05-46e9-8d00-13064912073f">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip121)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 48.860 378.04 L 48.860 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip121 -->
+<clipPath id="clip15ab56d2-8e7c-4699-87d7-c513fd052dfc">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip122)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 48.814 378.04 L 48.814 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip122 -->
+<clipPath id="clipfbafffa6-6577-4f23-93a1-c6bdf1386ea7">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip123)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 48.769 378.04 L 48.769 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip123 -->
+<clipPath id="clipb92e9bdc-1be9-429d-aced-bcc0378de4d3">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip124)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 48.725 378.04 L 48.725 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip124 -->
+<clipPath id="clipbaeb90d3-0eb6-440e-876b-27f140346a08">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip125)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 48.682 378.04 L 48.682 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip125 -->
+<clipPath id="clip77d7cdae-51d3-42fc-b4de-0374ee406d82">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip126)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 48.639 378.04 L 48.639 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip126 -->
+<clipPath id="clip12c3e7be-7e16-4a14-bec6-48f9061ae2f5">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip127)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 48.598 378.04 L 48.598 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip127 -->
+<clipPath id="clip72a35eba-d3ef-4b26-97ee-17cf1bcfa4a0">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip128)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 48.558 378.04 L 48.558 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip128 -->
+<clipPath id="clip11e12725-0bb8-4fff-a720-8152804fa1cc">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip129)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 48.518 378.04 L 48.518 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip129 -->
+<clipPath id="clipc61518bd-7e57-41a8-b6b8-078dcce9bf27">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip130)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 48.480 378.04 L 48.480 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip130 -->
+<clipPath id="clipa60405b4-243b-483e-8b0d-b2e6081c9086">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip131)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 48.442 378.04 L 48.442 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip131 -->
+<clipPath id="clip409158cb-2189-4810-9665-a3ae308dfddb">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip132)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 48.405 378.04 L 48.405 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip132 -->
+<clipPath id="clip7e5f7bd6-0c86-41a0-9778-5f5a76768e2c">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip133)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 48.368 378.04 L 48.368 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip133 -->
+<clipPath id="clip0659aacb-f107-48ea-9da7-5d28ed1bd1cc">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip134)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 48.332 378.04 L 48.332 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip134 -->
+<clipPath id="clipb3435cae-41e6-4d75-9a5f-b3963618cddf">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip135)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 48.297 378.04 L 48.297 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip135 -->
+<clipPath id="clip95901c64-ea8b-4086-804f-f4191edc55a0">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip136)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 48.263 378.04 L 48.263 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip136 -->
+<clipPath id="clip3290cbfc-113f-47db-ad50-fd80816daf71">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip137)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 48.230 378.04 L 48.230 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip137 -->
+<clipPath id="clipdd3ddff0-e1f0-403b-b331-4ec666bd0bec">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip138)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 48.197 378.04 L 48.197 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip138 -->
+<clipPath id="clip3003398f-728d-4914-83c9-dd7a001e3ca7">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip139)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 48.164 378.04 L 48.164 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip139 -->
+<clipPath id="clip516b80a8-c045-49cd-ae48-c1ad72cab508">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip140)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 48.132 378.04 L 48.132 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip140 -->
+<clipPath id="clip75142a83-ab1c-422f-a361-cbdd9d7552c6">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip141)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 48.101 378.04 L 48.101 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip141 -->
+<clipPath id="clipfc8117ba-c745-4ca2-a72b-44c2c339ab80">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip142)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 48.071 378.04 L 48.071 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip142 -->
+<clipPath id="clip344d462f-fcf0-42af-b25e-27ce86700466">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip143)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 48.040 378.04 L 48.040 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip143 -->
+<clipPath id="clip5e8d88d3-4181-4724-9f76-11279ad93849">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip144)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 48.011 378.04 L 48.011 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip144 -->
+<clipPath id="clip99bfd40d-7cb4-4197-8eeb-02453996105e">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip145)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 47.982 378.04 L 47.982 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip145 -->
+<clipPath id="clip6d430b9a-3ce3-404d-a89a-82ac3e6b685e">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip146)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 47.953 378.04 L 47.953 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip146 -->
+<clipPath id="clip4ac333e5-254d-4bcc-ad8c-548e666a0a4b">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip147)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 47.926 378.04 L 47.926 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip147 -->
+<clipPath id="clip0e030d50-49ef-4f38-986b-cefdc50aec49">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip148)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 47.898 378.04 L 47.898 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip148 -->
+<clipPath id="clipf92fd7d8-957b-42e5-acf8-3d210a34004f">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip149)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 47.871 378.04 L 47.871 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip149 -->
+<clipPath id="clipbc7ee9fe-47ee-4197-a6ad-4d206a98b6db">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip150)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 47.844 378.04 L 47.844 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip150 -->
+<clipPath id="clipc422e29d-0a09-42d0-ab3e-a4d9a4f8dd53">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip151)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 47.818 378.04 L 47.818 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip151 -->
+<clipPath id="clipdaf3b043-e24f-4451-a1ff-db7dc1a9eef1">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip152)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 47.793 378.04 L 47.793 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip152 -->
+<clipPath id="clipa42cb66e-b94c-491f-94f9-46e396b1a7cb">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip153)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 47.767 378.04 L 47.767 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip153 -->
+<clipPath id="clipe1ba0d50-e2bf-4b88-93e2-bc49dcd198be">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip154)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 47.743 378.04 L 47.743 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip154 -->
+<clipPath id="clipa2a80251-97b0-4dd6-81ac-5a6085e2e191">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip155)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 47.718 378.04 L 47.718 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip155 -->
+<clipPath id="clipb9d26300-8ac7-4d5b-8373-008017f9428d">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip156)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 47.694 378.04 L 47.694 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip156 -->
+<clipPath id="clip858fc160-394d-4cd9-82d3-f11ebb6a96bd">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip157)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 47.671 378.04 L 47.671 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip157 -->
+<clipPath id="clip7da96d07-eda5-411e-8bde-bd8c67e48d06">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip158)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 47.647 378.04 L 47.647 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip158 -->
+<clipPath id="clip256e8851-ab71-4f33-bcc8-8246879335b9">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip159)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 47.624 378.04 L 47.624 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip159 -->
+<clipPath id="clip2d1b9aaf-b081-4aba-be2e-8ba501ec1a36">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip160)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 47.602 378.04 L 47.602 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip160 -->
+<clipPath id="clip28d97bfb-470a-4984-a3a2-ab52fe96718f">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip161)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 47.580 378.04 L 47.580 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip161 -->
+<clipPath id="clipd05acf9a-dd47-4e7e-b080-644b18a6a313">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip162)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 47.558 378.04 L 47.558 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip162 -->
+<clipPath id="clip93c3d2f5-f136-47d8-be33-a2a06b2c6352">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip163)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 47.536 378.04 L 47.536 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip163 -->
+<clipPath id="clipf602a609-6687-4475-8c80-0f4bc9608d02">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip164)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 47.515 378.04 L 47.515 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip164 -->
+<clipPath id="clip05d6611e-1d03-4b4e-806a-33d0d44b9282">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip165)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 47.494 378.04 L 47.494 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip165 -->
+<clipPath id="clip644778e2-6888-4291-8d49-b54781083252">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip166)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 47.474 378.04 L 47.474 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip166 -->
+<clipPath id="clipfbe68329-03c0-4189-8447-6b5b4993ec30">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip167)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 47.454 378.04 L 47.454 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip167 -->
+<clipPath id="clip4f0e3241-1b03-4c55-b795-7ae006777241">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip168)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 47.434 378.04 L 47.434 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip168 -->
+<clipPath id="clip6844b825-24d3-48ff-a8a3-fc2b3847df5c">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip169)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 47.414 378.04 L 47.414 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip169 -->
+<clipPath id="clip44dad360-5dd0-4143-bb5e-f2ef92f6c2f2">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip170)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 47.395 378.04 L 47.395 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip170 -->
+<clipPath id="clip7ec5db0c-3c71-4f49-bb56-13d38ff8f252">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip171)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 47.376 378.04 L 47.376 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip171 -->
+<clipPath id="clip2d5b7e47-3ab5-4b3c-96ca-802a8fbe694c">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip172)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 47.357 378.04 L 47.357 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip172 -->
+<clipPath id="clipbbb6c4b9-3842-47ba-b212-1f1b61bd6648">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip173)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 47.338 378.04 L 47.338 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip173 -->
+<clipPath id="clip066a730f-ae01-4e19-8944-8007298d3463">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip174)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 47.320 378.04 L 47.320 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip174 -->
+<clipPath id="clipab537f07-0e28-434b-9191-9699f2d5fa4f">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip175)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 47.302 378.04 L 47.302 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip175 -->
+<clipPath id="clip76d948a4-dd33-4b03-9bce-647f22bd97e4">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip176)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 47.284 378.04 L 47.284 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip176 -->
+<clipPath id="clip3d5ed9a0-17f1-4b90-b5b8-6b7a899d27e0">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip177)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 47.267 378.04 L 47.267 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip177 -->
+<clipPath id="clip442bec28-d79c-4ca2-927a-002b3cdfaf76">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip178)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 47.250 378.04 L 47.250 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip178 -->
+<clipPath id="clip65238389-c0e9-4978-bf13-944c2bbc0eec">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip179)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 47.233 378.04 L 47.233 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip179 -->
+<clipPath id="clip9ed0699b-5c72-4234-8ef9-dc9954c3fe8a">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip180)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 47.216 378.04 L 47.216 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip180 -->
+<clipPath id="clipb0c7a4d5-7ac5-4d7b-bc1f-41cf298ee2a5">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip181)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 47.199 378.04 L 47.199 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip181 -->
+<clipPath id="clip50a419da-8eee-4a22-b209-3b5a6b9f6287">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip182)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 47.183 378.04 L 47.183 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip182 -->
+<clipPath id="clipe8cbef5c-0b77-452b-974b-a23b3fd49561">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip183)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 47.167 378.04 L 47.167 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip183 -->
+<clipPath id="clipccd8b41b-42cd-432b-81fa-60b7d68640c6">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip184)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 47.151 378.04 L 47.151 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip184 -->
+<clipPath id="clip3e5dea4e-f545-414d-ad8e-dfadaf71cca4">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip185)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 47.135 378.04 L 47.135 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip185 -->
+<clipPath id="clipf73deb08-1899-4cd7-9f82-378cda455ef7">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip186)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 47.120 378.04 L 47.120 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip186 -->
+<clipPath id="clipcdbb9596-b8c9-4d9b-8e51-1fcdd9eebf29">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip187)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 47.104 378.04 L 47.104 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip187 -->
+<clipPath id="clip16f7f249-e423-4de5-b0c3-8de50d3905f0">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip188)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 47.089 378.04 L 47.089 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip188 -->
+<clipPath id="clip89d351be-642a-4a54-8dbd-f2a706c88ed7">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip189)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 47.074 378.04 L 47.074 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip189 -->
+<clipPath id="clipdb943f32-5ccb-4d29-b794-ca242615fae8">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip190)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 47.060 378.04 L 47.060 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip190 -->
+<clipPath id="clip15a0996a-c228-4861-b297-ef0427c13ba5">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip191)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 47.045 378.04 L 47.045 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip191 -->
+<clipPath id="clip5e969030-98da-426b-adcd-e20cdf44f72c">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip192)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 47.031 378.04 L 47.031 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip192 -->
+<clipPath id="clip65fc237a-7f70-4e5d-88ac-44b9f5fa97a2">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip193)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 47.017 378.04 L 47.017 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip193 -->
+<clipPath id="clip87fc40dc-0d17-4e2b-93d5-fa1a048ffe14">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip194)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 47.003 378.04 L 47.003 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip194 -->
+<clipPath id="clip54d44e0e-ca05-49ac-8bb0-88cfb754b628">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip195)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.989 378.04 L 46.989 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip195 -->
+<clipPath id="clip60613690-4ea1-4ab2-985d-96a1631b923f">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip196)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.975 378.04 L 46.975 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip196 -->
+<clipPath id="clipefaaaa05-c77e-40b0-a662-2673503929fe">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip197)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.962 378.04 L 46.962 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip197 -->
+<clipPath id="clip94477664-3b3d-4cd0-91a1-ce0179fa95f8">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip198)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.948 378.04 L 46.948 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip198 -->
+<clipPath id="clip1e6830d0-3105-445a-a186-6ada39b20283">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip199)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.935 378.04 L 46.935 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip199 -->
+<clipPath id="clip688bd245-ae96-4556-8c97-41860fc03ab3">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip200)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.922 378.04 L 46.922 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip200 -->
+<clipPath id="clip2b345fc2-6001-4634-b1bc-00b4d12840ff">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip201)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.909 378.04 L 46.909 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip201 -->
+<clipPath id="clip08b15ab3-a823-438c-8c9b-9d2f6e349857">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip202)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.897 378.04 L 46.897 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip202 -->
+<clipPath id="clipefa16f0b-e9e0-48a2-bfa7-ca4b32c592b1">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip203)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.884 378.04 L 46.884 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip203 -->
+<clipPath id="clip6ab96e23-5ef5-415d-8405-e42178a6fd45">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip204)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.872 378.04 L 46.872 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip204 -->
+<clipPath id="clip1d38c57e-7033-4c7b-87d4-a6053f59784d">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip205)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.859 378.04 L 46.859 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip205 -->
+<clipPath id="clip824ba833-af6c-42a2-ba53-7caad6a30ca2">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip206)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.847 378.04 L 46.847 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip206 -->
+<clipPath id="clip985a0bd2-6d2a-41c6-930c-a94f04f66641">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip207)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.835 378.04 L 46.835 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip207 -->
+<clipPath id="clip162a2c0f-cd3a-462b-af96-131c5e59da21">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip208)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.823 378.04 L 46.823 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip208 -->
+<clipPath id="clipfa7f44c2-e81a-4f94-8fe4-1ac06c93c78b">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip209)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.812 378.04 L 46.812 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip209 -->
+<clipPath id="clip71ff26fc-4c1a-49a2-9687-2478d614e849">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip210)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.800 378.04 L 46.800 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip210 -->
+<clipPath id="clip659511a4-55f6-4172-9927-32f1339ae750">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip211)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.789 378.04 L 46.789 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip211 -->
+<clipPath id="clip311ac8ae-fbb4-4197-84da-734c536eb872">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip212)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.777 378.04 L 46.777 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip212 -->
+<clipPath id="clip2c9f8dba-5ba4-4e51-bf3c-6bddeecbeb99">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip213)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.766 378.04 L 46.766 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip213 -->
+<clipPath id="clip8a714ea7-3b00-489d-a69c-f5de0abb2b1c">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip214)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.755 378.04 L 46.755 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip214 -->
+<clipPath id="clip8120ff55-ab1d-453a-ab0b-24d1f71069d6">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip215)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.744 378.04 L 46.744 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip215 -->
+<clipPath id="clip6a4716d1-3f5f-4fbc-8b98-65ac91edd297">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip216)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.733 378.04 L 46.733 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip216 -->
+<clipPath id="clipfc6347df-8b34-4628-b18d-620f7b80a531">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip217)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.723 378.04 L 46.723 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip217 -->
+<clipPath id="clip6b26a95e-85bd-4e01-a29a-d8ad5ec79e30">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip218)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.712 378.04 L 46.712 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip218 -->
+<clipPath id="clip9f14260c-84a1-4c54-97fb-6a5c23bb46ed">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip219)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.702 378.04 L 46.702 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip219 -->
+<clipPath id="clipc5a49286-199f-4322-8994-159bf4a005ac">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip220)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.691 378.04 L 46.691 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip220 -->
+<clipPath id="clipf1cf8f6e-8eed-4cc3-a09e-e64102292262">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip221)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.681 378.04 L 46.681 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip221 -->
+<clipPath id="clipff6698f1-55f9-4482-be1d-c76298f1633e">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip222)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.671 378.04 L 46.671 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip222 -->
+<clipPath id="clipcf4e45d0-bf37-4e7d-a8f4-f6466911d28b">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip223)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.661 378.04 L 46.661 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip223 -->
+<clipPath id="clip1c032907-3972-4ff9-8e0d-3245754f7dc2">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip224)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.651 378.04 L 46.651 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip224 -->
+<clipPath id="clip981b77a4-7d80-452a-83dd-e7a75caf67e1">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip225)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.641 378.04 L 46.641 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip225 -->
+<clipPath id="clipa01b536f-f6fe-4470-ba5e-952ee0bbd58d">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip226)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.631 378.04 L 46.631 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip226 -->
+<clipPath id="clip5afc0249-0f62-42ff-9300-171025bd0c76">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip227)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.622 378.04 L 46.622 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip227 -->
+<clipPath id="clip1144a84d-94bb-4dfc-8864-04a8223923cc">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip228)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.612 378.04 L 46.612 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip228 -->
+<clipPath id="clipd7aaf5e3-d7c5-4a17-b0d1-b285440492fc">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip229)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.603 378.04 L 46.603 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip229 -->
+<clipPath id="clipf8b345dc-5327-431a-bdcf-26f7a181cd75">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip230)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.593 378.04 L 46.593 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip230 -->
+<clipPath id="clipfa15311a-5741-413a-ae4f-eff88a900861">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip231)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.584 378.04 L 46.584 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip231 -->
+<clipPath id="clip2c7d6bd2-cfd3-4875-ace0-e377487b56ee">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip232)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.575 378.04 L 46.575 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip232 -->
+<clipPath id="clip86ad74ad-eda9-4f58-b014-b9dc1b9bfd27">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip233)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.566 378.04 L 46.566 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip233 -->
+<clipPath id="clip84cb267b-deca-4b7c-acbd-a612c7424e23">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip234)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.557 378.04 L 46.557 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip234 -->
+<clipPath id="clip2d2fa4b6-6bf8-4503-b5a3-43972dea641e">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip235)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.548 378.04 L 46.548 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip235 -->
+<clipPath id="clip6d00844c-1e2d-4c82-9285-a9af367480c7">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip236)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.539 378.04 L 46.539 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip236 -->
+<clipPath id="clip9f8766cc-02c5-486e-a54a-3df0a4afb032">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip237)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.531 378.04 L 46.531 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip237 -->
+<clipPath id="clip5212e499-0287-4c29-861b-0cc9382e7557">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip238)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.522 378.04 L 46.522 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip238 -->
+<clipPath id="clip96f5a229-ea2f-4d0a-8d9b-5bab3d9eb027">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip239)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.514 378.04 L 46.514 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip239 -->
+<clipPath id="clip37a0beca-b603-44dc-884d-2a6fe9652c15">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip240)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.505 378.04 L 46.505 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip240 -->
+<clipPath id="clipbdfb9de6-ce63-4e5a-8d3e-0e1c5896521d">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip241)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.497 378.04 L 46.497 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip241 -->
+<clipPath id="clipd39d547c-0257-4e7c-ba94-1b78869e2c77">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip242)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.488 378.04 L 46.488 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip242 -->
+<clipPath id="clipbfacef73-15f0-4c73-b7ed-19cf18f14c0f">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip243)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.480 378.04 L 46.480 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip243 -->
+<clipPath id="clip39115d21-51ba-447e-8c99-a8a21f3bcc39">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip244)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.472 378.04 L 46.472 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip244 -->
+<clipPath id="clip73c44056-0b5e-4ccd-bc31-69b6af4593ed">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip245)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.464 378.04 L 46.464 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip245 -->
+<clipPath id="clipb22b2c1d-ff90-40a9-b4be-ac6abd689ae4">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip246)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.456 378.04 L 46.456 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip246 -->
+<clipPath id="clipc79ec903-3743-4260-b997-fe41bbd51272">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip247)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.448 378.04 L 46.448 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip247 -->
+<clipPath id="clip42ec9806-00db-4a0a-8ec7-6a5263540d67">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip248)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.440 378.04 L 46.440 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip248 -->
+<clipPath id="clip1cc42048-f1ad-485d-886f-7e2dbf9ba76d">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip249)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.433 378.04 L 46.433 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip249 -->
+<clipPath id="clipa0b903b6-080a-4bbb-b781-86dfd636b986">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip250)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.425 378.04 L 46.425 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip250 -->
+<clipPath id="clipc72eb998-64f4-4167-970f-271c8a7938a2">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip251)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.417 378.04 L 46.417 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip251 -->
+<clipPath id="clip232b1cae-4cc0-4d95-8bf2-329abeea03c4">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip252)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.410 378.04 L 46.410 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip252 -->
+<clipPath id="clip7d631605-e7e4-476c-bfe6-70b4baed1a07">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip253)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.402 378.04 L 46.402 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip253 -->
+<clipPath id="clip35eccab4-38f3-4174-8eac-af20251abcea">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip254)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.395 378.04 L 46.395 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip254 -->
+<clipPath id="clip53dc64aa-6557-43d8-9805-ea6dda6a2922">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip255)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.387 378.04 L 46.387 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip255 -->
+<clipPath id="clipca22f914-6cab-4ea6-be45-059399f57919">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip256)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.380 378.04 L 46.380 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip256 -->
+<clipPath id="clip0ddb2343-6878-43ce-84a0-94fb1ca26946">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip257)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.373 378.04 L 46.373 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip257 -->
+<clipPath id="clipe9050ddf-4d75-4bba-ab68-37b0146b5d7b">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip258)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.366 378.04 L 46.366 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip258 -->
+<clipPath id="clip93d82a6e-0cf8-4f6a-b121-92b44251cc5c">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip259)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.359 378.04 L 46.359 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip259 -->
+<clipPath id="clip8e222e6c-2cbc-417d-befd-ebe62943618f">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip260)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.352 378.04 L 46.352 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip260 -->
+<clipPath id="clipd2809183-2439-4170-92a1-d52e87deca04">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip261)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.345 378.04 L 46.345 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip261 -->
+<clipPath id="clipa2ffa612-1aaa-4538-ac70-022f7045550e">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip262)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.338 378.04 L 46.338 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip262 -->
+<clipPath id="clip66dc0843-f55b-46c1-9cba-5c58b151121f">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip263)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.331 378.04 L 46.331 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip263 -->
+<clipPath id="clip74c991e7-687b-4827-a183-190e71710fe4">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip264)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.324 378.04 L 46.324 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip264 -->
+<clipPath id="clipfbdd47c5-9c46-4ecc-9297-a72b399f204e">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip265)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.317 378.04 L 46.317 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip265 -->
+<clipPath id="clipf2c86894-1a31-4d16-a81c-b42bed0f1d31">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip266)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.311 378.04 L 46.311 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip266 -->
+<clipPath id="clipcef33cd5-cd6a-4343-a25d-9cd270e41981">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip267)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.304 378.04 L 46.304 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip267 -->
+<clipPath id="clipac7be21f-d674-40be-9529-a87ed0b74faa">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip268)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.298 378.04 L 46.298 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip268 -->
+<clipPath id="clipde4cea4e-d459-4d7b-ab8c-39b2491abbb8">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip269)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.291 378.04 L 46.291 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip269 -->
+<clipPath id="clip1034a7a6-9de1-496e-b529-824daf64905a">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip270)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.285 378.04 L 46.285 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip270 -->
+<clipPath id="clip6e0dcf9a-4f1b-44f3-9362-19825d4ff02e">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip271)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.278 378.04 L 46.278 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip271 -->
+<clipPath id="clip6030d3da-e30b-4518-a67c-3289e011badb">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip272)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.272 378.04 L 46.272 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip272 -->
+<clipPath id="clipe5cdda3a-fb8d-4ada-98e0-9bf555fcb1a7">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip273)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.266 378.04 L 46.266 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip273 -->
+<clipPath id="clip5f065ee3-68ec-43c4-b204-8bcbe942d5ae">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip274)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.259 378.04 L 46.259 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip274 -->
+<clipPath id="clipb65dd43a-b53d-4af2-b374-7c248e834fc1">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip275)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.253 378.04 L 46.253 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip275 -->
+<clipPath id="cliped582bdc-f3b8-476b-8b38-39bfb18039e0">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip276)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.247 378.04 L 46.247 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip276 -->
+<clipPath id="clipd4c69ab4-f3c3-4645-ae3d-b38146627a99">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip277)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.241 378.04 L 46.241 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip277 -->
+<clipPath id="clip9c8b9c92-2c07-4fb0-8023-c6b95399a40f">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip278)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.235 378.04 L 46.235 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip278 -->
+<clipPath id="clip3e1120a2-6003-4f1f-a1e0-713aa90069e8">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip279)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.229 378.04 L 46.229 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip279 -->
+<clipPath id="clip4b4b75dd-ace5-4e80-8bbb-bef68c96f50a">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip280)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.223 378.04 L 46.223 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip280 -->
+<clipPath id="clip4efded41-bd85-4120-a4b8-e5b13dd57e83">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip281)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.217 378.04 L 46.217 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip281 -->
+<clipPath id="clip570f57ee-972f-402b-803e-377a0b7ac873">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip282)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.211 378.04 L 46.211 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip282 -->
+<clipPath id="clip150bb0fe-dbcb-4d8c-a0f8-522e22e13743">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip283)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.206 378.04 L 46.206 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip283 -->
+<clipPath id="clipfafa6885-ff2e-4c94-b71a-9267bfb59db6">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip284)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.200 378.04 L 46.200 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip284 -->
+<clipPath id="clipa5bcadb1-a7f8-4f3a-861f-21628ebefb37">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip285)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.194 378.04 L 46.194 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip285 -->
+<clipPath id="clip8c6f0522-1f64-4ef6-8c57-85646b2c4d85">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip286)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.189 378.04 L 46.189 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip286 -->
+<clipPath id="clip09df2f6c-a279-470e-8797-ec5b7a4ecb98">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip287)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.183 378.04 L 46.183 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip287 -->
+<clipPath id="clipf5dee464-6c69-434f-b78d-545358b9b43b">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip288)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.177 378.04 L 46.177 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip288 -->
+<clipPath id="clipb794bfab-494e-47d7-bb72-32a2e77cf749">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip289)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.172 378.04 L 46.172 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip289 -->
+<clipPath id="clip422af418-46af-4e67-97f9-fd97bdc9fcbc">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip290)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.166 378.04 L 46.166 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip290 -->
+<clipPath id="clipba610221-471e-4c10-8824-2b6da4c53172">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip291)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.161 378.04 L 46.161 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip291 -->
+<clipPath id="clipa6295149-a90c-4665-8d8d-676c67bd8329">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip292)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.156 378.04 L 46.156 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip292 -->
+<clipPath id="clipcca875d8-5417-47da-bf91-0a7280976148">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip293)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.150 378.04 L 46.150 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip293 -->
+<clipPath id="clip3f5e8ff6-6c5d-4a10-a9eb-9acf2ebdd651">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip294)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.145 378.04 L 46.145 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip294 -->
+<clipPath id="clip51dfbccf-f268-47ab-aa32-9b4af47ffa47">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip295)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.140 378.04 L 46.140 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip295 -->
+<clipPath id="clipbe6155f0-c71b-4268-b31d-908a73f34a4b">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip296)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.134 378.04 L 46.134 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip296 -->
+<clipPath id="clip8945b5e5-ad70-4966-b900-da52e700d64d">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip297)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.129 378.04 L 46.129 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip297 -->
+<clipPath id="clipd98f171c-09b3-47f1-8728-0e7d78206eca">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip298)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.124 378.04 L 46.124 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip298 -->
+<clipPath id="clip8e79fe7b-be23-434a-8bec-4ec21e8dc4ea">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip299)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.119 378.04 L 46.119 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip299 -->
+<clipPath id="clip5fbcdfb9-4083-4aa2-b45e-89c6c8afb8c3">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip300)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.114 378.04 L 46.114 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip300 -->
+<clipPath id="clipe0ece58c-9497-4197-9edb-e4859d6e7e13">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip301)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.109 378.04 L 46.109 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip301 -->
+<clipPath id="clip53483257-887a-4e94-9d59-64afd502aa93">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip302)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.104 378.04 L 46.104 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip302 -->
+<clipPath id="clip45c3d954-3680-476b-950a-c5fcbba7343e">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip303)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.099 378.04 L 46.099 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip303 -->
+<clipPath id="clip1368bc69-dd7c-4d5e-9581-3fbd36a71edf">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip304)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.094 378.04 L 46.094 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip304 -->
+<clipPath id="clip1c6af223-c284-41f9-8310-beffca04a696">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip305)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.089 378.04 L 46.089 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip305 -->
+<clipPath id="clipaa30edef-17bc-44d3-a302-0676325c1c6f">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip306)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.084 378.04 L 46.084 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip306 -->
+<clipPath id="clip579be506-b90b-4e3f-a494-8720c7cf2081">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip307)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.079 378.04 L 46.079 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip307 -->
+<clipPath id="clip12ab745a-088c-4f6a-920f-f90f204b724a">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip308)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.075 378.04 L 46.075 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip308 -->
+<clipPath id="clip064fcc04-8828-464a-9c77-74e569f09da2">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip309)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.070 378.04 L 46.070 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip309 -->
+<clipPath id="clip5b4cfeca-c694-4203-9bb8-fc6cfd913a71">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip310)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.065 378.04 L 46.065 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip310 -->
+<clipPath id="clip04e424a1-f097-4ce8-a460-4676dc01d6f7">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip311)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.060 378.04 L 46.060 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip311 -->
+<clipPath id="clip26b72b68-ebfe-404d-bcbd-348ef1f60916">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip312)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.056 378.04 L 46.056 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip312 -->
+<clipPath id="clip75e41ef5-b453-4e2d-a46c-308259ac9a25">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip313)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.051 378.04 L 46.051 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip313 -->
+<clipPath id="clip425b35f4-f3cf-4d67-ae3a-0f52ac48dec1">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip314)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.047 378.04 L 46.047 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip314 -->
+<clipPath id="clipd1fe81d5-c689-43bd-bfa8-ae68fb19f97c">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip315)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.042 378.04 L 46.042 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip315 -->
+<clipPath id="clip89591c4c-4e48-476f-827a-be4646125ca3">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip316)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.037 378.04 L 46.037 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip316 -->
+<clipPath id="clip15c78443-051f-4684-a55d-de12800b9b59">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip317)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.033 378.04 L 46.033 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip317 -->
+<clipPath id="clip0125bcce-a6f2-4bff-bfdc-b4717b3ee115">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip318)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.029 378.04 L 46.029 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip318 -->
+<clipPath id="clip560d35a2-d91d-4808-a4a2-1036311ae156">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip319)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.024 378.04 L 46.024 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip319 -->
+<clipPath id="clip25e68030-b510-4606-879a-9309242e62cb">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip320)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.020 378.04 L 46.020 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip320 -->
+<clipPath id="clip0ecdb9c6-c3fe-4df2-a83b-87f275ee61b0">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip321)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.015 378.04 L 46.015 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip321 -->
+<clipPath id="clip16a8e178-ed5d-4855-bdd3-5ccb08640180">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip322)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.011 378.04 L 46.011 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip322 -->
+<clipPath id="clip1fd03c5a-515d-4e89-ad6b-687fbfa732a5">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip323)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.007 378.04 L 46.007 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip323 -->
+<clipPath id="clipf2f948c8-683b-4140-a6ba-3ba6be1f5122">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip324)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.002 378.04 L 46.002 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip324 -->
+<clipPath id="clipe4122fdf-d204-4a9c-88ac-3d7f5e35ec9e">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip325)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 45.998 378.04 L 45.998 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip325 -->
+<clipPath id="clip7b21f5c1-51e4-4a4f-b780-f9c472a58bdd">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip326)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 45.994 378.04 L 45.994 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip326 -->
+<clipPath id="clip238eb160-4803-4fcb-bb41-b6fe45918f1e">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip327)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 45.990 378.04 L 45.990 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip327 -->
+<clipPath id="clip3790917d-eebf-4a06-aa7e-aab75d43b25c">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip328)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 45.986 378.04 L 45.986 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip328 -->
+<clipPath id="clip574112a1-bf43-4fb4-86b7-ff92e698fc33">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip329)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 45.982 378.04 L 45.982 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip329 -->
+<clipPath id="clip62b47244-cc0a-4090-b844-283988aedb95">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip330)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 45.977 378.04 L 45.977 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip330 -->
+<clipPath id="clip08c4424f-ad91-4b67-a3c1-939048dfb15f">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip331)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 45.973 378.04 L 45.973 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip331 -->
+<clipPath id="clipd1488035-0392-4509-917e-d71f068efda9">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip332)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 45.969 378.04 L 45.969 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip332 -->
+<clipPath id="clip90d6ee1a-a11c-42b7-99a7-5fa6097dd757">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip333)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 45.965 378.04 L 45.965 76.613"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip333 -->
+<clipPath id="clip68e5a7fb-7924-4873-b628-cef49fccefe3">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip334)">
+<g stroke-linejoin="round" stroke-width="2.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 44.764 378.04 L 405.19 378.04"/>
+<title>List Ls</title>
+<desc>List Ls: Join({Zip(Segment((1 / k, 0), (1 / k, 1)), k, Ln), {Segment((0, 0), (1, 0))}})</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip334 -->
+<clipPath id="clipe4583263-a3c2-442c-b600-01a7d8532f54">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip335)">
+<g fill-opacity="1.0000" fill-rule="nonzero" stroke="none" fill="#ffffff">
+  <path d="M 527.00 31.000 L 527.00 61.000 C 527.00 63.209 528.79 65.000 531.00 65.000 L 607.00 65.000 C 609.21 65.000 611.00 63.209 611.00 61.000 L 611.00 31.000 C 611.00 28.791 609.21 27.000 607.00 27.000 L 531.00 27.000 C 528.79 27.000 527.00 28.791 527.00 31.000 z"/>
+<title>Button button1</title>
+<desc>button1</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip335 -->
+<clipPath id="clip16f08e01-817d-4570-9a8d-999e7fb15830">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip336)">
+<g stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 527.50 31.500 L 527.50 61.500 C 527.50 63.709 529.29 65.500 531.50 65.500 L 607.50 65.500 C 609.71 65.500 611.50 63.709 611.50 61.500 L 611.50 31.500 C 611.50 29.291 609.71 27.500 607.50 27.500 L 531.50 27.500 C 529.29 27.500 527.50 29.291 527.50 31.500 z"/>
+<title>Button button1</title>
+<desc>button1</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip336 -->
+<clipPath id="clipbda05863-0285-4d1a-9a83-ab03ec358262">
+  <path d="M 0.0000 0.0000 L 0.0000 418.00 L 520.00 418.00 L 520.00 0.0000 z"/>
+</clipPath>
+<g clip-path="url(#clip337)">
+<g fill-opacity="1.0000" fill-rule="nonzero" stroke="none" fill="#000000">
+  <path d="M 541.64 58.434 Q 539.89 58.434 537.17 57.672 L 537.17 55.234 Q 540.10 56.594 541.99 56.594 Q 543.44 56.594 544.33 55.832 Q 545.21 55.070 545.21 53.828 Q 545.21 52.809 544.63 52.094 Q 544.05 51.379 542.49 50.500 L 541.30 49.809 Q 539.08 48.543 538.17 47.424 Q 537.27 46.305 537.27 44.816 Q 537.27 42.812 538.72 41.518 Q 540.17 40.223 542.42 40.223 Q 544.43 40.223 546.65 40.891 L 546.65 43.141 Q 543.91 42.062 542.56 42.062 Q 541.29 42.062 540.45 42.742 Q 539.62 43.422 539.62 44.453 Q 539.62 45.320 540.23 45.988 Q 540.84 46.656 542.46 47.582 L 543.70 48.285 Q 545.95 49.562 546.84 50.699 Q 547.73 51.836 547.73 53.430 Q 547.73 55.691 546.06 57.062 Q 544.39 58.434 541.64 58.434 z M 560.56 57.590 Q 558.24 58.293 556.59 58.293 Q 553.78 58.293 552.00 56.424 Q 550.23 54.555 550.23 51.578 Q 550.23 48.684 551.79 46.832 Q 553.36 44.980 555.79 44.980 Q 558.10 44.980 559.36 46.621 Q 560.62 48.262 560.62 51.285 L 560.61 52.000 L 552.58 52.000 Q 553.09 56.535 557.02 56.535 Q 558.46 56.535 560.56 55.762 z M 552.69 50.266 L 558.30 50.266 Q 558.30 46.715 555.65 46.715 Q 552.99 46.715 552.69 50.266 z M 568.43 58.293 Q 566.67 58.293 565.68 57.285 Q 564.70 56.277 564.70 54.484 L 564.70 47.008 L 563.11 47.008 L 563.11 45.273 L 564.70 45.273 L 564.70 42.965 L 567.01 42.742 L 567.01 45.273 L 570.34 45.273 L 570.34 47.008 L 567.01 47.008 L 567.01 54.062 Q 567.01 56.559 569.16 56.559 Q 569.62 56.559 570.28 56.406 L 570.28 58.000 Q 569.21 58.293 568.43 58.293 z M 581.54 58.000 L 581.54 55.609 Q 579.70 58.293 577.07 58.293 Q 575.41 58.293 574.43 57.244 Q 573.44 56.195 573.44 54.414 L 573.44 45.273 L 575.75 45.273 L 575.75 53.664 Q 575.75 55.094 576.17 55.697 Q 576.58 56.301 577.55 56.301 Q 579.66 56.301 581.54 53.523 L 581.54 45.273 L 583.85 45.273 L 583.85 58.000 z M 588.48 62.629 L 588.48 45.273 L 590.79 45.273 L 590.79 47.664 Q 592.20 44.992 595.04 44.992 Q 597.34 44.992 598.65 46.668 Q 599.97 48.344 599.97 51.250 Q 599.97 54.414 598.48 56.354 Q 596.98 58.293 594.55 58.293 Q 592.29 58.293 590.79 56.559 L 590.79 62.629 z M 590.79 54.965 Q 592.57 56.559 594.18 56.559 Q 597.51 56.559 597.51 51.484 Q 597.51 47.008 594.56 47.008 Q 592.62 47.008 590.79 49.105 z"/>
+<title>Button button1</title>
+<desc>button1</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip337 -->
+</g><!-- layer0 -->
+</g> <!-- default stroke -->
+</svg> <!-- bounding box -->
