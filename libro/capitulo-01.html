@@ -125,7 +125,7 @@
         <dd><a href="capitulo-02.html#capitulo02_seccion2_2" class="w3-bar-item w3-button">&nbsp; - Producto finito</a></dd>
 
 
-        <dt><a href="referencias.html" onclick="w3_close()" class="w3-bar-item w3-button"><strong>Referencias</strong></a></dt>
+        <dt><a href="libro/referencias.html" onclick="w3_close()" class="w3-bar-item w3-button"><strong>Referencias</strong></a></dt>
       
       </dl>
     </div>
@@ -988,9 +988,14 @@
         X$ tiene
         la forma $f^{-1}(A)$, para alg&#xFA;n abierto $A\subseteq Y$. En general no toda funci&#xF3;n inyectiva y continua es una
         inmersi&#xF3;n: tomemos
-        la funci&#xF3;n identidad $id:(\mathbb{R},\tau)\to (\mathbb{R}, \tau_{\text{trivial}})$ y observemos que es continua,
+        la funci&#xF3;n identidad 
+        $$id:(\mathbb{R},\tau)\to (\mathbb{R}, \tau_{\text{trivial}})$$ y observemos que es continua,
         inyectiva pero no inmersi&#xF3;n
         debido a los abiertos de las topolog&#xED;as propuestas.</p>
+
+        <div class="w3-center">
+          <div class="ggbApp" id="ggb-element-01"></div>
+        </div>
 
       
       <p> A continuaci&#xF3;n presentamos un resultado que permite obtener una funci&#xF3;n continua apartir de dos funciones
@@ -1217,8 +1222,23 @@
 </section>
 
 <!--GeoGebra embeding-->
+<script src="https://cdn.geogebra.org/apps/deployggb.js"></script>
+
 <script>
-  
+    let params01 = {
+      "width": 721,
+      "height": 499,
+      "material_id": "cbeqjtde",
+      "borderColor": "888888",
+      "playButton": false,
+      "showFullscreenButton": true,
+      "enableShiftDragZoom": true,
+      "showResetIcon": true
+    };
+    let ggbApplet01 = new GGBApplet(params01, true);
+    window.addEventListener("load", function () {
+      ggbApplet01.inject('ggb-element-01');
+    });
 </script>
 <!--GeoGebra embeding ends-->
       </div>

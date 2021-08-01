@@ -1354,6 +1354,11 @@ hr.new {
   width: 260px;
   background: #e6e6e6; }
 
+.ggbApp {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
 /* SMALL SCREENS */
 @media only screen and (min-width: 820px) {
   #page-content {
