@@ -354,12 +354,21 @@
           </ul>
 
 
-          <p> Sean $\tau_1,\tau_2$ dos topolog&#xED;as para $X$. Decimos que $\tau_2$ es mas <strong>fina </strong> o
+          <p> Sean $\tau_1,\tau_2$ dos topolog&#xED;as para $X$. Decimos que $\tau_2$ es mas <strong>fina</strong> o
             <strong> m&#xE1;s grande </strong> que $\tau_1$ si $\tau_1\subset \tau_2$. Equivalentemente decimos que
             $\tau_1$ es
             mas <strong> m&#xE1;s gruesa </strong> o <strong> m&#xE1;s peque&#xF1;a </strong> que $\tau_2$. Observemos que bajo
             estas condiciones
-            se tiene que todo abierto de $\tau_1$ es abierto de $\tau_2$.</p>
+            se tiene que todo abierto de $\tau_1$ es abierto de $\tau_2$.
+          </p>
+
+          <figure class="w3-center">
+            <img class="w3-hide-large" src="imgs/cap-01/topcof.jpg" alt="Peine del top&#xF3;golo" style="width:100%">
+            <img class="w3-hide-small w3-hide-medium" src="imgs/cap-01/topcof.jpg" alt="Peine del top&#xF3;golo" style="width:60%">
+            <figcaption>
+              <b>Figura 1:</b> Topolog&#xED;as y caf&#xE9;. Fuente: <a href="https://math3ma.com" target="_blank">math3ma.com</a>
+            </figcaption>
+          </figure>
 
 
           <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive" style="padding:8px 16px 8px 16px;">
@@ -782,6 +791,13 @@
               Este ejemplo muestra que la propiedad de tener esquinas no es una propiedad topol&#xF3;gica. </li>
           </ul>
 
+          <figure class="w3-center">
+            <div class="ggbApp" id="cube-sphere"></div>
+            <figcaption>
+              <b>Figura 2:</b> Tener esquinas no es una propiedad topol&#xF3;gica.
+            </figcaption>
+          </figure>
+
     </div>
   </section>
 
@@ -867,7 +883,7 @@
       <p> La definici&#xF3;n cl&#xE1;sica de continuidad es compatible con la dada anteriormente en el contexto de la topolog&#xED;a
         m&#xE9;trica:
         la funci&#xF3;n $f:(X,d)\to (Y,h)$ entre espacios m&#xE9;tricos y $x\in X$ es continua
-        en $x$ si y solo si $\forall\epsilon 0\; \exists\delta&gt;0$ tal que $d(x,y)&lt;\delta$ implica que $h(f(x),f(y)) \lt
+        en $x$ si y solo si $\forall\epsilon 0\; \exists\delta&gt;0$ tal que $d(x,y)\lt \delta$ implica que $h(f(x),f(y)) \lt
           \epsilon$. </p> <p> Como mencionamos antes, es posible dar diferentes m&#xE9;tricas en un mismo conjunto. Con la
           noci&#xF3;n de topolog&#xED;a inducida
           por una m&#xE9;trica surge una pregunta natural: &#xBF;c&#xF3;mo se comparan las topolog&#xED;as inducidas por dos m&#xE9;tricas? El
@@ -995,10 +1011,10 @@
       </p>
 
         <figure class="w3-center">
-          <div class="ggbApp w3-hide-small w3-hide-medium" id="ggb-element-01"></div>
+          <div class="ggbApp w3-hide-small w3-hide-medium" id="klein"></div>
           <img class="w3-hide-large" src="https://1.bp.blogspot.com/-Jv29wrRVIyE/YQXsvAEdx5I/AAAAAAAAa34/a0Vz2hEJGfMAk8jNezuVSrFvakECTI1FQCLcBGAsYHQ/w640-h421/klein-mobius.gif" alt="La botella de Klein" style="width:100%">
           <figcaption>
-            <b>Figura 1:</b> Inmersi&#xF3;n cl&#xE1;sica de la botella de Klein en $\mathbb R^3$.
+            <b>Figura 3:</b> Inmersi&#xF3;n cl&#xE1;sica de la botella de Klein en $\mathbb R^3$.
           </figcaption>
         </figure>
 
@@ -1088,7 +1104,17 @@
         para hacerlo: con la <strong> topolog&#xED;a de caja (box topology)</strong> y la <strong>topolog&#xED;a
           producto</strong>. Existen algunas sutiles diferencias en ambas definiciones
         pero al final, debido a algunos ejemplos sencillos, se prefiere la topolog&#xED;a producto sobre la topolog&#xED;a de
-        caja. </p>
+        caja. 
+      </p>
+
+
+      <figure class="w3-center">
+        <img class="w3-hide-large" src="imgs/cap-01/products.jpg" alt="Productos" style="width:100%">
+        <img class="w3-hide-small w3-hide-medium" src="imgs/cap-01/products.jpg" alt="Productos" style="width:85%">
+        <figcaption>
+          <b>Figura 4:</b> Una peque&#xF1;a tabla de multiplicati&#xF3;n. Fuente: <a href="https://math3ma.com" target="_blank">math3ma.com</a>
+        </figcaption>
+      </figure>
 
 
     </div>
@@ -1230,7 +1256,7 @@
 <script src="https://cdn.geogebra.org/apps/deployggb.js"></script>
 
 <script>
-    let params01 = {
+    let klein = {
       "width": 721,
       "height": 499,
       "material_id": "cbeqjtde",
@@ -1240,9 +1266,24 @@
       "enableShiftDragZoom": true,
       "showResetIcon": true
     };
-    let ggbApplet01 = new GGBApplet(params01, true);
+    let ggbApplet01 = new GGBApplet(klein, true);
     window.addEventListener("load", function () {
-      ggbApplet01.inject('ggb-element-01');
+      ggbApplet01.inject('klein');
+    });
+
+    let cubesphere = {
+      "width": 450,
+      "height": 450,
+      "material_id": "pwtxywnx",
+      "borderColor": "888888",
+      "playButton": false,
+      "showFullscreenButton": true,
+      "enableShiftDragZoom": true,
+      "showResetIcon": true
+    };
+    let ggbApplet02 = new GGBApplet(cubesphere, true);
+    window.addEventListener("load", function () {
+      ggbApplet02.inject('cube-sphere');
     });
 </script>
 <!--GeoGebra embeding ends-->
