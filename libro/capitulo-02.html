@@ -172,6 +172,8 @@
     <div class="w3-container w3-section">
       <h2>2.1 Conexidad</h2>
 
+      <hr>
+
       <p>
         Decimos que un espacio $X$ es <strong>conexo</strong> si los &#xFA;nicos subconjuntos
         que son abiertos y cerrados son el vac&#xED;o $\emptyset$ y el total $X$.
@@ -204,12 +206,12 @@
       </p>
 
       <h3>Ejemplo: </h3>
-      <p>
-        Sea $X=\{a,b\}$ con la topologia trivial. No existe separaci&#xF3;n
-        de $X$ por lo que es conexo. De este ejemplo se sigue que la
-        conexidad de un espacio topol&#xF3;gico depende fuertemente de
-        su topolog&#xED;a.$\bt$
-      </p>
+      <ul>
+        <li>Sea $X=\{a,b\}$ con la topologia trivial. No existe separaci&#xF3;n
+          de $X$ por lo que es conexo. De este ejemplo se sigue que la
+          conexidad de un espacio topol&#xF3;gico depende fuertemente de
+          su topolog&#xED;a.$\bt$</li>
+      </ul>
 
       <p>
         El siguiente resultado proporciona un criterio para determinar la conexidad de un espacio.
@@ -223,13 +225,14 @@
       </div>
 
       <h3>Ejemplo: </h3>
-      <p>
-        Tomemos $X=\{x\in \br \barra x\neq 0\}$. Notemos que
-        $$
-        A_1=X\cap (\infty,0),\qquad A_2=X\cap (0,\infty)
-        $$
-        son abiertos relativos, disjuntos y su uni&#xF3;n es $X$; as&#xED;, $X$ es disconexo.$\bt$
-      </p>
+      <ul>
+        <li>Tomemos $X=\{x\in \br \barra x\neq 0\}$. Notemos que
+          $$
+          A_1=X\cap (\infty,0),\qquad A_2=X\cap (0,\infty)
+          $$
+          son abiertos relativos, disjuntos y su uni&#xF3;n es $X$; as&#xED;, $X$ es disconexo.$\bt$
+        </li>
+      </ul>
 
       <p>
         Decimos que un subespacio $Y\subseteq X$ es <strong>conexo</strong> si lo es en la
@@ -240,7 +243,7 @@
 
       <p>
         El siguiente resultado muestra que la conexidad
-        {\em se hereda} a ciertos subconjuntos.
+        <em>se hereda</em> a ciertos subconjuntos.
       </p>
 
       <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive" style="padding:8px 16px 8px 16px;">
@@ -265,7 +268,8 @@
         sin p&#xE9;rdida de generalidad supongamos $0\in C$. Afirmamos
         que $C\cap D\neq \emptyset$. Consideremos
         $d=\inf D$ y probaremos que $d\in C\cap D$. Como $D$ es cerrado,
-        $d\in D$ por el Lema \ref{lemavecindad}. Si $d=0$ el resultado
+        $d\in D$ por el <a href="capitulo-01.html#lema-sec-1-2" target="_blank">Lema en Cap. 1 - Sec 1.2</a>. Si $d=0$
+        el resultado
         se sigue. Ahora, supongamos que $d&gt;0$ y hagamos
         $$
         E=C\cap [0,d]
@@ -310,8 +314,8 @@
         anteriores, y por propiedades de las proyecciones $p_X,p_Y$,
         es posible probar que el producto cartesiano
         $X\times Y$ es conexo s&#xED; y s&#xF3;lo si, $X,Y$ tambi&#xE9;n lo son.
-        Este resultado se puede extender a una cantidad {\em
-        arbitraria} de espacios conexos.
+        Este resultado se puede extender a una cantidad
+        <em>arbitraria</em> de espacios conexos.
       </p>
 
       <p>
@@ -378,7 +382,7 @@
         no vac&#xED;os tales que $X=A\cup B$; probaremos que $A\cap B\neq \emptyset$.</p>
 
       <p>
-          Tomemos $x\in A, y\in B$ y $\alpha$ arco que una a $x$ con $y$.
+        Tomemos $x\in A, y\in B$ y $\alpha$ arco que una a $x$ con $y$.
         Como $\alpha$ es continua los conjuntos $\alpha^{-1}(A),
         \alpha^{-1}(B)$ son abiertos, no vac&#xED;os y adem&#xE1;s
         $$
@@ -398,55 +402,74 @@
       <h3>Ejemplo:</h3>
 
 
-      <p>
-        El <strong>Peine Roto</strong> (<em>Deleted Comb Space</em>) es el subespacio de
-        $\br^2$ que se muestra a continuaci&#xF3;n
-      </p>
+      <ul>
+        <li>
+          El <strong>Peine Roto</strong> (<em>Deleted Comb Space</em>) es el subespacio de
+          $\br^2$ que se muestra a continuaci&#xF3;n:
 
-      <figure class="w3-center">
-        <img class="w3-hide-large" src="imgs/cap-02/peine-topologico.svg" alt="Peine del top&#xF3;golo" style="width:100%">
-        <img class="w3-hide-small w3-hide-medium" src="imgs/cap-02/peine-topologico.svg" alt="Peine del top&#xF3;golo" style="width:60%">
-        <figcaption>
-          <b>Figura 1:</b> Peine Roto o peine del top&#xF3;logo.
-        </figcaption>
-      </figure>
+          <figure class="w3-center">
+            <img class="w3-hide-large" src="imgs/cap-02/peine-topologico.svg" alt="Peine del top&#xF3;golo" style="width:100%">
+            <img class="w3-hide-small w3-hide-medium" src="imgs/cap-02/peine-topologico.svg" alt="Peine del top&#xF3;golo" style="width:60%">
+            <figcaption>
+              <b>Figura 1:</b> Peine Roto o peine del top&#xF3;logo.
+            </figcaption>
+          </figure>
 
-      
-      
-      <p>
-        El espacio se define por
-        $$
-        X=\{(1/n,y) \barra n\in N, y\in [0,1] \} \cup \{ (0,1) \} \cup ([0,1]\times \{0\})
-        $$
-        El espacio es conexo pero conexo por caminos.$\bt$
-      </p>
+          El espacio se define por
+          $$
+          X=\{(1/n,y) \barra n\in N, y\in [0,1] \} \cup \{ (0,1) \} \cup ([0,1]\times \{0\})
+          $$
+          El espacio es conexo pero conexo por caminos.$\bt$
+        </li>
+      </ul>
+
+
 
 
       <h3>Ejemplo:</h3>
 
-      <p>
-        El remolino del top&#xF3;logo -
+      <ul>
+        <li>El remolino del top&#xF3;logo -
 
-        Sea $A$ curva plana dada en coordenadas polares por 
-        $$
-        \left\{\left(\frac{\Theta}{\Theta+1},\Theta\right)\barra \Theta \in
-        (0,\infty)\right\},
-        $$
-         ver imagen abajo
+          Sea $A$ curva plana dada en coordenadas polares por
+          $$
+          \left\{\left(\frac{\Theta}{\Theta+1},\Theta\right)\barra \Theta \in
+          (0,\infty)\right\},
+          $$
+          ver imagen abajo
 
-        </p><figure class="w3-center">
-          <img class="w3-hide-large" src="imgs/cap-02/remolino.svg" alt="Remolino top&#xF3;gologico" style="width:100%">
-          <img class="w3-hide-small w3-hide-medium" src="imgs/cap-02/remolino.svg" alt="Remolino topol&#xF3;gico" style="width:50%">
-          <figcaption>
-            <b>Figura 2:</b> Remolino topol&#xF3;gico.
-          </figcaption>
-        </figure>
+          <figure class="w3-center">
+            <img class="w3-hide-large" src="imgs/cap-02/remolino.svg" alt="Remolino top&#xF3;gologico" style="width:100%">
+            <img class="w3-hide-small w3-hide-medium" src="imgs/cap-02/remolino.svg" alt="Remolino topol&#xF3;gico" style="width:50%">
+            <figcaption>
+              <b>Figura 2:</b> Remolino topol&#xF3;gico.
+            </figcaption>
+          </figure>
 
-        
-        El <strong>remolino del top&#xF3;logo</strong> se define como la uni&#xF3;n $W=S^1\cup A$ y es un
-        ejemplo de un espacio conexo pero no arco-conexo; v&#xE9;ase \cite[Ejem.6.23]{AF08}.$\bt$
 
-      <p></p>
+          El <strong>remolino del top&#xF3;logo</strong> se define como la uni&#xF3;n $W=S^1\cup A$ y es un
+          ejemplo de un espacio conexo pero no arco-conexo; v&#xE9;ase \cite[Ejem.6.23]{AF08}.$\bt$
+          El remolino del top&#xF3;logo -
+
+          Sea $A$ curva plana dada en coordenadas polares por
+          $$
+          \left\{\left(\frac{\Theta}{\Theta+1},\Theta\right)\barra \Theta \in
+          (0,\infty)\right\},
+          $$
+
+          <figure class="w3-center">
+            <img class="w3-hide-large" src="imgs/cap-02/remolino.svg" alt="Remolino top&#xF3;gologico" style="width:100%">
+            <img class="w3-hide-small w3-hide-medium" src="imgs/cap-02/remolino.svg" alt="Remolino topol&#xF3;gico" style="width:50%">
+            <figcaption>
+              <b>Figura 2:</b> Remolino topol&#xF3;gico.
+            </figcaption>
+          </figure>
+
+
+          El <strong>remolino del top&#xF3;logo</strong> se define como la uni&#xF3;n $W=S^1\cup A$ y es un
+          ejemplo de un espacio conexo pero no arco-conexo; v&#xE9;ase el ejemplo 6.23 en <a href="referencias.html#AF08" target="_blank">Adams &amp; Franzosa 2008</a>.$\bt$</li>
+
+      </ul>
 
 
 
@@ -543,7 +566,8 @@
         $$
         \alpha(t)=\begin{cases} \beta(2t),&amp;0\leq t\leq 1/2\\ \gamma(2t-1),&amp;1/2\leq t\leq 1 \end{cases}
         $$
-        y observemos que $\alpha$ es continua (Lema \ref{pegado} del Pegado) y adem&#xE1;s une a $x$ con $y$ y por lo tanto
+        y observemos que $\alpha$ es continua (<a href="captitulo-01.html#lema-del-pegado" target="_blank">Lema del
+          Pegado</a>) y adem&#xE1;s une a $x$ con $y$ y por lo tanto
         $A\cup B$ es conexo por caminos.$\findem$
       </p>
 
@@ -555,26 +579,26 @@
       </p>
 
 
-      <h3>Ejemplo:</h3>
-      <p>
-        Dados $x,y\in \br^n$ el segmento de linea
-        $$
-        \mcal{L}_{xy}=\{tx+(1-t)y\;|\; \;\;t\in [0,1]\}
-        $$
-        es un camino que los une.
-      </p>
-
-      <h3>Ejemplo:</h3>
-      <p>
-        Para $n&gt;1$ la esfera $S^n$ es conexa por caminos pues dados
-        $x,y\in S^n$ no antipodales tomamos el segmento de
-        linea del ejemplo anterior y lo normalizamos:
-        $$
-        \frac{tx+(1-t)y}{||tx+(1-t)y||}
-        $$
-        el cual es un segmento {\em sobre} la esfera que une a
-        $x$ con $y$; as&#xED;, la esfera $S^n$ es arco-conexo.$\bt$
-      </p>
+      <h3>Ejemplos:</h3>
+      <ul>
+        <li>
+          Dados $x,y\in \br^n$ el segmento de linea
+          $$
+          \mcal{L}_{xy}=\{tx+(1-t)y\;|\; \;\;t\in [0,1]\}
+          $$
+          es un camino que los une.
+        </li>
+        <li id="esfera">
+          Para $n&gt;1$ la esfera $S^n$ es conexa por caminos pues dados
+          $x,y\in S^n$ no antipodales tomamos el segmento de
+          linea del ejemplo anterior y lo normalizamos:
+          $$
+          \frac{tx+(1-t)y}{||tx+(1-t)y||}
+          $$
+          el cual es un segmento {\em sobre} la esfera que une a
+          $x$ con $y$; as&#xED;, la esfera $S^n$ es arco-conexo.$\bt$
+        </li>
+      </ul>
 
       <p>
         Cuando la conexidad y la conexidad por caminos se consideran
@@ -582,7 +606,7 @@
         siguiente equivalencia entre estos conceptos.
       </p>
 
-      <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive" style="padding:8px 16px 8px 16px;">
+      <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive" style="padding:8px 16px 8px 16px;" id="intervalo-arco-conexo">
         <p><strong>Teorema:</strong>
           Sea $I\subseteq \br$ cualquiera, con $|I|\geq 2$. Las siguientes afirmaciones son equivalentes:
         </p>
@@ -593,9 +617,8 @@
         </ol>
       </div>
 
-
       <p>
-        Con este resultado se obtiene una <strong>caracterizaci&#xF3;n</strong> de 
+        Con este resultado se obtiene una <strong>caracterizaci&#xF3;n</strong> de
         los conexos de $\br$: son todos los intervalos
         $$
         (a,b),\;\;[a,b),\;\;(a,b],\;\;[a,b],
@@ -605,38 +628,34 @@
 
 
       <h3>
-        Ejemplo:
+        Ejemplos:
       </h3>
 
-      <p>
-        Recordemos que $\br\cong (-\pi/2,\pi/2)$ (Ejemplo \ref{rectapipi}).
-        Del homeomorfismo $(a,b)\cong(-\pi/2,\pi/2)$
-        se sigue que $\br$ es conexo.$\bt$
-      </p>
-
-
-      <h3>Ejemplo:</h3>
-
-      <p>
-        Consideremos
-        $$
-        w:\br \ra S^1,\;\; t\mapsto (\cos (2\pi t), \sin (2\pi t))
-        $$
-        Como $w$ es continua y $\br$ es conexo se tiene que $S^1$ es conexo. M&#xE1;s a&#xFA;n, el producto $T^2=S^1\times
-        S^1$,
-        conocido como el toro bidimensional, es tambi&#xE9;n conexo. $\bt$
-      </p>
-
-
-      <h3>Ejemplo: Existencia de Punto Fijo</h3>
-
-
-      <p>
-        Sea $f:[0,1]\ra [0,\infty)$ funci&#xF3;n continua tal que $f(1)=0$. Consideremos $F:[0,1]\ra \br$ definida como
-        $F(x)=f(x)-x$. Dado que $F$ es continua y tiene dominio conexo, su imagen es un conexo de $\br$, es decir, es un
-        intervalo en $\br$ que contiene a $-1$. Adem&#xE1;s, como $F(0)\geq 0$ existe $t\in [0,1]$ tal que $F(t)=0 \sss
-        f(t)=t$; es decir, $f$ tiene un punto fijo.$\bt$
-      </p>
+      <ul>
+        <li>
+          Recordemos que $\br\cong (-\pi/2,\pi/2)$
+          (<a href="capitulo-01.html#ejemplo-arctan" target="_blank">Ejemplo $\arctan$</a>).
+          Del homeomorfismo $(a,b)\cong(-\pi/2,\pi/2)$
+          se sigue que $\br$ es conexo.$\bt$
+        </li>
+        <li>
+          Consideremos
+          $$
+          w:\br \ra S^1,\;\; t\mapsto (\cos (2\pi t), \sin (2\pi t))
+          $$
+          Como $w$ es continua y $\br$ es conexo se tiene que $S^1$ es conexo. M&#xE1;s a&#xFA;n, el producto $T^2=S^1\times
+          S^1$,
+          conocido como el toro bidimensional, es tambi&#xE9;n conexo. $\bt$
+        </li>
+        <li>
+          <strong>Existencia de Punto Fijo:</strong> Sea $f:[0,1]\ra [0,\infty)$ funci&#xF3;n continua tal que $f(1)=0$.
+          Consideremos $F:[0,1]\ra \br$ definida como
+          $F(x)=f(x)-x$. Dado que $F$ es continua y tiene dominio conexo, su imagen es un conexo de $\br$, es decir, es
+          un
+          intervalo en $\br$ que contiene a $-1$. Adem&#xE1;s, como $F(0)\geq 0$ existe $t\in [0,1]$ tal que $F(t)=0 \sss
+          f(t)=t$; es decir, $f$ tiene un punto fijo.$\bt$
+        </li>
+      </ul>
 
 
       <p>
@@ -646,16 +665,16 @@
 
       <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive" style="padding:8px 16px 8px 16px;">
         <p><strong>Teorema:</strong>
-          Sea $f:[a,b]\ra \br$ continua tal que $f(a)\lt c \lt f(b)$ &#xF3; $f(a)&gt;c&gt;f(b)$. Entonces existe $x_0\in [a,b]$
+          Sea $f:[a,b]\ra \br$ continua tal que $f(a)\lt c \lt f(b)$ &#xF3; $f(a)&gt;c&gt;f(b).$ Entonces existe $x_0\in [a,b]$
           tal que
-          $f(x_0)=c$.
+          $f(x_0)=c.$
         </p>
       </div>
 
       <p>
         Como $f$ es continua, $f([a,b])$ es subconjunto conexo de
         $\br$ que contiene a $f(a), f(b)$. Por el Lema
-        \ref{inter} tal conexo es un intervalo que adem&#xE1;s
+        <a href="#intervalo-arco-conexo">anterior</a> tal conexo es un intervalo que adem&#xE1;s
         contiene a $c$, asi existe $x_0\in [a,b]$ tal que
         $f(x_0)=c$.
         $\findem$
@@ -674,250 +693,260 @@
       </p>
 
       <h3>Ejemplo:</h3>
-      <p>
-        Supongamos $f:[0,1)\ra (0,1)$ homeomorfismo. Por restricci&#xF3;n tenemos el homeomorfismo$(0,1)\lra (0,1)\baca
-        \{f(0)\}$ lo cual no puede ser pues el espacio de la derecha no es conexo. As&#xED;, los intervalos $[0,1),(0,1)$
-        no son homeomorfos.$\bt$
-      </p>
-
-
-      <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive" style="padding:8px 16px 8px 16px;">
-        <p><strong>Teorema:</strong>
-          Sean $n\geq 1$ y $f:S^n\ra \br$ funci&#xF3;n continua.
-          Entonces existe $x_0\in S^n$ tal que $f(x_0)=f(-x_0)$.
-        </p>
-      </div>
-
-
-      <p><strong>Demostraci&#xF3;n:</strong>
-        Consideremos la funci&#xF3;n contiua
-        $$
-        g:S^n\lra \br, \;\;x\longmapsto f(x)-f(-x)
-        $$
-        Por el Ejemplo \ref{esfe} sabemos que $S^n$ es conexo por lo que $g(S^n)$ es un conexo de $\br$ y por tanto un
-        intervalo. As&#xED;, dado $y\in S^n$ el intervalo $g(S^n)$ contiene a los puntos $g(y),g(-y)$ y por lo tanto a
-        cualquier combinaci&#xF3;n de ellos, en particular:
-        $$
-        \frac{1}{2}g(y)+\frac{1}{2}g(-y)=\frac{1}{2}(f(y)-f(-y))+\frac{1}{2}(f(-y)-f(y))=0
-        $$
-        Es decir, existe $x_0\in S^n$ tal que $g(x_0)=0\sss f(x_0)=f(-x_0)$.$\findem$
-      </p>
-
-      <p>
-        Este resultado es un caso particular del {\bf Teorema de Borsuk-Ulam} que
-        establece que para toda funci&#xF3;n $f:S^n\ra \br^n$ existe un
-        punto $x_0\in S$ tal que $f(x_0)=f(-x_0)$.
-      </p>
-
-
-      <h3>Ejemplo: Invarianza del Dominio</h3>
-      <p>
-        El {\bf Teorema de Invarianza del Dominio\index{teorema!de Invarianza del Dominio}} afirma que ning&#xFA;n
-        subconjunto de $\br$ puede ser homeomorfo a un subespacio abierto de $\br^n$, para $n&gt;1$. Si existiera $A\ra B$
-        homeomorfismo se tendr&#xED;a, por restricci&#xF3;n, una funci&#xF3;n $A\ra S^{n-1}$, pero por el resultado anterior tal
-        funci&#xF3;n no puede ser inyectiva. $\bt$
-      </p>
-
-
-
-      <h3>Ejemplo: Aplicaci&#xF3;n a Metereolog&#xED;a</h3>
-      <p>
-        Supongamos que la superficie del planeta tierra es una esfera. Si la temperatura est&#xE1; dada por una funci&#xF3;n
-        continua, entonces el resultado arriba muestra que en cualquier momento, existe un lugar del planeta con la
-        misma temperatura que su antipodal; v&#xE9;ase \cite[Eje.6.22]{AF08}.$\bt$
-      </p>
-
-
-      <!--Subsection Homotopia-->
-
-      <h3 id="capitulo02_seccion1_2">2.1.2 Homotop&#xED;a</h3>
-      <p>
-        Decimos que dos funciones continuas
-        $f,g:X\ra Y$ son <strong>homot&#xF3;picas</strong> si existe una funci&#xF3;n continua
-        $$
-        H:X\times I\lra Y
-        $$
-        tal que $H(x,0)=f(x),\;H(x,1)=g(x),\forall x\in X$.
-        La funci&#xF3;n $H$ es llamada una <strong>homotop&#xED;a</strong>
-        entre $f$ y $g$ y se usa la notaci&#xF3;n $f\simeq_{H} g$.
-        Notemos que para cada $t\in I$, la homotop&#xED;a $H$ determina
-        una funci&#xF3;n continua $H_t:X\ra Y$, donde $H_t(x)=H(x,t)$.
-        De aqu&#xED; se obtiene que la relaci&#xF3;n de homotop&#xED;a $\simeq$ corresponde
-        a la idea de una deformaci&#xF3;n continua de la funci&#xF3;n $f$ en
-        la funci&#xF3;n $g$ a trav&#xE9;s de la familia de funciones $\{H_t(x)\}_{t\in I}$.
-
-      </p>
-
-      <h3>Ejemplo: Homotop&#xED;as como caminos continuos</h3>
-
-      <p>
-        Sean $X=\{*\},\;f,g:X\ra Y$ continuas. Dado que
-        las im&#xE1;genes de $f,g$ son puntos $x,y\in Y$, una homotop&#xED;a
-        $H$ entre tales funciones tiene la forma
-        $$
-        H:X\times I\lra Y,\;\;\; H(*,0)=x,\;\; H(*,1)=y
-        $$
-        Dado que $X\times I\cong I$ la homotop&#xED;a es
-        una funci&#xF3;n continua $H:I\ra Y$ con $H(0)=x,\; H(1)=y$; es
-        decir, la homotop&#xED;a $H$ es basicamente un
-        <strong>camino continuo</strong> entre $x,y$. $\bt$
-      </p>
-
-
-      <p>
-        El ejemplo anterior puede ser generalizado mostrando
-        la relaci&#xF3;n que existe entre una homotop&#xED;a y
-        conexidad
-        por caminos: dos funciones constantes
-        $f,g:X\ra Y,\;f(x)=y_1,g(x)=y_2$ son homot&#xF3;picas $\sss$ $y_1,y_2$
-        pertenecen al mismo subconjunto de $Y$ que sea conexo por caminos.
-      </p>
-
-
-      <p>
-        Por otro lado, si las im&#xE1;genes de $f,g$ estan contenidas en
-        subconjuntos conexos por caminos disjuntos entonces
-        no pueden ser homot&#xF3;picas. Estos resultados muestran que la
-        propiedad de ser conexo por caminos puede ponerse en
-        t&#xE9;rminos homot&#xF3;picos. As&#xED;, dos funciones
-        $f,g:\br \ra \br\baca \{0\}$ constantes
-        $$
-        f(x)=1,\;g(x)=-1
-        $$
-        no pueden ser homot&#xF3;picas porque sus im&#xE1;genes
-        est&#xE1;n en distintos {\em lados} de la recta real.
-      </p>
-
-
-      <!--Subsection Componentes conexas-->
-
-      <h3 id="capitulo02_seccion1_3">2.1.3 Componentes conexas</h3>
-      <p>
-        Cuando un espacio no es conexo entonces est&#xE1;
-        compuesto por {\em pedazos} que s&#xED; son conexos. Para formalizar
-        esta situaci&#xF3;n introduciremos el siguiente concepto.
-      </p>
-
-      <p>
-        Un subespacio $C\subseteq X$ es llamado una <strong>componente conexa</strong>
-        de $X$ si es el elemento maximal en la familia
-        de subespacios conexos, ordenados por inclusi&#xF3;n; es decir, si cumple:
-      </p>
-
       <ul>
-        <li>$C$ es conexo</li>
-        <li>Si $C\subseteq A$, con $A$ conexo, entonces $A=C$.</li>
-      </ul>
-
-      <h3>Ejemplo:</h3>
-
-      <p>
-        Notemos que si $C\subseteq X$ es subespacio cerrado, abierto, conexo y no vac&#xED;o, entonces $C$ es una componente
-        conexa de $X$ pues es conexo y si $C\subseteq A$ entonces $C$ es abierto, cerrado y no vac&#xED;o en $A$; si $A$ es
-        conexo, entonces $C=A$. $\bt$
-      </p>
-
-      <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive" style="padding:8px 16px 8px 16px;">
-        <p><strong>Lema:</strong>
-          Sean $x\in X$ y $\{Z_i\}_{i\in I }$ familia de subespacios conexos de $X$ que contienen a $x$. Entonces
-          $\bigcup_i
-          Z_i$ es conexo.
-        </p>
-      </div>
+        <li>Supongamos $f:[0,1)\ra (0,1)$ homeomorfismo. Por restricci&#xF3;n tenemos el homeomorfismo$(0,1)\lra (0,1)\baca
+          \{f(0)\}$ lo cual no puede ser pues el espacio de la derecha no es conexo. As&#xED;, los intervalos $[0,1),(0,1)$
+          no son homeomorfos.$\bt$
+        </li>
+        
 
 
-      <p>
-        En particular, si tomamos $A, B\subset X$ conexos con $x\in A\cap B$ entonces $A\cup B$ es conexo.
-      </p>
-
-      <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive" style="padding:8px 16px 8px 16px;">
-        <p><strong>Lema:</strong>
-          Cada componente conexa de un espacio es un
-          subconjunto conexo y cerrado. Adem&#xE1;s las componentes conexas son
-          disjuntas a pares.
-        </p>
-      </div>
+        <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive" style="padding:8px 16px 8px 16px;">
+          <p><strong>Teorema:</strong>
+            Sean $n\geq 1$ y $f:S^n\ra \br$ funci&#xF3;n continua.
+            Entonces existe $x_0\in S^n$ tal que $f(x_0)=f(-x_0).$
+          </p>
+        </div>
 
 
-      <!--Prueba con Latex Demos and findemo check-->
-      <p>
-        $\dem$ Para $C$ componente conexa se sabe que $\ol{C}$ es conexo y contiene a $C$, de aqu&#xED; que $C=\ol{C}$. Sean
-        $C,D$ componentes conexas tales que $C\cap D\neq \emptyset$. Por la observaci&#xF3;n anterior $C\cup D$ es conexo.
-        Por las inclusiones $C\subseteq C\cup D \supseteq D$ y la condici&#xF3;n maximal de $C,D$ se tiene que $C=C\cup
-        D=D$.
-        $\findem$
-      </p>
-
-      <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive" style="padding:8px 16px 8px 16px;">
-        <p><strong>Lema:</strong>
-          Para $x\in X$ consideremos
+        <p><strong>Demostraci&#xF3;n:</strong>
+          Consideremos la funci&#xF3;n contiua
           $$
-          C(x)=\bigcup \{Y\barra x\in Y,\; Y\;\; \mbox{conexo} \}
+          g:S^n\lra \br, \;\;x\longmapsto f(x)-f(-x)
           $$
-          Entonces $C(x)$ es la componente conexa de $X$ que contiene a $x$.
+          Por el Ejemplo <a href="#esfera">de la esfera</a> sabemos que $S^n$
+          es conexo por lo que $g(S^n)$ es un conexo de $\br$ y por tanto un
+          intervalo. As&#xED;, dado $y\in S^n$ el intervalo $g(S^n)$ contiene a los puntos $g(y),g(-y)$ y por lo tanto a
+          cualquier combinaci&#xF3;n de ellos, en particular:
+          $$
+          \frac{1}{2}g(y)+\frac{1}{2}g(-y)=\frac{1}{2}(f(y)-f(-y))+\frac{1}{2}(f(-y)-f(y))=0
+          $$
+          Es decir, existe $x_0\in S^n$ tal que $g(x_0)=0\sss f(x_0)=f(-x_0)$.$\findem$
         </p>
-      </div>
 
-
-      <p>
-        Observemos que $\{x\}$ es conexo por lo que $x\in C(x)$.
-        Por el Lema \ref{lele} se sigue que $C(x)$ es
-        conexo. Para concluir que es componente conexa debemos
-        mostrar su propiedad maximal: sea $A\subseteq X$ subespacio
-        conexo con $C(x)\subseteq A$; de aqu&#xED;, $x\in A$ y por
-        definici&#xF3;n de $C(x)$ se tiene que $A\subseteq C(x)$.
-        As&#xED;, $A=C(x)$. $\findem$
-      </p>
-
-      <p>
-        El espacio $C(x)$ del resultado anterior es llamado la
-        <strong>componente conexa de</strong> $x$. Como consecuencia del
-        resultado anterior se tiene que todo espacio topol&#xF3;gico
-        es la uni&#xF3;n de sus componentes conexas.
-      </p>
-
-
-      <p>
-        Como mencionamos antes la conexidad puede servir como
-        un par&#xE1;metro para determinar si dos espacios pueden o no
-        ser homeomorfos. Para el caso de espacios no conexos
-        tenemos el siguiente resultado
-      </p>
-
-      <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive" style="padding:8px 16px 8px 16px;">
-        <p><strong>Lema:</strong>
-          La cardinalidad del conjunto de componentes conexas de $X$ es un invariante topol&#xF3;gico.
+        <p>
+          Este resultado es un caso particular del {\bf Teorema de Borsuk-Ulam} que
+          establece que para toda funci&#xF3;n $f:S^n\ra \br^n$ existe un
+          punto $x_0\in S$ tal que $f(x_0)=f(-x_0)$.
         </p>
-      </div>
-
-      <p><strong>Demostraci&#xF3;n:</strong>
-        Consideremos $C(x)\subseteq X$ componente conexa de $x$
-        y $h:X\ra Y$ homeomorfismo. Mostraremos que $h(C(x))$
-        es componente conexa en $Y$.
-        <br>
-         Dado que $h(C(x))$ es conexo
-        y contiene a $h(x)$, se sigue que $h(C(x))\subseteq
-        C(h(x))$. Por otro lado, $h^{-1}(C(h(x)))\subseteq C(x)$
-        de donde $C(h(x))\subseteq h(C(x))$. Por lo tanto
-        $h(C(x))=C(h(x))$ y se tiene una relaci&#xF3;n 1 a 1 entre
-        las componentes conexas de los espacios.$\findem$
-      </p>
 
 
-      <h3>Ejemplo:</h3>
-      <p>
-        Los espacios $\br\baca \{0\},\;\br \baca \{ 0,1 \}$ no son
-        homeomorfos pues el primero tiene dos componentes
-        conexas y el segundo tiene tres. $\bt$
-      </p>
+        <h3>Ejemplos:</h3>
+        <ul>
+          <li>
+            <strong>Invarianza del Dominio:</strong> El <strong>Teorema de Invarianza del Dominio</strong> afirma que
+            ning&#xFA;n
+            subconjunto de $\br$ puede ser homeomorfo a un subespacio abierto de $\br^n$, para $n&gt;1$. Si existiera $A\ra
+            B$
+            homeomorfismo se tendr&#xED;a, por restricci&#xF3;n, una funci&#xF3;n $A\ra S^{n-1}$, pero por el resultado anterior tal
+            funci&#xF3;n no puede ser inyectiva.
+          </li>
+          <li>
+            <strong>Aplicaci&#xF3;n a Metereolog&#xED;a:</strong> Supongamos que la superficie del planeta tierra es una esfera.
+            Si la temperatura est&#xE1; dada por una funci&#xF3;n
+            continua, entonces el resultado arriba muestra que en cualquier momento, existe un lugar del planeta con la
+            misma temperatura que su antipodal; v&#xE9;ase Ejemplo 6.22 en <a href="referencias.html#AF08" target="_blank">Adams &amp; Franzosa 2008</a>.$\bt$
+          </li>
+        </ul>
 
-      <p>
-        De manera similar a lo que hemos dicho antes definimos la
-        <strong>componente conexa por caminos</strong> de $x\in X$ como el
-        subconjunto conexo por caminos de $X$ m&#xE1;s grande que contiene a $x$.
-      </p>
 
-    </div>
+
+        <!--Subsection Homotopia-->
+
+        <h3 id="capitulo02_seccion1_2">2.1.2 Homotop&#xED;a</h3>
+        <p>
+          Decimos que dos funciones continuas
+          $f,g:X\ra Y$ son <strong>homot&#xF3;picas</strong> si existe una funci&#xF3;n continua
+          $$
+          H:X\times I\lra Y
+          $$
+          tal que $H(x,0)=f(x),\;H(x,1)=g(x),\forall x\in X$.
+          La funci&#xF3;n $H$ es llamada una <strong>homotop&#xED;a</strong>
+          entre $f$ y $g$ y se usa la notaci&#xF3;n $f\simeq_{H} g$.
+          Notemos que para cada $t\in I$, la homotop&#xED;a $H$ determina
+          una funci&#xF3;n continua $H_t:X\ra Y$, donde $H_t(x)=H(x,t)$.
+          De aqu&#xED; se obtiene que la relaci&#xF3;n de homotop&#xED;a $\simeq$ corresponde
+          a la idea de una deformaci&#xF3;n continua de la funci&#xF3;n $f$ en
+          la funci&#xF3;n $g$ a trav&#xE9;s de la familia de funciones $\{H_t(x)\}_{t\in I}$.
+
+        </p>
+
+        <h3>Ejemplo: </h3>
+
+        <ul>
+          <li>
+            <strong>Homotop&#xED;as como caminos continuos:</strong> Sean $X=\{*\},\;f,g:X\ra Y$ continuas. Dado que
+            las im&#xE1;genes de $f,g$ son puntos $x,y\in Y$, una homotop&#xED;a
+            $H$ entre tales funciones tiene la forma
+            $$
+            H:X\times I\lra Y,\;\;\; H(*,0)=x,\;\; H(*,1)=y
+            $$
+            Dado que $X\times I\cong I$ la homotop&#xED;a es
+            una funci&#xF3;n continua $H:I\ra Y$ con $H(0)=x,\; H(1)=y$; es
+            decir, la homotop&#xED;a $H$ es basicamente un
+            <strong>camino continuo</strong> entre $x,y$. $\bt$
+          </li>
+        </ul>
+
+
+        <p>
+          El ejemplo anterior puede ser generalizado mostrando
+          la relaci&#xF3;n que existe entre una homotop&#xED;a y
+          conexidad
+          por caminos: dos funciones constantes
+          $f,g:X\ra Y,\;f(x)=y_1,g(x)=y_2$ son homot&#xF3;picas $\sss$ $y_1,y_2$
+          pertenecen al mismo subconjunto de $Y$ que sea conexo por caminos.
+        </p>
+
+
+        <p>
+          Por otro lado, si las im&#xE1;genes de $f,g$ estan contenidas en
+          subconjuntos conexos por caminos disjuntos entonces
+          no pueden ser homot&#xF3;picas. Estos resultados muestran que la
+          propiedad de ser conexo por caminos puede ponerse en
+          t&#xE9;rminos homot&#xF3;picos. As&#xED;, dos funciones
+          $f,g:\br \ra \br\baca \{0\}$ constantes
+          $$
+          f(x)=1,\;g(x)=-1
+          $$
+          no pueden ser homot&#xF3;picas porque sus im&#xE1;genes
+          est&#xE1;n en distintos {\em lados} de la recta real.
+        </p>
+
+
+        <!--Subsection Componentes conexas-->
+
+        <h3 id="capitulo02_seccion1_3">2.1.3 Componentes conexas</h3>
+        <p>
+          Cuando un espacio no es conexo entonces est&#xE1;
+          compuesto por {\em pedazos} que s&#xED; son conexos. Para formalizar
+          esta situaci&#xF3;n introduciremos el siguiente concepto.
+        </p>
+
+        <p>
+          Un subespacio $C\subseteq X$ es llamado una <strong>componente conexa</strong>
+          de $X$ si es el elemento maximal en la familia
+          de subespacios conexos, ordenados por inclusi&#xF3;n; es decir, si cumple:
+        </p>
+
+        <ul>
+          <li>$C$ es conexo</li>
+          <li>Si $C\subseteq A$, con $A$ conexo, entonces $A=C$.</li>
+        </ul>
+
+        <h3>Ejemplo:</h3>
+
+        <ul>
+          <li>
+            Notemos que si $C\subseteq X$ es subespacio cerrado, abierto, conexo y no vac&#xED;o, entonces $C$ es una
+            componente
+            conexa de $X$ pues es conexo y si $C\subseteq A$ entonces $C$ es abierto, cerrado y no vac&#xED;o en $A$; si $A$
+            es
+            conexo, entonces $C=A$. $\bt$
+          </li>
+        </ul>
+
+        <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive" style="padding:8px 16px 8px 16px;">
+          <p><strong>Lema:</strong>
+            Sean $x\in X$ y $\{Z_i\}_{i\in I }$ familia de subespacios conexos de $X$ que contienen a $x$. Entonces
+            $\bigcup_i
+            Z_i$ es conexo.
+          </p>
+        </div>
+
+
+        <p>
+          En particular, si tomamos $A, B\subset X$ conexos con $x\in A\cap B$ entonces $A\cup B$ es conexo.
+        </p>
+
+        <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive" style="padding:8px 16px 8px 16px;">
+          <p><strong>Lema:</strong>
+            Cada componente conexa de un espacio es un
+            subconjunto conexo y cerrado. Adem&#xE1;s las componentes conexas son
+            disjuntas a pares.
+          </p>
+        </div>
+
+        <p>
+          $\dem$ Para $C$ componente conexa se sabe que $\ol{C}$ es conexo y contiene a $C$, de aqu&#xED; que $C=\ol{C}$.
+          Sean
+          $C,D$ componentes conexas tales que $C\cap D\neq \emptyset$. Por la observaci&#xF3;n anterior $C\cup D$ es conexo.
+          Por las inclusiones $C\subseteq C\cup D \supseteq D$ y la condici&#xF3;n maximal de $C,D$ se tiene que $C=C\cup
+          D=D$.
+          $\findem$
+        </p>
+
+        <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive" style="padding:8px 16px 8px 16px;">
+          <p><strong>Lema:</strong>
+            Para $x\in X$ consideremos
+            $$
+            C(x)=\bigcup \{Y\barra x\in Y,\; Y\;\; \mbox{conexo} \}
+            $$
+            Entonces $C(x)$ es la componente conexa de $X$ que contiene a $x$.
+          </p>
+        </div>
+
+
+        <p>
+          Observemos que $\{x\}$ es conexo por lo que $x\in C(x)$.
+          Por el Lema \ref{lele} se sigue que $C(x)$ es
+          conexo. Para concluir que es componente conexa debemos
+          mostrar su propiedad maximal: sea $A\subseteq X$ subespacio
+          conexo con $C(x)\subseteq A$; de aqu&#xED;, $x\in A$ y por
+          definici&#xF3;n de $C(x)$ se tiene que $A\subseteq C(x)$.
+          As&#xED;, $A=C(x)$. $\findem$
+        </p>
+
+        <p>
+          El espacio $C(x)$ del resultado anterior es llamado la
+          <strong>componente conexa de</strong> $x$. Como consecuencia del
+          resultado anterior se tiene que todo espacio topol&#xF3;gico
+          es la uni&#xF3;n de sus componentes conexas.
+        </p>
+
+
+        <p>
+          Como mencionamos antes la conexidad puede servir como
+          un par&#xE1;metro para determinar si dos espacios pueden o no
+          ser homeomorfos. Para el caso de espacios no conexos
+          tenemos el siguiente resultado
+        </p>
+
+        <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive" style="padding:8px 16px 8px 16px;">
+          <p><strong>Lema:</strong>
+            La cardinalidad del conjunto de componentes conexas de $X$ es un invariante topol&#xF3;gico.
+          </p>
+        </div>
+
+        <p><strong>Demostraci&#xF3;n:</strong>
+          Consideremos $C(x)\subseteq X$ componente conexa de $x$
+          y $h:X\ra Y$ homeomorfismo. Mostraremos que $h(C(x))$
+          es componente conexa en $Y$.
+          <br>
+          Dado que $h(C(x))$ es conexo
+          y contiene a $h(x)$, se sigue que $h(C(x))\subseteq
+          C(h(x))$. Por otro lado, $h^{-1}(C(h(x)))\subseteq C(x)$
+          de donde $C(h(x))\subseteq h(C(x))$. Por lo tanto
+          $h(C(x))=C(h(x))$ y se tiene una relaci&#xF3;n 1 a 1 entre
+          las componentes conexas de los espacios.$\findem$
+        </p>
+
+
+        <h3>Ejemplo:</h3>
+        <ul>
+          <li>Los espacios $\br\baca \{0\},\;\br \baca \{ 0,1 \}$ no son
+            homeomorfos pues el primero tiene dos componentes
+            conexas y el segundo tiene tres. $\bt$
+          </li>
+        </ul>
+
+        <p>
+          De manera similar a lo que hemos dicho antes definimos la
+          <strong>componente conexa por caminos</strong> de $x\in X$ como el
+          subconjunto conexo por caminos de $X$ m&#xE1;s grande que contiene a $x$.
+        </p>
+
+    </ul></div>
   </section>
 
   <section data-type="sect2" id="capitulo02_seccion2">
@@ -999,31 +1028,28 @@
         <strong>subcubierta</strong>&gt; de $\mcal{B}$.
       </p>
 
-      <h3>Ejemplo</h3>
+      <h3>Ejemplos:</h3>
 
-      <p>
-        Observemos que de la definici&#xF3;n, cualquier base es una cubierta abierta.$\bt$
-      </p>
+      <ul>
+        <li>Observemos que de la definici&#xF3;n, cualquier base es una cubierta abierta.
 
-
-      <h3>Ejemplo</h3>
-      <p>
-        Notemos que $\mcal{A}=\{(-n,n)\barra n\in N\}$ es una cubierta abierta para $\br$ pero que ninguna subcubierta
+        </li>
+        <li>
+          Notemos que $\mcal{A}=\{(-n,n)\barra n\in N\}$ es una cubierta abierta para $\br$ pero que ninguna subcubierta
         finita de ella cubre por completo a $\br$. De igual manera, la colecci&#xF3;n
         $$
         \{(a+\frac{1}{n},b-\frac{1}{n}) \barra a\lt b,\: n\in N \} $$
         es una cubierta abierta para $(a,b)$ y ninguna
-        subcolecci&#xF3;n finita de ella lo puede cubrir.$\bt$
-      </p>
-
-      <h3>Ejemplo</h3>
-      <p>
-        Tomemos
+        subcolecci&#xF3;n finita de ella lo puede cubrir.
+        </li>
+        <li id="subcubierta-finita">
+          Tomemos
         $S=\{x_1,\ldots,x_s\}\subset \br$ subconjunto finito y sea $\mcal{A}$ cubierta abierta para $S$. Por
         definici&#xF3;n de cubierta, para cada $i$ podemos tomar $A_i\in \mcal{A}$ tal que $x_i\in A_i$. De esto se tiene
         que $$ S=\{x_1,\ldots,x_s\}\subset \bigcup_{i=1}^s A_i $$ por lo que en este caso la cubierta $\mcal{A}$ s&#xED;
         existe subcubierta finita. $\bt$
-      </p>
+        </li>
+      </ul>
 
       <p>
         Como se muestra en los ejemplos anteriores no siempre es posible
@@ -1040,7 +1066,7 @@
       </p>
 
       <p>
-        Por el Ejemplo \ref{fifinito} se obtiene que todo conjunto
+        Por el Ejemplo <a href="subcubiertas-finita">de subcubierta finita</a> se obtiene que todo conjunto
         finito es siempre compacto, independientemente de la
         topolog&#xED;a que tenga.
       </p>
@@ -1048,24 +1074,26 @@
       <p>
         Notemos que un espacio $X$ <strong>no es compacto</strong>
         $\sss$ tiene una cubierta abierta que
-        no contiene una subcubierta finita que lo cubra??
+        no contiene una subcubierta finita que lo cubra.
       </p>
 
       <h3>Ejemplo</h3>
-      <p>
-        Consideremos el subconjunto de $\br$ $$ X=\{0\}
-        \cup \{1,\frac{1}{2},\frac{1}{3},\frac{1}{4},\frac{1}{5},\ldots \} $$
-        Si $\mcal{A}$ es una cubierta abierta para
-        $X$ existe $U\in \mcal{A}$ que contiene a $0$ y a los puntos
-        $\{1,1/2,1/3,\ldots \}$, excepto por una cantidad
-        finita de ellos; escojamos un elemento de $\mcal{A}$ por cada
-        uno de estos elementos que no se encuentren en
-        $X$. La colecci&#xF3;n de estos abiertos y de $U$ forman una
-        subcubierta finita de $\mcal{A}$ para $X$, mostrando
-        que $X$ es compacto. Observemos que el elemento $0$ es el
-        punto l&#xED;mite de la sucesi&#xF3;n $\{x_i=1/i\}_{i\in
-        N}$, lo cual es parte de la relaci&#xF3;n entre la compacidad resultados
-        del C&#xE1;lculo. $\bt$ </p>
+      <ul>
+        <li>Consideremos el subconjunto de $\br$ $$ X=\{0\}
+          \cup \{1,\frac{1}{2},\frac{1}{3},\frac{1}{4},\frac{1}{5},\ldots \} $$
+          Si $\mcal{A}$ es una cubierta abierta para
+          $X$ existe $U\in \mcal{A}$ que contiene a $0$ y a los puntos
+          $\{1,1/2,1/3,\ldots \}$, excepto por una cantidad
+          finita de ellos; escojamos un elemento de $\mcal{A}$ por cada
+          uno de estos elementos que no se encuentren en
+          $X$. La colecci&#xF3;n de estos abiertos y de $U$ forman una
+          subcubierta finita de $\mcal{A}$ para $X$, mostrando
+          que $X$ es compacto. Observemos que el elemento $0$ es el
+          punto l&#xED;mite de la sucesi&#xF3;n $\{x_i=1/i\}_{i\in
+          N}$, lo cual es parte de la relaci&#xF3;n entre la compacidad resultados
+          del C&#xE1;lculo. $\bt$ 
+        </li>
+      </ul>
 
 
       <p>Observemos que
@@ -1100,10 +1128,12 @@
 
       <h3>Ejemplo</h3>
 
-      <p>
-        Un espacio topol&#xF3;gico discreto es compacto $\sss$ es finito (basta recordar que en un espacio discreto la
-        colecci&#xF3;n $\{\{x\}\barra x\in X\}$ forma una cubierta finita). $\bt$
-      </p>
+      <ul>
+        <li>
+          Un espacio topol&#xF3;gico discreto es compacto $\sss$ es finito (basta recordar que en un espacio discreto la
+          colecci&#xF3;n $\{\{x\}\barra x\in X\}$ forma una cubierta finita). $\bt$
+        </li>
+      </ul>
 
       <p>
         El siguiente resultado muestra que {\em ser compacto} es una propiedad topol&#xF3;gica.
@@ -1130,7 +1160,7 @@
       </p>
 
 
-      <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive" style="padding:8px 16px 8px 16px;">
+      <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive" style="padding:8px 16px 8px 16px;" id="heine-borel">
         <p><strong>Teorema (Heine-Borel):</strong>
           El intervalo $[0,1]$ es subespacio compacto de $\br$.
         </p>
@@ -1161,11 +1191,11 @@
 
       <h3>Ejemplo</h3>
 
-      <p>
-        Derivado del resultado
-        anterior, $\br$ no es homeomorfo a $[0,1]$, pues $[0,1]$ es compacto pero $\br$ no. M&#xE1;s a&#xFA;n, dado que
-        $(0,1)\cong \br$ se tiene que $(0,1)$ no es homeomorfo a $[0,1]$.$\bt$
-      </p>
+      <ul>
+        <li>Derivado del resultado
+          anterior, $\br$ no es homeomorfo a $[0,1]$, pues $[0,1]$ es compacto pero $\br$ no. M&#xE1;s a&#xFA;n, dado que
+          $(0,1)\cong \br$ se tiene que $(0,1)$ no es homeomorfo a $[0,1]$.$\bt$</li>
+      </ul>
 
 
 
@@ -1176,11 +1206,12 @@
       </p>
 
       <h3>Ejemplo</h3>
-      <p>
-        Como la compacidad es una propiedad topol&#xF3;gica, y por el
-        Teorema \ref{HB}, se tiene que todo intervalo $[a,b]$ es compacto. Veremos otra prueba de este hecho m&#xE1;s
-        adelante. $\bt$
-      </p>
+      <ul>
+        <li>Como la compacidad es una propiedad topol&#xF3;gica, y por el
+          <a href="#heine-borel">Teorema de Heine-Borel</a>, 
+          se tiene que todo intervalo $[a,b]$ es compacto. Veremos otra prueba de este hecho m&#xE1;s
+          adelante. $\bt$</li>
+      </ul>
 
 
 
@@ -1230,20 +1261,21 @@
 
 
       <h3>Ejemplo</h3>
-      <p>
-        Recordemos que la recta real $\br$ con la topolog&#xED;a cofinita no es Hausdorff; adem&#xE1;s los &#xFA;nicos cerrados
-        son
-        los subconjuntos finitos y $X$. {\bf Afirm.} {\em Todo subconjunto no vac&#xED;o es compacto.} %Ejercicio 175 de
-        Adamson
-        Sea $\mcal{O}=\{U_i\}_{i\in I}$ cubierta abierta para $A\subseteq \br$ y tomemos $U_{i_0}\in \mcal{O}$ no
-        vac&#xED;o.
-        Hacemos $A\baca O_{i_0}=\{x_1,\ldots,x_n\}$. Para cada uno de estos puntos elegimos $U_{i_j}\in \mcal{O}$ tales
-        que $p_j\in U_{i_j}$. Finalmente notamos que
-        $$
-        A=U_{i_0}\cup U_{i_1}\cup \cdots \cup U_{i_n}
-        $$
-        por lo que $A$ es compacto.\bt
-      </p>
+      <ul>
+        <li>Recordemos que la recta real $\br$ con la topolog&#xED;a cofinita no es Hausdorff; adem&#xE1;s los &#xFA;nicos cerrados
+          son
+          los subconjuntos finitos y $X$. <br>
+          
+          <strong>Afirm.</strong> Todo subconjunto no vac&#xED;o es compacto. 
+          Sea $\mcal{O}=\{U_i\}_{i\in I}$ cubierta abierta para $A\subseteq \br$ y tomemos $U_{i_0}\in \mcal{O}$ no
+          vac&#xED;o.
+          Hacemos $A\baca O_{i_0}=\{x_1,\ldots,x_n\}$. Para cada uno de estos puntos elegimos $U_{i_j}\in \mcal{O}$ tales
+          que $p_j\in U_{i_j}$. Finalmente notamos que
+          $$
+          A=U_{i_0}\cup U_{i_1}\cup \cdots \cup U_{i_n}
+          $$
+          por lo que $A$ es compacto.$\bt$</li>
+      </ul>
 
 
 
@@ -1270,12 +1302,12 @@
       </div>
 
       <p>
-       $\dem$ $\vuelta$ Para $A\subseteq \br$ cerrado y acotado existe $a&gt;0$ tal que $A\subset [-a,a]$. Dado que
+        $\dem$ $\vuelta$ Para $A\subseteq \br$ cerrado y acotado existe $a&gt;0$ tal que $A\subset [-a,a]$. Dado que
         $[-a,a]\cong
         [0,1]$ se sigue que $[-a,a]$ es compacto y por el resultado anterior se sigue que $A$ es compacto.</p>
 
 
-        <p>$\ida$ Sea $A\subseteq \br$ compacto. Como la colecci&#xF3;n $\{(-n,n) \barra n\in N \}$ cubre a $A$ existen
+      <p>$\ida$ Sea $A\subseteq \br$ compacto. Como la colecci&#xF3;n $\{(-n,n) \barra n\in N \}$ cubre a $A$ existen
         $n_1,n_2,\ldots, n_s$ tales que
         $$
         A\subseteq (-n_1,n_1)\cup (-n_2,n_2)\cup \cdots \cup (-n_s,n_s)
@@ -1286,7 +1318,7 @@
         f:\br\baca\{p\}\lra \br,\;\;f(x)=1/x-p
         $$
         es continua, as&#xED; que $f(A)$ es compacto y tambi&#xE9;n acotado; de aqu&#xED; que $p\notin \ol{A}$, pues $f$ no toma
-        valores en $\infty=1/0$, lo que prueba que $A$ es cerrado {\bf Nota}: se est&#xE1; usando que $X\baca A\subseteq
+        valores en $\infty=1/0$, lo que prueba que $A$ es cerrado. Aqu&#xED; se est&#xE1; usando el hecho que $X\baca A\subseteq
         X\baca \ol{A}\sss \ol{A}\subseteq A\sss A=\ol{A}$.$\findem$
       </p>
 
@@ -1300,18 +1332,20 @@
 
 
 
-      <h3>Ejemplo: Cerrado y acotado pero no compacto</h3>
+      <h3>Ejemplo:</h3>
 
-      <p>
-        Dado $M$ conjunto infinito lo dotamos de una topologia a
+      <ul></ul>
+        <li>
+        <strong>Cerrado y acotado pero no compacto:</strong> Dado $M$ conjunto infinito lo dotamos de una topologia a
         trav&#xE9;s de la m&#xE9;trica discreta (\ref{mdis}):
         $$
         d(x,y)=\begin{cases}0,&amp;x=y\\1,&amp;x\neq y \end{cases}
         $$
         Por definici&#xF3;n $M$ es cerrado y adem&#xE1;s notemos que $M\subset B_2(x_0)$, para cualquier $x_0\in M$; es decir
         $M$ es cerrado y acotado. No es compacto pues la colecci&#xF3;n $\{B_{1/2}(x) \barra x\in M \}$ es una cubierta
-        abierta que no admite una subcubierta finita.\bt
-      </p>
+        abierta que no admite una subcubierta finita.$\bt$
+      </li>
+      
 
 
       <p>
@@ -1326,30 +1360,31 @@
         </p>
       </div>
 
-      <h3>Ejemplo: l&apos;&#xE9;pigraphe de $f$</h3>
+      <h3>Ejemplo:</h3>
 
-      <p>
-        Dada $f:\br\ra \br$ funci&#xF3;n continua consideremos el conjunto
-        $$
-        E=\{(x,y)\in \br^2 \barra y&gt;f(x) \}
-        $$
-        
-
-        </p><figure class="w3-center">
-          <img class="w3-hide-large" src="imgs/cap-02/epigraphe.svg" alt="l&apos;&#xE9;pigraphe" style="width:100%">
-          <img class="w3-hide-small w3-hide-medium" src="imgs/cap-02/epigraphe.svg" alt="l&apos;&#xE9;pigraphe" style="width:70%">
-          <figcaption>
-            <b>Figura 3:</b> L&apos;&#xE9;pigraphe de $f$.
-          </figcaption>
-        </figure>
-
-
-        Para $p_1=(x_1,y_1),p_2=(x_2,y_2)\in X$ consideramos $M$ el
-        m&#xE1;ximo de $f$ en el compacto $[x_1,x_2]$. Unimos a
-        $p_1$ con $p_2$ uniendo al primero con $z_1=(x_1,M+1)$, &#xE9;ste
-        con $z_2=(x_2,M+1)$ y finalmente &#xE9;ste con $p_2$.
-        As&#xED;, $X$ es conexo por caminos.$\bt$
-      <p></p>
+      <ul>
+        <li><strong>l&apos;&#xE9;pigraphe de $f$:</strong> Dada $f:\br\ra \br$ funci&#xF3;n continua consideremos el conjunto
+          $$
+          E=\{(x,y)\in \br^2 \barra y&gt;f(x) \}
+          $$
+  
+  
+          <figure class="w3-center">
+            <img class="w3-hide-large" src="imgs/cap-02/epigraphe.svg" alt="l&apos;&#xE9;pigraphe" style="width:100%">
+            <img class="w3-hide-small w3-hide-medium" src="imgs/cap-02/epigraphe.svg" alt="l&apos;&#xE9;pigraphe" style="width:70%">
+            <figcaption>
+              <b>Figura 3:</b> L&apos;&#xE9;pigraphe de $f$.
+            </figcaption>
+          </figure>
+  
+  
+          Para $p_1=(x_1,y_1),p_2=(x_2,y_2)\in X$ consideramos $M$ el
+          m&#xE1;ximo de $f$ en el compacto $[x_1,x_2]$. Unimos a
+          $p_1$ con $p_2$ uniendo al primero con $z_1=(x_1,M+1)$, &#xE9;ste
+          con $z_2=(x_2,M+1)$ y finalmente &#xE9;ste con $p_2$.
+          As&#xED;, $X$ es conexo por caminos.$\bt$
+        </li>
+      </ul>
 
 
 
@@ -1452,21 +1487,21 @@
       </p>
 
 
-      <h3>Ejemplo</h3>
+      <h3>Ejemplo:</h3>
 
-      <p>
-        Para un conjunto $X$ y un elemento distinguido $*\in X$ podemos construir una topologia definiendo sus
-        subconjuntos cerrados (ve&#xE1;se Ejemplo \ref{infinito})
-        $$
-        B\; \mbox{cerrado}\; \sss \; *\in B\; \mbox{&#xF3;}\; B\:\mbox{finito}
-        $$
-        Notemos que la intersecci&#xF3;n arbitraria $\cap B_i$ de cerrados es un
-        cerrado por lo que $*\in \cap B_i$ &#xF3; $\cap
-        B_i$ es finito; en cualquier caso cualquier colecci&#xF3;n de
-        cerrados tiene interseci&#xF3;n vacia y por el Teorema
-        \ref{interf} se tiene que $X$ es compacto. $\bt$
+      <ul>
+        <li>Para un conjunto $X$ y un elemento distinguido $*\in X$ podemos construir una topologia definiendo sus
+          subconjuntos cerrados (ve&#xE1;se Ejemplo \ref{infinito})
+          $$
+          B\; \mbox{cerrado}\; \sss \; *\in B\; \mbox{&#xF3;}\; B\:\mbox{finito}
+          $$
+          Notemos que la intersecci&#xF3;n arbitraria $\cap B_i$ de cerrados es un
+          cerrado por lo que $*\in \cap B_i$ &#xF3; $\cap
+          B_i$ es finito; en cualquier caso cualquier colecci&#xF3;n de
+          cerrados tiene interseci&#xF3;n vacia y por el Teorema
+          \ref{interf} se tiene que $X$ es compacto. $\bt$</li>
 
-      </p>
+      </ul>
 
 
       <p>El ejemplo anterior muestra que en cualquier conjunto con
@@ -1476,44 +1511,44 @@
 
 
       <h3 id="capitulo02_seccion2_2">2.2.2 Producto finito de compactos es compacto</h3>
-      
+
       <p>
         En esta secci&#xF3;n daremos una caracterizaci&#xF3;n de los espacios compactos en t&#xE9;rminos de productos
-      cartesianos. Iniciamos por un caso sencillo:
+        cartesianos. Iniciamos por un caso sencillo:
       </p>
 
       <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive" style="padding:8px 16px 8px 16px;">
         <p><strong>Lema:</strong>
           Sean $A\subset X$ compacto y $y\in Y$. Entonces para todo abierto $W\subset X\times Y$ que contiene a $A\times
-      \{y\}$ existen $U\subset X, V\subset Y$ abiertos tales que $A\times \{y\}\subset U\times V\subset W$.
+          \{y\}$ existen $U\subset X, V\subset Y$ abiertos tales que $A\times \{y\}\subset U\times V\subset W$.
         </p>
       </div>
 
       <p>
         $\dem$ Para cada $x\in A$, la pareja $(x,y)$ tiene una vecindad de la forma $U_x\times V_x$ contenida en $W$.
-      Notemos que
-      $$
-      A\times \{y\}\subset \bigcup_{x\in A} (U_x\times V_x)
-      $$
-      y como $A$ es compacto, existen $x_1,x_2,\ldots,x_n\in A$ tales que $A\times \{y\}\subset \cup_{i=1}^n
-      (U_{x_i}\times V_{x_i})$. Con esto definimos $U=\cup_{i=1}^n U_{x_i},\:V=\cap_{i=1}^n V_{x_i}$, con lo que se
-      obtiene lo que se deseaba:
-      $$
-      A\times \{y\}\subset U\times V\subset W.\;\;\; \blacksquare
-      $$
+        Notemos que
+        $$
+        A\times \{y\}\subset \bigcup_{x\in A} (U_x\times V_x)
+        $$
+        y como $A$ es compacto, existen $x_1,x_2,\ldots,x_n\in A$ tales que $A\times \{y\}\subset \cup_{i=1}^n
+        (U_{x_i}\times V_{x_i})$. Con esto definimos $U=\cup_{i=1}^n U_{x_i},\:V=\cap_{i=1}^n V_{x_i}$, con lo que se
+        obtiene lo que se deseaba:
+        $$
+        A\times \{y\}\subset U\times V\subset W.\;\;\; \blacksquare
+        $$
       </p>
-      
+
 
       <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive" style="padding:8px 16px 8px 16px;">
         <p><strong>Teorema:</strong>
           Sean $X,Y$ espacios topol&#xF3;gicos, $A\subset X,B\subset Y$ subespacios compactos y $W\subset X\times Y$
-      abierto tal que $A\times B\subset W$. Entonces existen abiertos $U\subset X,\: V\subset Y$ tales que
-      $$
-      A\subset U,\;B\subset V,\;\;U\times V\subset W
-      $$
+          abierto tal que $A\times B\subset W$. Entonces existen abiertos $U\subset X,\: V\subset Y$ tales que
+          $$
+          A\subset U,\;B\subset V,\;\;U\times V\subset W
+          $$
         </p>
       </div>
-      
+
 
       <p>
         $\dem$ Por el Lema anterior, para cada $y\in B$ existen abiertos $U_y\subset X, V_y\subset Y$ tales que $A\times
@@ -1528,13 +1563,13 @@
         $$
       </p>
 
-      
+
 
       <p>
         El Teorema de Wallace puede ser establecido para el producto de una cantidad arbitraria de espacios con
         subespacios compactos. V&#xE9;ase \cite{Engelking89}</p>
 
-      
+
 
       <p>El siguiente resultado es el inverso parcial del Teorema \ref{closs} para espacios Hausdorff</p>
 
@@ -1544,7 +1579,7 @@
         </p>
       </div>
 
-      
+
       <p>$\dem$ Sean $K\subset X$, con $X$ Hausdorff y $K$ compacto. Probaremos que $X\baca K$ es abierto.
         <br>
         Para $x\in X\baca K$ el producto $\{x\}\times K$ no intersecta a la diagonal $\triangle\subset X\times X$.
@@ -1555,39 +1590,40 @@
         $$
         En particular, $x\in U, U\cap K=\emptyset\Rightarrow U\subset X\baca K$.$\findem$</p>
 
-      
 
-      <p>Este resultado es demostrado en \cite[p.165]{Munkres00} usando el siguiente lema, que a su vez muestra la
-        relaci&#xF3;n entre compacidad y la propiedad del espacio de {\em separar} ciertos subespacios.
-  </p>
-      
-  <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive" style="padding:8px 16px 8px 16px;">
-    <p><strong>Lema:</strong>
-      Sean $X$ Hausdorff y $Y\subseteq X$ compacto. Para cada $x_0\notin Y$ existen abiertos $U,V$ tales que $U\cap
-      V=\emptyset,\;x_0\in U,\;Y\subset V$.
-    </p>
-  </div>
-    
+
+      <p>Este resultado es demostrado en <a href="referencias.html#Munkres00">Munkres p. 165</a> 
+        usando el siguiente lema, que a su vez muestra la
+        relaci&#xF3;n entre compacidad y la propiedad del espacio de <em>separar</em> ciertos subespacios.
+      </p>
+
+      <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive" style="padding:8px 16px 8px 16px;">
+        <p><strong>Lema:</strong>
+          Sean $X$ Hausdorff y $Y\subseteq X$ compacto. Para cada $x_0\notin Y$ existen abiertos $U,V$ tales que $U\cap
+          V=\emptyset,\;x_0\in U,\;Y\subset V$.
+        </p>
+      </div>
+
 
       <p>Decimos que un espacio $T_1$ es<strong>regular</strong> (o $T_3$) si para cualesquiera
         $x\notin B\subseteq X$, con $B$ cerrado, existen abiertos disjuntos $U,V$ tales que $x\in U, B\subseteq V$.
         Todo subespacio de un espacio regular es regular; adem&#xE1;s cualquier producto de espacios regulares es
         regular. As&#xED;, el resultado anterior prueba que compacto + Hausdorff $\Ra$ regular.
-  </p>
-    
+      </p>
 
-     <p> A continuaci&#xF3;n otra consecuencia del Teorema de Wallace que ser&#xE1; de gran utilidad en las secciones
-      posteriores</p>
 
-      
+      <p> A continuaci&#xF3;n otra consecuencia del Teorema de Wallace que ser&#xE1; de gran utilidad en las secciones
+        posteriores</p>
+
+
       <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive" style="padding:8px 16px 8px 16px;">
         <p><strong>Corolario:</strong>
           Sea $X$ espacio compacto. Para cualquier espacio $Y$ la proyecci&#xF3;n $p_Y:X\times Y\ra Y$ es una funci&#xF3;n
-      cerrada.
+          cerrada.
         </p>
       </div>
 
-     
+
       <p>$\dem$ Tomemos $C\subset X\times Y$ cerrado; probaremos que $p_Y(C)$ es cerrado. Notemos que si $p_Y(C)=Y$ el
         resultado se sigue inmediatamente. Asi, supongamos que existe $y\notin p_Y(C)$ y notemos que
         $$
@@ -1596,18 +1632,18 @@
         asi que por el Teorema de Wallace existe vecindad abierta $V$ de $y$ tal que $X\times \{y\}\subset (X\times
         V)\baca C\Rightarrow (X\times V)\cap C=\emptyset$; de aqui que $V\cap p_Y(C)=\emptyset$.$\findem$</p>
 
-      
+
 
       <p>
         A continuaci&#xF3;n probaremos el resultado principal de esta secci&#xF3;n
       </p>
-      
+
       <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive" style="padding:8px 16px 8px 16px;">
         <p><strong>Teorema:</strong>
           El producto de una cantidad finita de espacios compactos es compacto.
         </p>
       </div>
-      
+
       <p>$\dem$ Consideremos primero el caso del producto cartesiano de dos espacios compactos $X,Y$. Por el corolario
         anterior, la proyecci&#xF3;n $p_Y:X\times Y\ra Y$ es funci&#xF3;n cerrada y como para cada $y\in Y$ $p_Y^{-1}(y)=
         X\times \{y\}\cong X$ es compacto, usamos el Teorema \ref{lll} para obtener que $X\times Y$ es compacto. El
@@ -1615,7 +1651,8 @@
       </p>
 
       <p>
-        El caso del producto de una cantidad infinita de compactos es conocido como el <strong>Teorema de Tychonoff</strong>
+        El caso del producto de una cantidad infinita de compactos es conocido como el <strong>Teorema de
+          Tychonoff</strong>
         (\cite{Munkres00}). Lo establecemos a continuaci&#xF3;n pero dejaremos su demostraci&#xF3;n para el Cap&#xED;tulo
         \ref{cap:6}.
       </p>
@@ -1626,16 +1663,16 @@
         </p>
       </div>
 
-      <p>Sea $K\subset \br^n$ compacto. Recordemos que 
-        $\{B_n(0) \barra n\in N\}$ es cubierta abierta para 
+      <p>Sea $K\subset \br^n$ compacto. Recordemos que
+        $\{B_n(0) \barra n\in N\}$ es cubierta abierta para
         $\br^n$ y
-        por lo tanto tambi&#xE9;n para $K$. Dado que $B_{n_1}(0)\subset B_{n_2}(0)$, 
+        por lo tanto tambi&#xE9;n para $K$. Dado que $B_{n_1}(0)\subset B_{n_2}(0)$,
         para $n_1\leq n_2$, se tiene que una
-        subcubierta finita est&#xE1; contenida en una sola bola $B_m(0)$ 
+        subcubierta finita est&#xE1; contenida en una sola bola $B_m(0)$
         (ver Lema \ref{rcompa}) y por lo tanto el
-        compacto $K$ es acotado. Por el Ejemplo \ref{infi}, la 
+        compacto $K$ es acotado. Por el Ejemplo \ref{infi}, la
         implicaci&#xF3;n contraria (acotado $\Rightarrow$
-        compacto) debe ser especial e importante y lo obtendremos 
+        compacto) debe ser especial e importante y lo obtendremos
         a partir del resultado anterior.
       </p>
 
@@ -1645,33 +1682,35 @@
         </p>
       </div>
 
-      
+
       <p>
         $\dem$ $\ida$ Sea $A\subset \br^n$ compacto y consideremos $A\ra \br, x\mapsto |x|$. Dado que la funci&#xF3;n es
         continua y $A$ es compacto la funci&#xF3;n alcanza un m&#xE1;ximo, lo que implica que $A$ es acotado. Por otro lado,
         como $\br^n$ es Hausdorff, por el Corolario \ref{kk}, se sigue que $A$ es cerrado.
-        </p>
+      </p>
 
-       <p>
-         $\vuelta$ Sea $A$ cerrado y acotado, entonces existe $a&gt;0$ tal que $A\subset [-a,a]^n$. Como la compacidad es
+      <p>
+        $\vuelta$ Sea $A$ cerrado y acotado, entonces existe $a&gt;0$ tal que $A\subset [-a,a]^n$. Como la compacidad es
         una propiedad topol&#xF3;gica y $[-a,a]\cong [0,1]$ se sigue que $[-a,a]$ es compacto; m&#xE1;s a&#xFA;n, por el Lema
         de arriba se tiene que $[-a,a]^n$ es compacto. Finalmente, usando el Teorema \ref{closs} se tiene que $A$ es
         compacto.$\findem$
       </p>
 
-      
 
-      <h3>Ejemplo: Toda esfera es compacta</h3>
-      
-      <p>Consideremos $S^{n}\subset \br^{n+1}$ esfera de dimensi&#xF3;n $n$ y notemos que es un subespacio acotado.
+
+      <h3>Ejemplo:</h3>
+
+      <ul><li>
+        <strong>Toda esfera es compacta:</strong> Consideremos $S^{n}\subset \br^{n+1}$ esfera de dimensi&#xF3;n $n$ y notemos que es un subespacio acotado.
         Tambi&#xE9;n es cerrado pues $S^{n}=f^{-1}(1)$, donde $f:\br^n\ra \br$ es la funci&#xF3;n continua
         $$
         (x_1,x_2,\ldots,x_n,x_{n+1})\longmapsto x_1^2+x_2^2+\cdots+x_n^2+x_{n+1}^2
         $$
         As&#xED;, $S^{n}$ es compacto. El disco unitario $D^n=\{x\in\br^n \barra |x|\leq 1\}$ tambi&#xE9;n es compacto pues es
         cerrado por definici&#xF3;n y tambi&#xE9;n acotado. $\bt$
-      </p>
-      
+      </li>
+      </ul>
+
 
       <p>Compacidad es una propiedad que puede ser usada para determinar si una funci&#xF3;n es un homeomorfismo.
       </p>
@@ -1683,7 +1722,7 @@
         </p>
       </div>
 
-     
+
       <p>$\dem$ Para $A\subset X$ cerrado se tiene que es compacto. Como $f$ es continua, $f(A)$ es compacto y por el
         Corolario \ref{kk}, $f(A)$ es cerrado. Finalmente recordemos que si $f$ es continua, biyectiva y cerrada,
         entonces $f$ es homeomorfismo (Lema \ref{homeo}).$\findem$
