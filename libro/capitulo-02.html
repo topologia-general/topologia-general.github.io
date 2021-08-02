@@ -1093,7 +1093,7 @@
         resultado.
       </p>
 
-      <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive" style="padding:8px 16px 8px 16px;">
+      <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive" style="padding:8px 16px 8px 16px;" id="espacio-euclidiano-no-compacto">
         <p><strong>Lema:</strong>
           Para $n&gt;0$, el espacio euclidiano $\br^n$ no es compacto.
         </p>
@@ -1318,7 +1318,7 @@
       <h3>Ejemplo:</h3>
 
       <ul></ul>
-      <li>
+      <li id="cerrado-acotado-no-compacto">
         <strong>Cerrado y acotado pero no compacto:</strong> Dado $M$ conjunto infinito lo dotamos de una topologia a
         trav&#xE9;s de la m&#xE9;trica discreta (ver <a class="w3-hover-text-blue" href="capitulo-01.html#funcion-distancia" target="_blank">primer ejemplo</a> de funci&#xF3;n distancia en Cap. 1, sec 1.4):
         $$
@@ -1646,8 +1646,7 @@
           Tychonoff</strong>
         (<a class="w3-hover-text-blue" href="referencias.html#Munkres00" target="_blank">Munkres 2000</a>). Lo
         establecemos a continuaci&#xF3;n pero dejaremos su
-        demostraci&#xF3;n para el Cap&#xED;tulo
-        \ref{cap:6}.
+        demostraci&#xF3;n para un Cap&#xED;tulo futuro.
       </p>
 
       <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive" style="padding:8px 16px 8px 16px;">
@@ -1662,8 +1661,11 @@
         por lo tanto tambi&#xE9;n para $K$. Dado que $B_{n_1}(0)\subset B_{n_2}(0)$,
         para $n_1\leq n_2$, se tiene que una
         subcubierta finita est&#xE1; contenida en una sola bola $B_m(0)$
-        (ver Lema \ref{rcompa}) y por lo tanto el
-        compacto $K$ es acotado. Por el Ejemplo \ref{infi}, la
+        (ver  
+        <a class="w3-hover-text-blue" href="#espacio-euclidiano-no-compacto">Lema acerca de espacios euclidianos no compactos</a>) 
+        y por lo tanto el
+        compacto $K$ es acotado. Por el  
+        <a class="w3-hover-text-blue" href="cerrado-acotado-no-compacto">Ejemplo de cerrado y acotado pero no compacto</a>, la
         implicaci&#xF3;n contraria (acotado $\Rightarrow$
         compacto) debe ser especial e importante y lo obtendremos
         a partir del resultado anterior.
