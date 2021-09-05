@@ -1370,7 +1370,39 @@
         </li>
       </ul>
 
+      <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive" style="padding:8px 16px 8px 16px;" id="funcion-cerrada">
+        <p><strong>Teorema:</strong>
+          Sea $f:X\ra Y$ funci&#xF3;n cerrada con $Y$ compacto. 
+          Si $f^{-1}(y)$ es compacto, $\forall y\in Y$, entonces $X$ es compacto.
+        </p>
+      </div>
 
+      <p>
+        $\dem$ Sin perdidad de generalidad podemos suponer que $f$ es 
+        funci\&apos;on sobre, pues si no lo es podemos hacer $Y=f(X)$. Para $A\subseteq X$  consideremos 
+        $$
+        A&apos;=\{y\in Y | f^{-1}(y)\subset A\}
+        $$
+        Dado que $f$ es cerrada y adem&#xE1;s $Y\backslash A&apos;=f(X\backslash A)$ 
+        se sigue que $A&apos;$ es abierto si $A$ tambi&#xE9;n lo es. 
+        Sea $\mathcal{A}$ cubierta abierta de $X$
+        y consideremos $\mathcal{B}$ una familia de uniones 
+        finitas de elementos de $\mathcal{A}$:
+        $$
+        \mathcal{B}=\{\bigcup_{i\in I} A_i | I\;\mbox{finito} \}
+        $$
+        Afirmamos que $\mathcal{B}&apos;=\{B&apos;| B\in \mathcal{B}\}$ es 
+        una cubierta abierta de $Y$.
+        <br>
+        Sea $y\in Y$ y como $f^{-1}(y)$ es compacto, existen 
+        $A_1,\ldots,A_m\in \mathcal{A}$ tales que $f^{-1}(y)\subset A_1\cup A_1\cup \cdots \cup A_m$. 
+        Entonces, $y\in B&apos;$, para $B=A_1\cup A_1\cup \cdots \cup A_m$.
+        <br>
+        Como $Y$ es compacto, existen $B_1,\ldots, B_n\in \mathcal{B}$ 
+        tales que $Y=\bigcup_{i=1}^nB_i&apos;$ y por lo tanto $X=B_1\cup B_2\cup \cdots \cup B_n$ 
+        y, como cada $B_i$ es uni&#xF3;n finita de elementos 
+        de $\mathcal{A}$, hemos hallado una subcubierta finita de $\mathcal{A}$ de $X$.$\findem$
+      </p>
 
 
       <p>El siguiente resultado es un criterio de compacidad
@@ -1638,7 +1670,8 @@
 
       <p>$\dem$ Consideremos primero el caso del producto cartesiano de dos espacios compactos $X,Y$. Por el corolario
         anterior, la proyecci&#xF3;n $p_Y:X\times Y\ra Y$ es funci&#xF3;n cerrada y como para cada $y\in Y$ $p_Y^{-1}(y)=
-        X\times \{y\}\cong X$ es compacto, usamos el Teorema \ref{lll} para obtener que $X\times Y$ es compacto. El
+        X\times \{y\}\cong X$ es compacto, obtenemos que $X\times Y$ es compacto 
+        (ver <a href="funcion-inversa-cerrada">Teorema arriba</a>). El
         teorema se obtiene entonces al aplicar un argumento de inducci&#xF3;n. $\findem$
       </p>
 
