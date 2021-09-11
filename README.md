@@ -1,7 +1,7 @@
 # Topología General
 Bienvenidos al repositorio de las notas de Topología General. 
 
-### ISBN 978-0-6485736-3-0
+ISBN 978-0-6485736-3-0
 
 <p align="center">
   <img src="https://1.bp.blogspot.com/-eItfS2U8eJk/YTA_Z2Lq9CI/AAAAAAAAa9o/4a4T2EtGHRkl7tYnrQNDNXUQVlrTP7HkQCLcBGAsYHQ/s601/turus-rings.gif" width="30%" />
@@ -28,12 +28,12 @@ introducir al estudiante a la teoría de homotopía a través del grupo
 fundamental, mediante su definición, propiedades y algunos cálculos elementales.
 
 
----
+
 # Licencia
 El texto de este libro, las imágenes, applets y código fuente están bajo 
 licencia [Creative Commons Attribution-NonCommercial 4.0 International License](http://creativecommons.org/licenses/by-nc/4.0/).
 
----
+
 # Colofón
 Este libro fue creado gracias al proyecto [Magic Book](https://github.com/magicbookproject/magicbook)
 
