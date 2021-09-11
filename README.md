@@ -3,16 +3,16 @@ Bienvenidos al repositorio de las notas de Topología General.
 
 ISBN 978-0-6485736-3-0
 
-# Autores
+## Autores
 Miguel Ángel Maldonado Aguilar - Universidad de Zacatecas
 
 Juan Carlos Ponce Campuzano - Universidad de Queensland
 
+---
+
 <p align="center">
   <img src="https://1.bp.blogspot.com/-eItfS2U8eJk/YTA_Z2Lq9CI/AAAAAAAAa9o/4a4T2EtGHRkl7tYnrQNDNXUQVlrTP7HkQCLcBGAsYHQ/s601/turus-rings.gif" width="35%" />
 </p>
-
----
 
 El presente material ha sido elaborado para usarse como notas de curso 
 para las materias de Topología que se imparten en la Unidad Académica 
