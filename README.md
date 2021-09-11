@@ -33,9 +33,12 @@ introducir al estudiante a la teoría de homotopía a través del grupo
 fundamental, mediante su definición, propiedades y algunos cálculos elementales.
 
 # Colofón
-Este libro fue creado gracias al proyecto [Magic Book](https://github.com/magicbookproject/magicbook).
+Este libro fue creado gracias al proyecto 
+[Magic Book](https://github.com/magicbookproject/magicbook).
 
-Informa cualquier error en el libro o errores en el código fuente en GitHub o contácteme jcponcemath@gmail.com
+Informa cualquier error en el libro o errores en el código fuente en 
+[GitHub](https://github.com/topologia-general/topologia-general.github.io/issues) 
+o contácteme jcponcemath@gmail.com
 
 # Licencia
 El texto de este libro, las imágenes, applets y código fuente están bajo 
