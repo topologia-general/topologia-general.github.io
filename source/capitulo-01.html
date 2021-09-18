@@ -21,7 +21,7 @@
     </div>
   </div>
 
-  <section data-type="sect1" id="capitulo01_seccion1">
+  <section data-type="sect1" id="seccion-1">
 
     <div class="w3-container w3-section">
       <h2>1.1 Topologías y bases</h2>
@@ -92,7 +92,7 @@
               la <strong>topología de la exclusión del punto</strong>.
             </li>
             <li> Sea $\{X_i\}_{i\in I}$ colección de espacios topológicos y tomemos su
-              union $X=\cup_i X_i$. Dotamos a $X$ de la topologia mas gruesa $\tau$ de
+              union $X=\cup_i X_i$. Dotamos a $X$ de la topología mas gruesa $\tau$ de
               las que contienen a cada una de las topologías de los espacios $X_i$.
               En estas condiciones $U\subset X$ es abierto si, y solo si $U\cap X_i$ es abierto
               para cada $i$. El espacio topológico obtenido es llamado la <strong> unión
@@ -221,8 +221,8 @@
               $$
               B(n)=\begin{cases}\{n\},&n\;\;\mbox{impar}\\\{n-1,n,n+1\},&n\;\;\mbox{par} \end{cases}
               $$
-              La coleccion $\mcal{B}=\{B(n)\barra n\in \bz\}$ es una base para una topologia en $\mathbb{Z}$, llamada la
-              <strong> topologia de la linea digital</strong>. Esta topologia tiene aplicaciones en el procesamiento de
+              La coleccion $\mcal{B}=\{B(n)\barra n\in \bz\}$ es una base para una topología en $\mathbb{Z}$, llamada la
+              <strong> topología de la linea digital</strong>. Esta topología tiene aplicaciones en el procesamiento de
               imagenes digitales.
             </li>
           </ul>
@@ -261,7 +261,7 @@
 
           <p>Dado que
             $$
-            (a,b)=\bigcup_{n=k}^\infty [a+\frac{1}{n},b), \;\; \mbox{para}\; a+\frac{1}{k}&lt;b
+            (a,b)=\bigcup_{n=k}^\infty \left[a+\frac{1}{n},b\right), \;\; \mbox{para}\; a+\frac{1}{k}&lt;b
             $$
             se tiene que la topología semi-abierta es más fina que la topología euclidiana.
             <p>
@@ -276,7 +276,7 @@
               </p>
 
               <p> Una <strong>subbase</strong> para $X$ es una colección $\mathcal{P}$ de subconjuntos de $X$ cuya union
-                es $X$. La <strong>topologia $\tau$ generada por una subbase</strong> se define como la coleccion $\tau$
+                es $X$. La <strong>topología $\tau$ generada por una subbase</strong> se define como la coleccion $\tau$
                 de todas las uniones de intersecciones finitas de elementos de $\mathcal{P}$.
               </p>
 
@@ -292,7 +292,7 @@
   </section>
 
 
-  <section data-type="sect2" id="capitulo01_seccion2">
+  <section data-type="sect2" id="seccion-2">
 
     <div class="w3-container w3-section">
       <h2>1.2 Cerradura, interior y conceptos relacionados</h2>
@@ -322,7 +322,7 @@
         $$
         Ahora, como $\mathbb{Z}$ es infinito y $U$ deja fuera una cantidad finita de numeros reales, existe una cantidad
         infinita de enteros en $U$, varios de ellos distintos de $r$. Esto prueba que $r$ es adherente de $\mathbb{Z}$;
-        dicho de otra forma: en $\mathbb{R}$, con la topologia del complemento finito, todo punto es punto limite de
+        dicho de otra forma: en $\mathbb{R}$, con la topología del complemento finito, todo punto es punto limite de
         $\bz$.</p>
 
 
@@ -466,7 +466,7 @@
 
       <p> Dado $x\in X$ decimos que una familia $\mathcal{J}\subset \mathcal{I}(x)$ es una <strong> base local
           en $x$</strong> si para cualquier $U\in \mathcal{I}(x)$ existe $A\in \mathcal{J}$ tal que $A\subset U$.
-        Si $\mathcal{B}$ es base para una topologia, los abiertos de $\mathcal{B}$ que contienen a $x$ forman una base
+        Si $\mathcal{B}$ es base para una topología, los abiertos de $\mathcal{B}$ que contienen a $x$ forman una base
         local en $x$. Notemos que para cualquier $x\in X$ se tiene que $X\in \mathcal{I}(x)$. Ademas, si $U\in
         \mathcal{I}(x)$ existe $V\subset U$ tal que $x\in V$ y $V\in \mathcal{I}(y)$ para cualquier $y\in V$. Estas
         propiedades y las dadas arriba prueban el siguiente resultado
@@ -475,7 +475,7 @@
       <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive" style="padding:8px 16px 8px 16px;">
         <p><strong>Teorema:</strong> Sea $X$ conjunto y para cada $x\in X$ consideremos $\mathcal{I}(x)$ la familia de
           vecindades de $x$. Definamos $U\subset X$ abierto $\Longleftrightarrow $ $U\in \mathcal{I}(x)$, para cualquier
-          $x\in U.$ Entonces $\tau=\{U\subset X \,|\; U\;\mbox{abierto} \}$ es una topologia para $X.$
+          $x\in U.$ Entonces $\tau=\{U\subset X \,|\; U\;\mbox{abierto} \}$ es una topología para $X.$
         </p>
       </div>
 
@@ -512,7 +512,7 @@
   </section>
 
 
-  <section data-type="sect3" id="capitulo01_seccion3">
+  <section data-type="sect3" id="seccion-3">
 
     <div class="w3-container w3-section">
       <h2>1.3 Continuidad</h2>
@@ -538,15 +538,15 @@
       <p>
         <ul>
           <li> La función identidad $id:(X,\tau)\to (X,\tau)$ es siempre continua. Sin embargo,
-            si se cambia la topologia esto ya no es cierto: tomemos $X=\mathbb{R},\tau_1$ topologia usual y $\tau_2$
-            topologia semi-abierta. Notemos que $id^{-1}[0,1)=[0,1)$, el cual no es un abierto en la topología
+            si se cambia la topología esto ya no es cierto: tomemos $X=\mathbb{R},\tau_1$ topología usual y $\tau_2$
+            topología semi-abierta. Notemos que $id^{-1}[0,1)=[0,1)$, el cual no es un abierto en la topología
             usual.
           </li>
         </ul>
       </p>
 
       <p>
-        En general, la continuidad de la función identidad de un espacio depende de las topologias involucradas:
+        En general, la continuidad de la función identidad de un espacio depende de las topologías involucradas:
       </p>
 
       <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive" style="padding:8px 16px 8px 16px;">
@@ -577,7 +577,7 @@
         $$
         f(\ol{A})\subset \ol{f(A)}
         $$
-        \vuelta Supongamos que $f(\ol{A})\subset \ol{f(A)}$ para todo $A\subset X$ y
+        $\vuelta$ Supongamos que $f(\ol{A})\subset \ol{f(A)}$ para todo $A\subset X$ y
         hagamos $A=f^{-1}(C)$ para $C\subset Y$ cerrado. Obtenemos
         $$
         f(\ol{f^{-1}(C)})\subset \ol{C}=C
@@ -747,7 +747,7 @@
   </section>
 
 
-  <section data-type="sect4" id="capitulo01_seccion4">
+  <section data-type="sect4" id="seccion-4">
 
     <div class="w3-container w3-section">
       <h2>1.4 Espacios métricos</h2>
@@ -859,7 +859,7 @@
 
   </section>
 
-  <section data-type="sect5" id="capitulo01_seccion5">
+  <section data-type="sect5" id="seccion-5">
 
     <div class="w3-container w3-section">
       <h2>1.5 Subespacios y productos</h2>
@@ -986,7 +986,7 @@
       <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive" style="padding:8px 16px 8px 16px;" id="lema-del-pegado">
         <p><strong>Lema (del Pegado):</strong> Sean $F,F'\subset X$ cerrados y $f:F\to Y,\;f':F'\to Y$ funciones
           continuas
-          cuyas restricciones a $F\cap F'$ coinciden. Entonces la función $h:F\cup F'\to Y$ dada por.
+          cuyas restricciones a $F\cap F'$ coinciden. Entonces la función $h:F\cup F'\to Y$ dada por
           $$
           h(x)=\begin{cases} f(x),&x\in F\\f'(x),&x\in F' \end{cases}
           $$
@@ -1026,7 +1026,7 @@
         topología producto. </p>
 
 
-      <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive" style="padding:8px 16px 8px 16px;">
+      <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive" style="padding:8px 16px 8px 16px;" id="proyecciones">
         <p><strong>Lema:</strong> Las proyecciones $p_X,p_Y$ son funciones abiertas. Además, para cada $(x,y)\in X\times
           Y$ las restricciones
           $$
@@ -1121,7 +1121,7 @@
   </section>
 
 
-  <section data-type="sect6" id="capitulo01_seccion6">
+  <section data-type="sect6" id="seccion-6">
 
     <div class="w3-container w3-section">
       <h2>1.6 Espacios de Hausdorff</h2>
@@ -1137,7 +1137,7 @@
         si un espacio tiene esta propiedad o no. Sin embargo, no es un propiedad que tengan todos los espacios:</p>
 
 
-      <h3>Ejemplo</h3>
+      <h3>Ejemplo:</h3>
       <ul>
         <li>Tomemos el conjunto $X=\{1,2,3\}$ con topología $\tau=\{\emptyset, \{1\},
           \{2,3\},X\}$. Observemos que los puntos $2,3$ no tienen vecindades ajenas; de hecho,
@@ -1149,7 +1149,7 @@
         <strong>de Hausdorff</strong> ó <strong>$T_2$ </strong> si para cualesquiera $x\neq y\in X$ existen
         vecindades $U\in \mathcal{I}(x), V\in \mathcal{I}(y)$ tales que $U\cap V=\emptyset$.</p>
 
-      <h4>Ejemplos:</h4>
+      <h3>Ejemplos:</h3>
       <ul>
         <li>Un conjunto con al menos dos elementos y dotado de la topología trivial no es Hausdorff. Cualquier
           espacio métrico es Hausdorff: $\forall x,y\in X$ tomamos $r$ con $0\lt r \lt d(x,y)/2$ y notamos que

@@ -1,0 +1,513 @@
+<section data-type="chapter" id="capitulo-03">
+
+  <div class="w3-container">
+    <br>
+    <h1 class="w3-text-white w3-hide-large w3-xxlarge"><b>Add-space-top-Don't-change-this</b></h1>
+
+    <h1>3. Introducción a grupos topológicos</h1>
+
+
+    <p>En este capítulo definiremos y analizaremos las propiedades de dos de las etiquetas
+      topológicas más elementales e importantes dentro de la topología: conexidad y compacidad.</p>
+
+    <div class="w3-section w3-bottombar">
+      <p></p>
+    </div>
+  </div>
+
+  <section data-type="sect1" id="seccion-1">
+
+    <div class="w3-container w3-section">
+      <h2>3.1 Grupos topológicos</h2>
+
+      <p>
+        Recordemos que el concepto de espacio topólogico se construyó a
+        partir de un conjunto definiendo una colección de abiertos (o de cerrados).
+        Cuando el conjunto está enriquecido con una estructura de grupo
+        surge un área de la matemática de gran interés llamada
+        <strong>Álgebra topológica</strong>.
+      </p>
+
+      <p>
+        Decimos que un conjunto $G$, equipado con una estructura de grupo
+        y una de espacio topológico, es llamado un <strong>grupo topológico</strong>
+        si las operaciones <em>mutiplicación</em>> y <em>tomar inversos</em>
+        $$
+        \begin{cases}
+        m:G\times G\lra G,\;\;(g,h)\mapsto m(g,h):=gh\\
+        inv:G\lra G,\;\;g\mapsto inv(g):=g^{-1}
+        \end{cases}
+        $$
+        son funciones continuas. Equivalentemente, $G$ es grupo
+        topológico si y sólo si $(g,h)\mapsto gh^{-1}$ es función continua.
+      </p>
+
+      <h3>Ejemplos</h3>
+
+      <ul>
+        <li>Cualquier grupo tiene estructura de grupo topológico al
+          dotarlo de la topología discreta; el resultado es
+          llamado <strong>grupo topológico discreto</strong>.</li>
+        <li>Los espacios producto $\br^n,\bc^n$ son también grupos aditivos con las operaciones usuales de suma y de
+          tomar inverso:
+          $$
+          m(\ol{x},\ol{y}):=\ol{x}+\ol{y},\qquad inv(\ol{x}):=-\ol{x}
+          $$
+          Estas operaciones son funciones continuas con la topología euclidiana, por lo que $\br^n,\bc^n$ son grupos
+          topológicos.</li>
+        <li>Recordemos que la circunferencia unitaria $S^1$ es subespacio de $\bc$ dado por los complejos unitarios; es
+          además un grupo topológico bajo la multiplicación de números complejos, debido a la propiedad
+          $||z_1z_2||=||z_1||\:||z_2||.$ $\bt$</li>
+      </ul>
+
+
+
+      <p>
+        Para $h\in G$ definimos la <strong>multiplicación derecha</strong> como la composición de la inclusión con la
+        multiplicación de $G$:
+        <figure class="w3-center">
+          <img class="w3-hide-large" src="imgs/cap-03/diagram-01.png" alt="Diagram 1" style="width:40%">
+          <img class="w3-hide-small w3-hide-medium" src="imgs/cap-03/diagram-01.png" alt="Diagram 1" style="width:20%">
+        </figure>
+        donde $i(g)=(g,h)$ es la inclusión. Observemos que $R_h$ es función continua y tiene por inversa a
+        $R_{h^{-1}}$;
+        es decir, $R_{h}$ es un homeomorfismo. De manera análoga definimos la <strong>multiplicación izquierda</strong>
+        $L_h(g)=hg$ que tiene por inversa a $L_{h^{-1}}$ y es también homeomorfismo. Con esto obtenemos
+      </p>
+
+      <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive" style="padding:8px 16px 8px 16px;">
+        <p><strong>Lema:</strong>
+          La conjugación por cualquiera de los elementos de un grupo topológico es un homeomorfismo. Es decir, para
+          cada
+          $g\in G$ se tiene que la función
+          $G\to G,\;x\mapsto gxg^{-1}$ es un homeomorfismo.
+        </p>
+      </div>
+
+
+      <p>
+        Podemos decir un poco más: para cualesquiera $g,h\in G$ existe homeomorfismo $\varphi:G\ra G$ dado por
+        $\varphi=R_{g^{-1}h}$; observemos que
+        $$
+        \varphi(g)=g(g^{-1}h)=h
+        $$
+        De igual forma también es posible hacer $\varphi=L_{hg^{-1}}$ para obtener $\varphi(g)=(hg^{-1})g=h$. Por lo
+        anterior se dice que todo grupo topológico $G$ es <strong>homogéneo</strong>, lo que 
+        significa que $G$ tiene la <em>misma</em> estructura topológica alrededor de cualquier punto; 
+        es decir, su estructura es homogénea.
+      </p>
+
+      <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive" style="padding:8px 16px 8px 16px;">
+        <p><strong>Lema:</strong>
+          Sea $e\in G$ el elemento neutro de un grupo topológico $G$.
+          Entonces $G$ es Hausdorff $\sss$ $\{e\}$ es cerrado.
+        </p>
+      </div>
+
+      <p>
+        $\dem$ $\ida$ Se sigue de inmediato pues todo conjunto finito de un espacio Hausdorff es cerrado.
+        <br />
+        $\vuelta$ Supongamos $\{e\}$ es cerrado y consideremos $\phi:G\times G\ra G$ definida como $\phi(g,h)=gh^{-1}$.
+        Notemos que $\phi$ se obtiene del diagrama:
+        <figure class="w3-center">
+          <img class="w3-hide-large" src="imgs/cap-03/diagram-02.png" alt="Diagram 2" style="width:90%">
+          <img class="w3-hide-small w3-hide-medium" src="imgs/cap-03/diagram-02.png" alt="Diagram 2" style="width:75%">
+        </figure>
+        de donde se observa que $\phi$ es composición de funciones continuas, por lo que también es continua. Por
+        otro
+        lado, notemos que
+        $$
+        \phi^{-1}(e)=\{(g,g)\barra g\in G\}=\triangle\subseteq G\times G
+        $$
+        el cual es cerrado, lo cual es cierto $\sss$ $G$ es Hausdorff.$\findem$
+      </p>
+
+
+      <p>
+        Si $G$ es un grupo topológico y $H\subseteq G$ es subgrupo,
+        entonces, al dotar a $H$ de la topología del
+        subespacio, se tiene que $H$ es grupo topológico llamado
+        <strong>subgrupo topológico</strong>. Con esto el subgrupo de
+        complejos unitarios $S^1$ es subgrupo topológico de
+        $\bc_*$, los complejos no cero.
+      </p>
+
+      <br />
+
+    </div>
+
+  </section>
+
+  <section data-type="sect1" id="seccion-2">
+
+    <div class="w3-container w3-section">
+      <h2>3.2 Grupos de matrices</h2>
+
+      <p>
+        El conjunto de matrices cuadradas $M_n(\br)=M_{n,n}(\br)$ se identifica con el espacio euclidiano $\br^{n^2}$ de
+        la manera usual. La función determinante $\det:M_n(\br) \ra \br$ es una función polinomial en las entradas
+        de
+        $A$, por lo tanto es una función continua. Con esto, el subespacio $\det^{-1}(0)$ es cerrado y su complemento
+        $$
+        GL_n(\br)= \br^{n^2}\baca det^{-1}(0)
+        $$
+        consiste de las matrices cuadradas <strong>invertibles</strong>. 
+        Por lo mencionado antes hereda la estructura topológica
+        de
+        $\br^{n^2}$ y además forma un grupo bajo la multiplicación matricial, el cual esta dado por polinomios en
+        las
+        entradas de las matrices por lo que es una operación continua. La función de inversión $A\mapsto A^{-1}$
+        es
+        una función racional en los coeficientes de $A$ (por la regla de Cramer) por lo que es continua; es decir,
+        $GL_n(\br)$ es un grupo topológico llamado el <strong>grupo general lineal real</strong>.
+        De manera análoga se define el <strong>grupo general lineal complejo</strong>
+        $GL_n(\bc)$. Observemos que ambos grupos son Hausdorff.
+      </p>
+
+
+      <p>
+        Los grupos topológicos $GL_n(\br), GL_n(\bc)$ tienen subgrupos muy interesantes:
+      </p>
+
+      <ul>
+        <li>
+          $GL_n^+(\br)=\{A\in M_n(\br) \barra \det (A)>0 \}$
+        </li>
+        <li>
+          El <strong>grupo especial lineal</strong>
+          $$
+          SL_n(\br)=\{A\in M_n(\br) \barra \det (A)=1 \}
+          $$
+          Notemos que $SL_n(\br)=\det^{-1}(1)$, por lo que $SL_n(\br)$ es subespacio cerrado de $GL_n(\br)$.
+        </li>
+        <li>
+          El <strong>grupo especial lineal</strong>
+          $$
+          SL_n(\bc)=\{A\in M_n(\bc) \barra \det (A)=1 \}
+          $$
+          Al igual que antes $SL_n(\bc)$ es subespacio cerrado.
+        </li>
+        <li>
+          El <strong>grupo especial unitario</strong>
+          $$
+          SU_n(\bc)=U_n(\bc)\cap SL_n(\bc)
+          $$
+        </li>
+      </ul>
+
+      <p>
+        donde $A^T$ es la <strong>matriz traspuesta</strong> de $A=[a_{ij}]$ dada por
+        $A^T=[a_{ji}]$ y $\ol{A}^T$ es 
+        <stong>matriz conjugada hermitiana</stong> 
+        dada por $\ol{A}^T=[\ol{a_{ij}}]^T=[\ol{a_{ji}}]$.
+        A continuación estudiaremos algunos
+        de los grupos mencionados arriba.
+      </p>
+
+
+      <p>
+        Consideremos $p:M_n(\br)\ra \br^n$ función que manda toda matriz a su primer vector columna. Al considerar la
+        descomposición $M_n(\br)\cong \br^n \times M_{n,n-1}(\br)$, en la que separamos la primera columna, la
+        función
+        $p$ es proyección en el primer factor y por el 
+        <a class="w3-hover-text-blue"  href="capitulo-01.html#proyecciones" target="_blank">Lema acerca de proyecciones</a> 
+        es función continua y abierta; en
+        particular,
+        la restricción
+        $$
+        GL_n^+(\br)\lra \br^n\baca \{\ol{0}\}
+        $$
+        es función continua y abierta. Observemos que por definición de multiplicación matricial se tiene que
+        $p(AB)=Ap(B)=L_A(p(B))$, donde $L_A(B)=AB$ es multiplicación por la izquierda por $A$ y define un
+        homeomorfismo
+        de $GL_n^+(\br)$. Finalmente, dado que todo vector no cero determina un conjunto linealmente independiente de
+        vectores, se sigue que $\forall v\in \br^n\baca \{\ol{0}\} , \:p^{-1}(v)\neq \emptyset$.
+      </p>
+
+      <p>
+        <strong>Afirm.</strong> $L_A(p^{-1}(v))=p^{-1}(Av)$. <br/>
+        Para $C\in L_A(p^{-1}(v))$ existe $B\in p^{-1}(v),\:C=AB$; de aquí
+        $$
+        p(C)=p(AB)=Ap(B)=Av,
+        $$
+        por lo que $C\in p^{-1}(Av)$. Por otro lado, sea $C\in p^{-1}(Av)$ y tomemos $B\in GL_n(\br)$ tal que $p(B)=v$;
+        de
+        esto se sigue
+        $$
+        p(C)=Av=Ap(B)=L_A(p(B))
+        $$
+        Así, $C\in L_A(p^{-1}(v)).$ $\bt$
+      </p>
+
+
+      <p>
+        Las propiedades mencionadas arriba se usarán para probar el siguiente:
+      </p>
+
+      <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive" style="padding:8px 16px 8px 16px;">
+        <p><strong>Teorema:</strong>
+          El grupo $GL_n^+(\br)$ es conexo.
+        </p>
+      </div>
+
+      <p>
+        $\dem$ Procedamos por inducción: observemos que $GL_1^+(\br)=(0,\infty)$, el cual es conexo. Supongamos que
+        $GL_{n-1}^+(\br)$ es conexo. Tomemos la proyección $p$ de arriba y notemos que para $(1,\ldots,0)\in
+        \br^n\baca
+        \{0\}$
+        $$
+        p^{-1}((1,0,\ldots,0))=\br^{n-1}\times GL_{n-1}^+(\br)
+        $$
+        el cual es conexo por hipótesis. Para $y\in \br^n\baca \{0\}$ tomamos $A\in GL_{n}^+(\br)$ tal que $p(A)=y$.
+        De
+        la relación $p(AB)=Ap(B)$ se sigue que
+        $$
+        L_A(p^{-1}(1, \ldots,0))=p^{-1}(y)
+        $$
+        por lo que las preimagenes $p^{-1}(y)$ son homeomorfas. Finalmente usamos el Lema \ref{conn} para concluir que
+        $GL_n^+(\br)$ es conexo.$\findem$
+      </p>
+
+
+      <p>
+        La demostración anterior aplica también para $GL_n(\bc)$ probando que es conexo.
+      </p>
+
+
+      <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive" style="padding:8px 16px 8px 16px;">
+        <p><strong>Corolario:</strong>
+          Los grupos topológicos $SL_n(\br), SL_n(\bc)$ son conexos
+          y $GL_n(\br)$ tiene dos componentes conexas.
+        </p>
+      </div>
+
+
+      <p>
+        $\dem$ Dada una matriz $A$, tomamos su primer vector columna y lo multiplicamos por $1/\det(A)$, con lo que
+        obtenemos las funciones
+        $$
+        GL_n(\bc)\lra SL_n(\bc),\;\;GL_n^+(\br)\lra SL_n(\br)
+        $$
+        Dado que estas funciones son continuas y sobreyectivas, del Teorema anterior se sigue la primera afirmación.
+        Para la segunda notemos que se tiene una descomposición
+        $$
+        GL_n(\br)=GL_n^+(\br)\cup GL_n^-(\br),
+        $$
+        donde el término $GL_n^-(\br)$ es homeomorfo a $GL_n^+(\br)$ mediante la multiplicación de una matriz con
+        determinante negativo.$\findem$
+      </p>
+
+
+      <h3>Ejemplo (El grupo de Heisenberg):</h3>
+      <ul>
+        <li>
+          Consideremos el grupo de matrices triangulares superiores unipotentes
+          $$
+          H=\begin{Bmatrix}\left(\begin{matrix}
+          1&x&z\\0&1&y\\0&0&1
+          \end{matrix}\right)
+          \barra x,y,z\in \bz\end{Bmatrix}
+          $$
+          Claramente tienen $\det =1$ por lo que $H$ es un subgrupo de $SL_3(\br)$, el 
+          <strong>grupo de Heisenberg</strong>.
+          Por otro lado, como $x,y,z$ pueden ser arbitrariamente grandes se
+          tiene
+          que $H$ no está acotado por lo que no puede ser compacto. 
+          En general, los grupos $SL_n(\br),SL_n(\bc)$ no
+          son
+          compactos para $n>1$; véase Ejercicio 4.42 en 
+          <a class="w3-hover-text-blue"  href="referencias.html#Manetti15" target="_blank">Manetti, 2015</a>. $\bt$
+        </li>
+      </ul>
+
+      <h3 id="seccion-2-1">3.2.1 Matrices ortogonales</h3>
+
+
+      <p>
+        Una matriz $A\in M_n(\br)$ tal que $A^TA=I_n$ es
+        llamada <strong>matriz ortogonal</strong>. Dado que la matriz inversa de una
+        matriz ortogonal $A$ es $A^T$ y como
+        $$
+        (AB)^T(AB)=B^TA^TAB=BI_nB^T=BB^T=I_n
+        $$
+        se sigue el conjunto de matrices orgonales $O_n(\br)$
+        es un grupo llamado el <strong>grupo ortogonal
+          real</strong>.
+      </p>
+
+
+      <p>
+        Hagamos $A=[a_{ij}]$ y notemos que de la
+        relación $A^TA=I_n$ se tienen $n^2$ ecuaciones:
+        $$
+        \sum_{k=1}^n a_{ki}a_{kj}=\delta_{ij},
+        $$
+        donde $\delta_{ij}$ es la <strong>delta de Kronecker</strong> definido como
+        $$
+        \delta_{ij}=\begin{cases} 1,&i=j\\0,&i\neq j \end{cases}
+        $$
+        Las ecuaciones anteriores muestran que $O_n(\br)$ es un subgrupo cerrado de $GL_n(\br)$.
+      </p>
+
+
+      <p>
+        Consideremos $A\in O_k(\br),\;B\in O_{n-k}(\br)$ y el subgrupo de $O_n(\br)$ dado por
+        $$
+        \left(\begin{array}{cc} A&0_{k,n-k}\\0_{n-k,k}&B\end{array} \right)
+        $$
+        Con esto se identifica la inclusión $O_k(\br)\times O_{n-k}(\br)\subset O_n(\br)$.
+      </p>
+
+
+      <p>
+        Notemos que para $A\in O_n(\br)$
+        $$
+        (\det A)^2=\det A^T \det A=\det(A^T A)=\det I_n=1
+        $$
+        por lo que $O_n(\br)=O_n^+(\br)\cup O_n^-(\br)$, donde
+        $$
+        SO_n(\br)=O_n^+(\br)=\{A\in O_n(\br)\barra \det A=1\}
+        $$
+        es llamado el <strong>grupo ortogonal especial</strong>.
+        Similarmente a lo que se hizo
+        antes,
+        $SO_n(\br)$ se puede expresar como subgrupo de $SO_{n+1}(\br)$
+        mediante la identificación:
+        $$
+        \left(\begin{array}{cc} A&0\\0&1\end{array} \right)=\left(\begin{array}{cccc}
+        a_{11}&\cdots&a_{1n}&0\\\vdots&\ddots &\vdots&\vdots\\a_{n1}&\cdots&a_{nn}&0\\0&\cdots&0&1\end{array} \right)
+        $$
+        para $A=[a_{ij}]\in SO_n(\br)$.
+      </p>
+
+
+      <p>
+        La importancia de los grupos ortogonales se debe a su relación con las
+        <strong>isometrías</strong>: funciones biyectivas $f:\br^n\ra \br^n$ que preservan distancia; es
+        decir, $|f(x)-f(y)|=|x-y|$. Si $f(0)=0$ entonces se llama una <strong>isometrías lineal</strong> 
+        y en la base canónica
+        corresponde a una matriz en $GL_n(\br)$. Más aún:
+      </p>
+
+      <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive" style="padding:8px 16px 8px 16px;">
+        <p><strong>Lema:</strong>
+          Para $A\in GL_n(\br)$ las siguientes condiciones son equivalentes:
+          <ul>
+            <li>
+              $A$ es isometría lineal
+            </li>
+            <li>
+              $Ax\cdot Ay=x\cdot y,\;\forall x,y\in \br^n$
+            </li>
+            <li>
+              $A$ es ortogonal
+            </li>
+          </ul>
+        </p>
+      </div>
+
+
+      <p>
+        Por este resultado (<a  class="w3-hover-text-blue"  href="referencias.html#Baker01" target="_blank">Baker 2001</a>)
+        los elementos de $SO_n(\br)$ son llamados isometrías directas o
+        <strong>rotaciones</strong>, las cuales están
+        caracterizados por la rotación en $\br^n$ de un plano en
+        un ángulo $\Theta$ respecto a una linea $l$ perpendicular
+        a dicho plano. Más aún, del resultado se sigue que
+        los vectores columnas de una matriz en $SO_n(\br)$ son ortonormales entre si.
+      </p>
+
+      <h3>Ejemplos:</h3>
+      <ul>
+        <li>
+          Notemos que $SO_1(\br)=\{1\}$, el grupo trivial.
+        </li>
+        <li>
+          Tomemos $A\in SO_2(\br)$ y tomemos su primer vector columna, digamos $z\in S^1$. Notemos que el segundo
+          vector columna queda determinado automaticamente: es $iz$, con $i^2=-1$. Más aún, se tiene una biyección
+          $S^1 \leftrightarrow SO_2(\br)$ que, de hecho, es un isomorfismo de grupos (multiplicativos)
+          (<a  class="w3-hover-text-blue"  href="referencias.html#Lima03" target="_blank">Lima 2003</a>).
+        </li>
+        <li>
+          Otra forma de ver el isomorfismo anterior es como sigue: consideremos $\mcal{C}\subseteq M_2(\br)$ dado por
+          $$
+          \mcal{C}=\left\{\left(\begin{array}{cc}a&-b\\b&a\end{array} \right)\barra a,b\in \br \right \}
+          $$
+          La función $F:\bc\ra \mcal{C}$ dada por $F(a+ib)= \left(\begin{array}{cc}a&-b\\b&a\end{array} \right)$
+          define un
+          isomorfismo de grupos aditivos. Por restricción a los complejos unitarios $F$ induce un isomorfismo entre
+          $SO_2(\br)$ y $S^1$.
+        </li>
+        <li>
+          De las descripciones anteriores podemos describir a $A\in SO_2(\br)$ como sigue: tomemos $z\in S^1$ y lo
+          escribimos $z=\cos(2\pi \alpha)+i\:\sin(2\pi \alpha)$, para algún $\alpha\in [0,1)$. La matriz de rotación
+          tiene la forma
+          $$
+          \left(\begin{array}{cc}\cos(2\pi \alpha)&-\sin(2\pi \alpha)\\\sin(2\pi \alpha)&\cos(2\pi \alpha)\end{array}
+          \right)
+          $$
+          y su efecto en un vector $\ol{x}\in \br^2$ está dado por la multiplicación $A\cdot\ol{x}$.
+        </li>
+        <li>
+          El grupo de rotaciones $SO_3(\br)$ en $\br^3$ será interpretado como cierto espacio cociente de la esfera
+          llamado el <strong>espacio proyectivo</strong> $\rp{3}$. 
+          Para dimensiones mayores no se tiene ninguna relación entre
+          $\rp{n}$ y $SO_n(\br).$ $\bt$
+        </li>
+      </ul>
+
+      <p>
+        A continuación un resultado para estudiar las 
+        propiedades topológicas del grupo ortogonal:
+      </p>
+
+      <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive" style="padding:8px 16px 8px 16px;" id="qlp">
+        <p><strong>Lema:</strong>
+          Sea $f:X\ra Y$ función continua y sobreyectiva, con $X$ 
+          compacto y $Y$ conexo y Hausdorff. Si todas las
+          preimagenes $f^{-1}(y)$ son conexos, $\forall y\in Y$, 
+          entonces $X$ es conexo.
+        </p>
+      </div>
+
+      <br/>
+
+      <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive" style="padding:8px 16px 8px 16px;">
+        <p><strong>Teorema:</strong>
+          Los grupos topológicos $SO_n(\br),U_n(\bc), SU_n(\bc)$ son compactos y conexos.
+        </p>
+      </div>
+
+      <p>
+      $\dem$ Consideraremos el caso real. Consideremos la función
+      $$
+      M_n(\br)\lra M_n(\br)\times \br,\;\;A\mapsto (AA^T,\det (A))
+      $$
+      y notemos que la preimagen de $(I,1)$ es $SO_n(\br)$, lo que lo hace subconjunto cerrado de $M_n(\br)$. Por otro
+      lado, dado que para $A=[a_{ij}]\in SO_n(\br)$ se tiene $AA^T=I,\det(A)=1$ los coeficientes pertenecen al conjunto
+      $$
+      \left\{[a_{ij}]\barra \sum_{i,j}a_{ij}^2=n\right\}
+      $$
+      probando que $SO_n(\br)$ está acotado y por tanto es compacto.
+      <br/>
+      Para probar la conexidad procedemos como sigue: consideremos la función $$
+      p:SO_n(\br)\lra S^{n-1}
+      $$
+      que manda una matriz a su primer vector columna. La función $p$ es continua y además cumple (como ya se
+      probó antes)
+      $$
+      p(AB)=Ap(B),\;\;L_A(p^{-1}(v))=p^{-1}(Av)
+      $$
+      mostrando que todas las preimagenes son homeomorfas. Aplicaremos el <a href="#qlp">Lema anterior</a> de arriba para obtener la
+      conexidad de $SO_n(\br)$ para lo cual necesitamos conocer la conexidad de las preimagenes. Primero observemos que
+      $SO_1(\br)=\{1\}$, el cual es conexo. Supongamos que $SO_{n-1}(\br)$ es conexo, y notemos que es la preimagen de
+      $(1,0,\ldots, 0)$. Por el <a href="#qlp">Lema anterior</a> se obtiene que $SO_n(\br)$ es conexo.$\findem$
+      </p>
+      
+
+    </div>
+
+  </section>
+
+
+</section>
