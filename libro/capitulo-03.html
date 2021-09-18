@@ -129,6 +129,11 @@
         <dd><a href="capitulo-02.html#seccion-2-2" class="w3-bar-item w3-button">&nbsp; - Producto finito</a></dd>
         <dd><a href="capitulo-02.html#seccion-2-3" class="w3-bar-item w3-button">&nbsp; - El número de Lebesgue</a></dd>
 
+        <dt><a href="capitulo-03.html" onclick="w3_close()" class="w3-bar-item w3-button"><strong>Introducción a grupos topológicos</strong></a></dt>
+        <dd><a href="capitulo-03.html#seccion-1" class="w3-bar-item w3-button">Grupos topológicos</a></dd>
+        <dd><a href="capitulo-03.html#seccion-2" class="w3-bar-item w3-button">Grupos de matrices</a></dd>
+        <dd><a href="capitulo-03.html#seccion-2-1" class="w3-bar-item w3-button">&nbsp; - Matrices ortogonales</a></dd>
+
         <dt><a href="referencias.html" onclick="w3_close()" class="w3-bar-item w3-button"><strong>Referencias</strong></a></dt>
       
       </dl>
@@ -357,8 +362,7 @@
         <stong>matriz conjugada hermitiana</stong> 
         dada por $\ol{A}^T=[\ol{a_{ij}}]^T=[\ol{a_{ji}}]$.
         A continuaci&#xF3;n estudiaremos algunos
-        de los grupos mencionados arriba.% y dejaremos
-        la Secci&#xF3;n \ref{maor} para hablar de $SO_n(\br)$.
+        de los grupos mencionados arriba.
       </p>
 
 
@@ -366,7 +370,9 @@
         Consideremos $p:M_n(\br)\ra \br^n$ funci&#xF3;n que manda toda matriz a su primer vector columna. Al considerar la
         descomposici&#xF3;n $M_n(\br)\cong \br^n \times M_{n,n-1}(\br)$, en la que separamos la primera columna, la
         funci&#xF3;n
-        $p$ es proyecci&#xF3;n en el primer factor y por el Lema \ref{proye} es funci&#xF3;n continua y abierta; en
+        $p$ es proyecci&#xF3;n en el primer factor y por el 
+        <a class="w3-hover-text-blue" href="capitulo-01.html#proyecciones" target="_blank">Lema acerca de proyecciones</a> 
+        es funci&#xF3;n continua y abierta; en
         particular,
         la restricci&#xF3;n
         $$
@@ -396,7 +402,7 @@
 
 
       <p>
-        Las propiedades mencionadas arriba se usar&#xE1;n para probar el siguiente
+        Las propiedades mencionadas arriba se usar&#xE1;n para probar el siguiente:
       </p>
 
       <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive" style="padding:8px 16px 8px 16px;">
@@ -470,7 +476,8 @@
           que $H$ no est&#xE1; acotado por lo que no puede ser compacto. 
           En general, los grupos $SL_n(\br),SL_n(\bc)$ no
           son
-          compactos para $n&gt;1$; v&#xE9;ase Ejercicio 4.42 en \cite{Manetti15}. $\bt$
+          compactos para $n&gt;1$; v&#xE9;ase Ejercicio 4.42 en 
+          <a class="w3-hover-text-blue" href="referencias.html#Manetti15" target="_blank">Manetti, 2015</a>. $\bt$
         </li>
       </ul>
 
@@ -540,7 +547,7 @@
         <strong>isometr&#xED;as</strong>: funciones biyectivas $f:\br^n\ra \br^n$ que preservan distancia; es
         decir, $|f(x)-f(y)|=|x-y|$. Si $f(0)=0$ entonces se llama una <strong>isometr&#xED;as lineal</strong> 
         y en la base can&#xF3;nica
-        corresponde a una matriz en $GL_n(\br)$. M&#xE1;s a&#xFA;n,
+        corresponde a una matriz en $GL_n(\br)$. M&#xE1;s a&#xFA;n:
       </p>
 
       <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive" style="padding:8px 16px 8px 16px;">
@@ -562,8 +569,8 @@
 
 
       <p>
-        Por este resultado (\cite[Prop.1.38]{Baker01})
-        los elementos de $SO_n(\br)$ son llamados isometr\&apos;{i}as directas o
+        Por este resultado (<a class="w3-hover-text-blue" href="referencias.html#Baker01" target="_blank">Baker 2001</a>)
+        los elementos de $SO_n(\br)$ son llamados isometr&#xED;as directas o
         <strong>rotaciones</strong>, las cuales est&#xE1;n
         caracterizados por la rotaci&#xF3;n en $\br^n$ de un plano en
         un &#xE1;ngulo $\Theta$ respecto a una linea $l$ perpendicular
@@ -580,12 +587,12 @@
           Tomemos $A\in SO_2(\br)$ y tomemos su primer vector columna, digamos $z\in S^1$. Notemos que el segundo
           vector columna queda determinado automaticamente: es $iz$, con $i^2=-1$. M&#xE1;s a&#xFA;n, se tiene una biyecci&#xF3;n
           $S^1 \leftrightarrow SO_2(\br)$ que, de hecho, es un isomorfismo de grupos (multiplicativos)
-          (\cite[Sec.4.1]{Lima03}).
+          (<a class="w3-hover-text-blue" href="referencias.html#Lima03" target="_blank">Lima 2003</a>).
         </li>
         <li>
           Otra forma de ver el isomorfismo anterior es como sigue: consideremos $\mcal{C}\subseteq M_2(\br)$ dado por
           $$
-          \mcal{C}=\{\left(\begin{array}{cc}a&amp;-b\\b&amp;a\end{array} \right)\barra a,b\in \br\}
+          \mcal{C}=\left\{\left(\begin{array}{cc}a&amp;-b\\b&amp;a\end{array} \right)\barra a,b\in \br \right \}
           $$
           La funci&#xF3;n $F:\bc\ra \mcal{C}$ dada por $F(a+ib)= \left(\begin{array}{cc}a&amp;-b\\b&amp;a\end{array} \right)$
           define un
