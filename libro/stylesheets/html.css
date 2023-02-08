@@ -1335,6 +1335,28 @@ dd {
   margin-left: 15px;
   line-height: 1; }
 
+#navbar {
+  background-color: #333;
+  position: fixed;
+  top: -100px;
+  width: 100%;
+  display: block;
+  transition: top 0.3s;
+  z-index: 10; }
+
+#navbar a {
+  float: center;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 17px; }
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black; }
+
 /* Large rounded green border */
 hr.new {
   border: 2px solid white;
