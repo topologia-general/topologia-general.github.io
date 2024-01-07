@@ -1341,7 +1341,7 @@ dd {
   top: -100px;
   width: 100%;
   display: block;
-  transition: top 0.3s;
+  transition: top 0.4s;
   z-index: 10; }
 
 #navbar a {
