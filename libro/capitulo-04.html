@@ -223,18 +223,66 @@
               Sean $X,Y$ espacios topol&#xF3;gicos y $f:X\ra Y$ funci&#xF3;n.
               Decimos que $f$ es una <strong>funci&#xF3;n cociente</strong> si cumple:
               </p>
-                <ol>
-                  <li>
+              <ol>
+                <li>
                   $f$ es sobreyectiva
-                  </li>
-                  <li>
+                </li>
+                <li>
                   $f$ es continua
-                  </li>
-                  <li>
+                </li>
+                <li>
                   Los abiertos $U\subset Y$ son aquellos tales que $f^{-1}(U)\subset X$ son abiertos.
-                  </li>
-                </ol>
+                </li>
+              </ol>
+
+              <p>
+                Es decir, $f$ es función cociente si es continua, sobreyectiva y 
+                $U\subseteq Y$ es abierto, sí y sólo sí, $f^{-1}(U)\subseteq X$ es abierto; 
+                así, ser función cociente es más fuerte que ser continua.
+              </p>
+
+              <p>
+                En general, una función cociente no es una función abierta pero si 
+                lleva <em>ciertos</em> abiertos de $X$ en abiertos de $Y$: decimos que 
+                $A\subseteq X$ es <strong>saturado respecto a una función cociente $f$</strong>
+                si 
+                $$
+                A=f^{-1}(B)=\bigcup_{y\in B} f^{-1}(y),
+                $$
+                para cierto $B\subseteq Y$. 
+                Es decir, un subconjunto $A$ es saturado si es la unión de las fibras $f^{-1}(y)$
+                 de algún subconjunto de $Y$. En general, la <strong>saturación</strong> de $A\subseteq X$ 
+                 es la unión $f^{-1}\circ f(A)=\bigcup_{y\in f(A)}f^{-1}(y)$ de todas las fibras que 
+                 intersectan a $A$. De aquí, $A$ saturado $\sss\; A=f^{-1}\circ f(A)$.
+              </p>
         
+              <p>
+                Por lo anterior, una función cociente es aquella función continua que 
+                lleva subconjuntos saturados abiertos de $X$ en abiertos de $Y$ (o saturados 
+                cerrados en cerrados de $Y$); véase \cite{Moller}, Proposición 2.77.
+              </p>
+
+              <p>
+                Dos tipos de funciones cociente resultarán de importancia en lo que sigue: una función 
+                cociente es <strong>abierta</strong> (resp. <strong>cerrada</strong>) si es función abierta (resp. cerrada).
+              </p>
+
+              <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive myCard">
+                <p><strong>Lema:</strong>
+                  Sea $f:X\ra Y$ función continua y sobreyectiva. 
+                  Si $f$ es abierta (resp. cerrada), es una función cociente abierta (resp. cerrada).
+                </p>
+              </div>
+
+              <p>
+                $\dem$ Resta ver que $f$ satisface la tercera propiedad en la definición de función 
+                cociente. Como $f$ es sobreyectiva, para $A\subset Y$ se tiene $f\circ f^{-1}(A)=A$. 
+                Así, si $f$ es abierta y $A\subset Y$ cumple que $f^{-1}(A)$ es abierto se sigue 
+                que $f(f^{-1}(A))=A$ es abierto, lo cual indica que $f$ es función cociente. 
+                De igual manera si $f$ es cerrada.$\findem$
+              </p>
+
+
             </div>
         
           </section>

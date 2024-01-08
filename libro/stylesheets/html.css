@@ -1382,6 +1382,10 @@ hr.new {
   margin-left: auto;
   margin-right: auto; }
 
+.myCard {
+  padding: 8px 16px 8px 16px;
+}
+
 /* SMALL SCREENS */
 @media only screen and (min-width: 820px) {
   #page-content {
@@ -1392,3 +1396,5 @@ hr.new {
     padding-right: 90px;
     padding-bottom: 30px;
     padding-left: 90px; } }
+
+  
