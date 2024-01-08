@@ -1337,10 +1337,11 @@ dd {
 
 #navbar {
   background-color: #333;
+  
   position: fixed;
-  top: -100px;
-  width: 100%;
+  
   display: block;
+  
   transition: top 0.4s;
   z-index: 10; }
 
