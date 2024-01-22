@@ -374,10 +374,11 @@
                 <p><strong>Theorema:</strong>
                   Sea $f:X\ra Y$ función cociente. Una función $g:Y\ra Z$ es continua $\sss$ la composición
                   $g\circ f:X\ra Z$ es continua
-                  <figure class="w3-center">
-                    <img class="w3-hide-large" src="imgs/cap-04/theorem-4-5.png" alt="Teorema 4.5" style="width:30%">
-                    <img class="w3-hide-small w3-hide-medium" src="imgs/cap-04/theorem-4-5.png" alt="Teorema 4.5" style="width:23%">
-                  </figure>
+                <figure class="w3-center">
+                  <img class="w3-hide-large" src="imgs/cap-04/theorem-4-5.png" alt="Teorema 4.5" style="width:30%">
+                  <img class="w3-hide-small w3-hide-medium" src="imgs/cap-04/theorem-4-5.png" alt="Teorema 4.5"
+                    style="width:23%">
+                </figure>
                 </p>
               </div>
 
@@ -399,10 +400,11 @@
                   Sean $f:X\ra Y$ función cociente y $g:X\ra Z$ función continua que es constante en las
                   preimágenes $f^{-1}(y), \forall y\in Y$. Entonces existe una única función continua $h:Y\ra Z$
                   tal que $h\circ f=g$
-                  <figure class="w3-center">
-                    <img class="w3-hide-large" src="imgs/cap-04/corollary-4-6.png" alt="Coroloario 4.5" style="width:30%">
-                    <img class="w3-hide-small w3-hide-medium" src="imgs/cap-04/corollary-4-6.png" alt="Corolario 4.6" style="width:23%">
-                  </figure>
+                <figure class="w3-center">
+                  <img class="w3-hide-large" src="imgs/cap-04/corollary-4-6.png" alt="Coroloario 4.5" style="width:30%">
+                  <img class="w3-hide-small w3-hide-medium" src="imgs/cap-04/corollary-4-6.png" alt="Corolario 4.6"
+                    style="width:23%">
+                </figure>
                 </p>
               </div>
 
@@ -414,7 +416,8 @@
               </p>
 
               <p>
-                La propiedad universal anterior afirma que toda función continua $g:X\ra Z$ <strong>factoriza</strong> a través
+                La propiedad universal anterior afirma que toda función continua $g:X\ra Z$ <strong>factoriza</strong> a
+                través
                 de una función cociente: $g=h\circ f$.
 
               </p>
@@ -536,8 +539,9 @@
               </p>
 
               <p>
-                Observemos que por lo descrito arriba el conjunto $X/\mcal{U}$ puede ser llamado también el 
-                <strong>conjunto de clases de equivalencia</strong>, para la relación de equivalencia determinada por la partición
+                Observemos que por lo descrito arriba el conjunto $X/\mcal{U}$ puede ser llamado también el
+                <strong>conjunto de clases de equivalencia</strong>, para la relación de equivalencia determinada por la
+                partición
                 $\mcal{U}$.
               </p>
 
@@ -551,7 +555,7 @@
                   U_1=[0,1/3],\;U_2=(1/3,2/3],\;U_3=(2/3,1]
                   $$
                   En este caso el conjunto cociente consiste de tres elementos $X/\mcal{U}=\{U_1,U_2,U_3\}$ y puede ser
-                  considerado como un espacio topológico discreto. 
+                  considerado como un espacio topológico discreto.
                 </li>
                 <li>
                   Definamos en los enteros $\bz$: decimos que $k,m$ son congruentes módulo $n$, lo cual se representa
@@ -560,8 +564,8 @@
                   $$
                   [0],[1],\ldots, [n-1]
                   $$
-                  El conjunto de dichas clase es denotado por $\bz_n$ y es llamado el conjunto de 
-                  <strong>enteros módulo</strong> $n$. De hecho, al definir una operación de suma 
+                  El conjunto de dichas clase es denotado por $\bz_n$ y es llamado el conjunto de
+                  <strong>enteros módulo</strong> $n$. De hecho, al definir una operación de suma
                   mediante $[x]+[y]:= [x+y]$ se obtiene que $\bz_n$ es
                   también un grupo. $\bt$
                 </li>
@@ -579,18 +583,43 @@
 
               <blockquote data-type="epigraph" class="w3-panel w3-rightbar">
                 <p class="w3-serif"><i>
-                  Although the quotient topology is easily defined...
-                  <br/>
-                  it takes some time to work with it.</i></p>
-        
+                    Although the quotient topology is easily defined...
+                    <br />
+                    it takes some time to work with it.</i></p>
+
                 <p data-type="attribution">&#x2014; Dorde Baralic</p>
               </blockquote>
 
               <p>
                 Sean $X$ espacio topol\'ogico y $Y$ conjunto. Dada una funci\'on sobreyectiva $f:X\ra Y$ definimos:
-$$
-U\subseteq Y\; \mbox{abierto}\; \sss  f^{-1}(U)\subseteq X \; \mbox{abierto}
-$$
+                $$
+                U\subseteq Y\; \mbox{abierto}\; \sss f^{-1}(U)\subseteq X \; \mbox{abierto}
+                $$
+              </p>
+
+              <div id="propcoc" class="w3-card w3-container w3-light-gray w3-border-left w3-responsive myCard">
+                <p><strong>Lemma:</strong>
+                  La colecci\'on $\tau=\{U\subseteq Y \barra U\;\mbox{abierto}\}$ es una topolog\'{i}a para $Y$.
+                </p>
+              </div>
+
+              <p>
+                $\dem$ Basta ver que, dado que $f$ es sobreyectiva, se tiene:
+
+              <ul>
+                <li>
+                  $f^{-1}(\emptyset)=\emptyset,\; f^{-1}(Y)=X$.
+                </li>
+                <li>
+
+                  $f^{-1}\left( \bigcup U_i\right)=\bigcup f^{-1}(U_i)$,
+                </li>
+                <li>
+
+                  $f^{-1}\left( \bigcap U_i\right)=\bigcap f^{-1}(U_i)$ (cantidad finita) $\findem$
+
+                </li>
+              </ul>
               </p>
 
 
@@ -646,7 +675,7 @@ $$
 
             </div>
 
-            
+
 
           </section>
 
