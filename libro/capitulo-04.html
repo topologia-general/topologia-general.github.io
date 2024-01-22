@@ -324,7 +324,7 @@
                 <li>
                   Sabemos que la proyección $\br\times \br\ra \br$ en la primera
                   coordenada es una función continua,
-                  sobreyectiva y abierta; as\'{i}, es una función cociente. Por otro
+                  sobreyectiva y abierta; así, es una función cociente. Por otro
                   lado, sabemos que el subconjunto
                   $$
                   C=\{(x,y)\in \br^2 \barra xy=1 \}
@@ -339,7 +339,7 @@
                   $$
                   y notemos que es sobreyectiva y continua. Como su dominio es compacto y
                   su contradominio es Hausdorff,
-                  la función es cerrada. De aqu\'{i} que $f$ es función cociente cerrada.
+                  la función es cerrada. De aquí que $f$ es función cociente cerrada.
                   Finalmente notemos que no es
                   abierta pues el abierto $[0,1)$ no tiene imagen abierta en $S^1$.
                 </li>
@@ -503,7 +503,7 @@
                   disjuntos.
                 </li>
                 <li>
-                  Toda clase de equivalencia es un conjunto no vacío pues $x\in[x]$, para todo $x\in X$. M\'as aún, el
+                  Toda clase de equivalencia es un conjunto no vacío pues $x\in[x]$, para todo $x\in X$. Más aún, el
                   conjunto $X$ es unión de todas las clases de equivalencia.
                 </li>
               </ul>
@@ -591,15 +591,15 @@
               </blockquote>
 
               <p>
-                Sean $X$ espacio topol\'ogico y $Y$ conjunto. Dada una funci\'on sobreyectiva $f:X\ra Y$ definimos:
+                Sean $X$ espacio topológico y $Y$ conjunto. Dada una función sobreyectiva $f:X\ra Y$ definimos:
                 $$
                 U\subseteq Y\; \mbox{abierto}\; \sss f^{-1}(U)\subseteq X \; \mbox{abierto}
                 $$
               </p>
 
               <div id="propcoc" class="w3-card w3-container w3-light-gray w3-border-left w3-responsive myCard">
-                <p><strong>Lemma:</strong>
-                  La colecci\'on $\tau=\{U\subseteq Y \barra U\;\mbox{abierto}\}$ es una topolog\'{i}a para $Y$.
+                <p><strong>Lema:</strong>
+                  La colección $\tau=\{U\subseteq Y \barra U\;\mbox{abierto}\}$ es una topología para $Y$.
                 </p>
               </div>
 
@@ -623,10 +623,10 @@
               </p>
 
               <p>
-                La topolog\'{i}a es llamada la \res{topolog\'{i}a cociente } en $Y$ respecto a
-                $f$\index{topolog\'{i}a!cociente} y es la \'unica topolog\'{i}a en $Y$ que hace que $f$ sea una
-                funci\'on cociente y la m\'as fina que hace a $f$ continua. Con esto adem\'as podemos definir: una
-                funci\'on continua y sobreyectiva $f:X\ra Y$ es funci\'on cociente si $Y$ tiene la topolog\'ia cociente
+                La topología es llamada la \res{topología cociente } en $Y$ respecto a
+                $f$\index{topología!cociente} y es la única topología en $Y$ que hace que $f$ sea una
+                función cociente y la más fina que hace a $f$ continua. Con esto además podemos definir: una
+                función continua y sobreyectiva $f:X\ra Y$ es función cociente si $Y$ tiene la topología cociente
               </p>
 
               <h3>Ejemplos</h3>
@@ -637,24 +637,224 @@
                   $$
                   f:X\ra Y,\;\;f(x)=\begin{cases}a,&x>0\\b,&x &lt; 0\\c,&x=0 \end{cases}
                   $$
-                  Observemos que la colecci\'on $$
-                  \{\emptyset, \{a,b,c\}, \{a\},\{b\}, \{a,b\} \} $$ son los abiertos de la topolog\'{i}a cociente
+                  Observemos que la colección $$
+                  \{\emptyset, \{a,b,c\}, \{a\},\{b\}, \{a,b\} \} $$ son los abiertos de la topología cociente
                   inducida por $f$. </li>
                 <li>
-                  (Topolog\'{i}a Digital)
-                  Tomemos $\br$ con la topolog\'{i}a usual y definamos $f:\br\ra \bz$ mediante
+                  (Topología Digital)
+                  Tomemos $\br$ con la topología usual y definamos $f:\br\ra \bz$ mediante
                   $$
                   f(x)=\begin{cases}x,&x\in \bz\\n,&x\in (n-1,n+1),\;n\;\mbox{entero impar}\end{cases}
                   $$
-                  Notemos que $f$ es la identidad en $\bz$ y $f(x)$ es el entero impar m\'as cercano a $x$. La
-                  topolog\'{i}a cociente inducida por $f$ es llamada la Topolog\'{i}a
-                  Digital\index{topolog\'{i}a!digital} de los enteros $\bz$ y tiene por abiertos $\{n\}$, si $n$ es
-                  impar; para $n$ par el abierto m\'as peque\~no que lo contiene es $\{n-1,n,n+1\}$; v\'ease el Ejemplo
+                  Notemos que $f$ es la identidad en $\bz$ y $f(x)$ es el entero impar más cercano a $x$. La
+                  topología cociente inducida por $f$ es llamada la Topología
+                  Digital\index{topología!digital} de los enteros $\bz$ y tiene por abiertos $\{n\}$, si $n$ es
+                  impar; para $n$ par el abierto más peque\~no que lo contiene es $\{n-1,n,n+1\}$; v\'ease el Ejemplo
                   en <a href="capitulo-01.html#topologia-digital" target="_blank">Capitulo 1</a>.$\bt$
                 </li>
               </ul>
 
+              <p>
+                Existe un caso particular donde la topología cociente surge de manera frecuente: dada una relación
+                de equivalencia en $X$ denotemos por $X/\simi$ al conjunto de clases equivalencia. Definimos una función
+                mediante
+                $$
+                \pi:X\lra X/\simi,\;\;\;\;x\longmapsto [x]
+                $$
+                Es decir, la función $\pi$ envía a cada elemento $x\in X$ a su correspondiente clase de equivalencia.
+                Observemos que con esta función en general no es inyectiva pues al tener $x,y \in X$ tales que $x\sim
+                y$, con $x\neq y$, se cumple que
+                $$
+                \pi(x)=[x]=[y]=\pi(y).
+                $$
+                Más aún, todos los elementos relacionados con $x$ tienen la misma imagen que $x$; revisaremos esta
+                propiedad en la próximas secciones con ejemplos concretos.
+              </p>
 
+              <p>
+                Por lo que se mencionó acerca de particiones y relaciones de equivalencia podemos observar que la
+                función $\pi:X\lra X/\simi$ es sobreyectiva. Al equipar a $X/\simi$ de la topología cociente lo
+                llamamos el \res{espacio cociente de $X$ por la relación $\simi$}.
+              </p>
+
+              <p>
+                Como consecuencia directa de la Propiedad Universal de Cocientes se obtiene el siguiente resultado
+              </p>
+
+
+              <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive myCard">
+                <p><strong>Teorema:</strong>
+                  Sean $f:X\ra Y$ función continua, $\simi$ relación de equivalencia en $X$ y $\pi:X\ra X/\simi$
+                  función cociente. Entonces existe función continua $g:X/\simi \ra Y$ tal que $g\circ \pi=f$ $\sss$
+                  la función $f$ es constante en clases de equivalencia.
+                <figure class="w3-center">
+                  <img class="w3-hide-large" src="imgs/cap-04/teorema-4-13.png" alt="Teorema 4.13" style="width:30%">
+                  <img class="w3-hide-small w3-hide-medium" src="imgs/cap-04/teorema-4-13.png" alt="CTeorema 4.13"
+                    style="width:23%">
+                </figure>
+                </p>
+              </div>
+
+              <p>
+                Aquí ser {\em constante en clases de equivalencia} significa que si $x\simi y$ entonces $f(x)=f(y)$.
+                Otra manera de establecer esta propiedad es diciendo que $f$ \res{factoriza} o \res{pasa al cociente} de
+                manera única a trav\'es del cociente $X/\simi$.
+              </p>
+
+              <h3>Ejemplo:</h3>
+              <ul>
+                <li>
+                  Sea $f:X\ra Y$ función continua y definamos
+                  $$
+                  x\simi_f y \sss\;\;f(x)=f(y)
+                  $$
+                  Por el teorema anterior existe $\tilde{f}:X/\!\!\simi_f\ra Y$ continua e inyectiva; como se mencionó
+                  anteriormente, decimos que $f$ factoriza al cociente definiendo a $\tilde{f}$. Más aún, notemos
+                  que $f$ es función cociente $\sss$ $\tilde{f}$ es homeomorfismo. Este resultado se usará adelante
+                  para identificar cocientes a trav\'es de ciertas relaciones de equivalencia.$\bt$
+                </li>
+              </ul>
+
+              <p>
+                Revisaremos ahora la relación que hay entre topología cociente y los conceptos introducidos
+                previamente. Como toda función cociente es continua se sigue que
+              </p>
+
+              <ul>
+                <li>
+                  El cociente de un espacio arco-conexo es tambi\'en arco-conexo; en particular se cumple para un
+                  espacio conexo.
+                </li>
+                <li>
+                  El cociente de un espacio compacto es tambi\'en compacto
+                </li>
+              </ul>
+
+              <p>
+                Por otro lado, si $f:X\ra Y$ es función cociente y $A\subseteq X$, entonces la función obtenida por
+                restricción $q:A\ra f(A)$ no necesariamente es función cociente, para que eso ocurra deben pedirse
+                condiciones sobre $A$ (como ser saturado abierto/cerrado) o sobre $f$ (como ser abierta/cerrada).
+              </p>
+
+              <p>
+                En general, la propiedad de ser Hausdorff no se comporta bien bajo cocientes, esto es, existen espacios
+                Hausdorff en los que ciertos cocientes resultan espacios no Hausdorff; véase Ejemplo \ref{cocinot2}. El
+                problema de hallar condiciones para garantizar que el cociente sea espacio Hausdorff es difícil pero
+                en la presencia de compacidad se simplifica considerablemente:
+              </p>
+
+              <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive myCard">
+                <p><strong>Teorema:</strong>
+                  Sea $f:X\ra Y$ función cociente con $X$ compacto y Hausdorff. Entonces las siguientes condiciones
+                  son equivalentes
+                </p>
+                <ol>
+                  <li>
+                    $Y$ es Hausdorff
+                  </li>
+                  <li>
+                    $f$ es función cociente cerrada
+                  </li>
+                  <li>
+                    $K= \{(x_1,x_2)\in X\times X \barra f(x_1)=f(x_2) \}$ es cerrado.
+                  </li>
+                </ol>
+              </div>
+
+              <p>
+                $\dem$ $(1)\ida(3)$ Recordemos que $Y$ es Hausdorff $\sss$ $\triangle$ es cerrado y, dado que
+                $K=(f\times
+                f)^{-1}(\triangle)$ para con $f\times f:X\times X\ra Y\times Y$, el resultado se sigue.<br/><br/>
+                
+                $(3)\ida(2)$ Tomemos $A\subseteq X$ cerrado y recordemos (Teo. Kuratowski \ref{teokura}) que al ser $X$
+                compacto, las proyecciones $p_1,p_2:X\times X\ra X$ son cerradas por lo que $p_1(K), p_2(K) $ son
+                cerrados. Por otro lado notemos
+                $$
+                K\cap p_2^{-1}(A)=\{(x_1,x_2)\in X\times A \barra f(x_1)=f(x_2) \}
+                $$
+                y al proyectar me quedo con $x\in X,\: f(x)\in f(A)\sss x\in f^{-1}(f(A))$; de donde
+                $f^{-1}(f(A))=p_1(K\cap p_2^{-1}(A)) $, por lo que $f^{-1}(f(A))$ es cerrado y $f$ es función cociente
+                cerrada. <br/><br/>
+
+                $(2)\ida(1)$ Consideremos $a\neq b\in Y$. Dado que $f$ es sobreyectiva, cerrada y los puntos en $X$ son
+                cerrados tenemos que $a,b$ son cerrados; así
+                $$
+                A=f^{-1}(a),\;\;B=f^{-1}(b)
+                $$
+                son compactos y disjuntos. Como $X$ es Hausdorff, el Teorema de Wallace \ref{wallace} garantiza la
+                existencia de abiertos $U,V$ tales que
+                $$
+                A\times B\subseteq U\times V\subseteq (X\times X)\baca \triangle,
+                $$
+                es decir, $A\subseteq U,B\subseteq V,\; U\cap V=\emptyset\sss(X\baca U)\cup (X\baca V)=X$. Finalmente,
+                como $f$ es cerrada,
+                $$
+                U'=Y\baca f(X\baca U),\;\;\;V'=Y\baca f(X\baca V)
+                $$
+                son vecindades abiertas y disjuntas de $a,b$.$\findem$
+              </p>
+
+              <p>
+                A continuación daremos algunos criterios para ser Hausdorff cuando el cociente se obtiene mediante una
+                relación de equivalencia $\sim$. La \res{gráfica\index{gráfica!de una relación} de la
+                relación} $\sim$ como el subconjunto de $X\times X$ determinado por aquellas parejas $x\sim y$:
+                $$
+                \Gamma_\sim=\{(x,y)\in X\times X\barra x\sim y \}
+                $$
+              </p>
+
+
+              <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive myCard">
+                <p><strong>Lema:</strong>
+                  Sea $X$ Hausdorff con relación de equivalencia $\sim$. Si $X/\!\!\sim$ es Hausdorff, entonces
+                  $\Gamma_\sim$ es subespacio cerrado.
+                </p>
+              </div>
+
+
+              <p>
+                \dem Recordemos (Teorema \ref{diagonal}) que $X$ es Hausdorff $\sss\;\triangle$ es cerrado. Observemos
+                que $\Gamma_\sim$ es la imagen inversa del subespacio diagonal de $X/\sim$ bajo la aplicación
+                $$
+                \pi\times \pi:X\times X\lra (X/\sim) \times (X/\sim)
+                $$
+                Como $X/\sim$ es Hausdorff, entonces $\Gamma_\sim$ es cerrado.\findem
+              </p>
+
+              <p>
+                Otro criterio en t\'erminos de los saturados de
+                la función cociente; v\'ease Proposición 2.5 en FeTa10:
+              </p>
+
+              <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive myCard">
+                <p><strong>Lema:</strong>
+                  Sea $X$ Hausdorff con relación de equivalencia $\sim$ tal que se cumple:
+                </p>
+                <ul>
+                  <li>
+                    El saturado $\pi^{-1}(\pi(x))$ de $\{x\}$ es compacto en $X$, $\forall x\in X$.
+                  </li>
+                  <li>
+                    El saturado de cualquier cerrado es un cerrado.
+                  </li>
+                </ul>
+              </div>
+
+              <p>
+                Como consecuencia del resultado anterior, se tiene una condición suficiente para que el cociente sea
+                Hausdorff
+              </p>
+
+              <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive myCard">
+                <p><strong>Corolario:</strong>
+                  Sea $X$ Hausdorff y $A\subseteq X$ compacto. Entonces $X/A$ es Hausdorff.
+                </p>
+
+              </div>
+
+              <p>
+                El cociente $X/A$ en el resultado anterior será definido en la siguiente sección.
+              </p>
 
 
             </div>
