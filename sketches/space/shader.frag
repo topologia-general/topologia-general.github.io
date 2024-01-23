@@ -69,7 +69,7 @@ float opSmoothUnion( float d1, float d2, float k ) {
 // Scene distance
 float map(vec3 p) {
 
-    p.y += iTime * 0.3;
+    //p.y += iTime * 0.3;
     p.z += iTime * 0.3;
     
     vec3 q = p;
@@ -116,6 +116,10 @@ void main() {
   
     for(int i = 0; i < 80; i++){
       vec3 p = ro + rd * t; // position aling the ray
+
+      p.xy *= rot2D(t*0.06);  // rotate ray around z-axis
+			
+			p.y += sin(t*0.1)*0.3; // wiggle ray
   
       float d = map(p);
     
