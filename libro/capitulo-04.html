@@ -151,7 +151,8 @@
         <dd><a href="capitulo-03.html#seccion-2" class="w3-bar-item w3-button">Grupos de matrices</a></dd>
         <dd><a href="capitulo-03.html#seccion-2-1" class="w3-bar-item w3-button">&nbsp; - Matrices ortogonales</a></dd>
 
-        <dt><a href="capitulo-04.html" onclick="w3_close()" class="w3-bar-item w3-button w3-gray"><strong>Espacios cociente</strong></a></dt>
+        <dt><a href="capitulo-04.html" onclick="w3_close()" class="w3-bar-item w3-button w3-gray"><strong>Espacios
+              cociente</strong></a></dt>
         <dd><a href="capitulo-04.html#seccion-1" class="w3-bar-item w3-button">Función cociente</a></dd>
         <dd><a href="capitulo-04.html#seccion-2" class="w3-bar-item w3-button"><em>Detour</em> particiones</a></dd>
         <dd><a href="capitulo-04.html#seccion-3" class="w3-bar-item w3-button">Topología cociente</a></dd>
@@ -287,7 +288,8 @@
               <p>
                 Por lo anterior, una función cociente es aquella función continua que
                 lleva subconjuntos saturados abiertos de $X$ en abiertos de $Y$ (o saturados
-                cerrados en cerrados de $Y$); véase <a href="referencias.html#Moller" target="_blank">M&#xF8;ller, Proposición 2.77</a>.
+                cerrados en cerrados de $Y$); véase <a href="referencias.html#Moller" target="_blank">M&#xF8;ller,
+                  Proposición 2.77</a>.
               </p>
 
               <p>
@@ -471,7 +473,8 @@
               <p>
                 Una <strong>relación</strong> entre dos conjuntos $X,Y$ es un subconjunto $R$ del producto cartesiano
                 $X\times Y$.
-                Dada una relación $R$, se dice que <strong>$x$ está relacionado con $y$</strong> si $(x,y)\in R$; en este caso se
+                Dada una relación $R$, se dice que <strong>$x$ está relacionado con $y$</strong> si $(x,y)\in R$; en
+                este caso se
                 usa la notación $xRy$ o también $x\sim y$, la cual resulta más común.
               </p>
 
@@ -587,7 +590,7 @@
 
             <div class="w3-container w3-section">
               <h2>4.3 Topología cociente</h2>
-              
+
 
               <blockquote data-type="epigraph" class="w3-panel w3-rightbar">
                 <p class="w3-serif"><i>
@@ -845,7 +848,7 @@
 
               <p>
                 Otro criterio en términos de los saturados de
-                la función cociente; véase Proposición 2.5 en 
+                la función cociente; véase Proposición 2.5 en
                 <a href="referencias.html#FeTa10" target="_blank">Félix &amp; Tanré, 2010</a>:
               </p>
 
@@ -887,13 +890,86 @@
           <section data-type="sect4" id="seccion-4">
 
             <div class="w3-container w3-section">
-              <h2>4.4 🏗️🏗️🏗️</h2>
+              <h2>4.4 Colapsos e identificaciones</h2>
+
+              <hr>
 
               <p>
-                🏗️🏗️🏗️
+                Mostramos a continuación algunos espacios cociente.
               </p>
 
+              <h3>Ejemplos:</h3>
 
+              <ul>
+                <li>
+                  Tomemos $\br$ con topolog\'ia euclidiana y definamos
+                  $$
+                  x\simi y\;\sss\;\;x=y\;\; \mbox{\'o}\;\;|x|=|y|>1
+                  $$
+                  Notemos que hay dos tipos de clases de equivalencia:
+                  $$
+                  [x]=\begin{cases} \{x\},& -1\leq |x|\leq 1 \\ \{x,-x\},& |x|>1 \end{cases}
+                  $$
+                  De esto podemos observar que en el espacio cociente se identifican los puntos $x,-x$ para $|x|>1$ por
+                  lo que podemos representar el cociente mediante
+
+                  <figure class="w3-center">
+                    <img class="w3-hide-large" src="imgs/cap-04/ejemplo419.png" alt=""
+                      style="width:100%">
+                    <img class="w3-hide-small w3-hide-medium" src="imgs/cap-04/ejemplo419.png" alt="Peine del top&#xF3;golo"
+                      style="width:60%">
+                    <figcaption>
+                      <b>Figura 1:</b> Resultado de tomar el cociente en la recta.
+                    </figcaption>
+                  </figure>
+
+                  La funci\'on cociente $\pi:\br\ra \br/\simi$ cumple que
+                  $$
+                  \pi(1)=[1]=\{1\}\neq \{-1\}=[-1]=\pi(-1),
+                  $$
+                  donde $1,-1$ no pueden tener vecindades disjuntas. es decir, $\br/\simi$ es un espacio cociente no
+                  Hausdorff, aunque $X$ lo sea.
+                </li>
+                <li>
+                  Tomemos el subespacio de $\br^2$ dado por $X=[0,1]\times [0,1]$ y consideramos la partici\'on
+                  $$
+                  \begin{cases}
+                  \{(x, y)\},&0 &lt; x,y&lt;1\\ \{(x,0),\;(x,1)\},&0&lt;x&lt;1\\ \{(0,y),\;(1,y)\},&0&lt;y&lt;1\\
+                  \{(0,0),\;(0,1),\;(1,0),\;(1,1)\}& \end{cases} $$ Las clases de equivalencia se muestran en la
+                  imagen.
+
+                  <figure class="w3-center">
+                    <img class="w3-hide-large" src="imgs/cap-04/ejemplo420.jpg" alt="Subespacios de $X$ que se identifican entre si"
+                      style="width:100%">
+                    <img class="w3-hide-small w3-hide-medium" src="imgs/cap-04/ejemplo420.jpg" alt="Subespacios de $X$ que se identifican entre si"
+                      style="width:60%">
+                    <figcaption>
+                      <b>Figura 1:</b> Subespacios de $X$ que se identifican entre si.
+                    </figcaption>
+                  </figure>
+                </li>
+                <li>
+                  Sea $X=D^2$ disco unitario cerrado en $\br^2$ y definamos la relaci\'on
+                  $$
+                  \begin{cases}(x,y)\simi (x,y),& ||(x,y)||&lt;1\\ (x,y)\simi (z,w),& ||(x,y)||=||(z,w)||=1\end{cases}
+                  $$
+                  As\'{i}, $X/\!\!\simi$ consiste de los conjuntos unipuntuales $\{(x,y)\barra ||(x,y)||&lt;1 \}$ y del
+                  conjunto $\partial D^2=S^1$.
+
+                  <figure class="w3-center">
+                    <img class="w3-hide-large" src="imgs/cap-04/ejemplo421.jpg" alt="Disco/frontera"
+                      style="width:100%">
+                    <img class="w3-hide-small w3-hide-medium" src="imgs/cap-04/ejemplo421.jpg" alt="Disco/frontera"
+                      style="width:60%">
+                    <figcaption>
+                      <b>Figura 1:</b> Disco/frontera.
+                    </figcaption>
+                  </figure>
+
+                  El cociente $X/\simi$
+                  es homeomorfo a $S^2$.$\bt$
+                </li>
+              </ul>
 
 
             </div>
