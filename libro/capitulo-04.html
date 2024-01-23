@@ -145,11 +145,16 @@
         <dd><a href="capitulo-02.html#seccion-2-2" class="w3-bar-item w3-button">&nbsp; - Producto finito</a></dd>
         <dd><a href="capitulo-02.html#seccion-2-3" class="w3-bar-item w3-button">&nbsp; - El número de Lebesgue</a></dd>
 
-        <dt><a href="capitulo-03.html" onclick="w3_close()" class="w3-bar-item w3-button w3-gray"><strong>Introducción a
+        <dt><a href="capitulo-03.html" onclick="w3_close()" class="w3-bar-item w3-button"><strong>Introducción a
               grupos topológicos</strong></a></dt>
         <dd><a href="capitulo-03.html#seccion-1" class="w3-bar-item w3-button">Grupos topológicos</a></dd>
         <dd><a href="capitulo-03.html#seccion-2" class="w3-bar-item w3-button">Grupos de matrices</a></dd>
         <dd><a href="capitulo-03.html#seccion-2-1" class="w3-bar-item w3-button">&nbsp; - Matrices ortogonales</a></dd>
+
+        <dt><a href="capitulo-04.html" onclick="w3_close()" class="w3-bar-item w3-button w3-gray"><strong>Espacios cociente</strong></a></dt>
+        <dd><a href="capitulo-01.html#seccion-1" class="w3-bar-item w3-button">Función cociente</a></dd>
+        <dd><a href="capitulo-01.html#seccion-2" class="w3-bar-item w3-button"><em>Detour</em> particiones</a></dd>
+        <dd><a href="capitulo-01.html#seccion-3" class="w3-bar-item w3-button">Topología cociente</a></dd>
 
         <dt><a href="referencias.html" onclick="w3_close()"
             class="w3-bar-item w3-button"><strong>Referencias</strong></a></dt>
@@ -650,8 +655,9 @@
                   topología cociente inducida por $f$ es llamada la Topología
                   Digital\index{topología!digital} de los enteros $\bz$ y tiene por abiertos $\{n\}$, si $n$ es
                   impar; para $n$ par el abierto más peque\~no que lo contiene es $\{n-1,n,n+1\}$; véase el Ejemplo
-                  en 
-                  <a class="w3-hover-text-blue" href="capitulo-01.html#topologia-digital" target="_blank">Capitulo 1, sección 1</a>.$\bt$
+                  en
+                  <a class="w3-hover-text-blue" href="capitulo-01.html#topologia-digital" target="_blank">Capitulo 1,
+                    sección 1</a>.$\bt$
                 </li>
               </ul>
 
@@ -698,7 +704,7 @@
 
               <p>
                 Aquí ser <em>constante en clases de equivalencia</em> significa que si $x\simi y$ entonces $f(x)=f(y)$.
-                Otra manera de establecer esta propiedad es diciendo que $f$ 
+                Otra manera de establecer esta propiedad es diciendo que $f$
                 <strong>factoriza</strong> o <strong>pasa al cociente</strong> de
                 manera única a través del cociente $X/\simi$.
               </p>
@@ -712,7 +718,7 @@
                   $$
                   Por el teorema anterior existe $\tilde{f}:X/\!\!\simi_f\ra Y$ continua e inyectiva; como se mencionó
                   anteriormente, decimos que $f$ factoriza al cociente definiendo a $\tilde{f}$. Más aún, notemos
-                  que $f$ es función cociente $\sss$ $\tilde{f}$ es homeomorfismo. 
+                  que $f$ es función cociente $\sss$ $\tilde{f}$ es homeomorfismo.
                   Este resultado se usará adelante
                   para identificar cocientes a través de ciertas relaciones de equivalencia.$\bt$
                 </li>
@@ -741,7 +747,8 @@
 
               <p>
                 En general, la propiedad de ser Hausdorff no se comporta bien bajo cocientes, esto es, existen espacios
-                Hausdorff en los que ciertos cocientes resultan espacios no Hausdorff; véase Ejemplo (<strong>to add</strong>). El
+                Hausdorff en los que ciertos cocientes resultan espacios no Hausdorff; véase Ejemplo (<strong>to
+                  add</strong>). El
                 problema de hallar condiciones para garantizar que el cociente sea espacio Hausdorff es difícil pero
                 en la presencia de compacidad se simplifica considerablemente:
               </p>
@@ -767,10 +774,11 @@
               <p>
                 $\dem$ $(1)\ida(3)$ Recordemos que $Y$ es Hausdorff $\sss$ $\triangle$ es cerrado y, dado que
                 $K=(f\times
-                f)^{-1}(\triangle)$ para con $f\times f:X\times X\ra Y\times Y$, el resultado se sigue.<br/><br/>
-                
-                $(3)\ida(2)$ Tomemos $A\subseteq X$ cerrado y recordemos 
-                (<a class="w3-hover-text-blue" href="capitulo-02.html#teorema-kuratowski" target="_blank">Teo. Kuratowski</a>) que al ser $X$
+                f)^{-1}(\triangle)$ para con $f\times f:X\times X\ra Y\times Y$, el resultado se sigue.<br /><br />
+
+                $(3)\ida(2)$ Tomemos $A\subseteq X$ cerrado y recordemos
+                (<a class="w3-hover-text-blue" href="capitulo-02.html#teorema-kuratowski" target="_blank">Teo.
+                  Kuratowski</a>) que al ser $X$
                 compacto, las proyecciones $p_1,p_2:X\times X\ra X$ son cerradas por lo que $p_1(K), p_2(K) $ son
                 cerrados. Por otro lado notemos
                 $$
@@ -778,15 +786,16 @@
                 $$
                 y al proyectar me quedo con $x\in X,\: f(x)\in f(A)\sss x\in f^{-1}(f(A))$; de donde
                 $f^{-1}(f(A))=p_1(K\cap p_2^{-1}(A)) $, por lo que $f^{-1}(f(A))$ es cerrado y $f$ es función cociente
-                cerrada. <br/><br/>
+                cerrada. <br /><br />
 
                 $(2)\ida(1)$ Consideremos $a\neq b\in Y$. Dado que $f$ es sobreyectiva, cerrada y los puntos en $X$ son
                 cerrados tenemos que $a,b$ son cerrados; así
                 $$
                 A=f^{-1}(a),\;\;B=f^{-1}(b)
                 $$
-                son compactos y disjuntos. Como $X$ es Hausdorff, el 
-                <a class="w3-hover-text-blue" href="capitulo-02.html#teorema-wallace" target="_blank">Teorema de Wallace</a> garantiza la
+                son compactos y disjuntos. Como $X$ es Hausdorff, el
+                <a class="w3-hover-text-blue" href="capitulo-02.html#teorema-wallace" target="_blank">Teorema de
+                  Wallace</a> garantiza la
                 existencia de abiertos $U,V$ tales que
                 $$
                 A\times B\subseteq U\times V\subseteq (X\times X)\baca \triangle,
@@ -802,7 +811,8 @@
               <p>
                 A continuación daremos algunos criterios para ser Hausdorff cuando el cociente se obtiene mediante una
                 relación de equivalencia $\sim$. La <strong>gráfica de la
-                  relación</strong> $\sim$ como el subconjunto de $X\times X$ determinado por aquellas parejas $x\sim y$:
+                  relación</strong> $\sim$ como el subconjunto de $X\times X$ determinado por aquellas parejas $x\sim
+                y$:
                 $$
                 \Gamma_\sim=\{(x,y)\in X\times X\barra x\sim y \}
                 $$
@@ -818,8 +828,9 @@
 
 
               <p>
-                $\dem$ Recordemos 
-                (<a class="w3-hover-text-blue" href="capitulo-01.html#hausdorff-es-cerrado" target="_blank">Lemma en Capítulo 1, sección 6</a>)
+                $\dem$ Recordemos
+                (<a class="w3-hover-text-blue" href="capitulo-01.html#hausdorff-es-cerrado" target="_blank">Lemma en
+                  Capítulo 1, sección 6</a>)
                 que $X$ es Hausdorff $\sss\;\triangle$ es cerrado. Observemos
                 que $\Gamma_\sim$ es la imagen inversa del subespacio diagonal de $X/\sim$ bajo la aplicación
                 $$
