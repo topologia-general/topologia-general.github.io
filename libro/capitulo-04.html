@@ -1097,6 +1097,59 @@
                   $$
                   Definamos $h:A\ra B,\;(0,t)\mapsto (1,t), (t,0)\mapsto (1-t,1)$. El resultado de pegar $A,B$ a
                   través de $h$, es la botella de Klein.$\bt$
+
+                  
+
+                  <div class="w3-content w3-center" style="max-width:200px">
+                    <img class="mySlides" src="imgs/cap-04/480px-Klein_Bottle_Folding_1.svg.png" style="width:100%">
+                    <img class="mySlides" src="imgs/cap-04/150px-Klein_Bottle_Folding_2.svg.png" style="width:50%">
+                    <img class="mySlides" src="imgs/cap-04/450px-Klein_Bottle_Folding_3.svg.png" style="width:75%">
+                    <img class="mySlides" src="imgs/cap-04/450px-Klein_Bottle_Folding_4.svg.png" style="width:75%">
+                    <img class="mySlides" src="imgs/cap-04/450px-Klein_Bottle_Folding_5.svg.png" style="width:75%">
+                    <img class="mySlides" src="imgs/cap-04/450px-Klein_Bottle_Folding_6.svg.png" style="width:75%">
+                  </div>
+                  
+                  <div class="w3-center">
+                    <div class="w3-section">
+                      <button class="w3-button w3-light-grey" onclick="plusDivs(-1)">❮ Prev</button>
+                      <button class="w3-button w3-light-grey" onclick="plusDivs(1)">Next ❯</button>
+                    </div>
+                    <button class="w3-button demo" onclick="currentDiv(1)">1</button> 
+                    <button class="w3-button demo" onclick="currentDiv(2)">2</button> 
+                    <button class="w3-button demo" onclick="currentDiv(3)">3</button> 
+                    <button class="w3-button demo" onclick="currentDiv(4)">4</button> 
+                    <button class="w3-button demo" onclick="currentDiv(5)">5</button> 
+                    <button class="w3-button demo" onclick="currentDiv(5)">6</button> 
+                  </div>
+
+                  <script>
+                    var slideIndex = 1;
+                    showDivs(slideIndex);
+
+                    function plusDivs(n) {
+                      showDivs(slideIndex += n);
+                    }
+
+                    function currentDiv(n) {
+                      showDivs(slideIndex = n);
+                    }
+
+                    function showDivs(n) {
+                      var i;
+                      var x = document.getElementsByClassName("mySlides");
+                      var dots = document.getElementsByClassName("demo");
+                      if (n > x.length) { slideIndex = 1 }
+                      if (n < 1) { slideIndex = x.length }
+                      for (i = 0; i < x.length; i++) {
+                        x[i].style.display = "none";
+                      }
+                      for (i = 0; i < dots.length; i++) {
+                        dots[i].className = dots[i].className.replace(" w3-grey", "");
+                      }
+                      x[slideIndex - 1].style.display = "block";
+                      dots[slideIndex - 1].className += " w3-grey";
+                    }
+                  </script>
                 </li>
               </ul>
 
