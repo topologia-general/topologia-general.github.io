@@ -69,6 +69,7 @@ float opSmoothUnion( float d1, float d2, float k ) {
 // Scene distance
 float map(vec3 p) {
 
+    p.y += iTime * 0.3;
     p.z += iTime * 0.3;
     
     vec3 q = p;
@@ -79,7 +80,7 @@ float map(vec3 p) {
     //world = opSmoothUnion(world, sdSphere(q, 0.1), 1.0);
   
     //return world;
-    return sdBox(q, vec3(0.15)); // distance to an object
+    return sdTorus(q, vec2(0.2, 0.088)); // distance to an object
 }
 
 
