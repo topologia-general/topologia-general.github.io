@@ -902,9 +902,9 @@
 
               <ul>
                 <li>
-                  Tomemos $\br$ con topolog\'ia euclidiana y definamos
+                  Tomemos $\br$ con topología euclidiana y definamos
                   $$
-                  x\simi y\;\sss\;\;x=y\;\; \mbox{\'o}\;\;|x|=|y|>1
+                  x\simi y\;\sss\;\;x=y\;\; \mbox{ó}\;\;|x|=|y|>1
                   $$
                   Notemos que hay dos tipos de clases de equivalencia:
                   $$
@@ -914,16 +914,15 @@
                   lo que podemos representar el cociente mediante
 
                   <figure class="w3-center">
-                    <img class="w3-hide-large" src="imgs/cap-04/ejemplo419.png" alt=""
-                      style="width:100%">
-                    <img class="w3-hide-small w3-hide-medium" src="imgs/cap-04/ejemplo419.png" alt="Peine del top&#xF3;golo"
-                      style="width:60%">
+                    <img class="w3-hide-large" src="imgs/cap-04/ejemplo419.png" alt="" style="width:100%">
+                    <img class="w3-hide-small w3-hide-medium" src="imgs/cap-04/ejemplo419.png"
+                      alt="Peine del top&#xF3;golo" style="width:60%">
                     <figcaption>
                       <b>Figura 1:</b> Resultado de tomar el cociente en la recta.
                     </figcaption>
                   </figure>
 
-                  La funci\'on cociente $\pi:\br\ra \br/\simi$ cumple que
+                  La función cociente $\pi:\br\ra \br/\simi$ cumple que
                   $$
                   \pi(1)=[1]=\{1\}\neq \{-1\}=[-1]=\pi(-1),
                   $$
@@ -931,7 +930,7 @@
                   Hausdorff, aunque $X$ lo sea.
                 </li>
                 <li>
-                  Tomemos el subespacio de $\br^2$ dado por $X=[0,1]\times [0,1]$ y consideramos la partici\'on
+                  Tomemos el subespacio de $\br^2$ dado por $X=[0,1]\times [0,1]$ y consideramos la partición
                   $$
                   \begin{cases}
                   \{(x, y)\},&0 &lt; x,y&lt;1\\ \{(x,0),\;(x,1)\},&0&lt;x&lt;1\\ \{(0,y),\;(1,y)\},&0&lt;y&lt;1\\
@@ -939,35 +938,165 @@
                   imagen.
 
                   <figure class="w3-center">
-                    <img class="w3-hide-large" src="imgs/cap-04/ejemplo420.jpg" alt="Subespacios de $X$ que se identifican entre si"
-                      style="width:100%">
-                    <img class="w3-hide-small w3-hide-medium" src="imgs/cap-04/ejemplo420.jpg" alt="Subespacios de $X$ que se identifican entre si"
-                      style="width:60%">
+                    <img class="w3-hide-large" src="imgs/cap-04/ejemplo420.jpg"
+                      alt="Subespacios de $X$ que se identifican entre si" style="width:100%">
+                    <img class="w3-hide-small w3-hide-medium" src="imgs/cap-04/ejemplo420.jpg"
+                      alt="Subespacios de $X$ que se identifican entre si" style="width:60%">
                     <figcaption>
-                      <b>Figura 1:</b> Subespacios de $X$ que se identifican entre si.
+                      <b>Figura 2:</b> Subespacios de $X$ que se identifican entre si.
                     </figcaption>
                   </figure>
                 </li>
                 <li>
-                  Sea $X=D^2$ disco unitario cerrado en $\br^2$ y definamos la relaci\'on
+                  Sea $X=D^2$ disco unitario cerrado en $\br^2$ y definamos la relación
                   $$
                   \begin{cases}(x,y)\simi (x,y),& ||(x,y)||&lt;1\\ (x,y)\simi (z,w),& ||(x,y)||=||(z,w)||=1\end{cases}
                   $$
-                  As\'{i}, $X/\!\!\simi$ consiste de los conjuntos unipuntuales $\{(x,y)\barra ||(x,y)||&lt;1 \}$ y del
+                  Así, $X/\!\!\simi$ consiste de los conjuntos unipuntuales $\{(x,y)\barra ||(x,y)||&lt;1 \}$ y del
                   conjunto $\partial D^2=S^1$.
 
                   <figure class="w3-center">
-                    <img class="w3-hide-large" src="imgs/cap-04/ejemplo421.jpg" alt="Disco/frontera"
-                      style="width:100%">
+                    <img class="w3-hide-large" src="imgs/cap-04/ejemplo421.jpg" alt="Disco/frontera" style="width:100%">
                     <img class="w3-hide-small w3-hide-medium" src="imgs/cap-04/ejemplo421.jpg" alt="Disco/frontera"
                       style="width:60%">
                     <figcaption>
-                      <b>Figura 1:</b> Disco/frontera.
+                      <b>Figura 3:</b> Disco/frontera.
                     </figcaption>
                   </figure>
 
                   El cociente $X/\simi$
                   es homeomorfo a $S^2$.$\bt$
+                </li>
+              </ul>
+
+              <h3>4.4.1 Colapsos</h3>
+
+              <p>
+                Tomemos $A\subseteq X$ y definamos
+                $$
+                x\simi y \;\;\sss\;\;\;\begin{cases}x=y,&x,y\notin A\\ x,y\in A \end{cases}
+                $$
+                Observemos que $\simi$ es una relación de equivalencia y que se obtiene una partición de $X$
+                consistente del conjunto $A$ y los unipuntuales $\{ x\}$, para $x\notin A$. El espacio cociente por esta
+                relación se denota por $X/A$ y es común decir que el cociente $X/A$ se obtiene mediante el
+                <strong>colapso</strong> del subespacio $A$.
+              </p>
+
+              <figure class="w3-center">
+                <img class="w3-hide-large" src="imgs/cap-04/colapsso.jpg" alt="Colapso" style="width:100%">
+                <img class="w3-hide-small w3-hide-medium" src="imgs/cap-04/colapsso.jpg" alt="Colapso"
+                  style="width:60%">
+                <figcaption>
+                  <b>Figura 4:</b> El subespacio $A$ y su colapso.
+                </figcaption>
+              </figure>
+
+              <h3>Ejemplo:</h3>
+
+              <ul>
+                <li>
+                  La función
+                  $$
+                  f:S^{n-1}\times [0,1]\ra D^n,\;f(x,t)=xt
+                  $$
+                  es continua y sobreyectiva. Como el dominio es compacto y el contradominio es Hausdorff, la función
+                  $f$ es cerrada y por tanto función cociente. Notemos
+                  $$
+                  f(x)=f(y)\sss x=y\;\; \mbox{ó}\;\; x,y\in S^{n-1}\times \{0\},
+                  $$
+                  es decir, $f$ es constante en los puntos de $S^{n-1}\times \{0\}$. Por el Ejemplo \ref{facto} la
+                  función anterior induce el homeomorfismo
+                  $$
+                  S^{n-1}\times [0,1]/S^{n-1}\times \{0\} \stac{\cong} D^n
+                  $$
+                  La figura de abajo muestra el homeomorfismo anterior para el caso $n=2$:
+
+                  <figure class="w3-center">
+                    <img class="w3-hide-large" src="imgs/cap-04/conito.jpg" alt="Cono" style="width:100%">
+                    <img class="w3-hide-small w3-hide-medium" src="imgs/cap-04/conito.jpg" alt="Cono" style="width:60%">
+                    <figcaption>
+                      <b>Figura 5:</b> El cilindro $S^1\times [0,1]$ se convierte en un cono y después en un disco.
+                    </figcaption>
+                  </figure>
+                </li>
+              </ul>
+
+              <h3>
+                4.4.2 Identificaciones
+              </h3>
+
+              <p>
+                Consideremos subespacios $A,B\subseteq X$ y $h:A\ra B$ homeomorfismo entre ellos y definimos la
+                siguiente relación en $X$
+                $$
+                x\simi y\;\;\sss\;\;\;\begin{cases}x=y&\mbox{ó}\\h(x)=y&\mbox{ó} \\h^{-1}(x)=y \end{cases}
+                $$
+                Es decir, la relación anterior identifica los puntos $a\in A$ con los puntos $h(a)\in B$ y viceversa.
+                El espacio cociente obtenido con esta relación es el resultado de \res{identificar} a $A$ con $B$ a
+                través del homeomorfismo $h$; equivalentemente, se dice que estamos {\em pegando} a $A$ y $B$.
+              </p>
+
+              <h3>Ejemplos:</h3>
+
+              <ul>
+                <li>
+                  Tomemos el cuadrado $X=[0,1]\times [0,1]$ y consideremos los subespacios $A,B$ dados por las paredes
+                  laterales de $X$:
+                  $$
+                  A=\{0\}\times [0,1],\;B=\{1\}\times [0,1]
+                  $$
+                  Consideremos la identificación de $A$ y $B$ a través del homeomorfismo $h:A\ra B$:
+                  <ol>
+                    <li>
+                      Para $h(0,t)=(1,t)$ el cociente es un cilindro
+                      <figure class="w3-center">
+                        <img class="w3-hide-large" src="imgs/cap-04/cili.jpg" alt="Cono" style="width:100%">
+                        <img class="w3-hide-small w3-hide-medium" src="imgs/cap-04/cili.jpg" alt="Cono"
+                          style="width:60%">
+                        <figcaption>
+                          <b>Figura 6:</b> El cilindro $S^1\times [0,1]$ se convierte en un cono y después en un disco.
+                        </figcaption>
+                      </figure>
+                    </li>
+                    <li>
+                      Para $h(0,t)=(1,1-t)$ el espacio cociente es la banda de Moebius.
+                      <figure class="w3-center">
+                        <img class="w3-hide-large" src="imgs/cap-04/mobbi.jpg" alt="Cono" style="width:100%">
+                        <img class="w3-hide-small w3-hide-medium" src="imgs/cap-04/mobbi.jpg" alt="Cono"
+                          style="width:60%">
+                        <figcaption>
+                          <b>Figura 7:</b> El cilindro $S^1\times [0,1]$ se convierte en un cono y después en un disco.
+                        </figcaption>
+                      </figure>
+                    </li>
+                  </ol>
+
+
+                </li>
+
+                <li>
+                  Sea $X=[0,1]\times [0,1]$ y consideremos
+                  $$
+                  A=\{0\}\times [0,1] \cup [0,1]\times \{0\},
+                  $$
+                  $$
+                  B=\{1\}\times [0,1]\cup [0,1]\times \{1\}
+                  $$
+                  Definamos $h:A\ra B,\;(0,t)\mapsto (1,t), (t,0)\mapsto (t,1)$. El resultado de pegar $A,B$ a través
+                  de $h$ consiste en pegar el lado inferior con el superior y el lado derecho con el izquierdo; el
+                  resultado es el toro $T^2$.
+                </li>
+                <li id="botella-de-klein">
+                  (Botella de Klein)
+                  Al igual que en el ejemplo anterior, tomemos $X=[0,1]\times [0,1]$ y consideremos
+                  $$
+                  A=\{0\}\times [0,1] \cup [0,1]\times \{0\},
+                  $$
+                  $$
+                  B=\{1\}\times [0,1]\cup [0,1]\times \{1\}
+                  $$
+                  Definamos $h:A\ra B,\;(0,t)\mapsto (1,t), (t,0)\mapsto (1-t,1)$. El resultado de pegar $A,B$ a
+                  través de $h$, es la botella de Klein.$\bt$
                 </li>
               </ul>
 
