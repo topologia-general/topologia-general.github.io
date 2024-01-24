@@ -2,8 +2,7 @@
 <html>
 
 <head>
-
-  <title>Capítulo 3</title>
+  <title>Topología General</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Topología General">
@@ -22,58 +21,65 @@
   <script type="text/x-mathjax-config">
     MathJax.Hub.Config({
       tex2jax: {
-        inlineMath: [['$','$'], ['\\(','\\)']],
-        processEscapes: true
+        inlineMath: [
+          ["$", "$"],
+          ["\\(", "\\)"],
+        ],
+        processEscapes: true,
       },
-                       TeX: { 
-                         equationNumbers: { autoNumber: "AMS" },
-                         extensions: ["AMSmath.js", "AMSsymbols.js"],
-                         Macros: {
-                          bh: "{\\mathbb{H}}",
-                          bt: "{\\blacktriangleleft}",
-                          btt: "{$\\blacktriangleright$}",
-                          acc: "{\\curvearrowright}",
-                          rp: ["{\\mathbb{RP}^{#1}}",1],
-                          cp: ["{\\mathbb{CP}^{#1}}",1],
-                          ida: "{\\boxed{\\Rightarrow}}",
-                          vuelta: "{\\boxed{\\Leftarrow}}",
-                          simi: "{\\!\sim}",
-                          dem: "{\\underline{Demostración.}}",
-                          findem: "{\\;\\blacksquare}",
-                          bk: "{\\mathbb{K}}",
-                          ff: "{\\mathbb{F}}",
-                          br: "{\\mathbb{R}}",
-                          bn: "{\\mathbb{N}}",
-                          bz: "{\\mathbb{Z}}",
-                          bc: "{\\mathbb{C}}",
-                          bq: "{\\mathbb{Q}}",
-                          ra: "{\\rightarrow}",
-                          lra: "{\\longrightarrow}",
-                          sss: "{\\Longleftrightarrow}",
-                          stac: ["{\\stackrel{#1}{\\longrightarrow}}",1],
-                          Ra: "{\\Rightarrow}",
-                          res: ["}",1],
-                          barra: "{\\;|\\;}",
-                          topp: "{\\rm Top}",
-                          baca: "{\\backslash}",
-                          til: ["{\\tilde{#1}}",1],
-                          mcal: ["{\\mathcal #1}",1],
-                          ol: ["{\\overline{#1}}",1],
-                          map: "{\\mbox{Map}}",
-                          rel: "{\\: \\mbox{rel}}"
-                        }
-                         }
-                       });
-    </script>
+      TeX: {
+        equationNumbers: { autoNumber: "AMS" },
+        extensions: ["AMSmath.js", "AMSsymbols.js"],
+        Macros: {
+          bh: "{\\mathbb{H}}",
+          bt: "{\\blacktriangleleft}",
+          btt: "{$\\blacktriangleright$}",
+          acc: "{\\curvearrowright}",
+          rp: ["{\\mathbb{RP}^{#1}}", 1],
+          cp: ["{\\mathbb{CP}^{#1}}", 1],
+          ida: "{\\boxed{\\Rightarrow}}",
+          vuelta: "{\\boxed{\\Leftarrow}}",
+          simi: "{\\!sim}",
+          dem: "{\\underline{Demostración.}}",
+          findem: "{\\;\\blacksquare}",
+          bk: "{\\mathbb{K}}",
+          ff: "{\\mathbb{F}}",
+          br: "{\\mathbb{R}}",
+          bn: "{\\mathbb{N}}",
+          bz: "{\\mathbb{Z}}",
+          bc: "{\\mathbb{C}}",
+          bq: "{\\mathbb{Q}}",
+          ra: "{\\rightarrow}",
+          lra: "{\\longrightarrow}",
+          sss: "{\\Longleftrightarrow}",
+          stac: ["{\\stackrel{#1}{\\longrightarrow}}", 1],
+          Ra: "{\\Rightarrow}",
+          res: ["}", 1],
+          barra: "{\\;|\\;}",
+          topp: "{\\rmTop}",
+          baca: "{\\backslash}",
+          til: ["{\\tilde{#1}}", 1],
+          mcal: ["{\\mathcal#1}", 1],
+          ol: ["{\\overline{#1}}", 1],
+          Mod: ["{\\mathrm{mod}\\ #1}", 1],//\newcommand{\Mod}[1]{\ (\mathrm{mod}\ #1)}
+          map: "{\\mbox{Map}}",
+          rel: "{\\:\\mbox{rel}}",
+          topp: "{\\rm Top}", //\newcommand{\topp}
+        },
+      },
+    });
+  </script>
 
   <script type="text/javascript" async
     src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_CHTML">
-  </script>
+    </script>
   <!--MathJax Ends-->
 
-  <script src="assets/scripts.js"></script>
+  <script src="assets/mathjax-setup.js"></script>
+<script src="assets/scripts.js"></script>
 
   <link rel="stylesheet" href="stylesheets/html.css">
+
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-NVWXL8MTMD"></script>
@@ -87,11 +93,13 @@
 
     gtag('config', 'G-NVWXL8MTMD');
   </script>
-
 </head>
 
 <body data-type="book" class="w3-content" style="max-width:1400px;">
 
+
+
+  
   <!-- Sidebar/menu -->
   <nav class="w3-sidebar w3-collapse  w3-border-right" id="mySidebar"><br>
     <div class="w3-container">
@@ -99,24 +107,25 @@
         title="close menu">
         <i class="fas fa-times"></i>
       </a>
-      
+
       <!--<a href="/" class="w3-hover-text-blue w3-xlarge w3-padding-large"> <i class="fa fa-infinity fa-2x"></i></a>-->
-      
-     
-       <div style="text-align:center">
-        <a href="/" class="w3-hover-text-blue w3-xlarge w3-padding-large" title="Home Page"> 
-          <img class="w3-image w3-hover-opacity" style="width:80px;" src="imgs/extra/inf-sm.png" ></a>
+
+
+      <div style="text-align:center">
+        <a href="/" class="w3-hover-text-blue w3-xlarge w3-padding-large" title="Home Page">
+          <img class="w3-image w3-hover-opacity" style="width:80px;" src="imgs/extra/inf-sm.png"></a>
       </div>
-     
-      
+
+
     </div>
-   
+
     <hr class="new">
 
     <div class="w3-bar-block">
       <p class="w3-text-black w3-padding"><b>CONTENIDO</b></p>
       <dl>
-        <dt><a href="../#intro-presentacion" class="w3-bar-item w3-button w3-padding"><strong>Presentación</strong></a></dt>
+        <dt><a href="../#intro-presentacion" class="w3-bar-item w3-button w3-padding"><strong>Presentación</strong></a>
+        </dt>
 
         <dt><a href="capitulo-01.html" onclick="w3_close()" class="w3-bar-item w3-button"><strong>Espacios
               topológicos</strong></a></dt>
@@ -127,23 +136,27 @@
         <dd><a href="capitulo-01.html#seccion-4" class="w3-bar-item w3-button">Espacios métricos</a></dd>
         <dd><a href="capitulo-01.html#seccion-5" class="w3-bar-item w3-button">Subespacios y productos</a></dd>
         <dd><a href="capitulo-01.html#seccion-6" class="w3-bar-item w3-button">Espacios de Hausdorff</a></dd>
-      
-        <dt><a href="capitulo-02.html" onclick="w3_close()" class="w3-bar-item w3-button"><strong>Conexidad y compacidad</strong></a></dt>
+
+        <dt><a href="capitulo-02.html" onclick="w3_close()" class="w3-bar-item w3-button"><strong>Conexidad y
+              compacidad</strong></a></dt>
         <dd><a href="capitulo-02.html#seccion-1" class="w3-bar-item w3-button">Conexidad</a></dd>
         <dd><a href="capitulo-02.html#seccion-1-1" class="w3-bar-item w3-button">&nbsp; - Conexidad por caminos</a></dd>
         <dd><a href="capitulo-02.html#seccion-1-2" class="w3-bar-item w3-button">&nbsp; - Homotopía I</a></dd>
         <dd><a href="capitulo-02.html#seccion-1-3" class="w3-bar-item w3-button">&nbsp; - Componentes conexas</a></dd>
         <dd><a href="capitulo-02.html#seccion-2" class="w3-bar-item w3-button">Compacidad</a></dd>
-        <dd><a href="capitulo-02.html#seccion-2-1" class="w3-bar-item w3-button">&nbsp; - Cubiertas y compacidad</a></dd>
+        <dd><a href="capitulo-02.html#seccion-2-1" class="w3-bar-item w3-button">&nbsp; - Cubiertas y compacidad</a>
+        </dd>
         <dd><a href="capitulo-02.html#seccion-2-2" class="w3-bar-item w3-button">&nbsp; - Producto finito</a></dd>
         <dd><a href="capitulo-02.html#seccion-2-3" class="w3-bar-item w3-button">&nbsp; - El número de Lebesgue</a></dd>
 
-        <dt><a href="capitulo-03.html" onclick="w3_close()" class="w3-bar-item w3-button w3-gray"><strong>Introducción a grupos topológicos</strong></a></dt>
+        <dt><a href="capitulo-03.html" onclick="w3_close()" class="w3-bar-item w3-button"><strong>Introducción a
+              grupos topológicos</strong></a></dt>
         <dd><a href="capitulo-03.html#seccion-1" class="w3-bar-item w3-button">Grupos topológicos</a></dd>
         <dd><a href="capitulo-03.html#seccion-2" class="w3-bar-item w3-button">Grupos de matrices</a></dd>
         <dd><a href="capitulo-03.html#seccion-2-1" class="w3-bar-item w3-button">&nbsp; - Matrices ortogonales</a></dd>
 
-        <dt><a href="capitulo-04.html" onclick="w3_close()" class="w3-bar-item w3-button"><strong>Espacios cociente</strong></a></dt>
+        <dt><a href="capitulo-04.html" onclick="w3_close()" class="w3-bar-item w3-button"><strong>Espacios
+              cociente</strong></a></dt>
         <dd><a href="capitulo-04.html#seccion-1" class="w3-bar-item w3-button">Función cociente</a></dd>
         <dd><a href="capitulo-04.html#seccion-2" class="w3-bar-item w3-button"><em>Detour</em> particiones</a></dd>
         <dd><a href="capitulo-04.html#seccion-3" class="w3-bar-item w3-button">Topología cociente</a></dd>
@@ -152,23 +165,24 @@
         <dd><a href="capitulo-04.html#seccion-4-2" class="w3-bar-item w3-button">&nbsp; - Identificaciones</a></dd>
         <dd><a href="capitulo-04.html#seccion-5" class="w3-bar-item w3-button">Acciones de espacios</a></dd>
 
-        <dt><a href="referencias.html" onclick="w3_close()" class="w3-bar-item w3-button"><strong>Referencias</strong></a></dt>
-      
-        
+        <dt><a href="referencias.html" onclick="w3_close()"
+            class="w3-bar-item w3-button"><strong>Referencias</strong></a></dt>
+
+
       </dl>
     </div>
 
-    <br/>
+    <br />
 
     <div style="text-align:center; font-size:32px">
       <p>∞</p>
     </div>
 
-    <br/><br/>
+    <br /><br />
 
   </nav>
 
-  
+
 
   <!-- Overlay effect when opening sidebar on small screens -->
   <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer"
@@ -186,7 +200,7 @@
   <!-- !PAGE CONTENT! -->
   <div class="w3-main w3-large" id="page-content">
 
-   
+
 
     <!-- Header -->
     <header class="w3-container w3-top w3-white">
@@ -194,11 +208,11 @@
       </a>
       <span class="w3-button w3-hide-large w3-xlarge w3-hover-text-grey" onclick="w3_open()"><i
           class="fa fa-bars"></i></span>
-      
-       
+
+
     </header>
 
-   
+
 
     <div class="w3-container">
       <div class="container">
@@ -206,9 +220,9 @@
 
   <div class="w3-container">
     <br>
-    <h1 class="w3-text-white w3-hide-large w3-xxlarge"><b>&#x221E;</b></h1>
+    <h1 class="w3-text-white w3-hide-large w3-xxlarge"><b>∞</b></h1>
 
-    <h1>3. Introducci&#xF3;n a grupos topol&#xF3;gicos</h1>
+    <h1>3. Introducción a grupos topológicos</h1>
 
     <div class="w3-section w3-bottombar">
       <p></p>
@@ -218,20 +232,20 @@
   <section data-type="sect1" id="seccion-1">
 
     <div class="w3-container w3-section">
-      <h2>3.1 Grupos topol&#xF3;gicos</h2>
+      <h2>3.1 Grupos topológicos</h2>
 
       <p>
-        Recordemos que el concepto de espacio top&#xF3;logico se construy&#xF3; a
-        partir de un conjunto definiendo una colecci&#xF3;n de abiertos (o de cerrados).
-        Cuando el conjunto est&#xE1; enriquecido con una estructura de grupo
-        surge un &#xE1;rea de la matem&#xE1;tica de gran inter&#xE9;s llamada
-        <strong>&#xC1;lgebra topol&#xF3;gica</strong>.
+        Recordemos que el concepto de espacio topólogico se construyó a
+        partir de un conjunto definiendo una colección de abiertos (o de cerrados).
+        Cuando el conjunto está enriquecido con una estructura de grupo
+        surge un área de la matemática de gran interés llamada
+        <strong>Álgebra topológica</strong>.
       </p>
 
       <p>
         Decimos que un conjunto $G$, equipado con una estructura de grupo
-        y una de espacio topol&#xF3;gico, es llamado un <strong>grupo topol&#xF3;gico</strong>
-        si las operaciones <em>mutiplicaci&#xF3;n</em>&gt; y <em>tomar inversos</em>
+        y una de espacio topológico, es llamado un <strong>grupo topológico</strong>
+        si las operaciones <em>mutiplicación</em>&gt; y <em>tomar inversos</em>
         $$
         \begin{cases}
         m:G\times G\lra G,\;\;(g,h)\mapsto m(g,h):=gh\\
@@ -239,67 +253,75 @@
         \end{cases}
         $$
         son funciones continuas. Equivalentemente, $G$ es grupo
-        topol&#xF3;gico si y s&#xF3;lo si $(g,h)\mapsto gh^{-1}$ es funci&#xF3;n continua.
+        topológico si y sólo si $(g,h)\mapsto gh^{-1}$ es función continua.
       </p>
 
       <h3>Ejemplos</h3>
 
       <ul>
-        <li>Cualquier grupo tiene estructura de grupo topol&#xF3;gico al
-          dotarlo de la topolog&#xED;a discreta; el resultado es
-          llamado <strong>grupo topol&#xF3;gico discreto</strong>.</li>
-        <li>Los espacios producto $\br^n,\bc^n$ son tambi&#xE9;n grupos aditivos con las operaciones usuales de suma y de
+        <li>Cualquier grupo tiene estructura de grupo topológico al
+          dotarlo de la topología discreta; el resultado es
+          llamado <strong>grupo topológico discreto</strong>.</li>
+        <li>Los espacios producto $\br^n,\bc^n$ son también grupos aditivos con las operaciones usuales de suma y
+          de
           tomar inverso:
           $$
           m(\ol{x},\ol{y}):=\ol{x}+\ol{y},\qquad inv(\ol{x}):=-\ol{x}
           $$
-          Estas operaciones son funciones continuas con la topolog&#xED;a euclidiana, por lo que $\br^n,\bc^n$ son grupos
-          topol&#xF3;gicos.</li>
+          Estas operaciones son funciones continuas con la topología euclidiana, por lo que $\br^n,\bc^n$ son
+          grupos
+          topológicos.</li>
         <li>Recordemos que la circunferencia unitaria $S^1$ es subespacio de $\bc$ dado por los complejos unitarios; es
-          adem&#xE1;s un grupo topol&#xF3;gico bajo la multiplicaci&#xF3;n de n&#xFA;meros complejos, debido a la propiedad
+          además un grupo topológico bajo la multiplicación de números complejos, debido a la
+          propiedad
           $||z_1z_2||=||z_1||\:||z_2||.$ $\bt$</li>
       </ul>
 
 
 
       <p>
-        Para $h\in G$ definimos la <strong>multiplicaci&#xF3;n derecha</strong> como la composici&#xF3;n de la inclusi&#xF3;n con la
-        multiplicaci&#xF3;n de $G$:
-        </p><figure class="w3-center">
-          <img class="w3-hide-large" src="imgs/cap-03/diagram-01.png" alt="Diagram 1" style="width:40%">
-          <img class="w3-hide-small w3-hide-medium" src="imgs/cap-03/diagram-01.png" alt="Diagram 1" style="width:20%">
-        </figure>
-        donde $i(g)=(g,h)$ es la inclusi&#xF3;n. Observemos que $R_h$ es funci&#xF3;n continua y tiene por inversa a
-        $R_{h^{-1}}$;
-        es decir, $R_{h}$ es un homeomorfismo. De manera an&#xE1;loga definimos la <strong>multiplicaci&#xF3;n izquierda</strong>
-        $L_h(g)=hg$ que tiene por inversa a $L_{h^{-1}}$ y es tambi&#xE9;n homeomorfismo. Con esto obtenemos
+        Para $h\in G$ definimos la <strong>multiplicación derecha</strong> como la composición de la
+        inclusión con la
+        multiplicación de $G$:
+      </p>
+      <figure class="w3-center">
+        <img class="w3-hide-large" src="imgs/cap-03/diagram-01.png" alt="Diagram 1" style="width:40%">
+        <img class="w3-hide-small w3-hide-medium" src="imgs/cap-03/diagram-01.png" alt="Diagram 1" style="width:20%">
+      </figure>
+      donde $i(g)=(g,h)$ es la inclusión. Observemos que $R_h$ es función continua y tiene por inversa a
+      $R_{h^{-1}}$;
+      es decir, $R_{h}$ es un homeomorfismo. De manera análoga definimos la <strong>multiplicación
+        izquierda</strong>
+      $L_h(g)=hg$ que tiene por inversa a $L_{h^{-1}}$ y es también homeomorfismo. Con esto obtenemos
       <p></p>
 
       <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive" style="padding:8px 16px 8px 16px;">
         <p><strong>Lema:</strong>
-          La conjugaci&#xF3;n por cualquiera de los elementos de un grupo topol&#xF3;gico es un homeomorfismo. Es decir, para
+          La conjugación por cualquiera de los elementos de un grupo topológico es un homeomorfismo. Es decir,
+          para
           cada
-          $g\in G$ se tiene que la funci&#xF3;n
+          $g\in G$ se tiene que la función
           $G\to G,\;x\mapsto gxg^{-1}$ es un homeomorfismo.
         </p>
       </div>
 
 
       <p>
-        Podemos decir un poco m&#xE1;s: para cualesquiera $g,h\in G$ existe homeomorfismo $\varphi:G\ra G$ dado por
+        Podemos decir un poco más: para cualesquiera $g,h\in G$ existe homeomorfismo $\varphi:G\ra G$ dado por
         $\varphi=R_{g^{-1}h}$; observemos que
         $$
         \varphi(g)=g(g^{-1}h)=h
         $$
-        De igual forma tambi&#xE9;n es posible hacer $\varphi=L_{hg^{-1}}$ para obtener $\varphi(g)=(hg^{-1})g=h$. Por lo
-        anterior se dice que todo grupo topol&#xF3;gico $G$ es <strong>homog&#xE9;neo</strong>, lo que 
-        significa que $G$ tiene la <em>misma</em> estructura topol&#xF3;gica alrededor de cualquier punto; 
-        es decir, su estructura es homog&#xE9;nea.
+        De igual forma también es posible hacer $\varphi=L_{hg^{-1}}$ para obtener $\varphi(g)=(hg^{-1})g=h$. Por
+        lo
+        anterior se dice que todo grupo topológico $G$ es <strong>homogéneo</strong>, lo que
+        significa que $G$ tiene la <em>misma</em> estructura topológica alrededor de cualquier punto;
+        es decir, su estructura es homogénea.
       </p>
 
       <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive" style="padding:8px 16px 8px 16px;">
         <p><strong>Lema:</strong>
-          Sea $e\in G$ el elemento neutro de un grupo topol&#xF3;gico $G$.
+          Sea $e\in G$ el elemento neutro de un grupo topológico $G$.
           Entonces $G$ es Hausdorff $\sss$ $\{e\}$ es cerrado.
         </p>
       </div>
@@ -309,26 +331,28 @@
         <br>
         $\vuelta$ Supongamos $\{e\}$ es cerrado y consideremos $\phi:G\times G\ra G$ definida como $\phi(g,h)=gh^{-1}$.
         Notemos que $\phi$ se obtiene del diagrama:
-        </p><figure class="w3-center">
-          <img class="w3-hide-large" src="imgs/cap-03/diagram-02.png" alt="Diagram 2" style="width:90%">
-          <img class="w3-hide-small w3-hide-medium" src="imgs/cap-03/diagram-02.png" alt="Diagram 2" style="width:75%">
-        </figure>
-        de donde se observa que $\phi$ es composici&#xF3;n de funciones continuas, por lo que tambi&#xE9;n es continua. Por
-        otro
-        lado, notemos que
-        $$
-        \phi^{-1}(e)=\{(g,g)\barra g\in G\}=\triangle\subseteq G\times G
-        $$
-        el cual es cerrado, lo cual es cierto $\sss$ $G$ es Hausdorff.$\findem$
+      </p>
+      <figure class="w3-center">
+        <img class="w3-hide-large" src="imgs/cap-03/diagram-02.png" alt="Diagram 2" style="width:90%">
+        <img class="w3-hide-small w3-hide-medium" src="imgs/cap-03/diagram-02.png" alt="Diagram 2" style="width:75%">
+      </figure>
+      de donde se observa que $\phi$ es composición de funciones continuas, por lo que también es continua.
+      Por
+      otro
+      lado, notemos que
+      $$
+      \phi^{-1}(e)=\{(g,g)\barra g\in G\}=\triangle\subseteq G\times G
+      $$
+      el cual es cerrado, lo cual es cierto $\sss$ $G$ es Hausdorff.$\findem$
       <p></p>
 
 
       <p>
-        Si $G$ es un grupo topol&#xF3;gico y $H\subseteq G$ es subgrupo,
-        entonces, al dotar a $H$ de la topolog&#xED;a del
-        subespacio, se tiene que $H$ es grupo topol&#xF3;gico llamado
-        <strong>subgrupo topol&#xF3;gico</strong>. Con esto el subgrupo de
-        complejos unitarios $S^1$ es subgrupo topol&#xF3;gico de
+        Si $G$ es un grupo topológico y $H\subseteq G$ es subgrupo,
+        entonces, al dotar a $H$ de la topología del
+        subespacio, se tiene que $H$ es grupo topológico llamado
+        <strong>subgrupo topológico</strong>. Con esto el subgrupo de
+        complejos unitarios $S^1$ es subgrupo topológico de
         $\bc_*$, los complejos no cero.
       </p>
 
@@ -345,28 +369,32 @@
 
       <p>
         El conjunto de matrices cuadradas $M_n(\br)=M_{n,n}(\br)$ se identifica con el espacio euclidiano $\br^{n^2}$ de
-        la manera usual. La funci&#xF3;n determinante $\det:M_n(\br) \ra \br$ es una funci&#xF3;n polinomial en las entradas
+        la manera usual. La función determinante $\det:M_n(\br) \ra \br$ es una función polinomial en las
+        entradas
         de
-        $A$, por lo tanto es una funci&#xF3;n continua. Con esto, el subespacio $\det^{-1}(0)$ es cerrado y su complemento
+        $A$, por lo tanto es una función continua. Con esto, el subespacio $\det^{-1}(0)$ es cerrado y su
+        complemento
         $$
         GL_n(\br)= \br^{n^2}\baca det^{-1}(0)
         $$
-        consiste de las matrices cuadradas <strong>invertibles</strong>. 
-        Por lo mencionado antes hereda la estructura topol&#xF3;gica
+        consiste de las matrices cuadradas <strong>invertibles</strong>.
+        Por lo mencionado antes hereda la estructura topológica
         de
-        $\br^{n^2}$ y adem&#xE1;s forma un grupo bajo la multiplicaci&#xF3;n matricial, el cual esta dado por polinomios en
+        $\br^{n^2}$ y además forma un grupo bajo la multiplicación matricial, el cual esta dado por polinomios
+        en
         las
-        entradas de las matrices por lo que es una operaci&#xF3;n continua. La funci&#xF3;n de inversi&#xF3;n $A\mapsto A^{-1}$
+        entradas de las matrices por lo que es una operación continua. La función de inversión $A\mapsto
+        A^{-1}$
         es
-        una funci&#xF3;n racional en los coeficientes de $A$ (por la regla de Cramer) por lo que es continua; es decir,
-        $GL_n(\br)$ es un grupo topol&#xF3;gico llamado el <strong>grupo general lineal real</strong>.
-        De manera an&#xE1;loga se define el <strong>grupo general lineal complejo</strong>
+        una función racional en los coeficientes de $A$ (por la regla de Cramer) por lo que es continua; es decir,
+        $GL_n(\br)$ es un grupo topológico llamado el <strong>grupo general lineal real</strong>.
+        De manera análoga se define el <strong>grupo general lineal complejo</strong>
         $GL_n(\bc)$. Observemos que ambos grupos son Hausdorff.
       </p>
 
 
       <p>
-        Los grupos topol&#xF3;gicos $GL_n(\br), GL_n(\bc)$ tienen subgrupos muy interesantes:
+        Los grupos topológicos $GL_n(\br), GL_n(\bc)$ tienen subgrupos muy interesantes:
       </p>
 
       <ul>
@@ -397,28 +425,31 @@
 
       <p>
         donde $A^T$ es la <strong>matriz traspuesta</strong> de $A=[a_{ij}]$ dada por
-        $A^T=[a_{ji}]$ y $\ol{A}^T$ es 
-        <stong>matriz conjugada hermitiana</stong> 
+        $A^T=[a_{ji}]$ y $\ol{A}^T$ es
+        <stong>matriz conjugada hermitiana</stong>
         dada por $\ol{A}^T=[\ol{a_{ij}}]^T=[\ol{a_{ji}}]$.
-        A continuaci&#xF3;n estudiaremos algunos
+        A continuación estudiaremos algunos
         de los grupos mencionados arriba.
       </p>
 
 
       <p>
-        Consideremos $p:M_n(\br)\ra \br^n$ funci&#xF3;n que manda toda matriz a su primer vector columna. Al considerar la
-        descomposici&#xF3;n $M_n(\br)\cong \br^n \times M_{n,n-1}(\br)$, en la que separamos la primera columna, la
-        funci&#xF3;n
-        $p$ es proyecci&#xF3;n en el primer factor y por el 
-        <a class="w3-hover-text-blue" href="capitulo-01.html#proyecciones" target="_blank">Lema acerca de proyecciones</a> 
-        es funci&#xF3;n continua y abierta; en
+        Consideremos $p:M_n(\br)\ra \br^n$ función que manda toda matriz a su primer vector columna. Al considerar
+        la
+        descomposición $M_n(\br)\cong \br^n \times M_{n,n-1}(\br)$, en la que separamos la primera columna, la
+        función
+        $p$ es proyección en el primer factor y por el
+        <a class="w3-hover-text-blue" href="capitulo-01.html#proyecciones" target="_blank">Lema acerca de
+          proyecciones</a>
+        es función continua y abierta; en
         particular,
-        la restricci&#xF3;n
+        la restricción
         $$
         GL_n^+(\br)\lra \br^n\baca \{\ol{0}\}
         $$
-        es funci&#xF3;n continua y abierta. Observemos que por definici&#xF3;n de multiplicaci&#xF3;n matricial se tiene que
-        $p(AB)=Ap(B)=L_A(p(B))$, donde $L_A(B)=AB$ es multiplicaci&#xF3;n por la izquierda por $A$ y define un
+        es función continua y abierta. Observemos que por definición de multiplicación matricial se tiene
+        que
+        $p(AB)=Ap(B)=L_A(p(B))$, donde $L_A(B)=AB$ es multiplicación por la izquierda por $A$ y define un
         homeomorfismo
         de $GL_n^+(\br)$. Finalmente, dado que todo vector no cero determina un conjunto linealmente independiente de
         vectores, se sigue que $\forall v\in \br^n\baca \{\ol{0}\} , \:p^{-1}(v)\neq \emptyset$.
@@ -426,7 +457,7 @@
 
       <p>
         <strong>Afirm.</strong> $L_A(p^{-1}(v))=p^{-1}(Av)$. <br>
-        Para $C\in L_A(p^{-1}(v))$ existe $B\in p^{-1}(v),\:C=AB$; de aqu&#xED;
+        Para $C\in L_A(p^{-1}(v))$ existe $B\in p^{-1}(v),\:C=AB$; de aquí
         $$
         p(C)=p(AB)=Ap(B)=Av,
         $$
@@ -436,12 +467,12 @@
         $$
         p(C)=Av=Ap(B)=L_A(p(B))
         $$
-        As&#xED;, $C\in L_A(p^{-1}(v)).$ $\bt$
+        Así, $C\in L_A(p^{-1}(v)).$ $\bt$
       </p>
 
 
       <p>
-        Las propiedades mencionadas arriba se usar&#xE1;n para probar el siguiente:
+        Las propiedades mencionadas arriba se usarán para probar el siguiente:
       </p>
 
       <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive" style="padding:8px 16px 8px 16px;">
@@ -451,16 +482,17 @@
       </div>
 
       <p>
-        $\dem$ Procedamos por inducci&#xF3;n: observemos que $GL_1^+(\br)=(0,\infty)$, el cual es conexo. Supongamos que
-        $GL_{n-1}^+(\br)$ es conexo. Tomemos la proyecci&#xF3;n $p$ de arriba y notemos que para $(1,\ldots,0)\in
+        $\dem$ Procedamos por inducción: observemos que $GL_1^+(\br)=(0,\infty)$, el cual es conexo. Supongamos que
+        $GL_{n-1}^+(\br)$ es conexo. Tomemos la proyección $p$ de arriba y notemos que para $(1,\ldots,0)\in
         \br^n\baca
         \{0\}$
         $$
         p^{-1}((1,0,\ldots,0))=\br^{n-1}\times GL_{n-1}^+(\br)
         $$
-        el cual es conexo por hip&#xF3;tesis. Para $y\in \br^n\baca \{0\}$ tomamos $A\in GL_{n}^+(\br)$ tal que $p(A)=y$.
+        el cual es conexo por hipótesis. Para $y\in \br^n\baca \{0\}$ tomamos $A\in GL_{n}^+(\br)$ tal que
+        $p(A)=y$.
         De
-        la relaci&#xF3;n $p(AB)=Ap(B)$ se sigue que
+        la relación $p(AB)=Ap(B)$ se sigue que
         $$
         L_A(p^{-1}(1, \ldots,0))=p^{-1}(y)
         $$
@@ -470,13 +502,13 @@
 
 
       <p>
-        La demostraci&#xF3;n anterior aplica tambi&#xE9;n para $GL_n(\bc)$ probando que es conexo.
+        La demostración anterior aplica también para $GL_n(\bc)$ probando que es conexo.
       </p>
 
 
       <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive" style="padding:8px 16px 8px 16px;">
         <p><strong>Corolario:</strong>
-          Los grupos topol&#xF3;gicos $SL_n(\br), SL_n(\bc)$ son conexos
+          Los grupos topológicos $SL_n(\br), SL_n(\bc)$ son conexos
           y $GL_n(\br)$ tiene dos componentes conexas.
         </p>
       </div>
@@ -488,12 +520,14 @@
         $$
         GL_n(\bc)\lra SL_n(\bc),\;\;GL_n^+(\br)\lra SL_n(\br)
         $$
-        Dado que estas funciones son continuas y sobreyectivas, del Teorema anterior se sigue la primera afirmaci&#xF3;n.
-        Para la segunda notemos que se tiene una descomposici&#xF3;n
+        Dado que estas funciones son continuas y sobreyectivas, del Teorema anterior se sigue la primera
+        afirmación.
+        Para la segunda notemos que se tiene una descomposición
         $$
         GL_n(\br)=GL_n^+(\br)\cup GL_n^-(\br),
         $$
-        donde el t&#xE9;rmino $GL_n^-(\br)$ es homeomorfo a $GL_n^+(\br)$ mediante la multiplicaci&#xF3;n de una matriz con
+        donde el término $GL_n^-(\br)$ es homeomorfo a $GL_n^+(\br)$ mediante la multiplicación de una matriz
+        con
         determinante negativo.$\findem$
       </p>
 
@@ -508,14 +542,14 @@
           \end{matrix}\right)
           \barra x,y,z\in \bz\end{Bmatrix}
           $$
-          Claramente tienen $\det =1$ por lo que $H$ es un subgrupo de $SL_3(\br)$, el 
+          Claramente tienen $\det =1$ por lo que $H$ es un subgrupo de $SL_3(\br)$, el
           <strong>grupo de Heisenberg</strong>.
           Por otro lado, como $x,y,z$ pueden ser arbitrariamente grandes se
           tiene
-          que $H$ no est&#xE1; acotado por lo que no puede ser compacto. 
+          que $H$ no está acotado por lo que no puede ser compacto.
           En general, los grupos $SL_n(\br),SL_n(\bc)$ no
           son
-          compactos para $n&gt;1$; v&#xE9;ase Ejercicio 4.42 en 
+          compactos para $n&gt;1$; véase Ejercicio 4.42 en
           <a class="w3-hover-text-blue" href="referencias.html#Manetti15" target="_blank">Manetti, 2015</a>. $\bt$
         </li>
       </ul>
@@ -538,7 +572,7 @@
 
       <p>
         Hagamos $A=[a_{ij}]$ y notemos que de la
-        relaci&#xF3;n $A^TA=I_n$ se tienen $n^2$ ecuaciones:
+        relación $A^TA=I_n$ se tienen $n^2$ ecuaciones:
         $$
         \sum_{k=1}^n a_{ki}a_{kj}=\delta_{ij},
         $$
@@ -555,7 +589,7 @@
         $$
         \left(\begin{array}{cc} A&amp;0_{k,n-k}\\0_{n-k,k}&amp;B\end{array} \right)
         $$
-        Con esto se identifica la inclusi&#xF3;n $O_k(\br)\times O_{n-k}(\br)\subset O_n(\br)$.
+        Con esto se identifica la inclusión $O_k(\br)\times O_{n-k}(\br)\subset O_n(\br)$.
       </p>
 
 
@@ -572,48 +606,51 @@
         Similarmente a lo que se hizo
         antes,
         $SO_n(\br)$ se puede expresar como subgrupo de $SO_{n+1}(\br)$
-        mediante la identificaci&#xF3;n:
+        mediante la identificación:
         $$
         \left(\begin{array}{cc} A&amp;0\\0&amp;1\end{array} \right)=\left(\begin{array}{cccc}
-        a_{11}&amp;\cdots&amp;a_{1n}&amp;0\\\vdots&amp;\ddots &amp;\vdots&amp;\vdots\\a_{n1}&amp;\cdots&amp;a_{nn}&amp;0\\0&amp;\cdots&amp;0&amp;1\end{array} \right)
+        a_{11}&amp;\cdots&amp;a_{1n}&amp;0\\\vdots&amp;\ddots
+        &amp;\vdots&amp;\vdots\\a_{n1}&amp;\cdots&amp;a_{nn}&amp;0\\0&amp;\cdots&amp;0&amp;1\end{array} \right)
         $$
         para $A=[a_{ij}]\in SO_n(\br)$.
       </p>
 
 
       <p>
-        La importancia de los grupos ortogonales se debe a su relaci&#xF3;n con las
-        <strong>isometr&#xED;as</strong>: funciones biyectivas $f:\br^n\ra \br^n$ que preservan distancia; es
-        decir, $|f(x)-f(y)|=|x-y|$. Si $f(0)=0$ entonces se llama una <strong>isometr&#xED;as lineal</strong> 
-        y en la base can&#xF3;nica
-        corresponde a una matriz en $GL_n(\br)$. M&#xE1;s a&#xFA;n:
+        La importancia de los grupos ortogonales se debe a su relación con las
+        <strong>isometrías</strong>: funciones biyectivas $f:\br^n\ra \br^n$ que preservan distancia; es
+        decir, $|f(x)-f(y)|=|x-y|$. Si $f(0)=0$ entonces se llama una <strong>isometrías lineal</strong>
+        y en la base canónica
+        corresponde a una matriz en $GL_n(\br)$. Más aún:
       </p>
 
       <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive" style="padding:8px 16px 8px 16px;">
         <p><strong>Lema:</strong>
           Para $A\in GL_n(\br)$ las siguientes condiciones son equivalentes:
-          </p><ul>
-            <li>
-              $A$ es isometr&#xED;a lineal
-            </li>
-            <li>
-              $Ax\cdot Ay=x\cdot y,\;\forall x,y\in \br^n$
-            </li>
-            <li>
-              $A$ es ortogonal
-            </li>
-          </ul>
+        </p>
+        <ul>
+          <li>
+            $A$ es isometría lineal
+          </li>
+          <li>
+            $Ax\cdot Ay=x\cdot y,\;\forall x,y\in \br^n$
+          </li>
+          <li>
+            $A$ es ortogonal
+          </li>
+        </ul>
         <p></p>
       </div>
 
 
       <p>
-        Por este resultado (<a class="w3-hover-text-blue" href="referencias.html#Baker01" target="_blank">Baker 2001</a>)
-        los elementos de $SO_n(\br)$ son llamados isometr&#xED;as directas o
-        <strong>rotaciones</strong>, las cuales est&#xE1;n
-        caracterizados por la rotaci&#xF3;n en $\br^n$ de un plano en
-        un &#xE1;ngulo $\Theta$ respecto a una linea $l$ perpendicular
-        a dicho plano. M&#xE1;s a&#xFA;n, del resultado se sigue que
+        Por este resultado (<a class="w3-hover-text-blue" href="referencias.html#Baker01" target="_blank">Baker
+          2001</a>)
+        los elementos de $SO_n(\br)$ son llamados isometrías directas o
+        <strong>rotaciones</strong>, las cuales están
+        caracterizados por la rotación en $\br^n$ de un plano en
+        un ángulo $\Theta$ respecto a una linea $l$ perpendicular
+        a dicho plano. Más aún, del resultado se sigue que
         los vectores columnas de una matriz en $SO_n(\br)$ son ortonormales entre si.
       </p>
 
@@ -624,7 +661,8 @@
         </li>
         <li>
           Tomemos $A\in SO_2(\br)$ y tomemos su primer vector columna, digamos $z\in S^1$. Notemos que el segundo
-          vector columna queda determinado automaticamente: es $iz$, con $i^2=-1$. M&#xE1;s a&#xFA;n, se tiene una biyecci&#xF3;n
+          vector columna queda determinado automaticamente: es $iz$, con $i^2=-1$. Más aún, se tiene una
+          biyección
           $S^1 \leftrightarrow SO_2(\br)$ que, de hecho, es un isomorfismo de grupos (multiplicativos)
           (<a class="w3-hover-text-blue" href="referencias.html#Lima03" target="_blank">Lima 2003</a>).
         </li>
@@ -633,39 +671,42 @@
           $$
           \mcal{C}=\left\{\left(\begin{array}{cc}a&amp;-b\\b&amp;a\end{array} \right)\barra a,b\in \br \right \}
           $$
-          La funci&#xF3;n $F:\bc\ra \mcal{C}$ dada por $F(a+ib)= \left(\begin{array}{cc}a&amp;-b\\b&amp;a\end{array} \right)$
+          La función $F:\bc\ra \mcal{C}$ dada por $F(a+ib)= \left(\begin{array}{cc}a&amp;-b\\b&amp;a\end{array}
+          \right)$
           define un
-          isomorfismo de grupos aditivos. Por restricci&#xF3;n a los complejos unitarios $F$ induce un isomorfismo entre
+          isomorfismo de grupos aditivos. Por restricción a los complejos unitarios $F$ induce un isomorfismo entre
           $SO_2(\br)$ y $S^1$.
         </li>
         <li>
           De las descripciones anteriores podemos describir a $A\in SO_2(\br)$ como sigue: tomemos $z\in S^1$ y lo
-          escribimos $z=\cos(2\pi \alpha)+i\:\sin(2\pi \alpha)$, para alg&#xFA;n $\alpha\in [0,1)$. La matriz de rotaci&#xF3;n
+          escribimos $z=\cos(2\pi \alpha)+i\:\sin(2\pi \alpha)$, para algún $\alpha\in [0,1)$. La matriz de
+          rotación
           tiene la forma
           $$
-          \left(\begin{array}{cc}\cos(2\pi \alpha)&amp;-\sin(2\pi \alpha)\\\sin(2\pi \alpha)&amp;\cos(2\pi \alpha)\end{array}
+          \left(\begin{array}{cc}\cos(2\pi \alpha)&amp;-\sin(2\pi \alpha)\\\sin(2\pi \alpha)&amp;\cos(2\pi
+          \alpha)\end{array}
           \right)
           $$
-          y su efecto en un vector $\ol{x}\in \br^2$ est&#xE1; dado por la multiplicaci&#xF3;n $A\cdot\ol{x}$.
+          y su efecto en un vector $\ol{x}\in \br^2$ está dado por la multiplicación $A\cdot\ol{x}$.
         </li>
         <li>
-          El grupo de rotaciones $SO_3(\br)$ en $\br^3$ ser&#xE1; interpretado como cierto espacio cociente de la esfera
-          llamado el <strong>espacio proyectivo</strong> $\rp{3}$. 
-          Para dimensiones mayores no se tiene ninguna relaci&#xF3;n entre
+          El grupo de rotaciones $SO_3(\br)$ en $\br^3$ será interpretado como cierto espacio cociente de la esfera
+          llamado el <strong>espacio proyectivo</strong> $\rp{3}$.
+          Para dimensiones mayores no se tiene ninguna relación entre
           $\rp{n}$ y $SO_n(\br).$ $\bt$
         </li>
       </ul>
 
       <p>
-        A continuaci&#xF3;n un resultado para estudiar las 
-        propiedades topol&#xF3;gicas del grupo ortogonal:
+        A continuación un resultado para estudiar las
+        propiedades topológicas del grupo ortogonal:
       </p>
 
       <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive" style="padding:8px 16px 8px 16px;" id="qlp">
         <p><strong>Lema:</strong>
-          Sea $f:X\ra Y$ funci&#xF3;n continua y sobreyectiva, con $X$ 
+          Sea $f:X\ra Y$ función continua y sobreyectiva, con $X$
           compacto y $Y$ conexo y Hausdorff. Si todas las
-          preimagenes $f^{-1}(y)$ son conexos, $\forall y\in Y$, 
+          preimagenes $f^{-1}(y)$ son conexos, $\forall y\in Y$,
           entonces $X$ es conexo.
         </p>
       </div>
@@ -674,53 +715,62 @@
 
       <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive" style="padding:8px 16px 8px 16px;">
         <p><strong>Teorema:</strong>
-          Los grupos topol&#xF3;gicos $SO_n(\br),U_n(\bc), SU_n(\bc)$ son compactos y conexos.
+          Los grupos topológicos $SO_n(\br),U_n(\bc), SU_n(\bc)$ son compactos y conexos.
         </p>
       </div>
 
       <p>
-      $\dem$ Consideraremos el caso real. Consideremos la funci&#xF3;n
-      $$
-      M_n(\br)\lra M_n(\br)\times \br,\;\;A\mapsto (AA^T,\det (A))
-      $$
-      y notemos que la preimagen de $(I,1)$ es $SO_n(\br)$, lo que lo hace subconjunto cerrado de $M_n(\br)$. Por otro
-      lado, dado que para $A=[a_{ij}]\in SO_n(\br)$ se tiene $AA^T=I,\det(A)=1$ los coeficientes pertenecen al conjunto
-      $$
-      \left\{[a_{ij}]\barra \sum_{i,j}a_{ij}^2=n\right\}
-      $$
-      probando que $SO_n(\br)$ est&#xE1; acotado y por tanto es compacto.
-      <br>
-      Para probar la conexidad procedemos como sigue: consideremos la funci&#xF3;n $$
-      p:SO_n(\br)\lra S^{n-1}
-      $$
-      que manda una matriz a su primer vector columna. La funci&#xF3;n $p$ es continua y adem&#xE1;s cumple (como ya se
-      prob&#xF3; antes)
-      $$
-      p(AB)=Ap(B),\;\;L_A(p^{-1}(v))=p^{-1}(Av)
-      $$
-      mostrando que todas las preimagenes son homeomorfas. Aplicaremos el <a class="w3-hover-text-blue" href="#qlp">Lema anterior</a> de arriba para obtener la
-      conexidad de $SO_n(\br)$ para lo cual necesitamos conocer la conexidad de las preimagenes. Primero observemos que
-      $SO_1(\br)=\{1\}$, el cual es conexo. Supongamos que $SO_{n-1}(\br)$ es conexo, y notemos que es la preimagen de
-      $(1,0,\ldots, 0)$. Por el <a class="w3-hover-text-blue" href="#qlp">Lema anterior</a> se obtiene que $SO_n(\br)$ es conexo.$\findem$
+        $\dem$ Consideraremos el caso real. Consideremos la función
+        $$
+        M_n(\br)\lra M_n(\br)\times \br,\;\;A\mapsto (AA^T,\det (A))
+        $$
+        y notemos que la preimagen de $(I,1)$ es $SO_n(\br)$, lo que lo hace subconjunto cerrado de $M_n(\br)$. Por otro
+        lado, dado que para $A=[a_{ij}]\in SO_n(\br)$ se tiene $AA^T=I,\det(A)=1$ los coeficientes pertenecen al
+        conjunto
+        $$
+        \left\{[a_{ij}]\barra \sum_{i,j}a_{ij}^2=n\right\}
+        $$
+        probando que $SO_n(\br)$ está acotado y por tanto es compacto.
+        <br>
+        Para probar la conexidad procedemos como sigue: consideremos la función $$
+        p:SO_n(\br)\lra S^{n-1}
+        $$
+        que manda una matriz a su primer vector columna. La función $p$ es continua y además cumple (como ya
+        se
+        probó antes)
+        $$
+        p(AB)=Ap(B),\;\;L_A(p^{-1}(v))=p^{-1}(Av)
+        $$
+        mostrando que todas las preimagenes son homeomorfas. Aplicaremos el <a class="w3-hover-text-blue" href="#qlp">Lema anterior</a> de arriba para obtener la
+        conexidad de $SO_n(\br)$ para lo cual necesitamos conocer la conexidad de las preimagenes. Primero observemos
+        que
+        $SO_1(\br)=\{1\}$, el cual es conexo. Supongamos que $SO_{n-1}(\br)$ es conexo, y notemos que es la preimagen de
+        $(1,0,\ldots, 0)$. Por el <a class="w3-hover-text-blue" href="#qlp">Lema anterior</a> se obtiene que $SO_n(\br)$
+        es conexo.$\findem$
       </p>
-      
+
 
     </div>
 
   </section>
 
+  <div class="w3-container w3-center w3-padding-large">
+    <a href="capitulo-02.html"><button class="w3-left w3-button w3-hover-shadow w3-dark-grey w3-round-xlarge">❮
+        Previo</button></a>
+    <a href="capitulo-04.html"><button class="w3-right w3-button w3-hover-shadow w3-dark-grey w3-round-xlarge">Siguiente
+        ❯</button></a>
+  </div>
+
+  <br>
+
 
 </section>
       </div>
     </div>
+    
     <!--Footer-->
 
-    <div class="w3-container w3-center w3-padding-large">
-      <a href="capitulo-02.html"><button class="w3-left w3-button w3-hover-shadow w3-dark-grey w3-round-xlarge">&#10094; Previo</button></a>
-      <a href="capitulo-04.html"><button class="w3-right w3-button w3-hover-shadow w3-dark-grey w3-round-xlarge">Siguiente &#10095;</button></a>
-    </div>
-
-    <br/>
+    
 
     <div class="w3-container w3-dark-grey w3-center">
       <p><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License"
@@ -728,7 +778,7 @@
     </div>
 
     <!--Footer-->
-    
+
   </div>
 
 
