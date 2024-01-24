@@ -64,6 +64,7 @@
           Mod: ["{\\mathrm{mod}\\ #1}", 1],//\newcommand{\Mod}[1]{\ (\mathrm{mod}\ #1)}
           map: "{\\mbox{Map}}",
           rel: "{\\:\\mbox{rel}}",
+          topp: "{\\rm Top}", //\newcommand{\topp}{{\rm Top}}
         },
       },
     });
@@ -1098,7 +1099,7 @@
                   Definamos $h:A\ra B,\;(0,t)\mapsto (1,t), (t,0)\mapsto (1-t,1)$. El resultado de pegar $A,B$ a
                   través de $h$, es la botella de Klein.$\bt$
 
-                  
+
 
                   <div class="w3-content w3-center" style="max-width:230px">
                     <img class="mySlides" src="imgs/cap-04/480px-Klein_Bottle_Folding_1.svg.png" style="width:100%">
@@ -1108,21 +1109,23 @@
                     <img class="mySlides" src="imgs/cap-04/450px-Klein_Bottle_Folding_5.svg.png" style="width:75%">
                     <img class="mySlides" src="imgs/cap-04/450px-Klein_Bottle_Folding_6.svg.png" style="width:75%">
                     <figcaption>
-                      <span style="font-size: 0.8em;">Source: <a href="https://en.wikipedia.org/wiki/Klein_bottle#Construction" target="_blank">Wikipekia commons</a></span>
+                      <span style="font-size: 0.8em;">Source: <a
+                          href="https://en.wikipedia.org/wiki/Klein_bottle#Construction" target="_blank">Wikipekia
+                          commons</a></span>
                     </figcaption>
                   </div>
-                  
+
                   <div class="w3-center">
                     <div class="w3-section">
                       <button class="w3-button w3-light-grey" onclick="plusDivs(-1)">❮ Prev</button>
                       <button class="w3-button w3-light-grey" onclick="plusDivs(1)">Sig ❯</button>
                     </div>
-                    <button class="w3-button demo" onclick="currentDiv(1)">1</button> 
-                    <button class="w3-button demo" onclick="currentDiv(2)">2</button> 
-                    <button class="w3-button demo" onclick="currentDiv(3)">3</button> 
-                    <button class="w3-button demo" onclick="currentDiv(4)">4</button> 
-                    <button class="w3-button demo" onclick="currentDiv(5)">5</button> 
-                    <button class="w3-button demo" onclick="currentDiv(5)">6</button> 
+                    <button class="w3-button demo" onclick="currentDiv(1)">1</button>
+                    <button class="w3-button demo" onclick="currentDiv(2)">2</button>
+                    <button class="w3-button demo" onclick="currentDiv(3)">3</button>
+                    <button class="w3-button demo" onclick="currentDiv(4)">4</button>
+                    <button class="w3-button demo" onclick="currentDiv(5)">5</button>
+                    <button class="w3-button demo" onclick="currentDiv(5)">6</button>
                   </div>
 
                   <script>
@@ -1164,14 +1167,326 @@
           <section data-type="sect5" id="seccion-5">
 
             <div class="w3-container w3-section">
-              <h2>4.5 🏗️🏗️🏗️</h2>
+              <h2>4.5 Acciones en espacios</h2>
+
+              <hr>
+
 
               <p>
-                🏗️🏗️🏗️
+                En esta sección hablaremos del espacio cociente que surge al considerar la interacción de un grupo con
+                un espacio topológico.
+              </p>
+
+              <p>
+                Recordemos que el conjunto $\topp(X)$ de homeomorfismos de un espacio $X$ forma un grupo con la
+                operación de composición:
+                $$
+                g,f\in \topp(X),\;\; f\circ g\in \topp(X)
+                $$
+                Observemos que dado un elemento $f\in \topp(X)$ la evaluación $f(x)$ está bien definida para cualquier
+                $x\in X$.
+              </p>
+
+              <h3>Ejemplo:</h3>
+
+              <ul>
+                <li>
+                  Para la recta real $\br$ consideramos la función dada por una traslación por $1$
+                  \begin{equation}\label{tra1}
+                  t_1:\br \to \br,\qquad t_1(x):=x+1
+                  \end{equation}
+                  Observemos que $t_1$ es función continua y tiene por inversa a $t_{-1}(x):=x-1$, que también es
+                  continua; de esto obtenemos que $t_1\in \topp(\br)$.\\
+                  La elección de $1$ en la función (\ref{tra1}) fue totalmente arbitraria pues es posible elegir
+                  cualquier entero $p$ para definir
+                  $$
+                  t_p:\br \to \br,\qquad t_p(x):=x+p
+                  $$
+                  y obtener un elemento de $\topp(\br)$.$\bt$
+                </li>
+              </ul>
+
+              <p>
+                El ejemplo anterior muestra que $\topp(\br)$ es "grande" pues se tiene una inclusión de la forma
+                $$
+                \{\ldots,t_{-2},t_{-1},t_0,t_1,t_2,\ldots\}\subseteq \topp(\br)
+                $$
+              </p>
+
+              <p>
+                En general, el grupo de homeomorfismos $\topp(X)$ de un espacio puede tener una cantidad grande de
+                elementos, por lo que resulta conveniente introducir alguna equivalencia entre ellos para dividirlo en
+                clases de equivalencia. Una de ellas es la homotopía, así que el estudio de $\topp(X)$ puede realizarse
+                a través de clases de homotopía de homeomorfismos.
+              </p>
+
+              <p>
+                Cuando se especifica un subgrupo $G\subseteq \topp(X)$ decimos que dicho grupo {\bf actúa en $X$} en
+                el siguiente sentido de la siguiente relación de equivalencia: $
+                x\sim y\:\sss\: \exists g\in G, \; y=g(x)$. Es decir, los elementos de $G$ "mueven" a los puntos de $X$.
+              </p>
+
+              <p>
+                Definimos la \res{$G$-órbita} de $x\in X$ como su clase de equivalencia bajo la relación anterior; es
+                decir,
+                $$
+                G_x=\{g(x)\barra g\in G \}
+                $$
+                La $G$-órbita para $A\subseteq X$ es la unión de las órbitas de sus elementos
+                $$
+                G_A=\bigcup_{x\in A}G_x
+                $$
+                El conjunto de órbitas (de elementos de $X$) forma una partición de $X$, denotada por $X/G$ y
+                llamado el \res{espacio de órbitas} de la acción de $G$. Tenemos entonces una función cociente
+                canónica
+                $$
+                \pi:X\lra X/G,\;\;x\longmapsto G_x,
+                $$
+                con $\pi^{-1}(\pi(x))=G_x$, como subconjunto de $X$. Con la topología cociente los abiertos en $X/G$
+                son órbitas de abiertos en $X$:
+                $$
+                U\subseteq X \;\;\longmapsto G_U=\bigcup_{x\in U} G_x
+                $$
+              </p>
+
+              <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive myCard">
+                <p><strong>Theorema:</strong>
+                  Sean $G\subseteq \topp(X)$ y $\pi:X\ra X/G$ como arriba. Entonces $\pi$ es una función abierta; si
+                  $G$ es finito $\pi$ es también cerrada.
+                </p>
+              </div>
+
+              <p>
+                $\dem$ Por definición, para un abierto $U\subseteq X$ se tiene
+                $$
+                \pi^{-1}(\pi(U))=\bigcup_{g\in G} g(U)
+                $$
+                es unión de abiertos por ser $g$ homeomorfismos; de aquí, $\pi(U)$ es abierto en $X/G$. Si $G$ es
+                finito y $C\subseteq X$ es cerrado, entonces $\pi^{-1}(\pi(C))=G_C$ como arriba es unión finita de
+                cerrados y por tanto $\pi(C)$ es cerrado.$\findem$
+              </p>
+
+              <p>
+                Como se mencionó antes, resulta importante analizar cuáles son las propiedades topológicas que se
+                heredan a espacios cocientes. En general, el cociente de un espacio Hausdorff no es Hausdorff:
+
+              </p>
+
+              <h3>Ejemplo:</h3>
+
+              <ul>
+                <li>
+                  Recordemos que $G=GL_n(\br)$ es el grupo de matrices con $\det(A)\neq 0$; equivalentemente $G$
+                  consiste de transformaciones lineales invertibles $\br^n\to \br^n$ por lo que tenemos que $G\subset
+                  \topp(\br^n)$. Dados dos vectores $\ol{x},\ol{y}\in \br^n$ no cero, observemos que la ecuación
+                  $$
+                  A\ol{x}=\ol{y}
+                  $$
+                  siempre tiene solución (no trivial) pues $\det(A)\neq 0$. Esto muestra que el cociente $\br^n/G$
+                  consiste de dos clases, lo que implica que no es Hausdorff. $\bt$
+                </li>
+              </ul>
+
+              <p>
+                Aún así se tiene el siguiente criterio para detectar cocientes Hausdorff:
+              </p>
+
+              <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive myCard">
+                <p><strong>Theorema:</strong>
+                  Sea $G\subseteq \topp(X)$. El cociente $X/G$ es Hausdorff $\sss$ el subespacio
+                  $$
+                  K=\{(x,g(x))\in X\times X\barra x\in X,\; g\in G \}
+                  $$
+                  es cerrado en $X\times X$.
+                </p>
+              </div>
+
+              <p>
+                $\dem$ Sabemos que la función cociente $X\ra X/G$ es abierta y sobreyectiva por lo que el
+                producto
+                $$
+                p:X\times X\lra X/G\times X/G
+                $$
+                es también abierta y sobreyectiva; en particular, es una función cociente. Notemos que $p(x,y)\in
+                \triangle_{X/G}\sss x,y$ pertenecen a la misma órbita; es decir, $(x,y)\in K$ por lo que
+                $K=p^{-1}(\triangle_{X/G})$. Finalmente, como $p$ es función cociente, $\triangle_{X/G}$ es cerrado
+                $\sss$ $K$ es cerrado.$\findem$
+              </p>
+
+              <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive myCard">
+                <p><strong>Theorema:</strong>
+                  Sean $G\subseteq \topp (X)$, con $X$ Hausdorff y $\pi:X\ra X/G$ la respectiva función cociente.
+                  Supongamos que existe $A\subseteq X$ abierto tal que $\pi:A\ra X/G$ es sobreyectiva y el conjunto
+                  $$
+                  \{g\in G\barra g(A)\cap A\neq \emptyset \}
+                  $$
+                  es finito. Entonces $X/G$ es Hausdorff.
+                </p>
+              </div>
+
+              <p>
+                $\dem$ Hagamos $\{g_1,\ldots, g_n\}=g(A)\cap A$. Dados $p,q\in X/G$ elementos distintos escojamos
+                $x,y\in X$ tales que $\pi(x)=p,\pi(y)=q$; es decir, escogemos elementos en las órbitas de $p,q$. Como
+                $X$ es Hausdorff podemos considerar $U_i,V_i\subseteq X$ tales que
+                $$
+                x\in U_i,\;\;g_i\cdot y\in V_i,\;\;\;U_i\cap V_i=\emptyset,\;\;i=1,2,\ldots,n
+                $$
+                Tomemos los abiertos
+                $$
+                U=A\cap (\bigcap_{i=1}^n U_i),\qquad V=A\cap (\bigcap_{i=1}^n g_i^{-1}(V_i))
+                $$
+
+                <br />
+                <strong>Afirm. $\forall g\in G,\; U\cap g(V)=\emptyset$.</strong><br />
+                $\bullet\;$ Si $g(A)\cap A=\emptyset$ entonces, puesto que $U,V\subseteq A$, se sigue que $U\cap
+                g(V)\subseteq A\cap g(A)=\emptyset$ y la afirmación es cierta.<br />
+                $\bullet\;$ Si $g=g_i$, para algún $i$, entonces del hecho de que $U\subseteq U_i$ y que $V\subseteq
+                g^{-1}(V_i)$ se tiene que
+                $$
+                U\cap g(V)\subseteq U_i\cap V_i=\emptyset.
+                $$
+                Finalmente, para probar que $x\in U, y\in V$ tienen vecindades disjuntas probaremos que
+                $$
+                \big(\bigcup_{g\in G}g(U) \big)\cap \big(\bigcup_{h\in G}h(V) \big)=\bigcup_{g,h\in G}\big(g(U)\cap
+                h(V)\big)=\emptyset
+                $$
+                Pero si $g(U)\cap h(V)\neq \emptyset$, para ciertos $g,h\in G$ entonces tedríamos que
+                $$
+                U\cap g^{-1}h(V)=g^{-1}\big(g(U)\cap h(V) \big)\neq \emptyset
+                $$
+                lo cual no puede ser por lo que se acaba de probar arriba. $\findem$
+              </p>
+
+              <h3>Ejemplo:</h3>
+
+              <ul>
+                <li>
+                  Consideremos $\topp(\br^n)$ y tomemos el subgrupo $G$ que consiste de translaciones por vectores de
+                  entradas dadas por números enteros:
+                  $$
+                  g\in G,\;\;g\cdot \ol{x}=\ol{x}+\ol{a}, \;\;\ol{a}\in \bz^n
+                  $$
+                  Para $A=\{(x_1,\ldots,x_n)\in \br^n\barra |x_i|&lt;1, i=1,2,\ldots, n\}$ la función cociente $A\ra
+                  X/G$
+                  es sobreyectiva. Además, para $\ol{a}=(a_1,\ldots,a_n)\in \bz^n$ se tiene que $A\cap
+                  (A+\ol{a})\neq \emptyset$ si, y sólo si $\ol{a}=(a_i)$ con $|a_i|\leq 1$; es decir, $\ol{a}$ tiene
+                  por coordenadas combinaciones de 0's, 1's y -1's. Por el resultado anterior se tiene que $\br^n/G$
+                  es Hausdorff. $\bt $
+                </li>
+              </ul>
+
+              <p>
+                Las condiciones del resultado anterior se satisfacen trivialmente cuando el grupo $G$ que actúa en $X$
+                es finito.
+              </p>
+
+              <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive myCard">
+                <p><strong>Corolario:</strong>
+                  Sea $G\subset Homeo(X)$ finito para $X$ Hausdorff. Entonces $X/G$ es Hausdorff.
+                </p>
+              </div>
+
+              <p>
+                A continuación otro criterio para determinar si el cociente es Hausdorff.
+              </p>
+
+              <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive myCard">
+                <p><strong>Lema:</strong>
+                  Sea $G\acc X$. Si $X,G$ son Hausdorff y compactos, entonces $X/G$ también es Hausdorff y compacto.
+                </p>
+              </div>
+
+              <p>
+                En particular, si $G$ es grupo topológico compacto y Hausdorff y $H\leq G$ es cerrado, el cociente
+                $G/H$ es Hausdorff y compacto.
+              </p>
+
+              <p>
+                Decimos que la acción de $G$ en $X$ es \res{transitiva \index{acción!transitiva}} si para
+                cualesquiera $x,y\in X$ existe $g\in G$ tal que $g\cdot x=y$. Notemos que si la acción es transitiva,
+                entonces $X/G$ consiste de un único punto. Por otro lado, el grupo
+                \res{estabilizador\index{grupo!estabilizador}} de $X$ es el subgrupo
+                $$
+                G_x=\{g\in G\barra g\cdot x=x\}
+                $$
+                La acción de $G$ se dice \res{libre\index{acción!libre}} si $G_x=\{e\},\;\forall x\in X$.
               </p>
 
 
+              <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive myCard">
+                <p><strong>Lema:</strong>
+                  SSea $G$ grupo topológico compacto actuando en $X$ de manera transitiva, con $X$ Hausdorff. Entonces
+                  $G/G_x\cong X,\;\forall x\in X$.ea $G\acc X$. Si $X,G$ son Hausdorff y compactos, entonces $X/G$
+                  también es Hausdorff y compacto.
+                </p>
+              </div>
 
+              <p>
+                $\dem$ Para $x\in X$ fijo consideremos la función
+                $$
+                \varphi_x:G\lra X,\;\; g\mapsto g\cdot x
+                $$
+                Notemos que $g,g'\in G$ son equivalentes $\sss\; g^{-1}g'\in G_x$; es decir, $(g^{-1}g')\cdot x=x$, de
+                donde $g\cdot x=g'\cdot x$. Con esto $\varphi$ pasa al cociente por $G_x$:
+                $$
+                \ol{\varphi}_x:G/Stab(x)\lra X
+                $$
+                Notemos que $\ol{\varphi}_x$ es inyectiva (por construcción) y como la acción es transitiva, es
+                también sobreyectiva. Como $G/Stab(x)$ es compacto y $X$ Hausdorff, $\ol{\varphi}_x$ es homeomorfismo
+                (Corolario \ref{biyeh}). $\findem$
+              </p>
+
+              <h3>Ejemplos:</h3>
+
+              <ul>
+                <li>
+                  Recordemos que $O_n(\br)\acc S^{n-1}$ mediante multiplicación matricial, y lo hace, además, de
+                  manera transitiva pues para $\ol{u}\in S^{n-1}$ cualquiera podemos hallar una base ortonormal
+                  $\{\ol{u}_1,\ol{u}_2,\ldots,\ol{u}_n=\ol{u}\}$ cuyos vectores forman las columnas de una matriz
+                  ortogonal $A\in O_n(\br)$ tal que $Ae_n=\ol{u}$.\\
+                  Por otro lado, notemos que si $\ol{v}=e_n\in S^{n-1}$ es un vector de la base canónica, entonces
+                  $Ae_n=e_n\sss$ la última columna de $A$ es precisamente $e_n$ y el resto de las columnas de $A$ son
+                  ortogonales a $e_n$. Dado que las columnas de $A$ forman un conjunto ortonormal de vectores, cada una
+                  de las primeras $(n-1)$ columnas de $A$ tienen la forma
+                  $$
+                  \left[\begin{array}{c} a_{1_k}\\a_{2k}\\\vdots\\a_{n-1k}\\0\end{array}\right]
+                  $$
+                  donde la matriz
+                  $$
+                  \left[\begin{array}{cccc}a_{11}&a_{12}&\cdots&a_{1n-1}
+                  \\a_{21}&a_{22}&\cdots&a_{2n-1}\\\cdots&\cdots&\cdots&\vdots\\a_{n-11}&a_{n-12}&\cdots&a_{n-1n-1}
+                  \end{array} \right]
+                  $$
+                  es ortogonal y por lo tanto pertenece a $O_{n-1}(\br)$; de aqui se tiene que $Stab(e_n)=O_{n-1}(\br)$.
+                  Haciendo la identificación
+                  $$
+                  O(n-1)\ni A\longmapsto \left(\begin{array}{cc}A&0\\0&1\end{array} \right)\in O(n)
+                  $$
+                  se tiene que $Stab(e_n)=O_{n-1}(\br)\subset O_n(\br)$. Por la proposición anterior se tiene
+                  $$
+                  O_n(\br)/Stab(e_n)=O_n(\br)/O_{n-1}(\br)\cong S^{n-1}
+                  $$
+                  y la función cociente se identifica con
+                  $O(n)\ra S^{n-1}$ que envia a cada matriz $A$ a su primer columna.\\
+                  \res{Nota. }para el caso general se considera $\tilde{x}=(1/|x|)\ol{x}$ y se nota que
+                  $Stab(\tilde{x})=Stab(\ol{x})$.
+                </li>
+                <li>
+                  En el ejemplo anterior pudimos haber considerado $SO_{n-1}(\br)\acc S^{n-1}$ para obtener
+                  $$
+                  SO_n(\br)/SO_{n-1}(\br)\cong S^{n-1},
+                  $$
+                  también sus análogos complejos:
+                  $$
+                  O_n(\bc)/O_{n-1}(\bc)\cong S^{n-1},
+                  $$
+                  y cuaterniónicos
+                  $$
+                  O_n(\mbox{H})/O_{n-1}(\mbox{H})\cong S^{4n-1}.\;\blacktriangleleft
+                  $$
+
+                </li>
+              </ul>
 
             </div>
 
