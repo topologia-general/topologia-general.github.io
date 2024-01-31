@@ -39,7 +39,7 @@
           cp: ["{\\mathbb{CP}^{#1}}", 1],
           ida: "{\\boxed{\\Rightarrow}}",
           vuelta: "{\\boxed{\\Leftarrow}}",
-          simi: "{\\!sim}",
+          simi: "{\\sim}",
           dem: "{\\underline{Demostración.}}",
           findem: "{\\;\\blacksquare}",
           bk: "{\\mathbb{K}}",
@@ -163,6 +163,10 @@
         <dd><a href="capitulo-04.html#seccion-4-1" class="w3-bar-item w3-button">&nbsp; - Colapsos</a></dd>
         <dd><a href="capitulo-04.html#seccion-4-2" class="w3-bar-item w3-button">&nbsp; - Identificaciones</a></dd>
         <dd><a href="capitulo-04.html#seccion-5" class="w3-bar-item w3-button">Acciones de espacios</a></dd>
+        <dd><a href="capitulo-04.html#seccion-6" class="w3-bar-item w3-button">Zoológico topológico</a></dd>
+        <dd><a href="capitulo-04.html#seccion-6-1" class="w3-bar-item w3-button">&nbsp; - Espacios proyectivos</a></dd>
+        <dd><a href="capitulo-04.html#seccion-6-2" class="w3-bar-item w3-button">&nbsp; - Espacios lente</a></dd>
+        <dd><a href="capitulo-04.html#seccion-6-3" class="w3-bar-item w3-button">&nbsp; - Variedades de Grassmann</a></dd>
 
         <dt><a href="referencias.html" onclick="w3_close()"
             class="w3-bar-item w3-button"><strong>Referencias</strong></a></dt>
@@ -295,7 +299,7 @@
       <p>
         Por lo anterior, una función cociente es aquella función continua que
         lleva subconjuntos saturados abiertos de $X$ en abiertos de $Y$ (o saturados
-        cerrados en cerrados de $Y$); véase <a href="referencias.html#Moller" target="_blank">Møller,
+        cerrados en cerrados de $Y$); véase <a class="w3-hover-text-blue" href="referencias.html#Moller" target="_blank">Møller,
           Proposición 2.77</a>.
       </p>
 
@@ -665,7 +669,7 @@
           $$
           Notemos que $f$ es la identidad en $\bz$ y $f(x)$ es el entero impar más cercano a $x$. La
           topología cociente inducida por $f$ es llamada la Topología
-          Digital\index{topología!digital} de los enteros $\bz$ y tiene por abiertos $\{n\}$, si $n$ es
+          Digital de los enteros $\bz$ y tiene por abiertos $\{n\}$, si $n$ es
           impar; para $n$ par el abierto más peque\~no que lo contiene es $\{n-1,n,n+1\}$; véase el Ejemplo
           en
           <a class="w3-hover-text-blue" href="capitulo-01.html#topologia-digital" target="_blank">Capitulo 1,
@@ -853,7 +857,7 @@
       <p>
         Otro criterio en términos de los saturados de
         la función cociente; véase Proposición 2.5 en
-        <a href="referencias.html#FeTa10" target="_blank">Félix &amp; Tanré, 2010</a>:
+        <a class="w3-hover-text-blue" href="referencias.html#FeTa10" target="_blank">Félix &amp; Tanré, 2010</a>:
       </p>
 
       <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive myCard">
@@ -1413,7 +1417,7 @@
 
       <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive myCard">
         <p><strong>Lema:</strong>
-          SSea $G$ grupo topológico compacto actuando en $X$ de manera transitiva, con $X$ Hausdorff. Entonces
+          Sea $G$ grupo topológico compacto actuando en $X$ de manera transitiva, con $X$ Hausdorff. Entonces
           $G/G_x\cong X,\;\forall x\in X$.ea $G\acc X$. Si $X,G$ son Hausdorff y compactos, entonces $X/G$
           también es Hausdorff y compacto.
         </p>
@@ -1494,14 +1498,441 @@
   <section data-type="sect6" id="seccion-6">
 
     <div class="w3-container w3-section">
-      <h2>4.6 🏗️🏗️🏗️</h2>
+      <h2>4.6 Zoológico topológico</h2>
 
       <p>
-        🏗️🏗️🏗️
+        En esta sección mostramos algunos de los espacios (topológicos)
+        que se obtienen con el concepto de espacio cociente.
+      </p>
+
+      <hr>
+
+      <h3 id="seccion-6-1">4.6.1 Espacios proyectivos</h3>
+
+      <p>
+        Tomemos $\br^{n+1}\baca \{0\}$ consideremos el subgrupo $G\subseteq \topp(\br^n\baca \{0\})$ de las
+        <strong>dilataciones</strong>
+        $$
+        g\in G, \;g\cdot \ol{x}=\lambda \ol{x},\; \mbox{para algún}\; \lambda \in \br\baca \{0\}
+        $$
+        Asi, para la acción de $G$ definimos
+        $$
+        \ol{x}\sim \ol{y} \sss \ol{x}=\lambda \ol{y},\;\;\lambda \in \br\baca \{0\}
+        $$
+        Dotado de la topologia cociente el cociente $(\br^{n+1}\baca \{0\})/ G$ es llamado el
+        <strong>espacio proyectivo real</strong> de $\dim n$ y se denota por $\rp{n}$. La función cociente se define por
+        $$
+        \pi:\br^{n+1}\baca \{0\} \lra \rp{n},\;\;(x_0,\ldots, x_n)\longmapsto [x_0,\ldots,x_n]
+        $$
+      </p>
+
+
+      <p>
+        El espacio $\rp{n}$ puede obtenerse como cociente de $S^n$ como sigue: tomemos la inclusión $i:S^n\ra
+        \br^{n+1}\baca \{0\}$ y consideramos la composición $\pi\circ i$ para obtener el diagrama:
+      </p>
+      
+      <figure class="w3-center">
+        <img class="w3-hide-large" src="imgs/cap-04/diagram-6-1.png" alt="diagram-6-1" style="width:60%">
+        <img class="w3-hide-small w3-hide-medium" src="imgs/cap-04/diagram-6-1.png" alt="diagram-6-1" style="width:35%">
+      </figure>
+
+      <p>
+        donde $x\sim y \sss x=\pm y$ y $f$ es la función del Ejemplo {facto}.
+      </p>
+
+      <p>Afirmamos que la función $f$ es un homeomorfismo. Para probar que $f^{-1}$ es continua definimos
+        $r:\br^{n+1}\baca \{0\}\ra S^n$, $r(x)=x/|x|$ y consideramos el diagrama
+      </p>
+      <figure class="w3-center">
+        <img class="w3-hide-large" src="imgs/cap-04/diagram-6-2.png" alt="diagram-6-2" style="width:60%">
+        <img class="w3-hide-small w3-hide-medium" src="imgs/cap-04/diagram-6-2.png" alt="diagram-6-2" style="width:35%">
+      </figure>
+      <p>
+        donde $\pi'\circ r$ es continua pues es composición de continuas. Al igual que antes, $f^{-1}$ es continua por
+        el Ejemplo \ref{facto}.
+      </p>
+
+      <p>
+        Una forma equivalente de definir a $\rp{n}$ es como sigue: tomemos $G\subseteq \topp(S^n)$ que consiste de
+        $1_{S^n}, a$, donde $a(x)=-x$. Observemos que el cociente $S^n/G\cong S^n/\sim$, la identificación antipodal.
+        Por el Corolario \ref{fini} se sigue que $\rp{n}$ es Hausdorff. También es posible definir $\rp{n}$ como
+        cociente del disco unitario. Definamos en $D^2$ la relación de equivalencia
+        $$
+        x\sim y \sss x=y\;\;\mbox{ó}\;\;x=-y
+        $$
+        y consideremos $X:=D^2/\sim$.
+      </p>
+
+      <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive myCard">
+        <p><strong>Lema:</strong>
+          $X\cong \rp{2}$.
+        </p>
+      </div>
+
+      <p>
+        $\dem$ Consideremos el hemisferio norte de $S^2$
+        $$
+        S^2_+=\{(x,y,z)\in \br^3 \barra x^2+y^2+z^2=1,\; z\geq 0\}
+        $$
+        y notemos que $D^2\cong S^2_+$ mediante $(x,y,z)\mapsto (x,y)$ con inversa $(x,y)\mapsto (x,y,
+        \sqrt{1-(x^2+y^2)})$. Con esto tenemos $X\cong S^2_+/\sim$, con $(x,y,0)\sim (-x,-y,0)$. Consideremos las
+        funciones
+      </p>
+      <ul>
+        <li>
+          $i:S^2_+\lra S^2$ (inclusión)
+        </li>
+        <li>
+          $\pi:S^2\lra \rp{2}$ (f. cociente)
+        </li>
+        <li>
+          $p:S^2_+\lra X$
+        </li>
+      </ul>
+      <p>
+        que forman el siguiente diagrama conmutativo:
+      </p>
+      <figure class="w3-center">
+        <img class="w3-hide-large" src="imgs/cap-04/diagram-6-3.png" alt="diagram-6-3" style="width:60%">
+        <img class="w3-hide-small w3-hide-medium" src="imgs/cap-04/diagram-6-3.png" alt="diagram-6-3" style="width:25%">
+      </figure>
+      <p>
+        Observemos que $j$ es función continua y biyectiva; además, como $X$ es compacto y $\rp{2}$ es Hausdorff, se
+        sigue que $j$ es homeomorfismo (ver Corolario \ref{biyeh}). $\findem$
+      </p>
+
+      <p>
+        En la definición de $\rp{n}$ pudimos haber usado el esapcio $\bc$ en vez de $\br$ para obtener la versión
+        <strong>compleja</strong> del espacio proyectivo $\rp{n}$: definamos en $\bc^{n+1}\baca
+        \{0\}$ la relación de equivalencia
+        $$
+        x\sim y \sss x=\lambda y,\; \mbox{para} \; \lambda\in \bc\baca \{0\}
+        $$
+        De manera análoga, dada la esfera $S^{2n+1}\subset \bc^{n+1}$, donde
+        $$
+        S^{2n+1}=\{ z\in \bc^{n+1} \barra ||z||=1 \}
+        $$
+        se tiene que $\cp{n}=S^{2n+1}/\sim$. Asi, se tiene una función cociente $S^{2n+1}\ra \cp{n}$.
+      </p>
+
+      <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive myCard">
+        <p><strong>Teorema:</strong>
+          Los espacios $\rp{n},\cp{n}$ son espacios conexos, compactos y Hausdorff.
+        </p>
+      </div>
+
+      <p>
+        $\dem$ Como las funciones cocientes
+        $$
+        S^n\lra \rp{n},\;\;S^{2n+1}\lra \cp{n}
+        $$
+        son continuas y sobreyectivas y como las esferas son compactas y conexas, los espacios $\rp{n},\cp{n}$ lo son
+        también. Resta probar que $\cp{n}$ es Hausdorff, lo cual se obtiene del Lema \ref{kksd} notando que $\cp{n}$
+        puede ser identificado con el cociente de $S^{2n+1}$ por la acción de $S^1$.$\findem$
+      </p>
+
+      <h3>Ejemplo:</h3>
+
+      <ul>
+        <li id="rp1">
+          ($\rp{1}\cong S^1$)
+          Tomemos $f:S^1\ra S^1, z\mapsto z^2$ y notemos que $f(z)=f(-z)$. Asi, tenemos una función continua $\til{f}$
+          que hace al siguiente diagrama conmutativo:
+          <figure class="w3-center">
+            <img class="w3-hide-large" src="imgs/cap-04/diagram-6-4.png" alt="diagram-6-4" style="width:60%">
+            <img class="w3-hide-small w3-hide-medium" src="imgs/cap-04/diagram-6-4.png" alt="diagram-6-4" style="width:25%">
+          </figure>
+          <br>
+          Por el Teorema \ref{vv} sabemos que $\rp{1}$ es compacto y como $S^1$ es Hausdorff, aplicamos el Corolario
+          \ref{biyeh} para obtener que $\til{f}$ es homeomorfismo.$\bt$
+        </li>
+      </ul>
+
+      <p>
+        Otra descripción de $\rp{n}$, y en particular de $\rp{2}$, se analiza en el Ejemplo \ref{pegaproyectivos}
+        donde se muestra una relación cercana entre $\rp{n-1}$ y $\rp{n}$. A continuación tratamos el caso $n=3.$
+      </p>
+
+      <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive myCard">
+        <p><strong>Lema:</strong>
+          Los espacios $\rp{3}$ y $SO_3(\br)$ son homeomorfos.
+        </p>
+      </div>
+
+      <p>
+        $\dem$ Recordemos que $\rp{3}\cong D^3/R$ y definamos $h:D^3\ra SO_3(\br)$ como sigue: sea $A_x$ la rotación
+        con
+        eje la linea $l_x$ del origen a $x$ en el ángulo $|x|\pi$ y definamos
+        $$
+        h(x)=\begin{cases}I,&amp; x=0\\A_x,&amp;x\neq 0 \end{cases}
+        $$
+        Observemos que la función es continua; probaremos que es sobreyectiva: dada $A$ rotación a lo largo de una
+        linea $l_x$ (del origen a $x$) y de ángulo $\alpha$ definimos
+        $$
+        \begin{cases}
+        h\left(\frac{\alpha}{|x|\pi}x\right),&amp;\alpha \leq \pi\\
+        \\
+        h\left(\frac{2\pi-\alpha}{|x|\pi}x\right),&amp;\alpha \geq \pi
+        \end{cases}
+        $$
+        Notemos que en ambos casos la imagen es $A$. Además notemos que las rotaciones por un ángulo $\alpha=\pi$
+        son imagen de dos puntos antipodales mientras que las otras rotaciones son imagen de un solo punto. La función
+        entonces pasa al cociente $D^3/R\ra SO_3(\br)$, que es un homeomorfismo pues $SO_3(\br)$ es compacto.$\findem$
+      </p>
+
+      <p>
+        Para el caso de los espacios proyectivos complejos tenemos el homeomorfismo $\cp{1}\cong S^2$ puede ser escrito
+        de manera explíta:
+        $$
+        [z_0,z_1]\longmapsto \left(\frac{|z_0|^2-|z_1|^2}{|z_0|^2+|z_1|^2},
+        \frac{\ol{z}_0z_1-\ol{z}_1z_0}{|z_0|^2+|z_1|^2}, \frac{\ol{z}_0z_1+\ol{z}_1z_0}{|z_0|^2+|z_1|^2}\right)
+        $$
+      </p>
+
+      <p>
+        De lo anterior se tiene una función continua
+        $$
+        f:S^3\lra S^2
+        $$
+        conocida el <strong>mapeo de Hopf</strong>. En teoría de homotopía esta función es importante
+        pues se muestra que es (homotopicamente) no trivial y define una manera de mapear una esfera en otra de
+        dimensión menor, algo que en primera instancia no parece ser posible. Finalmente, al ser $f$ no trivial,
+        determina un elemento (no trivial) en el grupo de homotopía $\pi_3(S^2)$.
       </p>
 
 
 
+
+      <h3 id="seccion-6-2">4.6.2 Espacios lente</h3>
+
+      <p>
+        Aunque mencionados previamente por W. Dyck, los espacios lente fueron estudiados a profundidad por H.Tietze
+        quien publica en 1908 el primer tratado sobre ellos motivado por el problema de clasificación de variedades de
+        dimensión $3$.
+      </p>
+
+      <p>
+        Sean $p,q$ primos relativos y consideremos:
+      </p>
+      <ul>
+        <li>
+          $r:$ rotación en $\br^3$ por $2\pi/p$ radianes en el sentido de las manecillas del reloj, a lo largo de una
+          linea orientada de acuerdo a los ejes coordenados.
+        </li>
+        <li>
+          $\sigma:$ simetría (ortogonal) respecto al {\em ecuador} plano $z=0$.
+        </li>
+      </ul>
+
+      <p>
+        Definimos el <strong>espacio lente</strong>
+        $L(p,q)$ como el cociente $D^3/\sim$, donde $\sim$ es la
+        relación de equivalencia dada por
+        $$
+        \begin{cases}
+        x\sim x,&amp;x\in int(D^3)\\
+        x\sim \sigma(r^q(x)),&amp;x\in \partial D^3=S^2
+        \end{cases}
+        $$
+      </p>
+
+      <p>
+        Es decir, la identificación se obtiene rotando el casquete superior en un ángulo $2\pi\frac{q}{p}$ (en el
+        sentido de las manecillas del reloj) y después identificando los puntos que estén en el mismo meridiano, los
+        cuales equidistan del ecuador: $(x,y,-z)\sim (r(x,y),z)$. Con esto un punto en el hemisferio abierto norte se
+        identifica con exactamente un punto en el hemisferio abierto sur.
+      </p>
+
+      <p>
+        <strong>Nota.</strong> la condición de que $p,q$ sean primos relativos es necesaria pues se quiere que
+        $\exp(2\pi( q/p)) x\neq x$.$\maltese$
+      </p>
+
+      <p>
+        En cuanto al ecuador: un punto en el ecuador se identifica con todos aquellos que se obtienen con una rotación
+        de $2\pi q/p$. Los espacios lente son ejemplos de $3$-variedades compactas y conexas. Aquí algunos ejemplos
+        de espacios lente (sin demostración):
+      </p>
+
+      <ul>
+        <li>
+          $L(1,0)\cong S^3$,
+        </li>
+        <li>
+          $L(0,1)\cong S^1\times S^2$,
+        </li>
+        <li>
+          $L(2,1)\cong \rp{3}$; en este caso la identificación de arriba es simplemente la identificación antipodal.
+        </li>
+      </ul>
+
+      <p>
+        El espacio $L(p,q)$ también puede ser definido como el resultado de pegar dos toros sólidos a lo largo de
+        sus fronteras, a lo que se le llama su <strong>descomposición de Heegard</strong>
+        (<a class="w3-hover-text-blue" href="http://wolfweb.unr.edu/homepage/jabuka/Classes/2008_fall/algtop/Notes/07%20-%20Lens%20spaces.pdf" target="_blank">aquí la descripción</a>).
+      </p>
+
+      <ul>
+        <li>
+          En los 30's K. Reidemeister prueba que
+          $$
+          L(p_1,q_1)\cong L(p_2,q_2) \sss\;\;q_2=q_1,\: p_2=\pm p_1^{\pm 1} (\mod q_1)
+          $$
+        </li>
+        <li>
+          Por otra parte, se tiene la siguiente clasificación {\bf homotópica} dada por J.H.C. Whitehead en los
+          40's:
+          $$
+          L(p,q)\simeq L(r,s) \sss\;\;p=r,\: qs=\pm m^2(\mod p),
+          $$
+          para algún $m$.
+        </li>
+      </ul>
+
+      <p>
+        De este resultado se sigue que los espacios lente $L(7,1), L(7,2)$ son homotópicos pero no son homeomorfos.
+      </p>
+
+      <h3 id="seccion-6-3">4.6.3 Variedades de Grassmann</h3>
+
+      <p>
+        Las variedades Grassmanianas (o de Grassmann) generalizan la construcción del espacio proyectivo $\rp{n}$.
+        Daremos su definición a través del siguiente objeto.
+      </p>
+
+      <p>
+        Recordemos que un <strong>$k$-marco ortogonal</strong> en $\br^n$ es una $k$-tupla de vectores de $\br^n$ que forman un
+        conjunto ortonormal de $(\br^n)^k$. La colección de $k$-marcos ortogonales en $\br^n$
+        $$
+        V_{k,n}(\br)=\{ (a_1,a_2,\ldots,a_k)\in (\br^n)^k \barra \langle a_i,a_j\rangle=\delta_{ij}\}
+        $$
+        es llamada la <strong>variedad de Stiefel $V_{k,n}(\br)$</strong>, cuya topología está
+        heredada por la de $(\br^n)^k$ y por lo tanto es Hausdorff. Notemos que de la definición se tiene
+        $V_{1,n}(\br)\cong S^{n-1}$.
+      </p>
+
+      <p>
+        Notemos que un $k$-marco es llevado a otro $k$-marco bajo una transformación ortogonal de $O_n(\br)$;
+        además, dados dos $k$-marcos éstos difieren entre si por una transformación ortogonal. Esto prueba que
+        $O_n(\br)$ actúa en $V_{k,n}(\br)$ de manera transitiva.
+      </p>
+
+      <p>
+        Tomemos $a=(a_1,\ldots, a_k)\in V_{k,n}(\br)$ y observemos que el estabilizador de $a$ consiste de aquellas
+        matrices que dejan a $a$ fijo y por tanto sólo actúan en el espacio vectorial ortogonal al generado por $a$;
+        así $O_{n-k}(\br)$ es el estabilizador de $a$ y por el Lema {estab} se tiene el homeomorfismo
+        $$
+        V_{k,n}(\br)\cong O_n(\br)/O_{n-k}(\br).
+        $$
+      </p>
+
+      <p>
+        De manera análoga, al restringir la acción a $SO_n(\br)$, se obtiene que $V_{k,n}(\br)\cong
+        SO_n(\br)/SO_{n-k}(\br)$; de esto se obtiene el homeomorfismo del Ejemplo {esferacociente} $S^{n-1}\cong
+        SO_n(\br)/SO_{n-1}(\br)$.
+      </p>
+
+      <p>
+        Denotemos por $G_k(\br^n)$ al conjunto de subespacios vectoriales de dim. $k$ en $\br^n$ y consideremos la
+        función sobreyectiva
+        $$
+        \pi:V_{k,n}(\br)\lra G_k(\br^n)
+        $$
+        que envía un $k$-marco al espacio generado por él. El conjunto $G_k(\br^n)$ tiene estructura de espacio
+        topológico inducida por $\pi$ función cociente; el resultado es llamado la
+        <strong>variedad de Grassmann $G_k(\br^n)$</strong>. Observemos que para $k=1$ la función cociente $\pi$ coincide con
+        la proyección
+        $$
+        S^{n-1}\lra G_1(\br^n)
+        $$
+        por lo que $G_1(\br^n)\cong \rp{n-1}$.
+      </p>
+
+      <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive myCard">
+        <p><strong>Lema:</strong>
+          $G_k(\br^n)$ es Hausdorff.
+        </p>
+      </div>
+
+      <p>
+        $\dem$ Bastará con probar que dos elementos de $G_k(\br^n)$ pueden ser separados por una función continua de
+        valores reales: sea $a\in \br^n$ fijo y definamos $\varphi_a: G_k(\br^n)\ra \br$ mediante
+        $$
+        (x_1,x_2,\ldots, x_k)\longmapsto \langle a,a\rangle- \langle a,x_1\rangle^2-\cdots -\langle a,x_k\rangle^2,
+        $$
+        donde $x_1,x_2,\ldots, x_k$ es un $k$-marco ortonormal. Notemos que $\varphi_a$ representa (el cuadrado de) la
+        distancia de $a$ al subespacio generado por $x_1,\ldots,x_k$; más aún, notemos que la composición
+        </p><figure class="w3-center">
+          <img class="w3-hide-large" src="imgs/cap-04/compositionVGR.png" alt="compositionVGR" style="width:60%">
+          <img class="w3-hide-small w3-hide-medium" src="imgs/cap-04/compositionVGR.png" alt="compositionVGR" style="width:30%">
+        </figure>
+        es una función continua, lo cual muestra que $\varphi_a$ es función continua.
+      <p></p>
+
+      <p>
+        Finalmente, sean $V_1,V_2\in G_k(\br^n)$ distintos y supongamos que $a\in V_1, a\notin V_2$. Entonces
+        $\varphi_a(V_1)\neq \varphi_a(V_2)$ y podemos elegir dos vecindades disjuntas de esos valores. Las imágenes
+        inversas de tales vecindades forman las vecindades disjuntas de $V_1,V_2$.$\findem$
+
+      </p>
+
+      <p>
+        El siguiente resultado muestra que $G_k(\br^n)$ se puede escribir como cociente de grupos de matrices
+      </p>
+
+      <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive myCard">
+        <p><strong>Teorema:</strong>
+          Existe un homeomorfismo
+          $$
+          G_k(\br^n)\cong O_n(\br)/(O_k(\br)\times O_{n-k}(\br))
+          $$
+          donde $O_k(\br)\times O_{n-k}(\br)\subset O_n(\br)$ es la inclusión de Sección 2.1.
+        </p>
+      </div>
+
+      <p>
+        $\dem$ Tomemos $A\in O_n(\br)$ y denotemos por $\phi(A)$ al espacio vectorial generado por sus primeras $k$
+        columnas. Dicha asociación es compatible con el cociente y se tiene el siguiente diagrama
+        </p><figure class="w3-center">
+          <img class="w3-hide-large" src="imgs/cap-04/diagram-6-5.png" alt="diagram-6-5" style="width:60%">
+          <img class="w3-hide-small w3-hide-medium" src="imgs/cap-04/diagram-6-5.png" alt="diagram-6-5" style="width:65%">
+        </figure>
+        <strong>Afirm.</strong> $\ol{\phi}$ es homeomorfismo.<br>
+        Notemos que si $\phi(A)=\phi(B)$ entonces las primeras $k$ columnas generan el mismo subespacio vectorial por lo
+        que existe $P\in O_k(\br)\subset O_n(\br)$ tal que $A,BP$ tienen las mismas primeras $k$ columnas. Por otro
+        lado, observemos que las restantes $n-k$ columnas de $A,B$ (y por ende de $BP$) generan el mismo subespacio
+        $\phi(A)^\bot$. Como antes existe $Q\in O_{n-k}(\br)\subset O_n(\br)$ tal que $A=BPQ$. La inyectividad de
+        $\ol{\phi}$ se sigue de que $A=BPQ$ con $PQ\in O_k(\br)\times O_{n-k}(\br)$. Como $\ol{\phi}$ es claramente
+        sobreyectiva, se sigue que $\ol{\phi}$ es biyección continua con dominio compacto y codominio Hausdorff.
+        Aplicando el Corolario {biyeh} el resultado se sigue. $\findem$
+      <p></p>
+
+      <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive myCard">
+        <p><strong>Lema:</strong>
+          Existe un homeomorfismo de la forma
+          $$
+          G_k(\br^n)\cong G_{n-k}(\br^n)
+          $$
+
+        </p>
+      </div>
+
+      <p>
+        $\dem$ Recordemos que la grassmanniana $G_k(\br^n)$ es homeomorfa al cociente $O_n(\br)/(O(n)\times O_{n-k}(\br))$
+        obtenido mediante el homeomorfismo que envía a una matriz al espacio vectorial determinado por sus primeras
+        $k$ columnas. De manera similar se obtiene un homeomorfismo ahora considerando ahora las últimas $n-k$
+        columnas se obtiene
+        $$
+        G_{n-k}(\br^n)\cong O_n(\br)/(O_k(\br)\times O_{n-k}(\br))
+        $$
+        El resultado se sigue por composición de los homeomorfismos -anteriores.$\findem$
+      </p>
+
+      <p>
+        Finalmente, mencionaremos que el espacio $G_k(\br^n)$ es variedad 
+        compacta y conexa de dimensión $k(n-k)$.
+      </p>
 
     </div>
 
@@ -1512,7 +1943,8 @@
   <div class="w3-container w3-center w3-padding-large">
     <a href="capitulo-03.html"><button class="w3-left w3-button w3-hover-shadow w3-dark-grey w3-round-xlarge">❮
         Previo</button></a>
-    <a href="referencias.html"><button class="w3-right w3-button w3-hover-shadow w3-dark-grey w3-round-xlarge">Siguiente ❯</button></a>
+    <a href="referencias.html"><button class="w3-right w3-button w3-hover-shadow w3-dark-grey w3-round-xlarge">Siguiente
+        ❯</button></a>
   </div>
 
   <br>
