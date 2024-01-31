@@ -167,6 +167,7 @@
         <dd><a href="capitulo-04.html#seccion-6-1" class="w3-bar-item w3-button">&nbsp; - Espacios proyectivos</a></dd>
         <dd><a href="capitulo-04.html#seccion-6-2" class="w3-bar-item w3-button">&nbsp; - Espacios lente</a></dd>
         <dd><a href="capitulo-04.html#seccion-6-3" class="w3-bar-item w3-button">&nbsp; - Variedades de Grassmann</a></dd>
+        <dd><a href="capitulo-04.html#seccion-6-4" class="w3-bar-item w3-button">&nbsp; - Espacios celulares</a></dd>
 
         <dt><a href="referencias.html" onclick="w3_close()"
             class="w3-bar-item w3-button"><strong>Referencias</strong></a></dt>
@@ -670,7 +671,7 @@
           Notemos que $f$ es la identidad en $\bz$ y $f(x)$ es el entero impar más cercano a $x$. La
           topología cociente inducida por $f$ es llamada la Topología
           Digital de los enteros $\bz$ y tiene por abiertos $\{n\}$, si $n$ es
-          impar; para $n$ par el abierto más peque\~no que lo contiene es $\{n-1,n,n+1\}$; véase el Ejemplo
+          impar; para $n$ par el abierto más pequeño que lo contiene es $\{n-1,n,n+1\}$; véase el Ejemplo
           en
           <a class="w3-hover-text-blue" href="capitulo-01.html#topologia-digital" target="_blank">Capitulo 1,
             sección 1</a>.$\bt$
@@ -1335,7 +1336,7 @@
         $$
         Tomemos los abiertos
         $$
-        U=A\cap (\bigcap_{i=1}^n U_i),\qquad V=A\cap (\bigcap_{i=1}^n g_i^{-1}(V_i))
+        U=A\cap \left(\bigcap_{i=1}^n U_i\right),\qquad V=A\cap \left(\bigcap_{i=1}^n g_i^{-1}(V_i)\right)
         $$
 
         <br>
@@ -1531,7 +1532,7 @@
         El espacio $\rp{n}$ puede obtenerse como cociente de $S^n$ como sigue: tomemos la inclusión $i:S^n\ra
         \br^{n+1}\baca \{0\}$ y consideramos la composición $\pi\circ i$ para obtener el diagrama:
       </p>
-      
+
       <figure class="w3-center">
         <img class="w3-hide-large" src="imgs/cap-04/diagram-6-1.png" alt="diagram-6-1" style="width:60%">
         <img class="w3-hide-small w3-hide-medium" src="imgs/cap-04/diagram-6-1.png" alt="diagram-6-1" style="width:35%">
@@ -1802,7 +1803,8 @@
       </p>
 
       <p>
-        Recordemos que un <strong>$k$-marco ortogonal</strong> en $\br^n$ es una $k$-tupla de vectores de $\br^n$ que forman un
+        Recordemos que un <strong>$k$-marco ortogonal</strong> en $\br^n$ es una $k$-tupla de vectores de $\br^n$ que
+        forman un
         conjunto ortonormal de $(\br^n)^k$. La colección de $k$-marcos ortogonales en $\br^n$
         $$
         V_{k,n}(\br)=\{ (a_1,a_2,\ldots,a_k)\in (\br^n)^k \barra \langle a_i,a_j\rangle=\delta_{ij}\}
@@ -1841,7 +1843,8 @@
         $$
         que envía un $k$-marco al espacio generado por él. El conjunto $G_k(\br^n)$ tiene estructura de espacio
         topológico inducida por $\pi$ función cociente; el resultado es llamado la
-        <strong>variedad de Grassmann $G_k(\br^n)$</strong>. Observemos que para $k=1$ la función cociente $\pi$ coincide con
+        <strong>variedad de Grassmann $G_k(\br^n)$</strong>. Observemos que para $k=1$ la función cociente $\pi$
+        coincide con
         la proyección
         $$
         S^{n-1}\lra G_1(\br^n)
@@ -1863,11 +1866,11 @@
         $$
         donde $x_1,x_2,\ldots, x_k$ es un $k$-marco ortonormal. Notemos que $\varphi_a$ representa (el cuadrado de) la
         distancia de $a$ al subespacio generado por $x_1,\ldots,x_k$; más aún, notemos que la composición
-        </p><figure class="w3-center">
-          <img class="w3-hide-large" src="imgs/cap-04/compositionVGR.png" alt="compositionVGR" style="width:60%">
-          <img class="w3-hide-small w3-hide-medium" src="imgs/cap-04/compositionVGR.png" alt="compositionVGR" style="width:30%">
-        </figure>
-        es una función continua, lo cual muestra que $\varphi_a$ es función continua.
+      </p><figure class="w3-center">
+        <img class="w3-hide-large" src="imgs/cap-04/compositionVGR.png" alt="compositionVGR" style="width:60%">
+        <img class="w3-hide-small w3-hide-medium" src="imgs/cap-04/compositionVGR.png" alt="compositionVGR" style="width:30%">
+      </figure>
+      es una función continua, lo cual muestra que $\varphi_a$ es función continua.
       <p></p>
 
       <p>
@@ -1894,18 +1897,18 @@
       <p>
         $\dem$ Tomemos $A\in O_n(\br)$ y denotemos por $\phi(A)$ al espacio vectorial generado por sus primeras $k$
         columnas. Dicha asociación es compatible con el cociente y se tiene el siguiente diagrama
-        </p><figure class="w3-center">
-          <img class="w3-hide-large" src="imgs/cap-04/diagram-6-5.png" alt="diagram-6-5" style="width:60%">
-          <img class="w3-hide-small w3-hide-medium" src="imgs/cap-04/diagram-6-5.png" alt="diagram-6-5" style="width:65%">
-        </figure>
-        <strong>Afirm.</strong> $\ol{\phi}$ es homeomorfismo.<br>
-        Notemos que si $\phi(A)=\phi(B)$ entonces las primeras $k$ columnas generan el mismo subespacio vectorial por lo
-        que existe $P\in O_k(\br)\subset O_n(\br)$ tal que $A,BP$ tienen las mismas primeras $k$ columnas. Por otro
-        lado, observemos que las restantes $n-k$ columnas de $A,B$ (y por ende de $BP$) generan el mismo subespacio
-        $\phi(A)^\bot$. Como antes existe $Q\in O_{n-k}(\br)\subset O_n(\br)$ tal que $A=BPQ$. La inyectividad de
-        $\ol{\phi}$ se sigue de que $A=BPQ$ con $PQ\in O_k(\br)\times O_{n-k}(\br)$. Como $\ol{\phi}$ es claramente
-        sobreyectiva, se sigue que $\ol{\phi}$ es biyección continua con dominio compacto y codominio Hausdorff.
-        Aplicando el Corolario {biyeh} el resultado se sigue. $\findem$
+      </p><figure class="w3-center">
+        <img class="w3-hide-large" src="imgs/cap-04/diagram-6-5.png" alt="diagram-6-5" style="width:60%">
+        <img class="w3-hide-small w3-hide-medium" src="imgs/cap-04/diagram-6-5.png" alt="diagram-6-5" style="width:65%">
+      </figure>
+      <strong>Afirm.</strong> $\ol{\phi}$ es homeomorfismo.<br>
+      Notemos que si $\phi(A)=\phi(B)$ entonces las primeras $k$ columnas generan el mismo subespacio vectorial por lo
+      que existe $P\in O_k(\br)\subset O_n(\br)$ tal que $A,BP$ tienen las mismas primeras $k$ columnas. Por otro
+      lado, observemos que las restantes $n-k$ columnas de $A,B$ (y por ende de $BP$) generan el mismo subespacio
+      $\phi(A)^\bot$. Como antes existe $Q\in O_{n-k}(\br)\subset O_n(\br)$ tal que $A=BPQ$. La inyectividad de
+      $\ol{\phi}$ se sigue de que $A=BPQ$ con $PQ\in O_k(\br)\times O_{n-k}(\br)$. Como $\ol{\phi}$ es claramente
+      sobreyectiva, se sigue que $\ol{\phi}$ es biyección continua con dominio compacto y codominio Hausdorff.
+      Aplicando el Corolario {biyeh} el resultado se sigue. $\findem$
       <p></p>
 
       <div class="w3-card w3-container w3-light-gray w3-border-left w3-responsive myCard">
@@ -1919,7 +1922,8 @@
       </div>
 
       <p>
-        $\dem$ Recordemos que la grassmanniana $G_k(\br^n)$ es homeomorfa al cociente $O_n(\br)/(O(n)\times O_{n-k}(\br))$
+        $\dem$ Recordemos que la grassmanniana $G_k(\br^n)$ es homeomorfa al cociente $O_n(\br)/(O(n)\times
+        O_{n-k}(\br))$
         obtenido mediante el homeomorfismo que envía a una matriz al espacio vectorial determinado por sus primeras
         $k$ columnas. De manera similar se obtiene un homeomorfismo ahora considerando ahora las últimas $n-k$
         columnas se obtiene
@@ -1930,9 +1934,168 @@
       </p>
 
       <p>
-        Finalmente, mencionaremos que el espacio $G_k(\br^n)$ es variedad 
+        Finalmente, mencionaremos que el espacio $G_k(\br^n)$ es variedad
         compacta y conexa de dimensión $k(n-k)$.
       </p>
+
+      <h3 id="seccion-6-4">4.6.4 Espacios celulares</h3>
+
+      <p>
+        Sean $f:A\ra X,f':A\ra X'$ funciones continuas. Dada la unión $X\sqcup X'$ consideremos la relación
+        $$
+        (X\sqcup X')/\sim,\;\mbox{donde}\;\; f(a)\sim f'(a) \sss a\in A
+        $$
+        y denotamos $X\cup_AX'=(X\sqcup X')/\sim$. En términos geométricos, el espacio de arriba se obtiene al pegar
+        los espacios $X,X'$ a lo largo del subespacio $A$. A pesar de que no es evidente en la notación, la
+        construcción anterior depende de la función $f$.
+      </p>
+
+      <p>
+        Consideremos las funciones $j_X:X\ra X\cup_AX',\:j_{X'}:X\ra X\cup_AX'$ que mandan a cada $x\in X, x\in X'$ a su
+        clase en el cociente. Notemos que $j_X,j_{X'}$ son continuas y además satisfacen $j_X\circ f=j_{X'}\circ f'$.
+        Más aún, las funciones satisfacen la siguiente propiedad universal, consecuencia inmediata de la Prop. Univ.
+        de la Top. Cociente (propcoc): para cualesquiera funciones $\varphi: X\ra Z,\:\varphi': X'\ra Z$ tales que
+        $\varphi\circ f=\varphi'\circ f'$, existe una única función
+        $$
+        \Phi: X\cup_AX'\lra Z
+        $$
+        tal que $\Phi\circ j_X=\varphi,\:\Phi\circ j_{X'}=\varphi'$.
+      </p>
+      <figure class="w3-center">
+        <img class="w3-hide-large" src="imgs/cap-04/diagram-6-6.png" alt="diagram-6-6" style="width:60%">
+        <img class="w3-hide-small w3-hide-medium" src="imgs/cap-04/diagram-6-6.png" alt="diagram-6-6" style="width:35%">
+      </figure>
+
+      <h3>
+        Ejemplos:
+      </h3>
+      <ul>
+        <li id="bouquet">
+          (<em>Wedge</em> de espacios)
+          La <strong>suma <em>wedge</em></strong> (ó <strong>ramillete</strong>) $X \vee X'$ de dos espacios se construye
+          escogiendo dos punto distinguidos $x\in X,x'\in X'$ y usando las funciones
+          $$
+          f:\{*\}\longmapsto X,\qquad f':\{*\}\longmapsto X'
+          $$
+          que envian a $*$ a los punto $x,x'$, respectivamente. La construcción puede ser generalizada a una cantidad
+          finita de espacios con puntos distinguidos de manera inductiva:
+          $$
+          X_1\vee \cdots \vee X_n=(X_1\vee \cdots \vee X_{n-1})\vee X_n.\;\;\blacktriangleleft
+          $$
+        </li>
+        <li>
+          (Esferas exóticas de Milnor)
+          Para $h,l\in \bz$ consideramos el espacio de adjunción
+          $$
+          M_{h,l}= (D^4\times S^3)\bigcup_\varphi (D^4\times S^3),
+          $$
+          donde $\varphi:S^3\times S^3\ra S^3\times S^3$ está dado por $\varphi(x,y)=(x,x^hyx^l)$, tomando a $S^3$
+          como cuaternios unitarios. Este espacio es homeomorfo a una esfera (de dimensión $7$ si $h+j=\pm 1$) por lo
+          que es llamado una <strong>esfera topológica</strong>; sin embargo, tiene una estructura diferencial distinta a la
+          estándar así que es llamada <strong>esfera topológica exótica</strong>.
+        </li>
+        <li>
+          (Cocientes como adjunciones)
+          Para un espacio topológico $X,\:A\subseteq X$ y $f:A\ra Y$ función continua se tiene el diagrama siguiente
+          <figure class="w3-center">
+            <img class="w3-hide-large" src="imgs/cap-04/diagram-6-7.png" alt="diagram-6-7" style="width:60%">
+            <img class="w3-hide-small w3-hide-medium" src="imgs/cap-04/diagram-6-7.png" alt="diagram-6-7" style="width:25%">
+          </figure>
+          Notemos que si $Y=\{*\}$ entonces el espacio de adjunción $X\cup_fY\cong X/A$.\bt
+        </li>
+        <li>
+          (Cono de una función)
+          El <strong>cono</strong> $CX$ se define como el cociente $X\times I / X\times \{0\}$;
+          observemos que $CX$ es un espacio contráctil. Dada una función continua $f:X\to Y$ consideramos el
+          diagrama
+          <figure class="w3-center">
+            <img class="w3-hide-large" src="imgs/cap-04/diagram-6-8.png" alt="diagram-6-8" style="width:60%">
+            <img class="w3-hide-small w3-hide-medium" src="imgs/cap-04/diagram-6-8.png" alt="diagram-6-8" style="width:25%">
+          </figure>
+          donde la función de la izquierda es la composición $X\to X\times \{1\}\to CX$. Así, el espacio $C_f$ se
+          obtiene como espacio de adjunción $C_f=Y\cup_fCX$ y es llamado el <strong>cono de $f$</strong>. $\bt$
+        </li>
+      </ul>
+
+      <p>
+        La <strong>adjunción de una $n$-celda</strong> a través de una funcion $f:S^{n-1}\ra X$ corresponde al caso
+        en que $f'$
+        es la inclusión $S^{n-1}\ra D^n$. En tales condiciones el cociente se denota por
+        $$
+        X\cup_{S^{n-1}}D^n=X\cup_f e^n,
+        $$
+        donde $e^n$ es la imagen de $D^n$, llamada la <strong>n-celda adjuntada</strong> y $f$ es
+        la <strong>función de adjunción</strong>. La imagen de la restriccion de la funcion
+        $$
+        \ol{f}:D^n\lra X\cup_fe^n
+        $$
+        al interior de $D^n$ es llamada <strong>celda abierta</strong>. Notemos que si $f:S^{n-1}\ra X$ es constante
+        recobramos el
+        bouquet (Ejemplo bouquet) obteniendo $X\cup_f e^n\cong X\vee S^n$.
+      </p>
+
+      <p>
+        Un <strong>espacio o complejo celular finito</strong> es un espacio $X$ construido inductivamente a partir de un
+        conjunto
+        finito de puntos mediante la adjunción iterada de una cantidad finita de celdas. Los elementos del conjunto
+        inicial son llamadas <strong>0-celdas</strong>.
+      </p>
+
+      <p>
+        En general la estructura de espacio celular no es única como se muestra a continuación:
+      </p>
+
+      <h3>
+        Ejemplos:
+      </h3>
+      <ul>
+        <li id="bouquet">
+          $S^1$ se obtiene adjuntando una $1$-celda a un punto dado. También puede dotarse de otra estructura
+          iniciando con dos puntos (<em>la esfera</em> $S^0$) adjuntando dos $1$-celdas a los puntos.
+          <figure class="w3-center">
+            <img class="w3-hide-large" src="imgs/cap-04/circle-sec6-6.png" alt="circle-sec6-6" style="width:60%">
+            <img class="w3-hide-small w3-hide-medium" src="imgs/cap-04/circle-sec6-6.png" alt="circle-sec6-6" style="width:25%">
+          </figure>
+          En dimensiones mayores: $S^n$ se obtiene de adjuntar dos $r$-celdas,
+          para $0\leq r\leq n$ ó también adjuntando una $n$-celda a una $0$-celda.
+        </li>
+        <li>
+          La suma wedge de $n$ espacios homeomorfos a $S^1$ tiene una
+          estructura celular dada por una $0$-celda a la que se la adjuntan $n$ $1$-celdas. $\bt$
+        </li>
+
+
+      </ul>
+
+      <p>
+        Sea $P$ poligono plano con un número par $2n$ de lados. En la sección que sigue estudiaremos el cociente
+        definido en $P$ mediante la identificación de sus lados a pares. El resultado puede considerarse como la
+        adjunción de una $2$-celda a un wedge de $n$ circunferencias.
+      </p>
+
+      <h3>Ejemplo</h3>
+
+      <ul>
+        <li id="pegaproyectivos">
+          (Espacios proyectivos)
+          Recordemos que $\rp{n-1}$ se obtiene de $S^{n-1}$ mediante la acción antipodal de $\bz_2$. Esta
+          construcción tiene una función cociente
+          $$
+          \pi_{n-1}:S^{n-1}\lra \rp{n-1}
+          $$
+          Tomando a esta función como una función de pegado obtenemos el diagrama
+          <figure class="w3-center">
+            <img class="w3-hide-large" src="imgs/cap-04/diagram-6-9.png" alt="diagram-6-9" style="width:60%">
+            <img class="w3-hide-small w3-hide-medium" src="imgs/cap-04/diagram-6-9.png" alt="diagram-6-9" style="width:35%">
+          </figure>
+          que muestra que $\rp{n-1}\cup_{\pi_{n-1}} e^n$ se obtiene de hacer la identificación en $D^n$ de $x\sim -x$
+          para $x\in S^{n-1}$. Por lo tanto,
+          $$
+          \rp{n}\cong \rp{n-1}\cup_{\pi_{n-1}} e^n.\;\;\blacktriangleleft
+          $$
+
+        </li>
+      </ul>
 
     </div>
 
