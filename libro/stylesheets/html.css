@@ -1339,7 +1339,7 @@ dd {
   background-color: #333;
   
   position: fixed;
-  
+  left: 260;
   display: block;
   
   transition: top 0.4s;
@@ -1375,7 +1375,8 @@ hr.new {
 #mySidebar {
   z-index: 3;
   width: 260px;
-  background: #e6e6e6; }
+  background: #e6e6e6; 
+}
 
 .ggbApp {
   display: block;
