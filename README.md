@@ -3,7 +3,7 @@ Bienvenidos al repositorio de las notas de Topología General.
 
 [topologia-general.github.io](https://topologia-general.github.io/)
 
-ISBN 978-0-6485736-3-0
+Publicado en línea en 2021. ISBN 978-0-6485736-3-0
 
 ## Autores
 Miguel Ángel Maldonado Aguilar - Universidad de Zacatecas
