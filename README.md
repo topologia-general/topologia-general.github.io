@@ -6,9 +6,9 @@ Bienvenidos al repositorio de las notas de Topología General.
 Publicado en línea en 2021. ISBN 978-0-6485736-3-0
 
 ## Autores
-Miguel Ángel Maldonado Aguilar - Universidad de Zacatecas
+Miguel Ángel Maldonado Aguilar - Universidad de Zacatecas, México.
 
-Juan Carlos Ponce Campuzano - Universidad de Queensland
+Juan Carlos Ponce Campuzano - Independent Mathematics Educator, Australia.
 
 ---
 
